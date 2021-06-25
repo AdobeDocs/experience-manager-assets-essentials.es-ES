@@ -2,10 +2,10 @@
 title: Introducción a [!DNL Assets Essentials]
 description: Acceso, experiencia de inicio de sesión de, casos de uso admitidos de y problemas conocidos de [!DNL Assets Essentials].
 role: Business Practitioner, Leader
-source-git-commit: 825297959b19361260121949c99ede37dced9a9c
+source-git-commit: 4a7fe369485db5cae843694c68f84133c9118337
 workflow-type: tm+mt
-source-wordcount: '441'
-ht-degree: 2%
+source-wordcount: '451'
+ht-degree: 1%
 
 ---
 
@@ -49,7 +49,7 @@ When logging in, after providing the credentials, you can be prompted to select 
 ![Select an account to login](assets/do-not-localize/login-experience.gif)
 -->
 
-## [!DNL Assets Essentials] casos de uso  {#use-cases}
+## [!DNL Assets Essentials] casos de uso {#use-cases}
 
 A continuación se describen las distintas tareas de administración de recursos digitales (DAM) que puede realizar mediante [!DNL Assets Essentials].
 
@@ -69,13 +69,16 @@ A continuación se describen las distintas tareas de administración de recursos
 | How do I collaborate with others and get my assets reviewed | <ul> <li>Share for review</li> <li>Provide comments. Resolve and filter comments</li> <li>Annotations on images</li> <li>Assign tasks to specific users and prioritize</li> </ul> |
 -->
 
-## ![icono de comentarios ](assets/do-not-localize/feedback-icon.png) Proporcionar comentarios sobre el producto  {#provide-feedback}
+## ![icono de comentarios ](assets/do-not-localize/feedback-icon.png) Proporcionar comentarios sobre el producto {#provide-feedback}
 
 El Adobe recibe con satisfacción los comentarios sobre la solución. Para proporcionar comentarios sin cambiar siquiera la aplicación en funcionamiento, utilice la opción [!UICONTROL Feedback] en la interfaz de usuario. También permite adjuntar archivos, como capturas de pantalla o grabación de vídeo de un problema.
 
 ![opción de comentarios en la interfaz](assets/feedback-panel.png)
 
-Para proporcionar comentarios sobre la documentación, haga clic en Editar esta página ![editar la página](assets/do-not-localize/edit-page.png) o Registrar un problema ![crear un problema de GitHub](assets/do-not-localize/github-issue.png) desde el margen derecho. Realice las actualizaciones de contenido y envíe una solicitud de extracción de GitHub o cree un problema o ticket en GitHub.
+Para proporcionar comentarios sobre la documentación, haga clic en [!UICONTROL Edit this page] ![editar la página](assets/do-not-localize/edit-page.png) o [!UICONTROL Log an issue] ![crear un problema de GitHub](assets/do-not-localize/github-issue.png) desde la barra lateral derecha. Puede realizar una de las siguientes acciones:
+
+* Realice las actualizaciones de contenido y envíe una solicitud de extracción de GitHub.
+* Cree un problema o un ticket en GitHub. Conservar el nombre del artículo que se rellena automáticamente al crear un problema.
 
 >[!MORELIKETHIS]
 >
