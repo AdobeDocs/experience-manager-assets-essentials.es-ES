@@ -2,9 +2,9 @@
 title: Cargar recursos al repositorio
 description: Cargar recursos a [!DNL Assets Essentials], ver estados de carga y resolver problemas de carga.
 role: Business Practitioner
-source-git-commit: 3389908e3ba085362b48a18cd3c106e658484a96
+source-git-commit: e54cdf9b8ecb5d9ddc5b90a3ca82549c61b35074
 workflow-type: tm+mt
-source-wordcount: '656'
+source-wordcount: '673'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,11 @@ Una vez que todos los archivos estén en cola, haga clic en **[!UICONTROL Upload
 
 *Figura: Antes de cargar los recursos seleccionados, puede agregarlos o eliminarlos de la cola.*
 
-## Ver el progreso y estado de carga {#upload-progress}
+>[!CAUTION]
+>
+>Utilice recursos que no tengan espacios en blanco en los nombres de archivo. Las respuestas a los comentarios no funcionan para estos activos.
+
+## Ver el progreso y estado de la carga {#upload-progress}
 
 Al cargar muchos recursos o carpetas anidadas en [!DNL Assets Essentials], es posible que algunos recursos no se carguen por varios motivos, como problemas de red y recursos duplicados.
 
@@ -44,13 +48,13 @@ Para ver un subconjunto de recursos en función del progreso o estado de carga, 
 
 *Figura: Filtre los recursos que ha intentado cargar en función de su estado de carga o del progreso de carga.*
 
-Inmediatamente después de cargar los recursos, Assets Essentials los procesa para generar miniaturas y procesar metadatos. Para muchos recursos, el procesamiento lleva algún tiempo. Si no ve una miniatura y ve un mensaje de procesamiento en la miniatura del marcador de posición, vuelva a comprobar la carpeta después de unos minutos.
+Inmediatamente después de cargar los recursos, [!DNL Assets Essentials] los procesa para generar miniaturas y procesar metadatos. Para muchos recursos, el procesamiento lleva algún tiempo. Si no ve una miniatura y ve un mensaje de procesamiento en la miniatura del marcador de posición, vuelva a comprobar la carpeta después de unos minutos.
 
 ![Procesamiento al cargar](assets/upload-processing.png)
 
 ## Representaciones de recursos {#renditions}
 
-Assets Essentials procesa los recursos cargados casi en tiempo real y, para muchos tipos de archivo admitidos, genera representaciones. Creadas para imágenes, las representaciones son versiones cambiadas de tamaño de la imagen cargada. Puede descargar no solo el recurso, sino también las representaciones para utilizar una versión adecuada. Puede ver todas las representaciones de un recurso al [obtener una vista previa de un recurso](/help/navigate-view.md#preview-assets).
+[!DNL Assets Essentials] procesa los recursos cargados casi en tiempo real y, para muchos tipos de archivo admitidos, genera representaciones. Creadas para imágenes, las representaciones son versiones cambiadas de tamaño de la imagen cargada. Puede descargar no solo el recurso, sino también las representaciones para utilizar una versión adecuada. Puede ver todas las representaciones de un recurso al [obtener una vista previa de un recurso](/help/navigate-view.md#preview-assets).
 
 ![Representaciones](assets/renditions-view-download.png)
 
