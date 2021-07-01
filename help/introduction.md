@@ -2,14 +2,14 @@
 title: Introducción a [!DNL Assets Essentials]
 description: Información general y resumen de la solución de Assets Essentials
 role: Business Practitioner,Leader
-source-git-commit: 88a28d1a8ebdd9d316b768b1398e559462b71e85
+source-git-commit: e54cdf9b8ecb5d9ddc5b90a3ca82549c61b35074
 workflow-type: tm+mt
-source-wordcount: '227'
+source-wordcount: '225'
 ht-degree: 0%
 
 ---
 
-# [!DNL Adobe Experience Manager Assets Essentials] información general  {#assets-essentials}
+# [!DNL Adobe Experience Manager Assets Essentials] información general {#assets-essentials}
 
 <!-- TBD: Update this banner to remove Beta label. 
 ![Banner image for beta docs](assets/do-not-localize/banner-image-beta-docs.png)
@@ -25,7 +25,7 @@ La solución se centra en la interfaz sencilla y en la búsqueda y el descubrimi
 
 Para la administración, se requiere una configuración y administración más sencillas, es decir, que tenga un tiempo de respuesta alto. Los administradores obtienen acceso inmediato a la solución y pueden trabajar con funciones y autorizaciones conocidas en [!DNL Adobe Admin Console].
 
-La administración de recursos digitales con Assets Essentials es tan sencilla como en los 3 pasos siguientes. Consulte [Introducción a [!DNL Assets Essentials]](/help/get-started.md).
+La administración de recursos digitales con [!DNL Assets Essentials] es tan sencilla como en los 3 pasos siguientes. Consulte [Introducción a [!DNL Assets Essentials]](/help/get-started.md).
 
 * **Paso 1**: Cargar y ver recursos.
 * **Paso 2**: Busque y descargue los recursos necesarios.
