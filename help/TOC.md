@@ -8,10 +8,10 @@ user-guide-description: Aprenda a utilizar Adobe Experience Manager Assets Essen
 feature-set: Experience Manager Assets,Experience Manager
 feature: Administración de activos
 role: Business Practitioner, Leader
-source-git-commit: b3fea5209fb29409b3aae5970fa30505f8b5c22c
+source-git-commit: e54cdf9b8ecb5d9ddc5b90a3ca82549c61b35074
 workflow-type: tm+mt
-source-wordcount: '49'
-ht-degree: 4%
+source-wordcount: '53'
+ht-degree: 3%
 
 ---
 
@@ -20,6 +20,7 @@ ht-degree: 4%
 
 + [Información general de la solución](introduction.md)
 + [Notas de la versión](release-notes.md)
++ [Implementar y agregar usuarios](deploy-administer.md)
 + [Introducción a [!DNL Assets Essentials]](get-started.md)
 + [Ver recursos](navigate-view.md)
 + [Cargar y agregar recursos](add-delete.md)
