@@ -2,9 +2,9 @@
 title: Cargar recursos al repositorio
 description: Cargar recursos a [!DNL Assets Essentials], ver estados de carga y resolver problemas de carga.
 role: Business Practitioner
-source-git-commit: e54cdf9b8ecb5d9ddc5b90a3ca82549c61b35074
+source-git-commit: 6e482854e7cec3d8bc2fed786a2c6a685b3f8eed
 workflow-type: tm+mt
-source-wordcount: '673'
+source-wordcount: '729'
 ht-degree: 0%
 
 ---
@@ -48,15 +48,19 @@ Para ver un subconjunto de recursos en función del progreso o estado de carga, 
 
 *Figura: Filtre los recursos que ha intentado cargar en función de su estado de carga o del progreso de carga.*
 
-Inmediatamente después de cargar los recursos, [!DNL Assets Essentials] los procesa para generar miniaturas y procesar metadatos. Para muchos recursos, el procesamiento lleva algún tiempo. Si no ve una miniatura y ve un mensaje de procesamiento en la miniatura del marcador de posición, vuelva a comprobar la carpeta después de unos minutos.
+Inmediatamente después de cargar los recursos, [!DNL Assets Essentials] los procesa para generar miniaturas y procesar metadatos. Para muchos recursos, el procesamiento lleva algún tiempo. Si no ve una miniatura y ve un mensaje de procesamiento en la miniatura del marcador de posición, vuelva a comprobar la carpeta después de unos minutos. Durante el procesamiento, entre otras cosas, [!DNL Assets Essentials] genera las representaciones, agrega las etiquetas inteligentes e indexa los detalles de los recursos para la búsqueda.
 
-![Procesamiento al cargar](assets/upload-processing.png)
+![Los recursos son procesos tras la carga y el mosaico muestra el procesamiento](assets/upload-processing.png)
+
+*Figura: Los recursos cargados muestran el procesamiento en el mosaico que se procesa.*
 
 ## Representaciones de recursos {#renditions}
 
 [!DNL Assets Essentials] procesa los recursos cargados casi en tiempo real y, para muchos tipos de archivo admitidos, genera representaciones. Creadas para imágenes, las representaciones son versiones cambiadas de tamaño de la imagen cargada. Puede descargar no solo el recurso, sino también las representaciones para utilizar una versión adecuada. Puede ver todas las representaciones de un recurso al [obtener una vista previa de un recurso](/help/navigate-view.md#preview-assets).
 
 ![Representaciones](assets/renditions-view-download.png)
+
+*Figura: Vea y descargue las representaciones.*
 
 ## Administrar cargas fallidas {#resolve-upload-fails}
 
@@ -87,5 +91,7 @@ Los usuarios pueden eliminar recursos o carpetas individuales que ya no sean nec
 * Utilice la opción disponible en la miniatura de un recurso o de una carpeta.
 
    ![Opciones en la miniatura de un recurso para administrar un recurso](assets/options-on-thumbnail.png)
+
+   *Figura: Las acciones para archivos y carpetas están disponibles en el mosaico del recurso o de la carpeta.*
 
 * Seleccione un recurso o una carpeta y haga clic en **[!UICONTROL Delete]** ![eliminar icono](assets/do-not-localize/delete-icon.png) en la barra de herramientas.
