@@ -1,12 +1,12 @@
 ---
 title: Formatos de archivo compatibles
 description: Formatos de archivo compatibles con los distintos casos de uso de [!DNL Assets Essentials]
-role: Business Practitioner,Leader,Administrator,Architect,Developer
+role: User,Leader,Administrator,Architect,Developer
 contentOwner: AG
-source-git-commit: 42d85b0d1a1c2e1ac3c3dac4b0c151a7aa3af8b9
+source-git-commit: 5bae37e18ac587aaacaa004e5ec02775888d7f9a
 workflow-type: tm+mt
-source-wordcount: '199'
-ht-degree: 23%
+source-wordcount: '196'
+ht-degree: 26%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 23%
 Los distintos tipos de archivo tienen diferentes grados de compatibilidad con los casos de uso y las funciones, como se describe a continuación. Utilice la leyenda para comprender el nivel de asistencia.
 
 | Nivel de asistencia | Descripción |
-| :-----------: | ------------------------------ |
+|---------------|-------------------------|
 | ✓ | Compatible |
 | * | Compatible condicionalmente |
 | - | No aplicable |
@@ -31,67 +31,70 @@ Los distintos tipos de archivo tienen diferentes grados de compatibilidad con lo
 
 ## Agregar, cargar y ver recursos {#support-to-upload-view}
 
-| Tipo de recurso | Examinar | Copiar | Cargar | Crear | Eliminar | Detalles | Zoom de imagen | Vistos recientemente |
-|---|---|---|---|---|---|---|---|---|
-| Imágenes rasterizadas |  |  |  |  |  |  |  |  |
-| Carpetas |  |  |  |  |  |  |  |  |
-| Vídeos |  |  |  |  |  |  |  |  |
-| Bibliotecas CC |  |  |  |  |  |  |  |  |
-| archivos PDF |  |  |  |  |  |  |  |  |
-| PSD |  |  |  |  |  |  |  |  |
-| AI |  |  |  |  |  |  |  |  |
-| INDD |  |  |  |  |  |  |  |  |
+<!-- TBD: For AEM, AI files require the PDF option to be selected when saving the AI file.
+-->
 
-## Buscar, usar y editar recursos {#support-to-search-use-edit}
+| Tipo de recurso | Examinar | Copiar | Cargar | Crear | Eliminar | Detalles | Zoom de imagen | Vistos recientemente |
+|---------------|----------|------|----------|----------|----------|----------|------------|-----------------|
+| Imágenes rasterizadas | ✓ |  | ✓ | - | ✓ | ✓ | ✓ | ✓ |
+| Carpetas | ✓ |  | ✓ | ✓ | ✓ | ✓ | - | - |
+| Vídeos | ✓ |  | ✓ | - | ✓ | * | - | ✓ |
+| Bibliotecas CC | ✓ |  | ✓ | ✓ | ✓ | ✓ | - | - |
+| PDF | ✓ |  | ✓ | - | ✓ | ✓ | - | ✓ |
+| PSD | ✓ |  | ✓ | - | ✓ | * | - | ✓ |
+| AI | ✓ |  | ✓ | - | ✓ | * | - | ✓ |
+| INDD | ✓ |  | ✓ | - | ✓ | * | - | ✓ |
+
+## Buscar, utilizar y editar recursos {#support-to-search-use-edit}
 
 | Tipo de recurso | Descargar | Arrastrar y colocar | Editor de imágenes | Búsqueda   | Etiquetas inteligentes | Cambiar nombre | Versiones |
-| --- | ---  | --- | --- | --- | --- | --- | --- |
-| Imágenes rasterizadas |  |  |  |  |  |  |  |
-| Carpetas |  |  |  |  |  |  |  |
-| Vídeos |  |  |  |  |  |  |  |
-| Bibliotecas CC |  |  |  |  |  |  |  |
-| archivos PDF |  |  |  |  |  |  |  |
-| PSD |  |  |  |  |  |  |  |
-| AI |  |  |  |  |  |  |  |
-| INDD |  |  |  |  |  |  |  |
+|---------------|----------|---------------|--------------|----------|------------|----------|----------|
+| Imágenes rasterizadas | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
+| Carpetas | ✓ | ✓ | - | ✓ | - | ✓ | - |
+| Vídeos | ✓ | ✓ | - | ✓ | ✓ | ✓ | - |
+| Bibliotecas CC | - | - | - | - | - | ✓ | - |
+| PDF | ✓ | ✓ | - | ✓ | ✓ | ✓ | - |
+| PSD | ✓ | ✓ | - | ✓ | ✓ | ✓ | - |
+| AI | ✓ | ✓ | - | ✓ | ✓ | ✓ | - |
+| INDD | ✓ | ✓ | - | ✓ | ✓ | ✓ | - |
 
 ## Revisar recursos y colaborar {#support-to-review-collaborate}
 
 | Tipo de recurso | Anotar | Comentario | Crear tareas y revisar |
-| --- | --- | --- | --- |
-| Imágenes rasterizadas |  |  |  |
-| Carpetas |  |  |  |  |
-| Vídeos |  |  |  |  |
-| Bibliotecas CC |  |  |  |  |
-| archivos PDF |  |  |  |  |
-| PSD |  |  |  |  |
-| AI |  |  |  |  |
-| INDD |  |  |  |  |
+|---------------|----------|----------|-------------------------|
+| Imágenes rasterizadas | ✓ | ✓ | ✓ |
+| Carpetas | - | - | - |
+| Vídeos | - | ✓ | ✓ |
+| Bibliotecas CC | - | - | - |
+| PDF | - | ✓ | ✓ |
+| PSD | - | ✓ | ✓ |
+| AI | - | ✓ | ✓ |
+| INDD | - | ✓ | ✓ |
 
-## Otras tareas de administración de activos {#support-to-manage-assets}
+## Otras tareas de administración de recursos {#support-to-manage-assets}
 
-| Tipo de recurso | Metadatos | Representaciones | Papelera | Copiar | Mover |
-| --- | --- | --- | --- | --- | --- |
-| Imágenes rasterizadas |  |  |  |  |  |
-| Carpetas |  |  |  |  |  |  |
-| Vídeos |  |  |  |  |  |  |
-| Bibliotecas CC |  |  |  |  |  |  |
-| archivos PDF |  |  |  |  |  |  |
-| PSD |  |  |  |  |  |  |
-| AI |  |  |  |  |  |  |
-| INDD |  |  |  |  |  |  |
+| Tipo de recurso | Metadatos | Representaciones | Papelera | Copiar | Mover | [!DNL Adobe Asset Link] check-in |
+|---------------|----------|------------|----------|----------|----------|----------------------------------|
+| Imágenes rasterizadas | * | ✓ | ✓ | ✓ | ✓ | ✓ |
+| Carpetas | * | - | ✓ | ✓ | ✓ | - |
+| Vídeos | * | - | ✓ | ✓ | ✓ | - |
+| Bibliotecas CC | * | - | - | - | - | - |
+| PDF | * | - | ✓ | ✓ | ✓ | - |
+| PSD | * | - | ✓ | ✓ | ✓ | - |
+| AI | * | - | ✓ | ✓ | ✓ | - |
+| INDD | * | - | ✓ | ✓ | ✓ | - |
 
 <!-- TBD: Saving template table separately.
-| Asset type | Features |
-|---|---|
-| Raster images |  |
-| Folders | |
-| Videos | |
-| CC Libraries | |
-| PDF files | |
-| PSD | |
-| AI | |
-| INDD | |
+| Asset type    | Features |
+|---------------|----------|
+| Raster images |          |
+| Folders       |          |
+| Videos        |          |
+| CC Libraries  |          |
+| PDF files     |          |
+| PSD           |          |
+| AI            |          |
+| INDD          |          |
 
 >[!MORELIKETHIS]
 >
