@@ -3,7 +3,7 @@ title: Formatos de archivo compatibles
 description: Formatos de archivo compatibles con los distintos casos de uso de [!DNL Assets Essentials]
 role: User,Leader,Admin,Architect,Developer
 contentOwner: AG
-source-git-commit: a1dc66213f602bce5b5a2ec0ba99084c7f7b1ee1
+source-git-commit: e791ef4ffdfdad907b5e868b3f3eab0c597ae4cd
 workflow-type: tm+mt
 source-wordcount: '196'
 ht-degree: 26%
@@ -35,15 +35,15 @@ Los distintos tipos de archivo tienen diferentes grados de compatibilidad con lo
 -->
 
 | Tipo de recurso | Examinar | Copiar | Cargar | Crear | Eliminar | Detalles | Zoom de imagen | Vistos recientemente |
-|---------------|----------|------|----------|----------|----------|----------|------------|-----------------|
-| Imágenes rasterizadas | ✓ |  | ✓ | - | ✓ | ✓ | ✓ | ✓ |
-| Carpetas | ✓ |  | ✓ | ✓ | ✓ | ✓ | - | - |
-| Vídeos | ✓ |  | ✓ | - | ✓ | * | - | ✓ |
-| Bibliotecas CC | ✓ |  | ✓ | ✓ | ✓ | ✓ | - | - |
-| PDF | ✓ |  | ✓ | - | ✓ | ✓ | - | ✓ |
-| PSD | ✓ |  | ✓ | - | ✓ | * | - | ✓ |
-| AI | ✓ |  | ✓ | - | ✓ | * | - | ✓ |
-| INDD | ✓ |  | ✓ | - | ✓ | * | - | ✓ |
+|---------------|----------|----------|----------|----------|----------|----------|------------|-----------------|
+| Imágenes rasterizadas | ✓ | ✓ | ✓ | - | ✓ | ✓ | ✓ | ✓ |
+| Carpetas | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | - | - |
+| Vídeos | ✓ | ✓ | ✓ | - | ✓ | * | - | ✓ |
+| Bibliotecas CC | ✓ | - | ✓ | ✓ | ✓ | ✓ | - | - |
+| PDF | ✓ | ✓ | ✓ | - | ✓ | ✓ | - | ✓ |
+| PSD | ✓ | ✓ | ✓ | - | ✓ | * | - | ✓ |
+| AI | ✓ | ✓ | ✓ | - | ✓ | * | - | ✓ |
+| INDD | ✓ | ✓ | ✓ | - | ✓ | * | - | ✓ |
 
 ## Buscar, utilizar y editar recursos {#support-to-search-use-edit}
 
