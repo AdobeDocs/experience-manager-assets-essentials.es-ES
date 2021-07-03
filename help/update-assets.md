@@ -1,9 +1,9 @@
 ---
 title: Actualizar o modificar recursos
 description: Actualizar los recursos que existen en el repositorio
-role: Business Practitioner,Leader,Administrator,Architect,Developer
+role: User,Leader,Administrator,Architect,Developer
 contentOwner: AG
-source-git-commit: b3fea5209fb29409b3aae5970fa30505f8b5c22c
+source-git-commit: 5bae37e18ac587aaacaa004e5ec02775888d7f9a
 workflow-type: tm+mt
 source-wordcount: '39'
 ht-degree: 0%
