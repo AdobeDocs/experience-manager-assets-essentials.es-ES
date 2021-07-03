@@ -1,8 +1,8 @@
 ---
 title: '[!DNL Assets Essentials] interfaz de usuario'
 description: Comprenda la interfaz de usuario y la navegación en [!DNL Assets Essentials].
-role: Business Practitioner
-source-git-commit: 3389908e3ba085362b48a18cd3c106e658484a96
+role: User
+source-git-commit: 5bae37e18ac587aaacaa004e5ec02775888d7f9a
 workflow-type: tm+mt
 source-wordcount: '534'
 ht-degree: 0%
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 <!-- TBD: The options in left sidebar may change. Shared with me and Shared by me are missing for now. Update this section as UI is updated. -->
 
-## Comprender la [!DNL Assets Essentials] interfaz de usuario {#understand-interface-navigation}
+## Comprender la interfaz de usuario [!DNL Assets Essentials] {#understand-interface-navigation}
 
 [!DNL Assets Essentials] ofrece una interfaz de usuario intuitiva y fácil de usar. La interfaz limpia facilita la búsqueda y el recuerdo de los recursos y la información relacionada.
 
