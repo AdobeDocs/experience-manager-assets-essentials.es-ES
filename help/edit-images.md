@@ -1,8 +1,8 @@
 ---
 title: Editar imágenes
 description: Edite imágenes utilizando [!DNL Adobe Photoshop Express] opciones con tecnología y guarde las imágenes actualizadas como versiones.
-role: Business Practitioner
-source-git-commit: b3fea5209fb29409b3aae5970fa30505f8b5c22c
+role: User
+source-git-commit: 5bae37e18ac587aaacaa004e5ec02775888d7f9a
 workflow-type: tm+mt
 source-wordcount: '404'
 ht-degree: 0%
