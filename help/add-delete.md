@@ -1,8 +1,8 @@
 ---
 title: Cargar recursos al repositorio
 description: Cargar recursos a [!DNL Assets Essentials], ver estados de carga y resolver problemas de carga.
-role: Business Practitioner
-source-git-commit: 6e482854e7cec3d8bc2fed786a2c6a685b3f8eed
+role: User
+source-git-commit: 5bae37e18ac587aaacaa004e5ec02775888d7f9a
 workflow-type: tm+mt
 source-wordcount: '729'
 ht-degree: 0%
