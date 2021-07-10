@@ -3,10 +3,10 @@ title: Formatos de archivo compatibles
 description: Formatos de archivo compatibles con los distintos casos de uso de [!DNL Assets Essentials]
 role: User,Leader,Admin,Architect,Developer
 contentOwner: AG
-source-git-commit: e791ef4ffdfdad907b5e868b3f3eab0c597ae4cd
+source-git-commit: c63e9ab1054398dc055643f0dca6631bae881047
 workflow-type: tm+mt
-source-wordcount: '196'
-ht-degree: 26%
+source-wordcount: '206'
+ht-degree: 24%
 
 ---
 
@@ -22,32 +22,31 @@ ht-degree: 26%
 Los distintos tipos de archivo tienen diferentes grados de compatibilidad con los casos de uso y las funciones, como se describe a continuación. Utilice la leyenda para comprender el nivel de asistencia.
 
 | Nivel de asistencia | Descripción |
-|---------------|-------------------------|
+|-------------------|-------------------------|
 | ✓ | Compatible |
-| * | Compatible condicionalmente |
+| ✓ | Compatible condicionalmente |
 | - | No aplicable |
-
-* Otras tareas de administración de recursos:
 
 ## Agregar, cargar y ver recursos {#support-to-upload-view}
 
 <!-- TBD: For AEM, AI files require the PDF option to be selected when saving the AI file.
 -->
 
-| Tipo de recurso | Examinar | Copiar | Cargar | Crear | Eliminar | Detalles | Zoom de imagen | Vistos recientemente |
-|---------------|----------|----------|----------|----------|----------|----------|------------|-----------------|
+| Tipo de recurso | [Examinar](/help/navigate-view.md) | Copiar | [Cargar](/help/add-delete.md) | Crear | [Eliminar](/help/add-delete.md#delete-assets) | Detalles | Zoom de imagen | [Vistos recientemente](/help/navigate-view.md) |
+|-------------------|----------|----------|----------|----------|----------|-------------------|------------|-----------------|
 | Imágenes rasterizadas | ✓ | ✓ | ✓ | - | ✓ | ✓ | ✓ | ✓ |
 | Carpetas | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | - | - |
-| Vídeos | ✓ | ✓ | ✓ | - | ✓ | * | - | ✓ |
-| Bibliotecas CC | ✓ | - | ✓ | ✓ | ✓ | ✓ | - | - |
+| Vídeos MP4 | ✓ | ✓ | ✓ | - | ✓ | ✓ | - | ✓ |
 | PDF | ✓ | ✓ | ✓ | - | ✓ | ✓ | - | ✓ |
-| PSD | ✓ | ✓ | ✓ | - | ✓ | * | - | ✓ |
-| AI | ✓ | ✓ | ✓ | - | ✓ | * | - | ✓ |
-| INDD | ✓ | ✓ | ✓ | - | ✓ | * | - | ✓ |
+| PSD, AI e INDD | ✓ | ✓ | ✓ | - | ✓ | ✓ | - | ✓ |
+
+<!-- Hiding CC Libraries (considered beta) as per PM feedback.
+| CC Libraries  | &#10003; | &minus;  | &#10003; | &#10003; | &#10003; | &#10003; | &minus;    | &minus;         |
+-->
 
 ## Buscar, utilizar y editar recursos {#support-to-search-use-edit}
 
-| Tipo de recurso | Descargar | Arrastrar y colocar | Editor de imágenes | Búsqueda   | Etiquetas inteligentes | Cambiar nombre | Versiones |
+| Tipo de recurso | [Descargar](/help/manage-organize.md#download) | Arrastrar y colocar | [Editor de imágenes](/help/edit-images.md) | [Buscar](/help/search.md) | [Etiquetas inteligentes](/help/metadata.md#tags) | [Cambiar nombre](/help/manage-organize.md) | [Versiones](/help/manage-organize.md#versions-of-assets) |
 |---------------|----------|---------------|--------------|----------|------------|----------|----------|
 | Imágenes rasterizadas | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
 | Carpetas | ✓ | ✓ | - | ✓ | - | ✓ | - |
@@ -73,18 +72,20 @@ Los distintos tipos de archivo tienen diferentes grados de compatibilidad con lo
 
 ## Otras tareas de administración de recursos {#support-to-manage-assets}
 
-| Tipo de recurso | Metadatos | Representaciones | Papelera | Copiar | Mover | [!DNL Adobe Asset Link] check-in |
-|---------------|----------|------------|----------|----------|----------|----------------------------------|
-| Imágenes rasterizadas | * | ✓ | ✓ | ✓ | ✓ | ✓ |
-| Carpetas | * | - | ✓ | ✓ | ✓ | - |
-| Vídeos | * | - | ✓ | ✓ | ✓ | - |
-| Bibliotecas CC | * | - | - | - | - | - |
-| PDF | * | - | ✓ | ✓ | ✓ | - |
-| PSD | * | - | ✓ | ✓ | ✓ | - |
-| AI | * | - | ✓ | ✓ | ✓ | - |
-| INDD | * | - | ✓ | ✓ | ✓ | - |
+| Tipo de recurso | [Metadatos](/help/metadata.md) | [Representaciones](/help/add-delete.md#renditions) | [Papelera](/help/add-delete.md#delete-assets) | Copiar | Mover |
+|---------------|-------------------|------------|----------|----------|----------|
+| Imágenes rasterizadas | ✓ | ✓ | ✓ | ✓ | ✓ |
+| Carpetas | ✓ | - | ✓ | ✓ | ✓ |
+| Vídeos | ✓ | - | ✓ | ✓ | ✓ |
+| Bibliotecas CC | ✓ | - | - | - | - |
+| PDF | ✓ | - | ✓ | ✓ | ✓ |
+| PSD | ✓ | - | ✓ | ✓ | ✓ |
+| AI | ✓ | - | ✓ | ✓ | ✓ |
+| INDD | ✓ | - | ✓ | ✓ | ✓ |
 
-<!-- TBD: Saving template table separately.
+Los usuarios de [!DNL Adobe Asset Link] pueden registrar las imágenes de trama en el repositorio [!DNL Assets Essentials] desde las aplicaciones de escritorio [!DNL Adobe Creative Cloud] soportadas.
+
+<!-- TBD: Saving the template table separately for later use.
 | Asset type    | Features |
 |---------------|----------|
 | Raster images |          |
