@@ -2,9 +2,9 @@
 title: '[!DNL Assets Essentials] interfaz de usuario'
 description: Comprenda la interfaz de usuario y la navegación en [!DNL Assets Essentials].
 role: User
-source-git-commit: 5bae37e18ac587aaacaa004e5ec02775888d7f9a
+source-git-commit: 6c050d55aadeffa59c989f5b8ff6fe67da0d4d86
 workflow-type: tm+mt
-source-wordcount: '534'
+source-wordcount: '509'
 ht-degree: 0%
 
 ---
@@ -40,11 +40,15 @@ Al iniciar sesión en [!DNL Assets Essentials], verá la siguiente interfaz.
 
 ## Examinar y ver recursos y carpetas {#browse-repository}
 
-Puede navegar hasta los archivos o carpetas necesarios desde la interfaz de usuario principal o desde la barra lateral izquierda. Al navegar, puede utilizar la interfaz para ver las miniaturas de los recursos para examinar visualmente el repositorio o ver los detalles de los recursos para encontrar rápidamente el recurso que desea. Las opciones disponibles en la barra lateral izquierda son:
+Puede examinar las carpetas desde la interfaz de usuario principal o desde la barra lateral izquierda. Al navegar, puede utilizar la interfaz para ver las miniaturas de los recursos para examinar visualmente el repositorio o ver los detalles de los recursos para encontrar rápidamente el recurso que desea. Las opciones disponibles en la barra lateral izquierda son:
 
-* **Recursos**: Lista de todas las carpetas y recursos de una vista de árbol a los que tiene acceso.
-* **Vistos recientemente**: Lista de recursos de los que ha realizado una vista previa recientemente. [!DNL Assets Essentials] muestra solo los recursos de los que obtiene una vista previa. Aquí no se muestran los recursos que se desplazan más allá al examinar los archivos o carpetas del repositorio.
-* **Bibliotecas**: Acceso a la vista Bibliotecas  [!DNL Adobe Creative Cloud Team] (CCT). Esta vista solo está visible si el usuario tiene derecho a bibliotecas CCT.
+* **Recursos**: Lista de todas las carpetas de una vista de árbol a las que tiene acceso.
+* **Vistos recientemente**: Lista de recursos de los que ha realizado una vista previa recientemente. [!DNL Assets Essentials] muestra solo los recursos de los que obtiene una vista previa. No muestra los recursos que se desplazan más allá al examinar los archivos o carpetas del repositorio.
+* **Papelera**:
+
+<!-- TBD: Not sure if we want to publish these right now. CC Libs are beta as per Greg.
+* **Libraries**: Access to [!DNL Adobe Creative Cloud Team] (CCT) Libraries view. This view is visible only if the user is entitled to CCT Libraries.
+-->
 
 <!-- TBD: My Work Space shows task inbox and it is not visible on AEM Cloud Demos as of now. It is the source of truth server hence not documenting My Work Space option for now.
 -->
