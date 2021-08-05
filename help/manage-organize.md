@@ -3,9 +3,9 @@ title: Administrar los recursos digitales
 description: Mueva, elimine, copie, cambie el nombre, actualice y cree una versión de sus recursos en [!DNL Assets Essentials].
 role: User,Leader
 contentOwner: AG
-source-git-commit: 5bae37e18ac587aaacaa004e5ec02775888d7f9a
+source-git-commit: 9bff6e8570ca05f60844cfd84ef3e695e07ae27b
 workflow-type: tm+mt
-source-wordcount: '585'
+source-wordcount: '598'
 ht-degree: 0%
 
 ---
@@ -25,14 +25,11 @@ Utilice [!DNL Assets Essentials] para realizar las siguientes tareas de administ
 * ![icono de detallesHaga clic en para obtener una vista previa de un recurso y ver los metadatos detallados. ](assets/do-not-localize/edit-in-icon.png) Al obtener una vista previa, puede ver las versiones y editar una imagen.
 * ![icono descargar ](assets/do-not-localize/download-icon.png) Descargue el recurso seleccionado en su sistema de archivos local.
 * ![icono ](assets/do-not-localize/delete-icon.png) EliminarEliminar el recurso o la carpeta seleccionados.
-* 
-
-   <!-- ![checkout icon](assets/do-not-localize/checkout-icon.png) --> Checkout an asset.
+* Cierre un recurso. <!-- ![checkout icon](assets/do-not-localize/checkout-icon.png) -->
 * ![Copiar ](assets/do-not-localize/copy-icon.png) iconoCopiar el archivo o la carpeta seleccionados.
 * ![mover ](assets/do-not-localize/move-icon.png) iconoMover el recurso o la carpeta seleccionados a una ubicación diferente en la jerarquía del repositorio.
 * ![cambiar el nombre del ](assets/do-not-localize/rename-icon.png) iconoCambiar el nombre del recurso o la carpeta seleccionados. Si utiliza un nombre único, si no cambia el nombre, se producirá un error con una advertencia. Puede intentarlo de nuevo con un nombre nuevo.
-* 
-   <!-- ![assign task icon](assets/do-not-localize/assign-task-icon.png) --> Assign tasks to other users to collaborate on an asset.
+* Asigne tareas a otros usuarios para colaborar en un recurso. <!-- ![assign task icon](assets/do-not-localize/assign-task-icon.png) -->
 
 Puede ver las mismas opciones en las miniaturas de recursos.
 
