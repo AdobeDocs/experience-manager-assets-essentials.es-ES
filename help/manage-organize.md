@@ -3,9 +3,9 @@ title: Administrar los recursos digitales
 description: Mueva, elimine, copie, cambie el nombre, actualice y cree una versión de sus recursos en [!DNL Assets Essentials].
 role: User,Leader
 contentOwner: AG
-source-git-commit: 9bff6e8570ca05f60844cfd84ef3e695e07ae27b
+source-git-commit: 3f8ba14c702fb3ee0df61aa503c9064c33f94794
 workflow-type: tm+mt
-source-wordcount: '598'
+source-wordcount: '604'
 ht-degree: 0%
 
 ---
@@ -25,11 +25,11 @@ Utilice [!DNL Assets Essentials] para realizar las siguientes tareas de administ
 * ![icono de detallesHaga clic en para obtener una vista previa de un recurso y ver los metadatos detallados. ](assets/do-not-localize/edit-in-icon.png) Al obtener una vista previa, puede ver las versiones y editar una imagen.
 * ![icono descargar ](assets/do-not-localize/download-icon.png) Descargue el recurso seleccionado en su sistema de archivos local.
 * ![icono ](assets/do-not-localize/delete-icon.png) EliminarEliminar el recurso o la carpeta seleccionados.
-* Cierre un recurso. <!-- ![checkout icon](assets/do-not-localize/checkout-icon.png) -->
+* ![icono de cierre de ](assets/do-not-localize/checkout-icon.png) compraCierre el recurso seleccionado.
 * ![Copiar ](assets/do-not-localize/copy-icon.png) iconoCopiar el archivo o la carpeta seleccionados.
 * ![mover ](assets/do-not-localize/move-icon.png) iconoMover el recurso o la carpeta seleccionados a una ubicación diferente en la jerarquía del repositorio.
 * ![cambiar el nombre del ](assets/do-not-localize/rename-icon.png) iconoCambiar el nombre del recurso o la carpeta seleccionados. Si utiliza un nombre único, si no cambia el nombre, se producirá un error con una advertencia. Puede intentarlo de nuevo con un nombre nuevo.
-* Asigne tareas a otros usuarios para colaborar en un recurso. <!-- ![assign task icon](assets/do-not-localize/assign-task-icon.png) -->
+* ![asignar ](assets/do-not-localize/review-delegate-icon.png) icono de tareaAsignar tareas a otros usuarios para colaborar en un recurso.
 
 Puede ver las mismas opciones en las miniaturas de recursos.
 
