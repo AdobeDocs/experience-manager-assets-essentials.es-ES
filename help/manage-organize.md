@@ -3,7 +3,7 @@ title: Administrar los recursos digitales
 description: Mueva, elimine, copie, cambie el nombre, actualice y cree una versión de sus recursos en [!DNL Assets Essentials].
 role: User,Leader
 contentOwner: AG
-source-git-commit: 3f8ba14c702fb3ee0df61aa503c9064c33f94794
+source-git-commit: eda2ba0d271310d0e87f904dc7622583a80d002e
 workflow-type: tm+mt
 source-wordcount: '604'
 ht-degree: 0%
@@ -47,7 +47,7 @@ Puede ver las mismas opciones en las miniaturas de recursos.
 
 ## Descargar y distribuir recursos {#download}
 
-Puede seleccionar uno o varios recursos, carpetas o una combinación de ambos y descargar la selección en el sistema de archivos local. Puede editar los recursos y volver a cargarlos o distribuir los recursos fuera de [!DNL Assets Essentials]. También puede [descargar las representaciones](/help/add-delete.md#renditions) de un recurso.
+Puede seleccionar uno o varios recursos, carpetas o una combinación de ambos y descargar la selección en el sistema de archivos local. Puede editar los recursos y volver a cargarlos o distribuir los recursos fuera de [!DNL Assets Essentials]. Además, puede [descargar las representaciones](/help/add-delete.md#renditions) de un recurso.
 
 ## Creación de versiones de recursos {#versions-of-assets}
 
