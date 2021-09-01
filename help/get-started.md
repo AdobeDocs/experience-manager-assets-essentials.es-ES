@@ -2,9 +2,9 @@
 title: Introducción a [!DNL Assets Essentials]
 description: Acceso, experiencia de inicio de sesión de, casos de uso admitidos de y problemas conocidos de [!DNL Assets Essentials].
 role: User, Leader
-source-git-commit: eda2ba0d271310d0e87f904dc7622583a80d002e
+source-git-commit: 574ac781fc5c5dfdba0640b1032a50268947875d
 workflow-type: tm+mt
-source-wordcount: '447'
+source-wordcount: '448'
 ht-degree: 2%
 
 ---
