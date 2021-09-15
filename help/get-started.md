@@ -2,10 +2,11 @@
 title: Introducción a [!DNL Assets Essentials]
 description: Acceso, experiencia de inicio de sesión de, casos de uso admitidos de y problemas conocidos de [!DNL Assets Essentials].
 role: User, Leader
-source-git-commit: 574ac781fc5c5dfdba0640b1032a50268947875d
+exl-id: 7917b2a0-8340-4d94-aa6f-30ce986fa752
+source-git-commit: f2c6ea9d31cc6eccf46216b52de254ca88ba1079
 workflow-type: tm+mt
-source-wordcount: '448'
-ht-degree: 2%
+source-wordcount: '446'
+ht-degree: 3%
 
 ---
 
@@ -25,7 +26,7 @@ Además, más información de referencia que puede ser útil es [comprensión de
 
 ## Recibir acceso a [!DNL Assets Essentials] {#get-access}
 
-Adobe proporciona la solución y añade la persona designada de su organización como administrador. Los administradores pueden proporcionar acceso a varios usuarios de la organización mediante [[!DNL Admin Console]](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/welcome.ug.html). Para solicitudes relacionadas con el acceso, póngase en contacto con el administrador de su organización.
+Adobe proporciona la solución y añade la persona designada de su organización como administrador. Los administradores pueden proporcionar acceso a varios usuarios de la organización mediante [[!DNL Admin Console]](https://helpx.adobe.com/es/enterprise/using/admin-console.html). Para solicitudes relacionadas con el acceso, póngase en contacto con el administrador de su organización.
 
 ## Configuración [!DNL Assets Essentials] {#configuration}
 
