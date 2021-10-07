@@ -1,8 +1,8 @@
 ---
-source-git-commit: 0dd6f278a75668c3ceafa2ad8d9d232bcecd56ba
+source-git-commit: 15070ea99308741242b43206ed69cf1dbddca890
 workflow-type: tm+mt
 source-wordcount: '719'
-ht-degree: 53%
+ht-degree: 50%
 
 ---
 # Directrices para contribuir a la documentación de [!DNL Adobe Experience Manager]
@@ -37,9 +37,9 @@ Las excepciones a esta regla se aplican a las notas de la versión donde los pro
 
 Cualquier idea que tenga para mejorar la [!DNL Experience Manager] documentación es bienvenida como contribución. Sin embargo, los comentarios, las incidencias y las solicitudes de extracción están destinados únicamente a *contribuciones*. No están pensados para utilizarse para responder a sus preguntas sobre cómo utilizar [!DNL Experience Manager], implementar su proyecto [!DNL Experience Manager] ni resolver problemas técnicos.
 
-Cualquier pregunta sobre el uso de [!DNL Experience Manager] o errores técnicos que pueda haber sido notificada debe ser informada a través del proceso de soporte normal a través del [[!DNL Experience Cloud] portal de soporte](https://experienceleague.adobe.com/?support-solution=Experience+Manager#support) o discutida en la [comunidad de Experience Manager](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-manager/ct-p/adobe-experience-manager-community).
+Cualquier pregunta sobre el uso de [!DNL Experience Manager] o errores técnicos que pueda haber sido notificada debe ser informada a través del proceso de soporte normal a través del [[!DNL Experience Manager] portal de soporte](https://experienceleague.adobe.com/?support-solution=Experience+Manager#support) o discutida en la [comunidad de Experience Manager](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-manager/ct-p/adobe-experience-manager-community).
 
-***[!DNL Experience Manager]Las contribuciones a la documentación de no sustituyen al equipo de asistencia de Adobe*** y se rechazará cualquier contribución de este tipo que busque respuestas a preguntas relacionadas con la asistencia.
+***[!DNL Experience Manager]las contribuciones de documentación no sustituyen a Adobe Customer*** Support y cualquier contribución de este tipo que busque respuestas a preguntas relacionadas con la asistencia será rechazada.
 
 ### Las contribuciones deben hacer referencia claramente a las páginas de documentación afectadas.
 
