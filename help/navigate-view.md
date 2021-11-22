@@ -1,14 +1,14 @@
 ---
 title: '[!DNL Assets Essentials] interfaz de usuario'
-description: Comprenda la interfaz de usuario y la navegación en [!DNL Assets Essentials].
+description: Explicación de la interfaz de usuario de y la navegación en [!DNL Assets Essentials].
 role: User
-source-git-commit: 6c050d55aadeffa59c989f5b8ff6fe67da0d4d86
+exl-id: 534a8084-88f7-410e-b872-719e47e62b10
+source-git-commit: 94467e029615514942f429069c0eb7248f44bab5
 workflow-type: tm+mt
-source-wordcount: '509'
+source-wordcount: '530'
 ht-degree: 0%
 
 ---
-
 
 # Vaya a archivos y carpetas y vea los recursos {#view-assets-and-details}
 
@@ -16,31 +16,31 @@ ht-degree: 0%
 
 <!-- TBD: The options in left sidebar may change. Shared with me and Shared by me are missing for now. Update this section as UI is updated. -->
 
-## Comprender la interfaz de usuario [!DNL Assets Essentials] {#understand-interface-navigation}
+## Comprender el [!DNL Assets Essentials] interfaz de usuario {#understand-interface-navigation}
 
 [!DNL Assets Essentials] ofrece una interfaz de usuario intuitiva y fácil de usar. La interfaz limpia facilita la búsqueda y el recuerdo de los recursos y la información relacionada.
 
-Al iniciar sesión en [!DNL Assets Essentials], verá la siguiente interfaz.
+Al iniciar sesión [!DNL Assets Essentials], verá la siguiente interfaz.
 
 <!-- TBD: Update this screenshot. Remove top bar. Remove 2 labels from top bar. -->
 
 ![[!DNL Assets Essentials] interfaz de usuario](assets/essentials-interface1.png)
 
 *Figura: Primera pantalla de inicio de sesión y dónde encontrar las características más destacadas.*
-     *A: Barra lateral izquierda para examinar el repositorio y proporciona acceso a otras opciones.*
-     *B: Muestre o contraiga la barra lateral izquierda para aumentar el área de visualización de recursos.*
-     *C: Filtrar los resultados de la búsqueda.*
-     *D: Cuadro de búsqueda.*
-     *E: Opciones para ordenar los recursos.*
-     *F: Proporcione comentarios sobre el producto.*
-     *G: Edite sus preferencias de usuario o cierre la sesión.*
-     *H: Cambiar entre diferentes vistas.*
+    *A: Barra lateral izquierda para examinar el repositorio y proporciona acceso a otras opciones.*
+    *B: Muestre o contraiga la barra lateral izquierda para aumentar el área de visualización de recursos.*
+    *C: Filtrar los resultados de la búsqueda.*
+    *D: Cuadro de búsqueda.*
+    *E: Opciones para ordenar los recursos.*
+    *F: Proporcione comentarios sobre el producto.*
+    *G: Edite sus preferencias de usuario o cierre la sesión.*
+    *H: Cambiar entre diferentes vistas.*
 
 <!-- TBD: Need an embedded video here with narration. It has to be hosted on MPC to be embeddable. -->
 
 ## Examinar y ver recursos y carpetas {#browse-repository}
 
-Puede examinar las carpetas desde la interfaz de usuario principal o desde la barra lateral izquierda. Al navegar, puede utilizar la interfaz para ver las miniaturas de los recursos para examinar visualmente el repositorio o ver los detalles de los recursos para encontrar rápidamente el recurso que desea. Las opciones disponibles en la barra lateral izquierda son:
+Puede examinar las carpetas desde la interfaz de usuario principal o desde la barra lateral izquierda. Al navegar, puede utilizar la interfaz para ver las miniaturas de los recursos para examinar visualmente el repositorio o ver los detalles de los recursos para encontrar rápidamente el recurso que desee. Las opciones disponibles en la barra lateral izquierda son:
 
 * **Recursos**: Lista de todas las carpetas de una vista de árbol a las que tiene acceso.
 * **Vistos recientemente**: Lista de recursos de los que ha realizado una vista previa recientemente. [!DNL Assets Essentials] muestra solo los recursos de los que obtiene una vista previa. No muestra los recursos que se desplazan más allá al examinar los archivos o carpetas del repositorio.
@@ -62,7 +62,7 @@ En [!DNL Assets Essentials], puede ver recursos, carpetas y resultados de búsqu
 * ![icono de vista de galería](assets/do-not-localize/gallery-view.png) [!UICONTROL Gallery View]
 * ![icono de vista de cascada](assets/do-not-localize/waterfall-view.png) [!UICONTROL Waterfall View]
 
-Para localizar un recurso, puede ordenar los recursos en orden ascendente o descendente, es decir, `Name`, `Relevancy`, `Size`, `Modified` y `Created`.
+Para localizar un recurso, puede ordenar los recursos en orden ascendente o descendente de `Name`, `Relevancy`, `Size`, `Modified`y `Created`.
 
 Para desplazarse a una carpeta, haga doble clic en las miniaturas de la carpeta o seleccione la carpeta en la barra lateral izquierda. Para ver los detalles de una carpeta, selecciónela y haga clic en Detalles en la barra de herramientas de la parte superior. Para desplazarse hacia arriba y abajo en la jerarquía, utilice la barra lateral izquierda o utilice las rutas de exploración en la parte superior.
 
@@ -74,7 +74,7 @@ Para desplazarse a una carpeta, haga doble clic en las miniaturas de la carpeta 
 
 Antes de usar, compartir o descargar un recurso, puede verlo más de cerca. La función de vista previa permite ver no solo las imágenes, sino también algunos otros tipos de recursos admitidos.
 
-Para obtener una vista previa de un recurso, selecciónelo y haga clic en [!UICONTROL Details] ![detalles icon](assets/do-not-localize/edit-in-icon.png) en la barra de herramientas de la parte superior. No solo puede ver el recurso, sino también ver sus metadatos detallados y realizar otras acciones.
+Para obtener una vista previa de un recurso, selecciónelo y haga clic en [!UICONTROL Details] ![icono de detalles](assets/do-not-localize/edit-in-icon.png) en la barra de herramientas de la parte superior. No solo puede ver el recurso, sino también ver sus metadatos detallados y realizar otras acciones.
 
 ![Vista previa de un recurso](assets/preview-asset.png)
 
@@ -91,11 +91,16 @@ Para obtener una vista previa de un recurso, selecciónelo y haga clic en [!UICO
 *K: Previsualice más de cerca. Zoom, pantalla completa y otras opciones.*
 *L: Continúe con el recurso anterior o siguiente de la carpeta actual sin volver a la carpeta .*
 
+También puede obtener una vista previa de los vídeos.
+
+![Vista previa del vídeo](/help/assets/preview-video.png)
+
+Si obtiene una vista previa explícita de un recurso, [!DNL Assets Essentials] lo muestra como un recurso visualizado recientemente.
+
 <!-- TBD: Describe the options.
 
 Explicitly previewed assets are displayed as recently viewed assets. Give screenshot of this.
 Other use cases after previewing.
-
 -->
 
 >[!MORELIKETHIS]
