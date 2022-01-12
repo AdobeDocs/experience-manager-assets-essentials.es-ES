@@ -4,9 +4,9 @@ description: Notas de la versión y problemas conocidos de [!DNL Assets Essentia
 role: User,Leader,Admin,Architect,Developer
 contentOwner: AG
 exl-id: a0e29eb6-336a-4f78-b7bd-ec1338c86775
-source-git-commit: 0c849c92562f9102819aaea627f5945030b27a1e
+source-git-commit: 01814dace83fec64851d7ccf97a0f4bb22519ee3
 workflow-type: tm+mt
-source-wordcount: '380'
+source-wordcount: '364'
 ht-degree: 1%
 
 ---
@@ -25,7 +25,7 @@ Para obtener más información sobre la solución, consulte la [introducción a 
 
 La lista de problemas conocidos de [!DNL Assets Essentials] oferta se revisa y actualiza de forma continua:
 
-* Los recursos individuales no se pueden cargar en la carpeta superior (Assets), sino en ninguna subcarpeta del sistema. <!-- CQ-4337638 -->
+* Ninguna
 
 Si encuentra algún problema o incluso solicitudes de mejora, [proporcionar comentarios](#provide-feedback) al equipo.
 
