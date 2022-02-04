@@ -4,24 +4,16 @@ description: Notas de la versión y problemas conocidos de [!DNL Assets Essentia
 role: User,Leader,Admin,Architect,Developer
 contentOwner: AG
 exl-id: a0e29eb6-336a-4f78-b7bd-ec1338c86775
-source-git-commit: a72c3399fabd37c561f3c51e51029810d038ae40
+source-git-commit: eb6822a1e813b6c7687ba3d797e4f43b3c1ef2a0
 workflow-type: tm+mt
-source-wordcount: '420'
+source-wordcount: '360'
 ht-degree: 1%
 
 ---
 
 # Notas de la versión de [!DNL Assets Essentials] {#release-notes}
 
-La versión actual de [!DNL Assets Essentials] se publicó el 3 de febrero de 2022. Con esta versión:
-
-* [!DNL Assets Essentials] ahora le permite generar un vínculo y compartir recursos con otros que no tengan acceso al [!DNL Assets Essentials] aplicación. Puede definir: <!-- CQ-4329575 -->
-
-   * Una fecha de caducidad para el vínculo
-
-   * Si los destinatarios pueden descargar el recurso después de acceder al vínculo.
-
-   Según esta configuración, el destinatario del vínculo puede elegir previsualizar los recursos o descargarlos.
+La versión actual de [!DNL Assets Essentials] se publicó el 3 de febrero de 2022. Esta versión proporciona:
 
 * Mejoras de rendimiento para [!UICONTROL Create Folder] operación. <!-- CQ-4338818 -->
 
