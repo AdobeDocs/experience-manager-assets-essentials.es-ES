@@ -5,7 +5,7 @@ role: User
 exl-id: 534a8084-88f7-410e-b872-719e47e62b10
 source-git-commit: 0a0f520b0c023120995b3af327661212604fac0d
 workflow-type: tm+mt
-source-wordcount: '530'
+source-wordcount: '539'
 ht-degree: 0%
 
 ---
@@ -57,10 +57,10 @@ Puede abrir o contraer la barra lateral izquierda para aumentar el área de visu
 
 En [!DNL Assets Essentials], puede ver recursos, carpetas y resultados de búsqueda en cuatro tipos diferentes de diseños.
 
-* ![icono de vista de lista](assets/do-not-localize/list-view.png) [!UICONTROL List View]
-* ![icono de vista de cuadrícula](assets/do-not-localize/grid-view.png) [!UICONTROL Grid View]
-* ![icono de vista de galería](assets/do-not-localize/gallery-view.png) [!UICONTROL Gallery View]
-* ![icono de vista de cascada](assets/do-not-localize/waterfall-view.png) [!UICONTROL Waterfall View]
+* ![icono de vista de lista](assets/do-not-localize/list-view.png) [!UICONTROL Vista de lista]
+* ![icono de vista de cuadrícula](assets/do-not-localize/grid-view.png) [!UICONTROL Vista de cuadrícula]
+* ![icono de vista de galería](assets/do-not-localize/gallery-view.png) [!UICONTROL Vista Galería]
+* ![icono de vista de cascada](assets/do-not-localize/waterfall-view.png) [!UICONTROL Vista de cascada]
 
 Para localizar un recurso, puede ordenar los recursos en orden ascendente o descendente de `Name`, `Relevancy`, `Size`, `Modified`y `Created`.
 
@@ -74,7 +74,7 @@ Para desplazarse a una carpeta, haga doble clic en las miniaturas de la carpeta 
 
 Antes de usar, compartir o descargar un recurso, puede verlo más de cerca. La función de vista previa permite ver no solo las imágenes, sino también algunos otros tipos de recursos admitidos.
 
-Para obtener una vista previa de un recurso, selecciónelo y haga clic en [!UICONTROL Details] ![icono de detalles](assets/do-not-localize/edit-in-icon.png) en la barra de herramientas de la parte superior. No solo puede ver el recurso, sino también ver sus metadatos detallados y realizar otras acciones.
+Para obtener una vista previa de un recurso, selecciónelo y haga clic en [!UICONTROL Detalles] ![icono de detalles](assets/do-not-localize/edit-in-icon.png) en la barra de herramientas de la parte superior. No solo puede ver el recurso, sino también ver sus metadatos detallados y realizar otras acciones.
 
 ![Vista previa de un recurso](assets/preview-asset.png)
 

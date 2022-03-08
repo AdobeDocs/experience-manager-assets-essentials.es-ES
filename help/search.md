@@ -2,13 +2,13 @@
 title: Buscar y descubrir recursos en [!DNL Assets Essentials]
 description: Buscar y descubrir recursos en [!DNL Assets Essentials].
 role: User
-source-git-commit: 5bae37e18ac587aaacaa004e5ec02775888d7f9a
+exl-id: be9597a3-056c-436c-a09e-15a03567c85a
+source-git-commit: cd7af0c946a042430e62528fa6aa19bdab139f67
 workflow-type: tm+mt
-source-wordcount: '386'
+source-wordcount: '389'
 ht-degree: 1%
 
 ---
-
 
 # Buscar recursos en [!DNL Assets Essentials] {#search-assets}
 
@@ -32,13 +32,13 @@ Puede filtrar los resultados de la búsqueda según los parámetros siguientes.
 
 *Figura: Filtre los recursos buscados según varios parámetros.*
 
-* Tipo de archivo: Filtre los resultados de la búsqueda por los tipos de archivos admitidos, `Images`, `Documents` y `Videos`.
+* Tipo de archivo: Filtre los resultados de la búsqueda por los tipos de archivos admitidos, es decir, `Images`, `Documents`y `Videos`.
 * Tipo MIME: Filtre por uno o varios formatos de archivo compatibles. <!-- TBD:  [supported file formats](/help/supported-file-formats.md). -->
 * Tamaño de la imagen: Proporcione una de las dimensiones mínimas y máximas para filtrar imágenes. El tamaño se proporciona en dimensiones en píxeles y no es el tamaño de archivo de las imágenes.
 * Crear fecha: La fecha de creación del recurso tal como se indica en los metadatos. El formato de fecha estándar utilizado es `yyyy-mm-dd`.
 * Fecha de modificación: Fecha de la última modificación de los recursos. El formato de fecha estándar utilizado es `yyyy-mm-dd`.
 
-Puede ordenar los recursos buscados en orden creciente o descendente de `Name`, `Relevancy`, `Size`, `Modified` y `Created`.
+Puede ordenar los recursos buscados en orden creciente o descendente de `Name`, `Relevancy`, `Size`, `Modified`y `Created`.
 
 ## Búsquedas guardadas {#saved-search}
 
@@ -46,7 +46,7 @@ La funcionalidad de búsqueda es bastante fácil de usar en [!DNL Assets Essenti
 
 También puede filtrar los resultados de búsqueda según criterios específicos en torno a metadatos y tipo de recursos. Para los filtros más utilizados, para mejorar la experiencia de búsqueda, [!DNL Assets Essentials] permite guardar los parámetros de búsqueda. A continuación, puede seleccionar la búsqueda guardada para buscar y aplicar el filtro con un solo clic.
 
-Para crear una búsqueda guardada, busque algún recurso, aplique uno o más filtros y haga clic en [!UICONTROL Save Search] en el panel [!UICONTROL Filters].
+Para crear una búsqueda guardada, busque algún recurso, aplique uno o varios filtros y haga clic en [!UICONTROL Guardar búsqueda] en el [!UICONTROL Filtros] panel.
 
 ![Búsqueda guardada del panel Filtros](assets/saved-search.png)
 

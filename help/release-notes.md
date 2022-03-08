@@ -6,7 +6,7 @@ contentOwner: AG
 exl-id: a0e29eb6-336a-4f78-b7bd-ec1338c86775
 source-git-commit: eb6822a1e813b6c7687ba3d797e4f43b3c1ef2a0
 workflow-type: tm+mt
-source-wordcount: '360'
+source-wordcount: '364'
 ht-degree: 1%
 
 ---
@@ -15,13 +15,13 @@ ht-degree: 1%
 
 La versión actual de [!DNL Assets Essentials] se publicó el 3 de febrero de 2022. Esta versión proporciona:
 
-* Mejoras de rendimiento para [!UICONTROL Create Folder] operación. <!-- CQ-4338818 -->
+* Mejoras de rendimiento para [!UICONTROL Crear carpeta] operación. <!-- CQ-4338818 -->
 
 ## Problemas conocidos {#known-issues}
 
 La lista de problemas conocidos de [!DNL Assets Essentials] oferta se revisa y actualiza de forma continua:
 
-* Ninguna
+* Ninguno
 
 Si encuentra algún problema o incluso solicitudes de mejora, [proporcionar comentarios](#provide-feedback) al equipo.
 
@@ -45,7 +45,7 @@ Si encuentra algún problema o incluso solicitudes de mejora, [proporcionar come
 
 [!DNL Assets Essentials] La versión 2021.7.0 se publicó el 29 de julio de 2021, con las siguientes actualizaciones:
 
-* Puede crear y administrar formularios de metadatos personalizados que se utilizarán para mostrar las propiedades de los metadatos a los usuarios en la pantalla de detalles de recursos de [!UICONTROL Metadata Forms] opción bajo [!DNL Settings]. Consulte [formularios de metadatos](metadata.md#metadata-forms).
+* Puede crear y administrar formularios de metadatos personalizados que se utilizarán para mostrar las propiedades de los metadatos a los usuarios en la pantalla de detalles de recursos de [!UICONTROL Forms de metadatos] opción bajo [!DNL Settings]. Consulte [formularios de metadatos](metadata.md#metadata-forms).
 * Varias correcciones de errores y mejoras del producto, incluido un mejor rendimiento al cargar una carpeta anidada con muchas subcarpetas.
 
 ### Versión 2021.6.0 {#june2021}

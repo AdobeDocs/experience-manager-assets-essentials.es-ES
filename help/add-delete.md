@@ -2,13 +2,13 @@
 title: Cargar recursos al repositorio
 description: Cargar recursos a [!DNL Assets Essentials], ver estados de carga y resolver problemas de carga.
 role: User
-source-git-commit: 5bae37e18ac587aaacaa004e5ec02775888d7f9a
+exl-id: a85a4455-4456-48af-aee9-f05300677605
+source-git-commit: cd7af0c946a042430e62528fa6aa19bdab139f67
 workflow-type: tm+mt
-source-wordcount: '729'
+source-wordcount: '747'
 ht-degree: 0%
 
 ---
-
 
 # Cargar recursos {#add-assets}
 
@@ -17,16 +17,16 @@ Para agregar nuevos recursos con los que trabajar, cargue algunos recursos desde
 Puede utilizar los siguientes métodos para cargar uno o varios recursos o una carpeta que contenga recursos:
 
 * Arrastre recursos o carpetas en la interfaz de usuario y siga las instrucciones que aparecen en la pantalla.
-* Haga clic en la opción **[!UICONTROL Add Assets]** de la barra de herramientas y añada algunos archivos al cuadro de diálogo de carga.
+* Haga clic en **[!UICONTROL Agregar recursos]** de la barra de herramientas y añada algunos archivos al cuadro de diálogo de carga.
 
 <!-- TBD: Update this GIF
 ![Asset and nested folder upload demo](assets/do-not-localize/upload-assets.gif) -->
 
-Puede utilizar cualquiera de estos métodos para cargar recursos después de crear una carpeta. Para crear una carpeta vacía, haga clic en **[!UICONTROL Create Folder]** en la barra de herramientas. Aunque [!DNL Assets Essentials] ofrece una potente funcionalidad de búsqueda de texto completo, también puede utilizar carpetas para organizar mejor sus recursos.
+Puede utilizar cualquiera de estos métodos para cargar recursos después de crear una carpeta. Para crear una carpeta vacía, haga clic en **[!UICONTROL Crear carpeta]** en la barra de herramientas. While [!DNL Assets Essentials] ofrece una potente funcionalidad de búsqueda de texto completo, pero también puede utilizar carpetas para organizar mejor los recursos.
 
-Una vez seleccionados los archivos, aparece un cuadro de diálogo de confirmación para añadir más archivos o para eliminar los archivos ya seleccionados. Para agregar más archivos a una selección, haga clic en **[!UICONTROL Browse]** y seleccione **[!UICONTROL Browse files]** o **[!UICONTROL Browse folders]**. Añada más archivos o carpetas de la misma carpeta o de otra carpeta.
+Una vez seleccionados los archivos, aparece un cuadro de diálogo de confirmación para añadir más archivos o para eliminar los archivos ya seleccionados. Para añadir más archivos a una selección, haga clic en **[!UICONTROL Examinar]** y seleccione **[!UICONTROL Examinar archivos]** o **[!UICONTROL Examinar carpetas]**. Añada más archivos o carpetas de la misma carpeta o de otra carpeta.
 
-Una vez que todos los archivos estén en cola, haga clic en **[!UICONTROL Upload]**.
+Una vez que todos los archivos estén en cola, haga clic en **[!UICONTROL Cargar]**.
 
 ![Cargar archivos y carpetas](assets/upload-browse-files-folders.png)
 
@@ -38,17 +38,17 @@ Una vez que todos los archivos estén en cola, haga clic en **[!UICONTROL Upload
 
 ## Ver el progreso y estado de la carga {#upload-progress}
 
-Al cargar muchos recursos o carpetas anidadas en [!DNL Assets Essentials], es posible que algunos recursos no se carguen por varios motivos, como problemas de red y recursos duplicados.
+Al cargar muchos recursos o carpetas anidadas en [!DNL Assets Essentials], algunos recursos pueden no cargarse debido a varios motivos, como problemas de red y recursos duplicados.
 
-Para realizar un seguimiento del progreso de carga, haga clic en la opción **[!UICONTROL Upload Progress]** de la barra de herramientas. Un panel muestra el progreso de carga de todos los recursos.
+Para realizar un seguimiento del progreso de carga, haga clic en **[!UICONTROL Progreso de carga]** en la barra de herramientas. Un panel muestra el progreso de carga de todos los recursos.
 
-Para ver un subconjunto de recursos en función del progreso o estado de carga, utilice el filtro de la barra lateral **[!UICONTROL Upload Progress]**. Los distintos filtros muestran todos los recursos, las cargas completadas, las cargas en curso, los recursos en cola que se van a cargar, las cargas en pausa, los recursos duplicados y los recursos que no se han cargado.
+Para ver un subconjunto de recursos en función del progreso o estado de carga, utilice el filtro de la sección **[!UICONTROL Progreso de carga]** barra lateral. Los distintos filtros muestran todos los recursos, las cargas completadas, las cargas en curso, los recursos en cola que se van a cargar, las cargas en pausa, los recursos duplicados y los recursos que no se han cargado.
 
 ![Filtrado del progreso de carga en función del estado de carga](assets/filter-upload-progress.png)
 
 *Figura: Filtre los recursos que ha intentado cargar en función de su estado de carga o del progreso de carga.*
 
-Inmediatamente después de cargar los recursos, [!DNL Assets Essentials] los procesa para generar miniaturas y procesar metadatos. Para muchos recursos, el procesamiento lleva algún tiempo. Si no ve una miniatura y ve un mensaje de procesamiento en la miniatura del marcador de posición, vuelva a comprobar la carpeta después de unos minutos. Durante el procesamiento, entre otras cosas, [!DNL Assets Essentials] genera las representaciones, agrega las etiquetas inteligentes e indexa los detalles de los recursos para la búsqueda.
+Inmediatamente después de cargar los recursos, [!DNL Assets Essentials] procesa los recursos para generar miniaturas y procesar metadatos. Para muchos recursos, el procesamiento lleva algún tiempo. Si no ve una miniatura y ve un mensaje de procesamiento en la miniatura del marcador de posición, vuelva a comprobar la carpeta después de unos minutos. Durante el procesamiento, entre otras cosas, [!DNL Assets Essentials] genera las representaciones, agrega las etiquetas inteligentes e indexa los detalles del recurso para la búsqueda.
 
 ![Los recursos son procesos tras la carga y el mosaico muestra el procesamiento](assets/upload-processing.png)
 
@@ -56,7 +56,7 @@ Inmediatamente después de cargar los recursos, [!DNL Assets Essentials] los pro
 
 ## Representaciones de recursos {#renditions}
 
-[!DNL Assets Essentials] procesa los recursos cargados casi en tiempo real y, para muchos tipos de archivo admitidos, genera representaciones. Creadas para imágenes, las representaciones son versiones cambiadas de tamaño de la imagen cargada. Puede descargar no solo el recurso, sino también las representaciones para utilizar una versión adecuada. Puede ver todas las representaciones de un recurso al [obtener una vista previa de un recurso](/help/navigate-view.md#preview-assets).
+[!DNL Assets Essentials] procesa los recursos cargados casi en tiempo real y, para muchos tipos de archivo admitidos, genera representaciones. Creadas para imágenes, las representaciones son versiones cambiadas de tamaño de la imagen cargada. Puede descargar no solo el recurso, sino también las representaciones para utilizar una versión adecuada. Puede ver todas las representaciones de un recurso al [vista previa de un recurso](/help/navigate-view.md#preview-assets).
 
 ![Representaciones](assets/renditions-view-download.png)
 
@@ -64,7 +64,7 @@ Inmediatamente después de cargar los recursos, [!DNL Assets Essentials] los pro
 
 ## Administrar cargas fallidas {#resolve-upload-fails}
 
-Si la carga de un recurso admitido falla por algún motivo, haga clic en **[!UICONTROL Retry]** en el panel [!UICONTROL Upload Progress].
+Si la carga de un recurso admitido falla por algún motivo, haga clic en **[!UICONTROL Reintentar]** de la variable [!UICONTROL Progreso de carga] panel.
 
 ![Reintentar una carga fallida](assets/upload-retry.png)
 
@@ -82,7 +82,7 @@ Si intenta cargar recursos duplicados, estos no se cargarán hasta que confirme 
 
 >[!TIP]
 >
->Puede cargar recursos en el repositorio de DAM directamente desde las aplicaciones de escritorio [!DNL Creative Cloud] . Consulte cómo [[!DNL Assets Essentials] se integra con [!DNL Adobe Asset Link]](/help/integration.md).
+>Puede cargar recursos en el repositorio de DAM directamente desde su [!DNL Creative Cloud] aplicaciones de escritorio. Consulte cómo [[!DNL Assets Essentials] se integra con [!DNL Adobe Asset Link]](/help/integration.md).
 
 ## Eliminar recursos o carpetas {#delete-assets}
 
@@ -94,4 +94,4 @@ Los usuarios pueden eliminar recursos o carpetas individuales que ya no sean nec
 
    *Figura: Las acciones para archivos y carpetas están disponibles en el mosaico del recurso o de la carpeta.*
 
-* Seleccione un recurso o una carpeta y haga clic en **[!UICONTROL Delete]** ![eliminar icono](assets/do-not-localize/delete-icon.png) en la barra de herramientas.
+* Seleccione un recurso o una carpeta y haga clic en **[!UICONTROL Eliminar]** ![icono eliminar](assets/do-not-localize/delete-icon.png) en la barra de herramientas.
