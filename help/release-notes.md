@@ -4,18 +4,27 @@ description: Notas de la versión y problemas conocidos de [!DNL Assets Essentia
 role: User,Leader,Admin,Architect,Developer
 contentOwner: AG
 exl-id: a0e29eb6-336a-4f78-b7bd-ec1338c86775
-source-git-commit: eb6822a1e813b6c7687ba3d797e4f43b3c1ef2a0
+source-git-commit: 211233202b667f9d25713491c8ae59e002139777
 workflow-type: tm+mt
-source-wordcount: '364'
-ht-degree: 1%
+source-wordcount: '549'
+ht-degree: 0%
 
 ---
 
 # Notas de la versión de [!DNL Assets Essentials] {#release-notes}
 
-La versión actual de [!DNL Assets Essentials] se publicó el 3 de febrero de 2022. Esta versión proporciona:
+La versión actual de [!DNL Assets Essentials] se publicó el 3 de marzo de 2022. Esta versión proporciona:
 
-* Mejoras de rendimiento para [!UICONTROL Crear carpeta] operación. <!-- CQ-4338818 -->
+* [!DNL Assets Essentials] ahora le permite [generar un vínculo y compartir recursos con partes interesadas externas](share-links-for-assets.md), que no tienen acceso al [!DNL Assets Essentials] aplicación. Puede definir una fecha de caducidad para el vínculo y luego compartirlo con otras personas mediante el método de comunicación que prefiera, como el correo electrónico o los servicios de mensajería. Los destinatarios del vínculo pueden obtener una vista previa de los recursos y descargarlos.
+
+* La variable [!DNL Assets Essentials] ahora incluye [un perfil de producto de administrador](deploy-administer.md#add-users-to-essentials) en Admin Console, además de los perfiles de producto de usuario normales y de consumidor existentes. Un administrador ahora puede asignar otros usuarios al perfil de producto del administrador.
+
+* Assets Essentials ahora permite a los administradores [administrar los niveles de acceso para las carpetas disponibles en el repositorio](manage-permissions.md). Como administrador, puede crear grupos de usuarios y asignar permisos a esos grupos para administrar los niveles de acceso. También puede delegar los privilegios de administración de permisos a grupos de usuarios en el nivel de carpeta.
+
+* Mejoras y correcciones de errores basadas en los comentarios de los clientes.
+
+Además, [!DNL Adobe Asset Link] extensión para Creative Cloud (Photoshop, Illustrator y InDesign) publicada como [nueva versión 3.2.0](https://exchange.adobe.com/creativecloud.details.106875.adobe-asset-link-cep.html), con mejoras de rendimiento en el tiempo de inicio del panel y en la velocidad de descarga.
+
 
 ## Problemas conocidos {#known-issues}
 
@@ -26,6 +35,12 @@ La lista de problemas conocidos de [!DNL Assets Essentials] oferta se revisa y a
 Si encuentra algún problema o incluso solicitudes de mejora, [proporcionar comentarios](#provide-feedback) al equipo.
 
 ## Versiones anteriores {#past-release}
+
+### Versión 2022.1.0 {#january-2022}
+
+[!DNL Assets Essentials] está disponible el 3 de febrero de 2022, con las siguientes actualizaciones:
+
+* Mejoras de rendimiento para [!UICONTROL Crear carpeta] operación. <!-- CQ-4338818 -->
 
 ### Versión 2021.11.0 {#november-2021}
 

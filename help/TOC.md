@@ -8,19 +8,22 @@ user-guide-description: Assets Essentials es una solución de administración de
 feature-set: Experience Manager Assets,Experience Manager
 feature: Asset Management
 role: User,Leader
-source-git-commit: eb6822a1e813b6c7687ba3d797e4f43b3c1ef2a0
+source-git-commit: be84c4c7a5e2f3220cde54f1d01007e9dacf183a
 workflow-type: tm+mt
-source-wordcount: '64'
-ht-degree: 46%
+source-wordcount: '77'
+ht-degree: 42%
 
 ---
 
 
-# [!DNL Assets Essentials] Guía {#help}
+# [!DNL Assets Essentials]Guía  {#help}
 
 + [Información general de la solución](introduction.md)
 + [Notas de la versión](release-notes.md)
 + [Implementar y agregar usuarios](deploy-administer.md)
++ Administrar acceso a carpetas{#folder-access}
+   + [Administrar permisos de carpeta](manage-permissions.md)
+   + [Prácticas recomendadas para la administración de permisos](permission-management-best-practices.md)
 + [Introducción a [!DNL Assets Essentials]](get-started.md)
 + [Tipos de archivos y casos de uso compatibles](supported-file-formats.md)
 + [Ver recursos](navigate-view.md)
@@ -29,4 +32,5 @@ ht-degree: 46%
 + [Tareas de administración de activos](manage-organize.md)
 + [Editar imágenes](edit-images.md)
 + [Administrar metadatos de recursos](metadata.md)
++ [Compartir recursos](share-links-for-assets.md)
 + [Integración con otras soluciones](integration.md)
