@@ -2,7 +2,7 @@
 title: ¿Cómo se administran los permisos de las carpetas en AEM Assets Essentials?
 description: Assets Essentials permite a los administradores administrar los niveles de acceso para las carpetas disponibles en el repositorio. Cree grupos de usuarios y asigne permisos a esos grupos para administrar los niveles de acceso. Como administrador, también puede delegar los privilegios de administración de permisos en grupos de usuarios en el nivel de carpeta.
 exl-id: 5ef01dbc-87c0-4013-9367-5da3774f4f20
-source-git-commit: 424517e7961bcc39cd3048ebc750fe1b4b06f659
+source-git-commit: 57aa6f4641deb8cc687a462a380404e8fc3b6844
 workflow-type: tm+mt
 source-wordcount: '1580'
 ht-degree: 0%
@@ -70,7 +70,7 @@ Puede utilizar los siguientes métodos para crear una estructura de carpetas en 
 
 Cree una estructura de carpetas que funcione bien con los objetivos empresariales de la organización. Si está cargando una estructura de carpetas existente en el repositorio de Assets Essentials, debe revisar la estructura. Para obtener más información, consulte [Prácticas recomendadas para la administración eficaz de permisos](permission-management-best-practices.md).
 
-## Administrar permisos en carpetas {#manage-permissions-folders}
+## Administrar permisos en carpetas {#manage-permissions-on-folders}
 
 Puede asignar los siguientes permisos a los grupos de usuarios o a los usuarios. Adobe no recomienda asignar permisos a los usuarios.
 
