@@ -2,7 +2,7 @@
 title: ¿Cómo se administran los permisos de las carpetas en AEM Assets Essentials?
 description: Assets Essentials permite a los administradores administrar los niveles de acceso para las carpetas disponibles en el repositorio. Cree grupos de usuarios y asigne permisos a esos grupos para administrar los niveles de acceso. Como administrador, también puede delegar los privilegios de administración de permisos en grupos de usuarios en el nivel de carpeta.
 exl-id: 5ef01dbc-87c0-4013-9367-5da3774f4f20
-source-git-commit: 68bfd7cb55b38e12ee0f5b8f12449c7137e02e90
+source-git-commit: 98879f59bd1bb5725f51f91bfa638f2de6759e9a
 workflow-type: tm+mt
 source-wordcount: '1580'
 ht-degree: 0%
@@ -15,7 +15,7 @@ Assets Essentials permite a los administradores administrar los niveles de acces
 
 El diagrama de flujo de datos siguiente ilustra la secuencia de tareas que se realizan para configurar y administrar los permisos de las carpetas disponibles en el repositorio de Assets Essentials:
 
-![Opciones de la barra de herramientas al seleccionar un recurso](assets/permissions-management.png)
+![Opciones de la barra de herramientas al seleccionar un recurso](assets/permissions-management-updated.png)
 
 ## Antes de administrar permisos para carpetas {#before-managing-permissions}
 
@@ -93,7 +93,7 @@ Por ejemplo, si asigna la variable `Can View` permisos para una carpeta para un 
 
 Si necesita proporcionar permisos de edición al `Marketing` carpeta solo para el departamento de marketing de su organización y vea los permisos para otras personas. asigne `Can View` permisos para supergrupo `All Authenticated Users` y `Can Edit` permisos para su subgrupo `Marketing`.
 
-![Asignar permisos](assets/permissions-management-groups.png)
+![Asignar permisos](assets/permissions-management-groups-updated.png)
 
 **Herencia de permisos**
 
@@ -183,7 +183,7 @@ Cree los siguientes grupos de usuarios en Admin Console:
 * Equipo legal
 
 El diagrama siguiente ilustra la jerarquía de carpetas y los permisos asignados a cada grupo de usuarios:
-![Asignar permisos](assets/use-case-permissions-mamagement.png)
+![Asignar permisos](assets/use-case-permissions-management.png)
 
 Los siguientes son los niveles de acceso para todos los grupos de usuarios en la jerarquía de carpetas:
 
