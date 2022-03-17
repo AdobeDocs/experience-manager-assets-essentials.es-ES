@@ -1,7 +1,8 @@
 ---
 title: ¿Cómo se administran los permisos de las carpetas en AEM Assets Essentials?
 description: Assets Essentials permite a los administradores administrar los niveles de acceso para las carpetas disponibles en el repositorio. Cree grupos de usuarios y asigne permisos a esos grupos para administrar los niveles de acceso. Como administrador, también puede delegar los privilegios de administración de permisos en grupos de usuarios en el nivel de carpeta.
-source-git-commit: 0567ef9d10880750f88d83ee506d9b95e9432a93
+exl-id: 5ef01dbc-87c0-4013-9367-5da3774f4f20
+source-git-commit: 800ebc5040dcd4b6ed4178314b0627cbde7ddeaf
 workflow-type: tm+mt
 source-wordcount: '1580'
 ht-degree: 0%
@@ -42,7 +43,7 @@ Para agregar administradores:
 
 Cree grupos de usuarios y asigne permisos a esos grupos para administrar los niveles de acceso a carpetas en el repositorio de Assets Essentials. A continuación, puede asignar los usuarios a los grupos de usuarios.
 
-![Agregar usuarios a grupos y perfiles de producto](assets/user-groups-product-profiles.png)
+![Agregar usuarios a grupos y perfiles de producto](assets/user-groups-product-profiles-updated.png)
 
 Puede agregar usuarios a grupos de usuarios (1) y [usuarios con perfiles de producto de Assets Essentials (2)](#add-admin-users). Sin embargo, no puede agregar grupos de usuarios directamente a Perfiles de producto de Assets Essentials (3).
 
