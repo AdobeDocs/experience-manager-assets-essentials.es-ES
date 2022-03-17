@@ -2,7 +2,7 @@
 title: ¿Cómo se administran los permisos de las carpetas en AEM Assets Essentials?
 description: Assets Essentials permite a los administradores administrar los niveles de acceso para las carpetas disponibles en el repositorio. Cree grupos de usuarios y asigne permisos a esos grupos para administrar los niveles de acceso. Como administrador, también puede delegar los privilegios de administración de permisos en grupos de usuarios en el nivel de carpeta.
 exl-id: 5ef01dbc-87c0-4013-9367-5da3774f4f20
-source-git-commit: 98879f59bd1bb5725f51f91bfa638f2de6759e9a
+source-git-commit: 94435a9fc17ab02c6872bb165a4cb697b56d5602
 workflow-type: tm+mt
 source-wordcount: '1580'
 ht-degree: 0%
@@ -15,7 +15,7 @@ Assets Essentials permite a los administradores administrar los niveles de acces
 
 El diagrama de flujo de datos siguiente ilustra la secuencia de tareas que se realizan para configurar y administrar los permisos de las carpetas disponibles en el repositorio de Assets Essentials:
 
-![Opciones de la barra de herramientas al seleccionar un recurso](assets/permissions-management-updated.png)
+![Opciones de la barra de herramientas al seleccionar un recurso](assets/permissions-management-new.png)
 
 ## Antes de administrar permisos para carpetas {#before-managing-permissions}
 
@@ -93,13 +93,13 @@ Por ejemplo, si asigna la variable `Can View` permisos para una carpeta para un 
 
 Si necesita proporcionar permisos de edición al `Marketing` carpeta solo para el departamento de marketing de su organización y vea los permisos para otras personas. asigne `Can View` permisos para supergrupo `All Authenticated Users` y `Can Edit` permisos para su subgrupo `Marketing`.
 
-![Asignar permisos](assets/permissions-management-groups-updated.png)
+![Asignar permisos](assets/permissions-management-groups-new.png)
 
 **Herencia de permisos**
 
 Assets Essentials utiliza la herencia de permisos, que le permite heredar los permisos establecidos para la carpeta principal en la carpeta secundaria. Por ejemplo, si la carpeta principal tiene `Can View` permisos para `All Authenticated Users` grupo y la carpeta secundaria tiene `Can Edit` permisos para `Marketing` grupo de usuarios, permite que todos los usuarios autenticados tengan permisos de visualización para la carpeta secundaria y la `Marketing` grupo de usuarios con permisos de edición para la carpeta secundaria. La variable `Marketing` grupo de usuarios tiene permisos de edición para niveles adicionales de carpetas en la carpeta secundaria (Marketing).
 
-![Asignar permisos](assets/permissions-inheritance-updated.png)
+![Asignar permisos](assets/permissions-inheritance-new.png)
 
 >[!NOTE]
 >
