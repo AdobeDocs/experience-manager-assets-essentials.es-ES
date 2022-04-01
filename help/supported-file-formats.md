@@ -7,17 +7,17 @@ exl-id: bc44e98d-446e-41ff-b5b4-9dc324834630
 source-git-commit: b9d333a862cca6227ef386ae8dadf431c2fb6d71
 workflow-type: tm+mt
 source-wordcount: '308'
-ht-degree: 16%
+ht-degree: 100%
 
 ---
 
-# Los formatos de archivo son compatibles con [!DNL Assets Essentials] {#file-format-support}
+# Compatibilidad de formatos de archivo en [!DNL Assets Essentials] {#file-format-support}
 
 [!DNL Assets Essentials] admite una amplia gama de formatos de archivo y cada funcionalidad tiene compatibilidad variada con distintos tipos de archivo.
 
 * ![icono de tipo de archivo de imagen](assets/image-icon.svg) Imágenes: JPG, PNG, GIF, TIFF y otros
-* ![icono de tipo nube creativa](assets/creative-cloud-files.svg) archivos Creative Cloud: PSD, IA e INDD
-* ![icono de tipo cámara](assets/camera-icon.svg) archivos Camera Raw: CR2/CR3, NEF, SRW/SRF y otros
+* ![icono de tipo Creative Cloud](assets/creative-cloud-files.svg) Archivos de Creative Cloud: PSD, IA e INDD
+* ![icono de tipo cámara](assets/camera-icon.svg) Archivos de Camera Raw: CR2/CR3, NEF, SRW/SRF y otros
 * ![icono de tipo de archivo de documento](assets/document-icon.svg) Documentos: DOCX, PDF, PPTX y XLSX
 * ![icono de tipo de archivo de vídeo](assets/video-icon.svg) Vídeos: MP4
 
@@ -25,22 +25,22 @@ ht-degree: 16%
 
 [!DNL Assets Essentials] también admite archivos RAW de cámara de una amplia gama de fabricantes líderes de cámaras, incluidos Canon (CR2/CR3), Nikon (NEF), Sony (SRW/SRF), Fujifilm (RAF), Olympus (ORF) y otros, con tecnología Adobe Camera Raw.
 
-Los distintos tipos de archivo tienen diferentes grados de compatibilidad con los casos de uso y las funciones, como se describe a continuación. Utilice la leyenda para comprender el nivel de asistencia.
+Los distintos tipos de archivo tienen diferentes grados de compatibilidad con los casos de uso y las funciones, como se describe a continuación. Utilice la leyenda para comprender el nivel de compatibilidad.
 
-| Nivel de asistencia | Descripción |
+| Nivel de soporte | Descripción |
 |-------------------|-------------------------|
-| ✓ | Compatible |
-| ✓ | Compatible condicionalmente |
-| - | No aplicable |
+| ✓ | Compatibilidad |
+| ✓ ‡ | Compatible con condiciones |
+| − | No aplicable |
 
-## Agregar, cargar y ver recursos {#support-to-upload-view}
+## Adición, carga y visualización de recursos {#support-to-upload-view}
 
 <!-- TBD: For AEM, AI files require the PDF option to be selected when saving the AI file.
 -->
 
 | Tipo de recurso | [Examinar](/help/navigate-view.md) | Copiar | [Cargar](/help/add-delete.md) | Crear | [Eliminar](/help/add-delete.md#delete-assets) | Detalles | Zoom de imagen | [Vistos recientemente](/help/navigate-view.md) |
 |-------------------|----------|----------|----------|----------|----------|-------------------|------------|-----------------|
-| Imágenes rasterizadas | ✓ | ✓ | ✓ | - | ✓ | ✓ | ✓ | ✓ |
+| Rasterización de imágenes | ✓ | ✓ | ✓ | - | ✓ | ✓ | ✓ | ✓ |
 | Archivos RAW | ✓ | ✓ | ✓ | - | ✓ | ✓ | ✓ | ✓ |
 | Carpetas | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | - | - |
 | Vídeos MP4 | ✓ | ✓ | ✓ | - | ✓ | ✓ | - | ✓ |
@@ -52,11 +52,11 @@ Los distintos tipos de archivo tienen diferentes grados de compatibilidad con lo
 | CC Libraries  | &#10003; | &minus;  | &#10003; | &#10003; | &#10003; | &#10003; | &minus;    | &minus;         |
 -->
 
-## Buscar, utilizar y editar recursos {#support-to-search-use-edit}
+## Búsqueda, utilización y edición de recursos {#support-to-search-use-edit}
 
 | Tipo de recurso | [Descargar](/help/manage-organize.md#download) | Arrastrar y colocar | [Editor de imágenes](/help/edit-images.md) | [Buscar](/help/search.md) | [Etiquetas inteligentes](/help/metadata.md#tags) | [Cambiar nombre](/help/manage-organize.md) | [Versiones](/help/manage-organize.md#versions-of-assets) |
 |---------------|----------|---------------|--------------|----------|------------|----------|----------|
-| Imágenes rasterizadas | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
+| Rasterización de imágenes | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
 | Archivos RAW | ✓ | ✓ | - | ✓ | ✓ | ✓ | ✓ | ✓ |
 | Carpetas | ✓ | ✓ | - | ✓ | - | ✓ | ✓ |
 | Vídeos | ✓ | ✓ | - | ✓ | ✓ | ✓ | ✓ |
@@ -66,11 +66,11 @@ Los distintos tipos de archivo tienen diferentes grados de compatibilidad con lo
 | Otros archivos binarios | ✓ | ✓ | - | ✓ | - | ✓ | ✓ |
 
 
-## Revisar recursos y colaborar {#support-to-review-collaborate}
+## Revisión de recursos y colaboración {#support-to-review-collaborate}
 
-| Tipo de recurso | Anotar | Comentario | Crear tareas y revisar |
+| Tipo de recurso | Anotar | Comentar | Crear tareas y revisar |
 |---------------|----------|----------|-------------------------|
-| Imágenes rasterizadas | ✓ | ✓ | ✓ |
+| Rasterización de imágenes | ✓ | ✓ | ✓ |
 | Archivos RAW | ✓ | ✓ | ✓ |
 | Carpetas | - | - | - |
 | Vídeos | - | ✓ | ✓ |
@@ -83,7 +83,7 @@ Los distintos tipos de archivo tienen diferentes grados de compatibilidad con lo
 
 | Tipo de recurso | [Metadatos](/help/metadata.md) | [Representaciones](/help/add-delete.md#renditions) | [Papelera](/help/add-delete.md#delete-assets) | Copiar | Mover |
 |---------------|-------------------|------------|----------|----------|----------|
-| Imágenes rasterizadas | ✓ | ✓ | ✓ | ✓ | ✓ |
+| Rasterización de imágenes | ✓ | ✓ | ✓ | ✓ | ✓ |
 | Archivos RAW | ✓ | ✓ | ✓ | ✓ | ✓ |
 | Carpetas | ✓ | - | ✓ | ✓ | ✓ |
 | Vídeos | ✓ | - | ✓ | ✓ | ✓ |
@@ -92,7 +92,7 @@ Los distintos tipos de archivo tienen diferentes grados de compatibilidad con lo
 | PSD, IA e INDD | ✓ | - | ✓ | ✓ | ✓ |
 | Otros archivos binarios | ✓ | - | ✓ | ✓ | ✓ |
 
-Usuarios de [!DNL Adobe Asset Link] puede cargar y registrar archivos (cargar una nueva versión) en el [!DNL Assets Essentials] del repositorio admitido [!DNL Adobe Creative Cloud] aplicaciones de escritorio.
+Los usuarios de [!DNL Adobe Asset Link] pueden cargar y registrar archivos (cargar una nueva versión) en el repositorio de [!DNL Assets Essentials] desde las aplicaciones de escritorio de [!DNL Adobe Creative Cloud] admitidas.
 
 <!-- TBD: Saving the template table separately for later use.
 | Asset type    | Features |
