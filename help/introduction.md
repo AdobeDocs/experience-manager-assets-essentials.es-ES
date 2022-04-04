@@ -3,10 +3,10 @@ title: Introducción a [!DNL Assets Essentials]
 description: Información general y resumen de la solución de Assets Essentials
 role: User,Leader
 exl-id: 43ddf11c-36d3-4643-80c9-b7dd5d199450
-source-git-commit: ecc36da0de9e4e7075085251aacdaf92640311a6
+source-git-commit: c95717e9898ade023d785b9d0191f4bc20f10a39
 workflow-type: tm+mt
-source-wordcount: '233'
-ht-degree: 100%
+source-wordcount: '243'
+ht-degree: 90%
 
 ---
 
@@ -18,7 +18,15 @@ ht-degree: 100%
 
 Adobe ofrece una solución sólida de administración de activos digitales (DAM) para que usted pueda sacar el máximo partido a sus recursos digitales. Como parte de la línea de productos de Adobe Experience Manager, Adobe proporciona una nueva solución SaaS para almacenar, administrar y descubrir recursos digitales, que también se integran de forma nativa con otras soluciones de Adobe.
 
-[!DNL Experience Manager Assets Essentials] es una nueva edición ligera de [!DNL Adobe Experience Manager Assets]. [!DNL Assets Essentials] proporciona una colaboración y administración unificadas de recursos con una interfaz de usuario simplificada y coherente. La facilidad de uso permite que equipos más creativos y de marketing almacenen, descubran y distribuyan recursos digitales. Actualmente, [!DNL Assets Essentials] está disponible para [[!DNL Adobe Journey Optimizer]](https://experienceleague.adobe.com/docs/journey-optimizer/using/ajo-home.html?lang=es) como parte de esta última solución.
+[!DNL Experience Manager Assets Essentials] es una nueva edición ligera de [!DNL Adobe Experience Manager Assets]. [!DNL Assets Essentials] proporciona una colaboración y administración unificadas de recursos con una interfaz de usuario simplificada y coherente. La facilidad de uso permite que equipos más creativos y de marketing almacenen, descubran y distribuyan recursos digitales. Actualmente, el [!DNL Assets Essentials] experience puede integrarse con las siguientes soluciones:
+
+* Creative Cloud para empresas
+
+* Adobe Journey Optimizer
+
+* Adobe Workfront
+
+Para obtener más información, consulte [Integración con otras soluciones de Adobe](integration.md).
 
 [!DNL Assets Essentials] se centra en la interfaz sencilla y en la búsqueda y el descubrimiento eficientes de recursos digitales, para garantizar la utilización de los recursos, el control y la uniformidad de la marca en todos los equipos. La experiencia del usuario final puede ser mediante una interfaz de usuario web independiente y una experiencia integrada en otras soluciones de Adobe.
 
