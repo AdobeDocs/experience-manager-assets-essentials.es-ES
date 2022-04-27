@@ -4,9 +4,9 @@ description: Acceso, experiencia de inicio de sesión, casos de uso compatibles 
 role: User, Leader
 exl-id: 7917b2a0-8340-4d94-aa6f-30ce986fa752
 source-git-commit: fdfbe04b41c6b164007591855c4dd37b6fe3dfa7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '476'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -36,7 +36,7 @@ Para abrir las preferencias, haga clic en el avatar en la esquina superior derec
 
 Si forma parte de diferentes organizaciones, también puede cambiarlas y acceder a sus cuentas en varias de ellas.
 
-Para cambiar el [!UICONTROL preferencias del Experience Cloud], haga clic en [!UICONTROL Preferencias].
+Para cambiar las [!UICONTROL Preferencias de Experience Cloud], haga clic en [!UICONTROL Preferencias].
 
 ![Preferencia para cambiar el tema oscuro y el claro](assets/theme-change.png)
 
@@ -65,11 +65,11 @@ Las diversas tareas de administración de activos digitales (DAM) que puede real
 
 ## ![icono de comentarios](assets/do-not-localize/feedback-icon.png) Proporcionar comentarios del producto {#provide-feedback}
 
-Adobe recibe con mucho gusto los comentarios acerca de la solución. Para proporcionar comentarios sin cambiar siquiera la aplicación de trabajo, use el [!UICONTROL Comentarios] en la interfaz de usuario. También permite adjuntar archivos, como capturas de pantalla o una grabación en vídeo de un problema.
+Adobe recibe con mucho gusto los comentarios acerca de la solución. Para proporcionar comentarios sin cambiar siquiera la aplicación de trabajo, use la opción [!UICONTROL Comentarios] en la interfaz de usuario. También permite adjuntar archivos, como capturas de pantalla o una grabación en vídeo de un problema.
 
 ![opción de comentarios en la interfaz](assets/feedback-panel.png)
 
-Para proporcionar comentarios sobre la documentación, haga clic en [!UICONTROL Editar esta página] ![editar la página](assets/do-not-localize/edit-page.png) o [!UICONTROL Registrar un problema] ![crear un problema de GitHub](assets/do-not-localize/github-issue.png) desde la barra lateral derecha. Puede realizar una de las siguientes acciones:
+Para proporcionar comentarios sobre la documentación, haga clic en [!UICONTROL Editar esta página] y ![edite la página](assets/do-not-localize/edit-page.png) o [!UICONTROL Crear una incidencia] y ![cree una incidencia de GitHub](assets/do-not-localize/github-issue.png) en la barra lateral derecha. Puede realizar una de las siguientes acciones:
 
 * Lleve a cabo las actualizaciones de contenido y envíe una solicitud de extracción de GitHub.
 * Cree una incidencia o un ticket en GitHub. Conserve el nombre del artículo que se rellena automáticamente al crear un problema.
