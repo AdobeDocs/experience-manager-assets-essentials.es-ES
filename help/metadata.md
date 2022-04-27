@@ -1,67 +1,67 @@
 ---
-title: Administrar metadatos
-description: Administrar metadatos de recursos en [!DNL Assets Essentials]
+title: Administración de metadatos
+description: Administración de metadatos de recursos en [!DNL Assets Essentials]
 role: User,Leader,Admin,Architect,Developer
 contentOwner: AG
 exl-id: cfc105d1-41fc-4418-9905-b2a28a348682
 source-git-commit: cd7af0c946a042430e62528fa6aa19bdab139f67
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '962'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
-# Metadatos de [!DNL Assets Essentials] {#metadata}
+# Metadatos en [!DNL Assets Essentials] {#metadata}
 
-Metadatos significa datos o descripción de los datos. Por ejemplo, las imágenes como un recurso pueden contener información sobre la cámara en la que se hizo clic o cualquier información de copyright. Esta información son metadatos de la imagen. Los metadatos son esenciales para una administración eficiente de los recursos. Los metadatos son la recopilación de todos los datos disponibles para un recurso, pero es posible que no estén necesariamente contenidos en ese recurso.
+Los metadatos son los datos o la descripción de los datos. Por ejemplo, las imágenes, como recurso, pueden contener información acerca de la cámara en la que se hizo clic o cualquier información de copyright. Esta información son los metadatos de la imagen. Los metadatos son esenciales para una administración eficiente de los recursos. Los metadatos son la recopilación de todos los datos disponibles para un recurso, pero es posible que no estén necesariamente contenidos en ese recurso.
 
-Los metadatos le ayudan a categorizar los recursos y son útiles a medida que aumenta la cantidad de información digital. Es posible administrar algunos cientos de archivos basados únicamente en los nombres de archivo, miniaturas y memoria. Sin embargo, este enfoque no es escalable. Se queda corto cuando aumenta el número de personas involucradas y el número de activos administrados.
+Los metadatos le ayudan a categorizar los recursos y son útiles a medida que aumenta la cantidad de información digital. Es posible administrar algunos cientos de archivos basados únicamente en los nombres de archivo, miniaturas y memoria. Sin embargo, este enfoque no es escalable. Se queda corto cuando aumenta el número de personas involucradas y el número de recursos administrados.
 
-Con la adición de metadatos, el valor de un recurso digital aumenta, ya que el recurso se convierte en,
+Con la adición de metadatos, el valor de un recurso digital aumenta, ya que pasa a ser:
 
-* Más accesible: los sistemas y usuarios pueden encontrarlo fácilmente.
+* Más accesible: los sistemas y los usuarios pueden encontrarlo fácilmente.
 * Más fácil de administrar: puede encontrar recursos con el mismo conjunto de propiedades más fácilmente y aplicarles cambios.
-* Completado : el recurso conlleva más información y contexto con más metadatos.
+* Completado: el recurso lleva más información y contexto con más metadatos.
 
 Por estos motivos, Assets le proporciona los medios adecuados para crear, administrar e intercambiar metadatos para sus recursos digitales.
 
-## Ver los metadatos {#view-metadata}
+## Visualización de los metadatos {#view-metadata}
 
-Para ver los metadatos de un recurso, navegue hasta él o busque el recurso, selecciónelo y haga clic en **[!UICONTROL Detalles]** en la barra de herramientas.
+Para ver los metadatos de un recurso, navegue hasta él o búsquelo, selecciónelo y haga clic en **[!UICONTROL Detalles]** en la barra de herramientas.
 
-![Ver metadatos de un recurso](assets/metadata-view1.png)
+![Visualización de los metadatos de un recurso](assets/metadata-view1.png)
 
-*Figura: Para ver un recurso y sus metadatos, haga clic en **[!UICONTROL Detalles]**en la barra de herramientas o haga doble clic en el recurso.*
+*Imagen: para ver un recurso y sus metadatos, haga clic en **[!UICONTROL Detalles]** en la barra de herramientas o haga doble clic en él.*
 
-Los metadatos básicos, como título, descripción y fecha de carga, están disponibles en la [!UICONTROL Básico] pestaña . La variable [!UICONTROL Avanzadas] contiene metadatos más avanzados, como el modelo de cámara, detalles de objetivo y geotags. La variable [!UICONTROL Etiquetas] contiene etiquetas aplicadas automáticamente en función del contenido de la imagen.
+Los metadatos básicos, como título, descripción y fecha de carga, están disponibles en la pestaña [!UICONTROL Básico]. La pestaña [!UICONTROL Avanzado] contiene metadatos más avanzados, como el modelo de cámara, los detalles de la lente y etiquetas geográficas. La pestaña [!UICONTROL Etiquetas] contiene etiquetas aplicadas automáticamente en función del contenido de la imagen.
 
-## Actualizar metadatos {#update-metadata}
+## Actualización de metadatos {#update-metadata}
 
-Puede actualizar algunos campos de metadatos manualmente. Los campos incluyen [!UICONTROL Título], [!UICONTROL Descripción], [!UICONTROL Autor]y [!UICONTROL Palabras clave].
+Puede actualizar algunos campos de metadatos manualmente. Los campos incluyen [!UICONTROL Título], [!UICONTROL Descripción], [!UICONTROL Autor] y [!UICONTROL Palabras clave].
 
 ## Etiquetas {#tags}
 
-[!DNL Assets Essentials] utiliza inteligencia artificial proporcionada por [Adobe Sensei](https://www.adobe.com/sensei.html) para aplicar automáticamente las etiquetas relevantes a todos los recursos cargados. Estas etiquetas, con el nombre adecuado Etiquetas inteligentes, aumentan la velocidad de contenido de los proyectos al ayudarle a encontrar recursos relevantes rápidamente. Las etiquetas inteligentes son un ejemplo de metadatos que no están contenidos en la imagen.
+[!DNL Assets Essentials] utiliza inteligencia artificial proporcionada por [Adobe Sensei](https://www.adobe.com/es/sensei.html) para aplicar automáticamente las etiquetas relevantes a todos los recursos cargados. Estas etiquetas, que reciben el adecuado nombre de Etiquetas inteligentes, aumentan la velocidad del contenido de los proyectos al ayudarle a encontrar recursos relevantes con rapidez. Las etiquetas inteligentes son un ejemplo de metadatos que no están contenidos en la imagen.
 
-Las etiquetas inteligentes se aplican en tiempo casi real y se generan en función del contenido de la imagen. Al cargar un recurso, se muestra la interfaz de usuario [!UICONTROL Procesamiento] en la miniatura del recurso durante un tiempo. Una vez completado el procesamiento, puede [ver los metadatos](#view-metadata) y las etiquetas inteligentes.
+Las etiquetas inteligentes se aplican en tiempo casi real y se generan en función del contenido de la imagen. Al cargar un recurso, la interfaz de usuario muestra [!UICONTROL Procesando] en la miniatura del recurso durante un tiempo. Una vez completado el procesamiento, puede [ver los metadatos](#view-metadata) y las etiquetas inteligentes.
 
-![Ver las etiquetas inteligentes de un recurso](assets/metadata-view-tags.png)
+![Visualización de las etiquetas inteligentes de un recurso](assets/metadata-view-tags.png)
 
-*Figura: Para ver las etiquetas inteligentes de un recurso, haga clic en **[!UICONTROL Detalles]**en la barra de herramientas o haga doble clic en el recurso.*
+*Imagen: para ver las etiquetas inteligentes de un recurso, haga clic en **[!UICONTROL Detalles]** en la barra de herramientas o haga doble clic en él.*
 
-Las etiquetas inteligentes también contienen una puntuación de confianza como porcentaje. Indica la confianza asociada a la etiqueta aplicada. Puede moderar las etiquetas inteligentes aplicadas automáticamente.
+Las etiquetas inteligentes también contienen una puntuación de confianza en forma de porcentaje. Indica la confianza asociada a la etiqueta aplicada. Puede moderar las etiquetas inteligentes aplicadas automáticamente.
 
-## Agregar o actualizar etiquetas {#manually-tag}
+## Adición o actualización de etiquetas {#manually-tag}
 
-Puede agregar más etiquetas a los recursos, además de las etiquetas inteligentes que se agregan automáticamente usando la variable [!DNL Adobe Sensei] servicio inteligente. Abra un recurso para obtener una vista previa, haga clic en [!UICONTROL Etiquetas]y escriba las palabras clave que desee en la [!UICONTROL Palabras clave] campo . Para añadir la etiqueta, pulse Retorno. [!DNL Assets Essentials] indexa la palabra clave casi en tiempo real y su equipo puede buscar rápidamente los recursos actualizados con las nuevas palabras clave.
+Puede añadir más etiquetas a los recursos, además de las etiquetas inteligentes que se agregan automáticamente, usando el servicio inteligente [!DNL Adobe Sensei]. Abra un recurso para previsualizarlo, haga clic en [!UICONTROL Etiquetas] y escriba las palabras clave que desee en el campo [!UICONTROL Palabras clave]. Para añadir la etiqueta, pulse Intro. [!DNL Assets Essentials] indexa la palabra clave casi en tiempo real y su equipo puede buscar rápidamente los recursos actualizados con las nuevas palabras clave.
 
-También puede quitar etiquetas de [!UICONTROL Etiquetas inteligentes] que agrega automáticamente el [!DNL Assets Essentials] a todos los recursos cargados.
+También puede quitar etiquetas de la sección [!UICONTROL Etiquetas inteligentes], que [!DNL Assets Essentials] añade automáticamente a todos los recursos cargados.
 
 ## Formularios de metadatos {#metadata-forms}
 
-Assets Essentials proporciona muchos campos de metadatos estándar de forma predeterminada. Las organizaciones tienen necesidades de metadatos adicionales y necesitan más campos de metadatos para agregar metadatos específicos de la empresa. Los formularios de metadatos permiten a las empresas agregar campos de metadatos personalizados a los [!UICONTROL Detalles] página. Los metadatos específicos del negocio mejoran el control y el descubrimiento de sus activos.
+Assets Essentials proporciona muchos campos de metadatos estándar de forma predeterminada. Las organizaciones tienen requisitos de metadatos adicionales y necesitan más campos para agregar los específicos de su empresa. Los formularios de metadatos permiten a las empresas añadir campos de metadatos personalizados a la página [!UICONTROL Detalles] de un recurso. Los metadatos específicos de la empresa mejoran el control y el descubrimiento de sus recursos.
 
-Puede configurar formularios de metadatos para diferentes tipos de recursos (diferentes tipos de MIME). Utilice el mismo nombre de formulario que el tipo MIME del archivo. Essentials hace coincidir automáticamente los recursos cargados con el nombre del formulario. Por ejemplo, si un formulario de metadatos por el nombre `PDF` o `pdf` existe, los documentos de PDF cargados contienen campos de metadatos tal como se definen en el formulario. Puede crear formularios desde cero o cambiar el propósito de un formulario existente.
+Puede configurar formularios de metadatos para diferentes tipos de recursos (diferentes tipos de MIME). Utilice el mismo nombre de formulario que el tipo MIME del archivo. Essentials hace coincidir automáticamente los recursos cargados con el nombre del formulario. Por ejemplo, si existe un formulario de metadatos con el nombre `PDF` o `pdf`, los documentos PDF cargados contienen campos de metadatos tal como se definen en el formulario. Puede crear formularios desde cero o reutilizar uno existente.
 
 >[!IMPORTANT]
 >
@@ -69,28 +69,28 @@ Puede configurar formularios de metadatos para diferentes tipos de recursos (dif
 
 Para crear un formulario de metadatos, siga estos pasos:
 
-1. En el carril izquierdo, haga clic en **[!UICONTROL Configuración]** > **[!UICONTROL Forms de metadatos]**.
+1. En el carril izquierdo, haga clic en **[!UICONTROL Ajustes]** > **[!UICONTROL Formularios de metadatos]**.
 
    ![opción de formularios de metadatos en la barra lateral izquierda](assets/metadata-forms-sidebar.png)
 
 1. Haga clic en **[!UICONTROL Crear]**, en el área superior derecha de la interfaz de usuario.
 1. Proporcione un nombre al formulario y haga clic en **[!UICONTROL Crear]**.
-1. Proporcione un nombre para la pestaña en **[!UICONTROL Configuración]** en el carril derecho.
-1. En el **[!UICONTROL Componentes]** disponible en el carril izquierdo, arrastre los componentes necesarios en una ficha del formulario. Arrastre los componentes en la secuencia deseada.
+1. Proporcione un nombre para la pestaña en **[!UICONTROL Ajustes]**, en el carril derecho.
+1. De los **[!UICONTROL Componentes]** disponibles en el carril izquierdo, arrastre los necesarios a una pestaña del formulario. Arrastre los componentes en la secuencia deseada.
 
    ![opción de formularios de metadatos en la barra lateral izquierda](assets/metadata-form-new.png)
 
-   *Figura: Interfaz de creación de formularios de metadatos con opciones para agregar componentes y opción para previsualizar el formulario.*
+   *Imagen: interfaz de creación de formularios de metadatos con opciones para añadir componentes y para previsualizar el formulario.*
 
-1. Para cada componente, proporcione un nombre en la variable **[!UICONTROL Configuración]** en el carril derecho, proporcione una asignación con las propiedades admitidas.
-1. De forma opcional, para un componente, seleccione **[!UICONTROL Requerido]** para hacer que el campo de metadatos sea obligatorio y seleccione **[!UICONTROL Solo lectura]** hacer que el campo no se pueda editar en el recurso [!UICONTROL Detalles] página.
-1. Si lo desea, haga clic en **[!UICONTROL Vista previa]** para obtener una vista previa del formulario que está creando.
-1. Opcionalmente, puede agregar más fichas y los componentes necesarios en cada pestaña.
-1. Haga clic en **[!UICONTROL Guardar]** cuando se complete el formulario.
+1. Para cada componente, proporcione un nombre en **[!UICONTROL Ajustes]**, en el carril derecho, y una asignación con las propiedades admitidas.
+1. De forma opcional, para un componente, seleccione **[!UICONTROL Obligatorio]** para que el campo de metadatos sea obligatorio y **[!UICONTROL Solo lectura]** para que no se pueda editar en la página [!UICONTROL Detalles] del recurso.
+1. Si lo desea, haga clic en **[!UICONTROL Previsualizar]** para previsualizar el formulario que está creando.
+1. Opcionalmente, puede añadir más pestañas y los componentes necesarios en cada una.
+1. Haga clic en **[!UICONTROL Guardar]** cuando haya completado el formulario.
 
 Una vez creado un formulario, se aplica automáticamente cuando los usuarios cargan un recurso del tipo MIME correspondiente.
 
-Para volver a utilizar un formulario existente para crear un nuevo formulario, seleccione un formulario de metadatos, haga clic en **[!UICONTROL Copiar]** en la barra de herramientas, proporcione un nombre y haga clic en **[!UICONTROL Confirmar]**. Puede editar un formulario de metadatos para cambiarlo. Al cambiar un formulario, se utiliza para los recursos cargados después del cambio. No cambia los recursos existentes.
+Para reutilizar un formulario existente y crear uno nuevo, seleccione un formulario de metadatos, haga clic en **[!UICONTROL Copiar]** en la barra de herramientas, proporcione un nombre y haga clic en **[!UICONTROL Confirmar]**. Puede editar un formulario de metadatos para cambiarlo. Al cambiar un formulario, se utiliza para los recursos cargados después del cambio. No cambia los recursos existentes.
 
 <!-- TBD: Cannot create a form using the second option. Documenting only the first option for now.
 To reuse an existing form to create a new form, do one of these:
