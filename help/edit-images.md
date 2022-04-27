@@ -4,17 +4,17 @@ description: Edite imágenes mediante opciones que se sirven de [!DNL Adobe Phot
 role: User
 exl-id: fc21a6ee-bf23-4dbf-86b0-74695a315b2a
 source-git-commit: cd7af0c946a042430e62528fa6aa19bdab139f67
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '497'
-ht-degree: 65%
+ht-degree: 100%
 
 ---
 
 # Edición de imágenes en [!DNL Assets Essentials] {#edit-images}
 
-[!DNL Assets Essentials] proporciona opciones de edición fáciles de usar que se sirven de [!DNL Adobe Photoshop Express]. Las acciones de edición disponibles son Corrección puntual, Recortar y enderezar, Cambiar el tamaño de la imagen y Ajustar imagen.
+[!DNL Assets Essentials] proporciona opciones de edición fáciles de usar que se sirven de [!DNL Adobe Photoshop Express]. Las acciones de edición disponibles son Corrección puntual, Recortar y enderezar, Cambiar tamaño de imagen y Ajustar imagen.
 
-Después de editar una imagen, puede guardar la nueva como una nueva versión. El uso de versiones le ayuda a volver al recurso original más adelante, si es necesario. Para editar una imagen, [abrir su previsualización](/help/navigate-view.md#preview-assets) y haga clic en **[!UICONTROL Editar imagen]** ![icono editar](assets/do-not-localize/edit-icon.png) desde el carril de la derecha.
+Después de editar una imagen, puede guardar la nueva como una nueva versión. El uso de versiones le ayuda a volver al recurso original más adelante, si es necesario. Para editar una imagen, [abra su previsualización](/help/navigate-view.md#preview-assets) y haga clic en el ![icono de edición](assets/do-not-localize/edit-icon.png) de **[!UICONTROL Editar imagen]** desde el carril de la derecha.
 
 ![Opciones para editar una imagen](assets/edit-image2.png)
 
@@ -41,11 +41,11 @@ Para guardar las ediciones, haga clic en **[!UICONTROL Recortar imagen]**. Tras 
 
 Muchas opciones predeterminadas permiten recortar la imagen hasta que tenga las mejores proporciones que se ajusten a varios perfiles y publicaciones de medios sociales.
 
-## Redimensionar imagen {#resize-image}
+## Cambiar tamaño de imagen {#resize-image}
 
 Cambiar el tamaño de una imagen a un tamaño específico es un caso de uso popular. [!DNL Assets Essentials] le permite cambiar rápidamente el tamaño de la imagen para adaptarla a los tamaños de foto comunes, ya que proporciona nuevas resoluciones calculadas previamente para tamaños de foto específicos. Puede ver los tamaños de foto comunes en centímetros o pulgadas para conocer las dimensiones. De forma predeterminada, el método de cambio de tamaño conserva la relación de aspecto. Para anular manualmente la relación de aspecto, haga clic en ![](assets/do-not-localize/lock-closed-icon.png).
 
-Introduzca las dimensiones y haga clic en **[!UICONTROL Cambiar el tamaño de la imagen]** para cambiar el tamaño de la imagen. Antes de guardar los cambios como una versión, puede deshacer todos los cambios realizados antes de guardarlos haciendo clic en [!UICONTROL Deshacer] o puede cambiar el paso específico del proceso de edición haciendo clic en [!UICONTROL Revertir].
+Introduzca las dimensiones y haga clic en **[!UICONTROL Cambiar tamaño de imagen]** para cambiar el tamaño de la imagen. Antes de guardar los cambios como una versión, puede deshacerlos todos haciendo clic en [!UICONTROL Deshacer] o puede cambiar el paso específico del proceso de edición haciendo clic en [!UICONTROL Revertir].
 
 ![Opciones al cambiar el tamaño de una imagen](assets/resize-image.png)
 
@@ -53,11 +53,11 @@ Introduzca las dimensiones y haga clic en **[!UICONTROL Cambiar el tamaño de la
 
 [!DNL Assets Essentials] permite ajustar el color, el tono, el contraste y mucho más con solo unos pocos clics. Haga clic en **[!UICONTROL Ajustar imagen]** en la ventana de edición. Las siguientes opciones están disponibles en la barra lateral derecha:
 
-* **Popular**: [!UICONTROL Alto contraste y detalle], [!UICONTROL Contraste desaturado], [!UICONTROL Foto antigua], [!UICONTROL Leve de B&amp;W]y [!UICONTROL Tono sepia B&amp;W].
-* **Color**: [!UICONTROL Natural], [!UICONTROL Brillante], [!UICONTROL Alto contraste], [!UICONTROL Alto contraste y detalle], [!UICONTROL Vivid]y [!UICONTROL Matar].
-* **Creative**: [!UICONTROL Contraste desaturado], [!UICONTROL Luz fría], [!UICONTROL Turquesa y rojo], [!UICONTROL Inclinación suave], [!UICONTROL Vintage Instant], [!UICONTROL Contraste cálido], [!UICONTROL Plano y verde], [!UICONTROL Alza roja mate], [!UICONTROL Sombras cálidas]y [!UICONTROL Foto antigua].
-* **B&amp;W**: [!UICONTROL Horizontal de B&amp;W], [!UICONTROL Alto contraste en blanco y negro], [!UICONTROL Puntero de blanco y negro], [!UICONTROL Contraste bajo en blanco y negro], [!UICONTROL B&amp;W plano], [!UICONTROL Leve de B&amp;W], [!UICONTROL Infrarrojo B&amp;W], [!UICONTROL Tono selenio B&amp;W], [!UICONTROL Tono sepia B&amp;W]y [!UICONTROL Tono dividido B&amp;W].
-* **Viñeta**: [!UICONTROL Ninguna], [!UICONTROL Claro], [!UICONTROL Medio]y [!UICONTROL Pesado].
+* **Popular**: [!UICONTROL Alto contraste y detalle], [!UICONTROL Contraste desaturado], [!UICONTROL Foto antigua], [!UICONTROL ByN suave] y [!UICONTROL Tono sepia ByN].
+* **Color**: [!UICONTROL Natural], [!UICONTROL Brillante], [!UICONTROL Alto contraste], [!UICONTROL Alto contraste y detalle], [!UICONTROL Vívido] y [!UICONTROL Mate].
+* **Creativo**: [!UICONTROL Contraste desaturado], [!UICONTROL Luz fría], [!UICONTROL Turquesa y rojo], [!UICONTROL Bruma suave], [!UICONTROL Instante vintage], [!UICONTROL Contraste cálido], [!UICONTROL Plano y verde], [!UICONTROL Alza roja mate], [!UICONTROL Sombras cálidas] y [!UICONTROL Foto antigua].
+* **ByN**: [!UICONTROL Paisaje ByN], [!UICONTROL Alto contraste ByN], [!UICONTROL Puntero ByN], [!UICONTROL Contraste bajo ByN], [!UICONTROL Plano ByN], [!UICONTROL ByN suave], [!UICONTROL ByN infrarrojo], [!UICONTROL Tono selenio ByN], [!UICONTROL Tono sepia ByN] y [!UICONTROL Tono dividido ByN].
+* **Viñetas**: [!UICONTROL Ninguna], [!UICONTROL Clara], [!UICONTROL Media] e [!UICONTROL Intensa].
 
 ![Ajustar imagen al editar](assets/adjust-image.png)
 
