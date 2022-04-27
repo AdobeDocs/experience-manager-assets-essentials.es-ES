@@ -3,13 +3,13 @@ cloud: Experience Cloud
 solution: Experience Manager, Experience Manager Assets
 product: adobe experience manager
 type: Documentation
-git-repo: https://git.corp.adobe.com/AdobeDocs/experience-manager-assets-essentials.es-ES
+git-repo: https://github.com/AdobeDocs/experience-manager-assets-essentials.es-ES
 mini-toc-levels: 1
 index: true
 source-git-commit: bd544f8afe112d5a95d5a3266f8d74bff4ef04c8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '95'
-ht-degree: 77%
+ht-degree: 100%
 
 ---
 
@@ -21,11 +21,11 @@ El archivo metadata.md incluye metadatos de repositorios que pasan a los archivo
 | metadata | función |
 |--- |--- |
 | mini-toc-levels | Determina el número de niveles de encabezado que aparecen en el carril derecho. El valor predeterminado es 2. |
-| git-repo | Especifica la ubicación de la cesión temporal principal para uso interno. |
+| git-repo | Especifica la ubicación del repositorio principal para uso interno. |
 
 En el archivo TOC.md
 
 | metadata | función |
 |--- |--- |
 | user-guide-title | Se utiliza en el encabezado del artículo como vínculo. |
-| user-guide-url | Abre la página del centro de aprendizaje y asistencia. |
+| user-guide-url | Abre la página del centro de Aprendizaje y asistencia. |
