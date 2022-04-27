@@ -1,20 +1,21 @@
 ---
 title: ¿Cómo administrar de forma eficaz los permisos de carpeta?
 description: Prácticas recomendadas para la administración eficaz de permisos
-source-git-commit: fe716385939d18aa23d01dac5fe5f041541d2b31
-workflow-type: tm+mt
+exl-id: 06b06f0b-3806-44ce-abc4-c1449a93dd29
+source-git-commit: 98dafd932fb31dea06225f256f0e6bfe205e4d7b
+workflow-type: ht
 source-wordcount: '398'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
 # Prácticas recomendadas para la administración eficaz de permisos {#best-practices-permissions-management}
 
-Como administrador, antes de empezar a administrar los permisos de carpeta para el repositorio de Assets Essentials, existen varias prácticas recomendadas que puede implementar para que la infraestructura sea intuitiva para los administradores y los usuarios finales más adelante mientras gestiona las operaciones.
+Como administrador, antes de empezar a administrar los permisos de carpeta para el repositorio de Assets Essentials, existen varias prácticas recomendadas que puede implementar para hacer que la infraestructura sea intuitiva para los administradores y los usuarios finales más adelante mientras gestiona las operaciones.
 
-Puede incorporar estas prácticas recomendadas mientras:
+Puede incorporar estas prácticas recomendadas mientras hace lo siguiente:
 
-* [Creación de grupos de usuarios en el Admin Console](#admin-console-best-practices)
+* [Creación de grupos de usuarios en Admin Console](#admin-console-best-practices)
 
 * [Creación de una estructura de carpetas en el repositorio de Assets Essentials](#folder-structure-assets-essentials)
 
@@ -22,44 +23,43 @@ Puede incorporar estas prácticas recomendadas mientras:
 
 ## Admin Console {#admin-console-best-practices}
 
-Identifique las necesidades de acceso en función de los grupos de usuarios de su organización. Planifique y cree grupos de usuarios para su organización y agregue usuarios a esos grupos de usuarios. Es más fácil administrar permisos de carpeta en función de grupos de usuarios y no de usuarios individuales.
+Identifique las necesidades de acceso en función de los grupos de usuarios de su organización. Planifique y cree grupos de usuarios para su organización y añádales usuarios. Es más fácil administrar permisos de carpeta en función de grupos de usuarios y no de usuarios individuales.
 
-## Estructura de carpetas del repositorio de Assets Essentials {#folder-structure-assets-essentials}
+## Estructura de carpetas para el repositorio de Assets Essentials {#folder-structure-assets-essentials}
 
 Tenga en cuenta los siguientes puntos cuando empiece a planificar la creación de una estructura de carpetas en el repositorio de Assets Essentials:
 
-* Gobernanza futura: Las carpetas controladas por los administradores y las carpetas que [delegados para permisos para otros usuarios como propietarios](manage-permissions.md##manage-permissions-folders).
+* Gobernanza futura: las carpetas controladas por los administradores y las [delegadas con permisos a otros usuarios como propietarios](manage-permissions.md##manage-permissions-folders).
 
-* Escalable: La estructura de carpetas debe ajustarse a las necesidades futuras de su organización y debe ser fácilmente escalable.
+* Escalable: la estructura de carpetas debe ajustarse a las necesidades futuras de su organización y ser fácilmente escalable.
 
-* Tamaño: Una carpeta no debe contener demasiados recursos. Esto puede conllevar problemas de uso y puede resultar difícil de administrar.
+* Tamaño: una carpeta no debe contener demasiados recursos. Esto puede conllevar problemas de uso y puede resultar difícil de administrar.
 
-* Intuitivo: La estructura de carpetas debería ser fácil de examinar e intuitiva para los usuarios finales. Los usuarios deben poder identificar fácilmente dónde cargar un nuevo recurso en la estructura de carpetas.
+* Intuitiva: la estructura de carpetas debería ser fácil de examinar e intuitiva para los usuarios finales. Los usuarios deben poder identificar con facilidad dónde cargar un nuevo recurso en la estructura de carpetas.
 
-Existen varios tipos de estructura de carpetas que puede utilizar para su organización. A continuación se muestran algunos ejemplos de estructuras de carpetas típicas:
+Existen varios tipos de estructura de carpetas que puede utilizar para su organización. A continuación, se muestran algunos ejemplos de estructuras de carpetas típicas:
 
-* Basado en funciones y categorías
+* Basada en funciones y categorías
 
    ![Función y categorización](assets/function-categorization.png)
 
-* Basado en campañas
+* Basada en campañas
 
-   ![Basado en campañas](assets/campaign-based.png)
+   ![Basada en campañas](assets/campaign-based.png)
 
-* Basado en la ubicación (o el canal) de la oferta
+* Basada en la ubicación (o el canal) de la oferta
 
-   ![Basado en la ubicación de la oferta](assets/offer-location.png)
+   ![Basada en la ubicación de la oferta](assets/offer-location.png)
 
 
 ## Permisos de carpeta {#folder-permissions}
 
-Después de crear grupos de usuarios para su organización, agregar usuarios a esos grupos de usuarios y seleccionar y crear una estructura de carpetas en el repositorio de Assets Essentials que se adapte a las necesidades de su organización, puede empezar a administrar permisos de carpetas para su organización. Tenga en cuenta los siguientes puntos cuando empiece a administrar permisos de carpeta:
+Después de crear grupos de usuarios para su organización, añadir usuarios a esos grupos y seleccionar y crear una estructura de carpetas en el repositorio de Assets Essentials que se adapte a las necesidades de su organización, puede empezar a administrar permisos de carpeta para su organización. Tenga en cuenta los siguientes puntos cuando empiece a administrar permisos de carpeta:
 
 * Aplique permisos para grupos de usuarios, no para usuarios individuales. Esto resulta en una estructura de permisos más sencilla y eficaz.
 
-* Mantenga la estructura de permisos tan sencilla como sea posible para lograr una eficacia operativa.
+* Mantenga la estructura de permisos tan simple como sea posible para lograr un funcionamiento eficiente.
 
-* Utilice Denegar permisos de acceso con cuidado y prefiera aplicar permisos positivos (Puede editar, Puede ver, Propietario) a la estructura de carpetas.
+* Utilice Denegar permisos de acceso con cuidado y priorice aplicar permisos positivos (Puede editar, Puede ver, Propietario) a la estructura de carpetas.
 
-Para obtener ejemplos sobre cómo lograr una estructura de carpetas sencilla y eficaz, consulte [Administrar permisos en carpetas](manage-permissions.md##manage-permissions-folders).
-
+Para obtener ejemplos sobre cómo lograr una estructura de carpetas sencilla y eficaz, consulte [Administración de permisos en carpetas](manage-permissions.md##manage-permissions-folders).
