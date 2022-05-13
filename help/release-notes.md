@@ -4,10 +4,10 @@ description: Notas de la versión y problemas conocidos de [!DNL Assets Essentia
 role: User,Leader,Admin,Architect,Developer
 contentOwner: AK
 exl-id: a0e29eb6-336a-4f78-b7bd-ec1338c86775
-source-git-commit: 7c4bc88e2110ff1dd7442af303bdd2c586ba5a6f
+source-git-commit: 4fcac20c15ebabcafe851ce207bd937c8a7f6b03
 workflow-type: tm+mt
-source-wordcount: '786'
-ht-degree: 69%
+source-wordcount: '761'
+ht-degree: 72%
 
 ---
 
@@ -36,8 +36,6 @@ Con esta versión, estamos optimizando el rendimiento del envío de la interfaz 
 La lista de problemas conocidos de la oferta de [!DNL Assets Essentials] se revisa y actualiza de forma continua:
 
 * No se pueden filtrar los recursos mediante la variable `No Status` estado del recurso.
-
-* No puede buscar ni buscar un recurso con un `Expired` estado. Solo puede acceder al recurso mediante un vínculo profundo o una dirección URL.
 
 * Assets Essentials no admite la creación de colecciones privadas.
 
