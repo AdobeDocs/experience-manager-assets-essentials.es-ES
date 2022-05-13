@@ -4,10 +4,10 @@ description: Mueva, elimine, copie, cambie de nombre, actualice y convierta en v
 role: User,Leader
 contentOwner: AG
 exl-id: b01e98b9-0cc2-47c5-9f5b-79b8e6bef39f
-source-git-commit: cd7af0c946a042430e62528fa6aa19bdab139f67
-workflow-type: ht
-source-wordcount: '614'
-ht-degree: 100%
+source-git-commit: e8bae7cb2b424fe6956247398398e86f559db67f
+workflow-type: tm+mt
+source-wordcount: '838'
+ht-degree: 79%
 
 ---
 
@@ -83,3 +83,65 @@ También puede crear versiones a partir de la cronología de las versiones. Sele
 ![Visualización de versiones de un recurso](assets/view-asset-versions1.png)
 
 *Imagen: visualización de versiones de un recurso, reversión a una versión anterior o carga de otra versión nueva.*
+
+## Administrar el estado de los recursos {#manage-asset-status}
+
+**Permisos necesarios:**  `Can Edit`, `Owner`o permisos de administrador en un recurso.
+
+Assets Essentials le permite establecer el estado en los recursos disponibles en el repositorio. Establezca un estado de recurso para gobernar y administrar mejor el consumo descendente de recursos digitales.
+
+Puede establecer el siguiente estado en los recursos:
+
+* Aprobados
+
+* Rechazado
+
+* Sin estado
+
+### Definir estado del recurso {#set-asset-status}
+
+Para establecer el estado del recurso:
+
+1. Seleccione el recurso y haga clic en **[!UICONTROL Detalles]** en la barra de herramientas.
+
+1. En el **[!UICONTROL Básico]** , seleccione el estado del recurso en la pestaña **[!UICONTROL Estado]** lista desplegable. Los valores posibles incluyen Aprobado, Rechazado y Sin estado (predeterminado).
+
+   >[!VIDEO](https://video.tv.adobe.com/v/342495)
+
+<!--
+
+### Set asset expiration date {#set-asset-expiration-date}
+
+To set asset expiration date:
+
+1. Select the asset, and click **[!UICONTROL Details]** in the toolbar.
+
+1. In the **[!UICONTROL Basic]** tab, set the expiration date for the asset using the  **[!UICONTROL Expiration date]** field.
+
+The `Expired` asset card indicator overrides the `Approved` or `Rejected` indicator set for an asset.
+
+-->
+
+También puede filtrar recursos en función de un estado de recurso. Para obtener más información, consulte [Buscar recursos en Assets Essentials](search.md).
+
+## Personalización de formularios de metadatos para incluir el campo de estado del recurso {#customize-asset-status-metadata-form}
+
+**Permisos necesarios:** Administrador
+
+Assets Essentials proporciona muchos campos de metadatos estándar de forma predeterminada. Las organizaciones tienen requisitos de metadatos adicionales y necesitan más campos para agregar los específicos de su empresa. Los formularios de metadatos permiten a las empresas añadir campos de metadatos personalizados a la página [!UICONTROL Detalles] de un recurso. Los metadatos específicos de la empresa mejoran el control y el descubrimiento de sus recursos.
+
+Para obtener más información sobre cómo agregar campos de metadatos adicionales al formulario de metadatos, consulte [Forms de metadatos](metadata.md##metadata-forms).
+
+**Agregar el campo de metadatos Estado del recurso al formulario**
+
+Para agregar el campo de metadatos Estado del recurso al formulario, arrastre **[!UICONTROL Estado del recurso]** del carril izquierdo al formulario. La propiedad de asignación se rellena automáticamente previamente. Guarde el formulario para confirmar los cambios.
+
+<!--
+
+**Add Expiration Date metadata field to the form**
+
+To add Expiration Date metadata field to the form,  drag **[!UICONTROL Date]** component from the left rail to the form. Specify **Expiration Date** as the label and `pur:expirationDate` as the mapping property. Save the form to confirm the changes.
+
+-->
+
+

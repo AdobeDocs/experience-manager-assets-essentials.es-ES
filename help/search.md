@@ -3,10 +3,10 @@ title: Búsqueda y descubrimiento de recursos en [!DNL Assets Essentials]
 description: Busque y descubra recursos en [!DNL Assets Essentials].
 role: User
 exl-id: be9597a3-056c-436c-a09e-15a03567c85a
-source-git-commit: cd7af0c946a042430e62528fa6aa19bdab139f67
-workflow-type: ht
-source-wordcount: '389'
-ht-degree: 100%
+source-git-commit: 0420b0836affe453cced6789ea4a7c56660e9f0a
+workflow-type: tm+mt
+source-wordcount: '686'
+ht-degree: 57%
 
 ---
 
@@ -32,6 +32,8 @@ Puede filtrar los resultados de búsqueda según los parámetros siguientes.
 
 *Imagen: filtre los recursos buscados según varios parámetros.*
 
+* Estado del recurso: Filtre los resultados de búsqueda mediante un `Approved` o `Rejected` estado del recurso.
+
 * Tipo de archivo: filtre los resultados de búsqueda según los tipos de archivos admitidos, es decir, `Images`, `Documents` y `Videos`.
 * Tipo de MIME: filtre uno o varios formatos de archivo compatibles. <!-- TBD:  [supported file formats](/help/supported-file-formats.md). -->
 * Tamaño de imagen: proporcione una o más de las dimensiones mínimas y máximas para filtrar imágenes. El tamaño se proporciona en dimensiones en píxeles y no es el tamaño de archivo de las imágenes.
@@ -39,6 +41,66 @@ Puede filtrar los resultados de búsqueda según los parámetros siguientes.
 * Fecha de modificación: fecha de la última modificación de los recursos. El formato de fecha estándar utilizado es `yyyy-mm-dd`.
 
 Puede ordenar los recursos buscados en orden creciente o descendente de `Name`, `Relevancy`, `Size`, `Modified` y `Created`.
+
+## Administrar filtros personalizados {#custom-filters}
+
+**Permisos necesarios:**  `Can Edit`, `Owner`o Administrador.
+
+Assets Essentials también permite agregar filtros personalizados a la interfaz de usuario. A continuación, puede aplicar esos filtros personalizados además del [filtros estándar](#refine-search-results) para restringir los resultados de búsqueda.
+
+Assets Essentials proporciona los siguientes filtros personalizados:
+
+<table>
+    <tbody>
+     <tr>
+      <th><strong>Nombre de filtro personalizado</strong></th>
+      <th><strong>Descripción</strong></th>
+     </tr>
+     <tr>
+      <td>Título</td>
+      <td>Filtre los recursos mediante el título del recurso. El título que especifique en los criterios de búsqueda que distinguen entre mayúsculas y minúsculas debe coincidir con el título exacto del recurso para mostrarlo en los resultados.</td>
+     </tr>
+     <tr>
+      <td>Nombre</td>
+      <td>Filtre los recursos con el nombre del archivo del recurso. El nombre que especifique en los criterios de búsqueda que distinguen entre mayúsculas y minúsculas debe coincidir con el nombre de archivo exacto del recurso para mostrarlo en los resultados.</td>
+     </tr>
+     <tr>
+      <td>Tamaño del recurso</td>
+      <td>Filtre los recursos definiendo un intervalo de tamaño, en bytes, en los criterios de búsqueda para que un recurso se muestre en los resultados.</td>
+     </tr>
+     <tr>
+      <td>Etiquetas previstas</td>
+      <td>Filtre recursos con la etiqueta inteligente de recursos. El nombre de la etiqueta inteligente que especifique en los criterios de búsqueda que distinguen entre mayúsculas y minúsculas debe coincidir con el nombre exacto de la etiqueta inteligente del recurso que se mostrará en los resultados. No se pueden especificar varias etiquetas inteligentes en los criterios de búsqueda.</td>
+     </tr>    
+    </tbody>
+   </table>
+
+### Añadir filtros personalizados {#add-custom-filters}
+
+Para agregar filtros personalizados:
+
+1. Haga clic en **[!UICONTROL Filtros]**.
+
+1. En el **[!UICONTROL Filtros personalizados]** , haga clic en **[!UICONTROL Editar]** o **[!UICONTROL Añadir filtros]**.
+
+   ![Añadir filtros personalizados](assets/add-custom-filters.png)
+
+1. En el **[!UICONTROL Administración de filtros personalizados]** , seleccione los filtros que debe agregar a la lista de filtros existente. Select **[!UICONTROL Filtros personalizados]** para seleccionar todos los filtros.
+
+1. Haga clic en **[!UICONTROL Confirmar]** para agregar los filtros a la interfaz de usuario.
+
+### Eliminar filtros personalizados {#remove-custom-filters}
+
+Para quitar filtros personalizados:
+
+1. Haga clic en **[!UICONTROL Filtros]**.
+
+1. En el **[!UICONTROL Filtros personalizados]** , haga clic en **[!UICONTROL Editar]**.
+
+1. En el **[!UICONTROL Administración de filtros personalizados]** , anule la selección de los filtros que debe eliminar de la lista de filtros existente.
+
+1. Haga clic en **[!UICONTROL Confirmar]** para eliminar los filtros de la interfaz de usuario.
+
 
 ## Búsquedas guardadas {#saved-search}
 

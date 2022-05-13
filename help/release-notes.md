@@ -2,18 +2,52 @@
 title: Notas de la versión
 description: Notas de la versión y problemas conocidos de [!DNL Assets Essentials]
 role: User,Leader,Admin,Architect,Developer
-contentOwner: AG
+contentOwner: AK
 exl-id: a0e29eb6-336a-4f78-b7bd-ec1338c86775
-source-git-commit: 4cced7aba92fd0f041842e5ef78d02f0a4f7ffe0
-workflow-type: ht
-source-wordcount: '549'
-ht-degree: 100%
+source-git-commit: 7c4bc88e2110ff1dd7442af303bdd2c586ba5a6f
+workflow-type: tm+mt
+source-wordcount: '786'
+ht-degree: 69%
 
 ---
 
 # Notas de la versión de [!DNL Assets Essentials] {#release-notes}
 
-La versión actual de [!DNL Assets Essentials] se publicó el 9 de marzo de 2022. Esta versión proporciona lo siguiente:
+La versión actual de [!DNL Assets Essentials] se publica el 12 de mayo de 2022. Esta versión proporciona lo siguiente:
+
+* [!DNL Assets Essentials] ahora admite [creación de colecciones](manage-collections.md). Una colección es un conjunto de recursos dentro de Experience Manager Assets Essentials. Utilice las colecciones para compartir recursos entre los usuarios. A diferencia de las carpetas, una colección puede incluir recursos de distintas ubicaciones.
+
+* Assets Essentials ahora también le permite [añadir filtros personalizados](search.md#custom-filters) a la interfaz de usuario. A continuación, puede aplicar esos filtros personalizados además de los filtros estándar para restringir los resultados de búsqueda.
+
+* Assets Essentials ahora le permite [establecer estado](manage-organize.md#set-asset-status) en los recursos disponibles en el repositorio. Establezca un estado de recurso para gobernar y administrar mejor el consumo descendente de recursos digitales.
+
+* Mejoras y correcciones de errores basadas en los comentarios de los clientes.
+
+## Modo incógnito en Chrome {#incognito-mode}
+
+Con esta versión, estamos optimizando el rendimiento del envío de la interfaz de usuario y de las funciones específicas de Assets Essentials (comentar sobre los recursos y la edición de imágenes) depende de que se habiliten el almacenamiento local del explorador y las cookies de terceros. El modo incógnito del explorador web Chrome bloquea las cookies de terceros de forma predeterminada: los usuarios tienen varias opciones para seguir accediendo a todas las funciones:
+
+* Utilice los perfiles de Chrome en lugar del modo Incognito, cuando el usuario necesita separar las sesiones del navegador
+
+* Desactive el `Block third-party cookies` en la pantalla del modo Incognito en Chrome
+
+## Problemas conocidos {#known-issues}
+
+La lista de problemas conocidos de la oferta de [!DNL Assets Essentials] se revisa y actualiza de forma continua:
+
+* No se pueden filtrar los recursos mediante la variable `No Status` estado del recurso.
+
+* No puede buscar ni buscar un recurso con un `Expired` estado. Solo puede acceder al recurso mediante un vínculo profundo o una dirección URL.
+
+* Assets Essentials no admite la creación de colecciones privadas.
+
+Si encuentra algún problema o incluso si tiene solicitudes de mejora, [proporcione comentarios](#provide-feedback) al equipo.
+
+## Versiones anteriores {#past-release}
+
+### 2022.2.0 {#march-2022}
+
+[!DNL Assets Essentials] está disponible el 9 de marzo de 2022, con las siguientes actualizaciones:
 
 * [!DNL Assets Essentials] ahora le permite [generar un vínculo y compartir recursos con partes interesadas externas](share-links-for-assets.md), que no tienen acceso a la aplicación [!DNL Assets Essentials]. Puede definir una fecha de caducidad para el vínculo y luego compartirlo con otras personas mediante el método de comunicación que prefiera, como el correo electrónico o los servicios de mensajería. Los destinatarios del vínculo pueden obtener una vista previa de los recursos y descargarlos.
 
@@ -25,16 +59,6 @@ La versión actual de [!DNL Assets Essentials] se publicó el 9 de marzo de 2022
 
 Además, la extensión de [!DNL Adobe Asset Link] para Creative Cloud (Photoshop, Illustrator e InDesign) tiene una [nueva versión 3.2](https://exchange.adobe.com/creativecloud.details.106875.adobe-asset-link-cep.html), con mejoras de rendimiento en el tiempo de inicio del panel y en la velocidad de descarga.
 
-
-## Problemas conocidos {#known-issues}
-
-La lista de problemas conocidos de la oferta de [!DNL Assets Essentials] se revisa y actualiza de forma continua:
-
-* Ninguno
-
-Si encuentra algún problema o incluso si tiene solicitudes de mejora, [proporcione comentarios](#provide-feedback) al equipo.
-
-## Versiones anteriores {#past-release}
 
 ### Versión 2022.1.0 {#january-2022}
 
