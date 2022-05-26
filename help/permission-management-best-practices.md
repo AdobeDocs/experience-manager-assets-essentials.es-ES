@@ -2,10 +2,10 @@
 title: ¿Cómo administrar de forma eficaz los permisos de carpeta?
 description: Prácticas recomendadas para la administración eficaz de permisos
 exl-id: 06b06f0b-3806-44ce-abc4-c1449a93dd29
-source-git-commit: 98dafd932fb31dea06225f256f0e6bfe205e4d7b
-workflow-type: ht
-source-wordcount: '398'
-ht-degree: 100%
+source-git-commit: 02f28c00b387fbcac4cd917fab7763124fdd5d70
+workflow-type: tm+mt
+source-wordcount: '445'
+ht-degree: 89%
 
 ---
 
@@ -63,3 +63,11 @@ Después de crear grupos de usuarios para su organización, añadir usuarios a e
 * Utilice Denegar permisos de acceso con cuidado y priorice aplicar permisos positivos (Puede editar, Puede ver, Propietario) a la estructura de carpetas.
 
 Para obtener ejemplos sobre cómo lograr una estructura de carpetas sencilla y eficaz, consulte [Administración de permisos en carpetas](manage-permissions.md##manage-permissions-folders).
+
+## Siguientes pasos {#next-steps}
+
+* Proporcione comentarios de producto mediante [!UICONTROL Comentarios] opción disponible en la interfaz de usuario de Assets Essentials
+
+* Proporcione comentarios sobre la documentación usando [!UICONTROL Editar esta página] ![editar la página](assets/do-not-localize/edit-page.png) o [!UICONTROL Registrar un problema] ![crear un problema de GitHub](assets/do-not-localize/github-issue.png) disponible en la barra lateral derecha
+
+* Contacto [Servicio de atención al cliente](https://experienceleague.adobe.com/?support-solution=General#support)

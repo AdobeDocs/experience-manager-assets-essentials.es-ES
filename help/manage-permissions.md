@@ -2,10 +2,10 @@
 title: ¿Cómo se administran los permisos de las carpetas en AEM Assets Essentials?
 description: Assets Essentials permite a los administradores administrar los niveles de acceso para las carpetas disponibles en el repositorio. Cree grupos de usuarios y asígneles permisos para administrar los niveles de acceso. Como administrador, también puede delegar los privilegios de administración de permisos en grupos de usuarios en el nivel de carpeta.
 exl-id: 5ef01dbc-87c0-4013-9367-5da3774f4f20
-source-git-commit: c5cb27f3f660935487bb214088b4300475ef5fce
+source-git-commit: 02f28c00b387fbcac4cd917fab7763124fdd5d70
 workflow-type: tm+mt
-source-wordcount: '1580'
-ht-degree: 100%
+source-wordcount: '1643'
+ht-degree: 96%
 
 ---
 
@@ -202,3 +202,13 @@ Los siguientes son los niveles de acceso para todos los grupos de usuarios en la
 * /proyectos/proyecto-x: todos los usuarios pueden ver las carpetas y sus subcarpetas. El grupo de usuarios Equipo de gestores de proyectos tiene permisos de edición y puede administrar permisos en una carpeta y sus subcarpetas (permisos de propietario). El grupo de usuarios Equipo del proyecto X tiene permisos de edición.
 
 * /legal: ninguno de los usuarios puede acceder a la carpeta en función de los permisos de `Deny Access` para el grupo `All Authenticated Users`. El grupo de usuarios Equipo legal tiene permisos de edición.
+
+## Siguientes pasos {#next-steps}
+
+* [Vea un vídeo para administrar permisos en Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-learn/assets-essentials/configuring/permissions-management.html)
+
+* Proporcione comentarios de producto mediante [!UICONTROL Comentarios] opción disponible en la interfaz de usuario de Assets Essentials
+
+* Proporcione comentarios sobre la documentación usando [!UICONTROL Editar esta página] ![editar la página](assets/do-not-localize/edit-page.png) o [!UICONTROL Registrar un problema] ![crear un problema de GitHub](assets/do-not-localize/github-issue.png) disponible en la barra lateral derecha
+
+* Contacto [Servicio de atención al cliente](https://experienceleague.adobe.com/?support-solution=General#support)

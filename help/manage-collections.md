@@ -1,10 +1,11 @@
 ---
 title: Administrar colecciones
 description: Una colección es un conjunto de recursos dentro de Experience Manager Assets Essentials. Utilice las colecciones para compartir recursos entre los usuarios.
-source-git-commit: 6e86dc11e953423c156c3c06cb20c1700afdd59b
+exl-id: 33c889f5-c989-4772-9591-db62f50e5c80
+source-git-commit: 02f28c00b387fbcac4cd917fab7763124fdd5d70
 workflow-type: tm+mt
-source-wordcount: '473'
-ht-degree: 9%
+source-wordcount: '520'
+ht-degree: 8%
 
 ---
 
@@ -125,3 +126,11 @@ Para eliminar una colección:
 1. Seleccione la colección que debe eliminar.
 
 1. Haga clic en **[!UICONTROL Eliminar]**.
+
+## Siguientes pasos {#next-steps}
+
+* Proporcione comentarios de producto mediante [!UICONTROL Comentarios] opción disponible en la interfaz de usuario de Assets Essentials
+
+* Proporcione comentarios sobre la documentación usando [!UICONTROL Editar esta página] ![editar la página](assets/do-not-localize/edit-page.png) o [!UICONTROL Registrar un problema] ![crear un problema de GitHub](assets/do-not-localize/github-issue.png) disponible en la barra lateral derecha
+
+* Contacto [Servicio de atención al cliente](https://experienceleague.adobe.com/?support-solution=General#support)

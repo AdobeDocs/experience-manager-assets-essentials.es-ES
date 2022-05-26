@@ -9,10 +9,10 @@ feature-set: Experience Manager Assets,Experience Manager
 feature: Assets Essentials
 role: User,Leader
 solution: Experience Manager
-source-git-commit: 25d2fd23d42321ba659ffd6df26c851113c2fcdd
+source-git-commit: 59f6165fd7576736ff75369c2805c15ce3ae9af0
 workflow-type: tm+mt
-source-wordcount: '120'
-ht-degree: 65%
+source-wordcount: '127'
+ht-degree: 62%
 
 ---
 
@@ -42,3 +42,4 @@ ht-degree: 65%
 + [Compartir recursos](share-links-for-assets.md)
 + [Administrar colecciones](manage-collections.md)
 + [Integración con otras soluciones](integration.md)
++ [Vídeos](https://experienceleague.adobe.com/docs/experience-manager-learn/assets-essentials/overview.html)

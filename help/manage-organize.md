@@ -4,10 +4,10 @@ description: Mueva, elimine, copie, cambie de nombre, actualice y convierta en v
 role: User,Leader
 contentOwner: AG
 exl-id: b01e98b9-0cc2-47c5-9f5b-79b8e6bef39f
-source-git-commit: e8bae7cb2b424fe6956247398398e86f559db67f
+source-git-commit: 02f28c00b387fbcac4cd917fab7763124fdd5d70
 workflow-type: tm+mt
-source-wordcount: '838'
-ht-degree: 79%
+source-wordcount: '901'
+ht-degree: 73%
 
 ---
 
@@ -143,5 +143,17 @@ Para agregar el campo de metadatos Estado del recurso al formulario, arrastre **
 To add Expiration Date metadata field to the form,  drag **[!UICONTROL Date]** component from the left rail to the form. Specify **Expiration Date** as the label and `pur:expirationDate` as the mapping property. Save the form to confirm the changes.
 
 -->
+
+## Siguientes pasos {#next-steps}
+
+* [Vea un vídeo para administrar recursos en Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-learn/assets-essentials/basics/managing.html)
+
+* Proporcione comentarios de producto mediante [!UICONTROL Comentarios] opción disponible en la interfaz de usuario de Assets Essentials
+
+* Proporcione comentarios sobre la documentación usando [!UICONTROL Editar esta página] ![editar la página](assets/do-not-localize/edit-page.png) o [!UICONTROL Registrar un problema] ![crear un problema de GitHub](assets/do-not-localize/github-issue.png) disponible en la barra lateral derecha
+
+* Contacto [Servicio de atención al cliente](https://experienceleague.adobe.com/?support-solution=General#support)
+
+
 
 

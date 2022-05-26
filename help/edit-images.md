@@ -3,10 +3,10 @@ title: Edición de imágenes
 description: Edite imágenes mediante opciones que se sirven de [!DNL Adobe Photoshop Express] y guarde imágenes actualizadas como versiones.
 role: User
 exl-id: fc21a6ee-bf23-4dbf-86b0-74695a315b2a
-source-git-commit: 4d684d59faf0d01d42320b495fcffd06391010ef
+source-git-commit: 02f28c00b387fbcac4cd917fab7763124fdd5d70
 workflow-type: tm+mt
-source-wordcount: '497'
-ht-degree: 100%
+source-wordcount: '544'
+ht-degree: 91%
 
 ---
 
@@ -66,6 +66,14 @@ Introduzca las dimensiones y haga clic en **[!UICONTROL Cambiar tamaño de image
 <!--
 TBD: Insert a video of the available social media options.
 -->
+
+## Siguientes pasos {#next-steps}
+
+* Proporcione comentarios de producto mediante [!UICONTROL Comentarios] opción disponible en la interfaz de usuario de Assets Essentials
+
+* Proporcione comentarios sobre la documentación usando [!UICONTROL Editar esta página] ![editar la página](assets/do-not-localize/edit-page.png) o [!UICONTROL Registrar un problema] ![crear un problema de GitHub](assets/do-not-localize/github-issue.png) disponible en la barra lateral derecha
+
+* Contacto [Servicio de atención al cliente](https://experienceleague.adobe.com/?support-solution=General#support)
 
 >[!MORELIKETHIS]
 >

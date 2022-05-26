@@ -4,10 +4,10 @@ description: Formatos de archivo compatibles con los distintos casos de uso de [
 role: User,Leader,Admin,Architect,Developer
 contentOwner: AG
 exl-id: bc44e98d-446e-41ff-b5b4-9dc324834630
-source-git-commit: b9d333a862cca6227ef386ae8dadf431c2fb6d71
-workflow-type: ht
-source-wordcount: '308'
-ht-degree: 100%
+source-git-commit: 02f28c00b387fbcac4cd917fab7763124fdd5d70
+workflow-type: tm+mt
+source-wordcount: '355'
+ht-degree: 87%
 
 ---
 
@@ -40,13 +40,13 @@ Los distintos tipos de archivo tienen diferentes grados de compatibilidad con lo
 
 | Tipo de recurso | [Examinar](/help/navigate-view.md) | Copiar | [Cargar](/help/add-delete.md) | Crear | [Eliminar](/help/add-delete.md#delete-assets) | Detalles | Zoom de imagen | [Vistos recientemente](/help/navigate-view.md) |
 |-------------------|----------|----------|----------|----------|----------|-------------------|------------|-----------------|
-| Rasterización de imágenes | ✓ | ✓ | ✓ | − | ✓ | ✓ | ✓ | ✓ |
-| Archivos RAW | ✓ | ✓ | ✓ | − | ✓ | ✓ | ✓ | ✓ |
-| Carpetas | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | − | − |
-| Vídeos MP4 | ✓ | ✓ | ✓ | − | ✓ | ✓ ‡ | − | ✓ |
-| PDF | ✓ | ✓ | ✓ | − | ✓ | ✓ | − | ✓ |
-| PSD, IA e INDD | ✓ | ✓ | ✓ | − | ✓ | ✓ ‡ | − | ✓ |
-| Otros archivos binarios | ✓ | ✓ | ✓ | − | ✓ | ✓ | − | ✓ |
+| Rasterización de imágenes | ✓ | ✓ | ✓ | - | ✓ | ✓ | ✓ | ✓ |
+| Archivos RAW | ✓ | ✓ | ✓ | - | ✓ | ✓ | ✓ | ✓ |
+| Carpetas | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | - | - |
+| Vídeos MP4 | ✓ | ✓ | ✓ | - | ✓ | ✓ | - | ✓ |
+| PDF | ✓ | ✓ | ✓ | - | ✓ | ✓ | - | ✓ |
+| PSD, IA e INDD | ✓ | ✓ | ✓ | - | ✓ | ✓ | - | ✓ |
+| Otros archivos binarios | ✓ | ✓ | ✓ | - | ✓ | ✓ | - | ✓ |
 
 <!-- Hiding CC Libraries (considered beta) as per PM feedback.
 | CC Libraries  | &#10003; | &minus;  | &#10003; | &#10003; | &#10003; | &#10003; | &minus;    | &minus;         |
@@ -57,13 +57,13 @@ Los distintos tipos de archivo tienen diferentes grados de compatibilidad con lo
 | Tipo de recurso | [Descargar](/help/manage-organize.md#download) | Arrastrar y colocar | [Editor de imágenes](/help/edit-images.md) | [Buscar](/help/search.md) | [Etiquetas inteligentes](/help/metadata.md#tags) | [Cambiar nombre](/help/manage-organize.md) | [Versiones](/help/manage-organize.md#versions-of-assets) |
 |---------------|----------|---------------|--------------|----------|------------|----------|----------|
 | Rasterización de imágenes | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
-| Archivos RAW | ✓ | ✓ | − | ✓ | ✓ | ✓ | ✓ | ✓ |
-| Carpetas | ✓ | ✓ | − | ✓ | − | ✓ | ✓ |
-| Vídeos | ✓ | ✓ | − | ✓ | ✓ | ✓ | ✓ |
-| Bibliotecas CC | − | − | − | − | − | ✓ | ✓ |
-| PDF | ✓ | ✓ | − | ✓ | ✓ | ✓ | ✓ |
-| PSD, IA e INDD | ✓ | ✓ | − | ✓ | ✓ | ✓ | ✓ |
-| Otros archivos binarios | ✓ | ✓ | − | ✓ | − | ✓ | ✓ |
+| Archivos RAW | ✓ | ✓ | - | ✓ | ✓ | ✓ | ✓ | ✓ |
+| Carpetas | ✓ | ✓ | - | ✓ | - | ✓ | ✓ |
+| Vídeos | ✓ | ✓ | - | ✓ | ✓ | ✓ | ✓ |
+| Bibliotecas CC | - | - | - | - | - | ✓ | ✓ |
+| PDF | ✓ | ✓ | - | ✓ | ✓ | ✓ | ✓ |
+| PSD, IA e INDD | ✓ | ✓ | - | ✓ | ✓ | ✓ | ✓ |
+| Otros archivos binarios | ✓ | ✓ | - | ✓ | - | ✓ | ✓ |
 
 
 ## Revisión de recursos y colaboración {#support-to-review-collaborate}
@@ -72,12 +72,12 @@ Los distintos tipos de archivo tienen diferentes grados de compatibilidad con lo
 |---------------|----------|----------|-------------------------|
 | Rasterización de imágenes | ✓ | ✓ | ✓ |
 | Archivos RAW | ✓ | ✓ | ✓ |
-| Carpetas | − | − | − |
-| Vídeos | − | ✓ | ✓ |
-| Bibliotecas CC | − | − | − |
-| PDF | − | ✓ | ✓ |
-| PSD, IA e INDD | − | ✓ | ✓ |
-| Otros archivos binarios | − | ✓ | ✓ |
+| Carpetas | - | - | - |
+| Vídeos | - | ✓ | ✓ |
+| Bibliotecas CC | - | - | - |
+| PDF | - | ✓ | ✓ |
+| PSD, IA e INDD | - | ✓ | ✓ |
+| Otros archivos binarios | - | ✓ | ✓ |
 
 ## Otras tareas de administración de recursos {#support-to-manage-assets}
 
@@ -85,12 +85,12 @@ Los distintos tipos de archivo tienen diferentes grados de compatibilidad con lo
 |---------------|-------------------|------------|----------|----------|----------|
 | Rasterización de imágenes | ✓ | ✓ | ✓ | ✓ | ✓ |
 | Archivos RAW | ✓ | ✓ | ✓ | ✓ | ✓ |
-| Carpetas | ✓ | − | ✓ | ✓ | ✓ |
-| Vídeos | ✓ | − | ✓ | ✓ | ✓ |
-| Bibliotecas CC | ✓ | − | − | − | − |
-| PDF | ✓ | − | ✓ | ✓ | ✓ |
-| PSD, IA e INDD | ✓ | − | ✓ | ✓ | ✓ |
-| Otros archivos binarios | ✓ | − | ✓ | ✓ | ✓ |
+| Carpetas | ✓ | - | ✓ | ✓ | ✓ |
+| Vídeos | ✓ | - | ✓ | ✓ | ✓ |
+| Bibliotecas CC | ✓ | - | - | - | - |
+| PDF | ✓ | - | ✓ | ✓ | ✓ |
+| PSD, IA e INDD | ✓ | - | ✓ | ✓ | ✓ |
+| Otros archivos binarios | ✓ | - | ✓ | ✓ | ✓ |
 
 Los usuarios de [!DNL Adobe Asset Link] pueden cargar y registrar archivos (cargar una nueva versión) en el repositorio de [!DNL Assets Essentials] desde las aplicaciones de escritorio de [!DNL Adobe Creative Cloud] admitidas.
 
@@ -110,3 +110,11 @@ Los usuarios de [!DNL Adobe Asset Link] pueden cargar y registrar archivos (carg
 >
 >* []()
 -->
+
+## Siguientes pasos {#next-steps}
+
+* Proporcione comentarios de producto mediante [!UICONTROL Comentarios] opción disponible en la interfaz de usuario de Assets Essentials
+
+* Proporcione comentarios sobre la documentación usando [!UICONTROL Editar esta página] ![editar la página](assets/do-not-localize/edit-page.png) o [!UICONTROL Registrar un problema] ![crear un problema de GitHub](assets/do-not-localize/github-issue.png) disponible en la barra lateral derecha
+
+* Contacto [Servicio de atención al cliente](https://experienceleague.adobe.com/?support-solution=General#support)

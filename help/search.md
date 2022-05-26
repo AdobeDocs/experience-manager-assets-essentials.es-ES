@@ -3,10 +3,10 @@ title: Búsqueda y descubrimiento de recursos en [!DNL Assets Essentials]
 description: Busque y descubra recursos en [!DNL Assets Essentials].
 role: User
 exl-id: be9597a3-056c-436c-a09e-15a03567c85a
-source-git-commit: 0420b0836affe453cced6789ea4a7c56660e9f0a
+source-git-commit: 02f28c00b387fbcac4cd917fab7763124fdd5d70
 workflow-type: tm+mt
-source-wordcount: '686'
-ht-degree: 57%
+source-wordcount: '749'
+ht-degree: 52%
 
 ---
 
@@ -122,3 +122,13 @@ What about temporarily hiding an asset (suspending search on it) from the search
 
 When userA is searching and userB add an asset that matches search results, will the asset display in search as soon as userA refreshes the page? Assuming indexing is near real-time. May not be so for bulk uploads.
 -->
+
+## Siguientes pasos {#next-steps}
+
+* [Vea un vídeo para buscar recursos en Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-learn/assets-essentials/basics/using.html)
+
+* Proporcione comentarios de producto mediante [!UICONTROL Comentarios] opción disponible en la interfaz de usuario de Assets Essentials
+
+* Proporcione comentarios sobre la documentación usando [!UICONTROL Editar esta página] ![editar la página](assets/do-not-localize/edit-page.png) o [!UICONTROL Registrar un problema] ![crear un problema de GitHub](assets/do-not-localize/github-issue.png) disponible en la barra lateral derecha
+
+* Contacto [Servicio de atención al cliente](https://experienceleague.adobe.com/?support-solution=General#support)

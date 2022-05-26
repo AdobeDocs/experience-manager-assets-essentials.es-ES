@@ -3,10 +3,10 @@ title: Carga de recursos al repositorio
 description: Cargue recursos a [!DNL Assets Essentials], vea los estados de carga y resuelva problemas de carga.
 role: User
 exl-id: a85a4455-4456-48af-aee9-f05300677605
-source-git-commit: cd7af0c946a042430e62528fa6aa19bdab139f67
-workflow-type: ht
-source-wordcount: '747'
-ht-degree: 100%
+source-git-commit: 02f28c00b387fbcac4cd917fab7763124fdd5d70
+workflow-type: tm+mt
+source-wordcount: '810'
+ht-degree: 92%
 
 ---
 
@@ -95,3 +95,13 @@ Los usuarios pueden eliminar recursos o carpetas individuales que ya no sean nec
    *Imagen: las acciones para archivos y carpetas están disponibles en el mosaico del recurso o de la carpeta.*
 
 * Seleccione un recurso o una carpeta y haga clic en **[!UICONTROL Eliminar]** ![icono de eliminación](assets/do-not-localize/delete-icon.png) en la barra de herramientas.
+
+## Siguientes pasos {#next-steps}
+
+* [Vea un vídeo para cargar recursos en Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-learn/assets-essentials/basics/creating.html)
+
+* Proporcione comentarios de producto mediante [!UICONTROL Comentarios] opción disponible en la interfaz de usuario de Assets Essentials
+
+* Proporcione comentarios sobre la documentación usando [!UICONTROL Editar esta página] ![editar la página](assets/do-not-localize/edit-page.png) o [!UICONTROL Registrar un problema] ![crear un problema de GitHub](assets/do-not-localize/github-issue.png) disponible en la barra lateral derecha
+
+* Contacto [Servicio de atención al cliente](https://experienceleague.adobe.com/?support-solution=General#support)
