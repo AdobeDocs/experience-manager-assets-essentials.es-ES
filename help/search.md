@@ -6,7 +6,7 @@ exl-id: be9597a3-056c-436c-a09e-15a03567c85a
 source-git-commit: 02f28c00b387fbcac4cd917fab7763124fdd5d70
 workflow-type: tm+mt
 source-wordcount: '749'
-ht-degree: 52%
+ht-degree: 91%
 
 ---
 
@@ -32,7 +32,7 @@ Puede filtrar los resultados de búsqueda según los parámetros siguientes.
 
 *Imagen: filtre los recursos buscados según varios parámetros.*
 
-* Estado del recurso: Filtre los resultados de búsqueda mediante un `Approved` o `Rejected` estado del recurso.
+* Estado del recurso: Filtre los resultados de búsqueda mediante un estado del recurso `Approved` o `Rejected`.
 
 * Tipo de archivo: filtre los resultados de búsqueda según los tipos de archivos admitidos, es decir, `Images`, `Documents` y `Videos`.
 * Tipo de MIME: filtre uno o varios formatos de archivo compatibles. <!-- TBD:  [supported file formats](/help/supported-file-formats.md). -->
@@ -44,9 +44,9 @@ Puede ordenar los recursos buscados en orden creciente o descendente de `Name`, 
 
 ## Administrar filtros personalizados {#custom-filters}
 
-**Permisos necesarios:**  `Can Edit`, `Owner`o Administrador.
+**Permisos necesarios:**  `Can Edit`, `Owner` o Administrador.
 
-Assets Essentials también permite agregar filtros personalizados a la interfaz de usuario. A continuación, puede aplicar esos filtros personalizados además del [filtros estándar](#refine-search-results) para restringir los resultados de búsqueda.
+Assets Essentials también permite agregar filtros personalizados a la interfaz de usuario. A continuación, puede aplicar esos filtros personalizados además de los [filtros estándar](#refine-search-results) para restringir los resultados de búsqueda.
 
 Assets Essentials proporciona los siguientes filtros personalizados:
 
@@ -77,27 +77,27 @@ Assets Essentials proporciona los siguientes filtros personalizados:
 
 ### Añadir filtros personalizados {#add-custom-filters}
 
-Para agregar filtros personalizados:
+Para añadir filtros personalizados:
 
 1. Haga clic en **[!UICONTROL Filtros]**.
 
-1. En el **[!UICONTROL Filtros personalizados]** , haga clic en **[!UICONTROL Editar]** o **[!UICONTROL Añadir filtros]**.
+1. En la sección **[!UICONTROL Filtros personalizados]**, haga clic en **[!UICONTROL Editar]** o **[!UICONTROL Añadir filtros]**.
 
    ![Añadir filtros personalizados](assets/add-custom-filters.png)
 
-1. En el **[!UICONTROL Administración de filtros personalizados]** , seleccione los filtros que debe agregar a la lista de filtros existente. Select **[!UICONTROL Filtros personalizados]** para seleccionar todos los filtros.
+1. En el cuadro de diálogo **[!UICONTROL Administración de filtros personalizados]**, seleccione los filtros que debe agregar a la lista de filtros existente. Seleccione **[!UICONTROL Filtros personalizados]** para seleccionar todos los filtros.
 
 1. Haga clic en **[!UICONTROL Confirmar]** para agregar los filtros a la interfaz de usuario.
 
 ### Eliminar filtros personalizados {#remove-custom-filters}
 
-Para quitar filtros personalizados:
+Para eliminar filtros personalizados:
 
 1. Haga clic en **[!UICONTROL Filtros]**.
 
-1. En el **[!UICONTROL Filtros personalizados]** , haga clic en **[!UICONTROL Editar]**.
+1. En la sección **[!UICONTROL Filtros personalizados]**, haga clic en **[!UICONTROL Editar]**.
 
-1. En el **[!UICONTROL Administración de filtros personalizados]** , anule la selección de los filtros que debe eliminar de la lista de filtros existente.
+1. En el cuadro de diálogo **[!UICONTROL Administración de filtros personalizados]**, anule la selección de los filtros que debe eliminar de la lista de filtros existente.
 
 1. Haga clic en **[!UICONTROL Confirmar]** para eliminar los filtros de la interfaz de usuario.
 

@@ -7,19 +7,19 @@ exl-id: a0e29eb6-336a-4f78-b7bd-ec1338c86775
 source-git-commit: 4fcac20c15ebabcafe851ce207bd937c8a7f6b03
 workflow-type: tm+mt
 source-wordcount: '761'
-ht-degree: 72%
+ht-degree: 100%
 
 ---
 
 # Notas de la versión de [!DNL Assets Essentials] {#release-notes}
 
-La versión actual de [!DNL Assets Essentials] se publica el 12 de mayo de 2022. Esta versión proporciona lo siguiente:
+La versión actual de [!DNL Assets Essentials] se publicó el 12 de mayo de 2022. Esta versión proporciona lo siguiente:
 
-* [!DNL Assets Essentials] ahora admite [creación de colecciones](manage-collections.md). Una colección es un conjunto de recursos dentro de Experience Manager Assets Essentials. Utilice las colecciones para compartir recursos entre los usuarios. A diferencia de las carpetas, una colección puede incluir recursos de distintas ubicaciones.
+* [!DNL Assets Essentials] ahora admite la [creación de colecciones](manage-collections.md). Una colección es un conjunto de recursos dentro de Experience Manager Assets Essentials. Utilice las colecciones para compartir recursos entre los usuarios. A diferencia de las carpetas, una colección puede incluir recursos de distintas ubicaciones.
 
 * Assets Essentials ahora también le permite [añadir filtros personalizados](search.md#custom-filters) a la interfaz de usuario. A continuación, puede aplicar esos filtros personalizados además de los filtros estándar para restringir los resultados de búsqueda.
 
-* Assets Essentials ahora le permite [establecer estado](manage-organize.md#set-asset-status) en los recursos disponibles en el repositorio. Establezca un estado de recurso para gobernar y administrar mejor el consumo descendente de recursos digitales.
+* Assets Essentials ahora le permite [establecer el estado](manage-organize.md#set-asset-status) en los recursos disponibles en el repositorio. Establezca un estado de recurso para gobernar y administrar mejor el consumo descendente de recursos digitales.
 
 * Mejoras y correcciones de errores basadas en los comentarios de los clientes.
 
@@ -35,7 +35,7 @@ Con esta versión, estamos optimizando el rendimiento del envío de la interfaz 
 
 La lista de problemas conocidos de la oferta de [!DNL Assets Essentials] se revisa y actualiza de forma continua:
 
-* No se pueden filtrar los recursos mediante la variable `No Status` estado del recurso.
+* No se pueden filtrar los recursos mediante el estado del recurso `No Status`.
 
 * Assets Essentials no admite la creación de colecciones privadas.
 
@@ -45,7 +45,7 @@ Si encuentra algún problema o incluso si tiene solicitudes de mejora, [proporci
 
 ### 2022.2.0 {#march-2022}
 
-[!DNL Assets Essentials] está disponible el 9 de marzo de 2022, con las siguientes actualizaciones:
+[!DNL Assets Essentials] se publicó el 9 de marzo de 2022, con las siguientes actualizaciones:
 
 * [!DNL Assets Essentials] ahora le permite [generar un vínculo y compartir recursos con partes interesadas externas](share-links-for-assets.md), que no tienen acceso a la aplicación [!DNL Assets Essentials]. Puede definir una fecha de caducidad para el vínculo y luego compartirlo con otras personas mediante el método de comunicación que prefiera, como el correo electrónico o los servicios de mensajería. Los destinatarios del vínculo pueden obtener una vista previa de los recursos y descargarlos.
 

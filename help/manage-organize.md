@@ -7,7 +7,7 @@ exl-id: b01e98b9-0cc2-47c5-9f5b-79b8e6bef39f
 source-git-commit: 02f28c00b387fbcac4cd917fab7763124fdd5d70
 workflow-type: tm+mt
 source-wordcount: '901'
-ht-degree: 73%
+ht-degree: 93%
 
 ---
 
@@ -86,7 +86,7 @@ También puede crear versiones a partir de la cronología de las versiones. Sele
 
 ## Administrar el estado de los recursos {#manage-asset-status}
 
-**Permisos necesarios:**  `Can Edit`, `Owner`o permisos de administrador en un recurso.
+**Permisos necesarios:**  `Can Edit`, `Owner` o permisos de administrador en un recurso.
 
 Assets Essentials le permite establecer el estado en los recursos disponibles en el repositorio. Establezca un estado de recurso para gobernar y administrar mejor el consumo descendente de recursos digitales.
 
@@ -104,7 +104,7 @@ Para establecer el estado del recurso:
 
 1. Seleccione el recurso y haga clic en **[!UICONTROL Detalles]** en la barra de herramientas.
 
-1. En el **[!UICONTROL Básico]** , seleccione el estado del recurso en la pestaña **[!UICONTROL Estado]** lista desplegable. Los valores posibles incluyen Aprobado, Rechazado y Sin estado (predeterminado).
+1. En la pestaña **[!UICONTROL Básico]**, seleccione el estado del recurso en la lista desplegable **[!UICONTROL Estado]**. Los valores posibles incluyen Aprobado, Rechazado y Sin estado (predeterminado).
 
    >[!VIDEO](https://video.tv.adobe.com/v/342495)
 
@@ -130,7 +130,7 @@ También puede filtrar recursos en función de un estado de recurso. Para obtene
 
 Assets Essentials proporciona muchos campos de metadatos estándar de forma predeterminada. Las organizaciones tienen requisitos de metadatos adicionales y necesitan más campos para agregar los específicos de su empresa. Los formularios de metadatos permiten a las empresas añadir campos de metadatos personalizados a la página [!UICONTROL Detalles] de un recurso. Los metadatos específicos de la empresa mejoran el control y el descubrimiento de sus recursos.
 
-Para obtener más información sobre cómo agregar campos de metadatos adicionales al formulario de metadatos, consulte [Forms de metadatos](metadata.md##metadata-forms).
+Para obtener más información sobre cómo agregar campos de metadatos adicionales al formulario de metadatos, consulte [Formularios de metadatos](metadata.md##metadata-forms).
 
 **Agregar el campo de metadatos Estado del recurso al formulario**
 
