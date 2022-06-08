@@ -3,10 +3,10 @@ title: Búsqueda y descubrimiento de recursos en [!DNL Assets Essentials]
 description: Busque y descubra recursos en [!DNL Assets Essentials].
 role: User
 exl-id: be9597a3-056c-436c-a09e-15a03567c85a
-source-git-commit: 02f28c00b387fbcac4cd917fab7763124fdd5d70
+source-git-commit: 378aa0ee62ad814bdf598dfcf21f8b2775c83b84
 workflow-type: tm+mt
 source-wordcount: '749'
-ht-degree: 91%
+ht-degree: 90%
 
 ---
 
@@ -32,7 +32,7 @@ Puede filtrar los resultados de búsqueda según los parámetros siguientes.
 
 *Imagen: filtre los recursos buscados según varios parámetros.*
 
-* Estado del recurso: Filtre los resultados de búsqueda mediante un estado del recurso `Approved` o `Rejected`.
+* Estado del recurso: Filtre los resultados de búsqueda mediante un `Approved`, `Rejected`o `No Status` estado del recurso.
 
 * Tipo de archivo: filtre los resultados de búsqueda según los tipos de archivos admitidos, es decir, `Images`, `Documents` y `Videos`.
 * Tipo de MIME: filtre uno o varios formatos de archivo compatibles. <!-- TBD:  [supported file formats](/help/supported-file-formats.md). -->
