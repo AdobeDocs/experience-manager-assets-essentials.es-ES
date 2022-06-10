@@ -4,10 +4,10 @@ description: Mueva, elimine, copie, cambie de nombre, actualice y convierta en v
 role: User,Leader
 contentOwner: AG
 exl-id: b01e98b9-0cc2-47c5-9f5b-79b8e6bef39f
-source-git-commit: 02f28c00b387fbcac4cd917fab7763124fdd5d70
+source-git-commit: 05c9903d1225cd7875cc42ffe9ed7bd98aa1b757
 workflow-type: tm+mt
-source-wordcount: '901'
-ht-degree: 93%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -108,19 +108,16 @@ Para establecer el estado del recurso:
 
    >[!VIDEO](https://video.tv.adobe.com/v/342495)
 
-<!--
 
-### Set asset expiration date {#set-asset-expiration-date}
+### Establecer fecha de caducidad del recurso {#set-asset-expiration-date}
 
-To set asset expiration date:
+Para establecer la fecha de caducidad del recurso:
 
-1. Select the asset, and click **[!UICONTROL Details]** in the toolbar.
+1. Seleccione el recurso y haga clic en **[!UICONTROL Detalles]** en la barra de herramientas.
 
-1. In the **[!UICONTROL Basic]** tab, set the expiration date for the asset using the  **[!UICONTROL Expiration date]** field.
+1. En el **[!UICONTROL Básico]** , defina la fecha de caducidad del recurso mediante la pestaña  **[!UICONTROL Fecha de caducidad]** campo .
 
-The `Expired` asset card indicator overrides the `Approved` or `Rejected` indicator set for an asset.
-
--->
+La variable `Expired` el indicador de la tarjeta de recursos anula la `Approved` o `Rejected` conjunto de indicadores para un recurso.
 
 También puede filtrar recursos en función de un estado de recurso. Para obtener más información, consulte [Buscar recursos en Assets Essentials](search.md).
 
@@ -136,13 +133,9 @@ Para obtener más información sobre cómo agregar campos de metadatos adicional
 
 Para agregar el campo de metadatos Estado del recurso al formulario, arrastre **[!UICONTROL Estado del recurso]** del carril izquierdo al formulario. La propiedad de asignación se rellena automáticamente previamente. Guarde el formulario para confirmar los cambios.
 
-<!--
+**Agregar el campo de metadatos Fecha de caducidad al formulario**
 
-**Add Expiration Date metadata field to the form**
-
-To add Expiration Date metadata field to the form,  drag **[!UICONTROL Date]** component from the left rail to the form. Specify **Expiration Date** as the label and `pur:expirationDate` as the mapping property. Save the form to confirm the changes.
-
--->
+Para agregar el campo de metadatos Fecha de caducidad al formulario, arrastre **[!UICONTROL Fecha]** del carril izquierdo al formulario. Especifique **Fecha de caducidad** como etiqueta y `pur:expirationDate` como propiedad de asignación. Guarde el formulario para confirmar los cambios.
 
 ## Siguientes pasos {#next-steps}
 

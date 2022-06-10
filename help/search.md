@@ -3,10 +3,10 @@ title: Búsqueda y descubrimiento de recursos en [!DNL Assets Essentials]
 description: Busque y descubra recursos en [!DNL Assets Essentials].
 role: User
 exl-id: be9597a3-056c-436c-a09e-15a03567c85a
-source-git-commit: 378aa0ee62ad814bdf598dfcf21f8b2775c83b84
+source-git-commit: 8fe62d7073b313da9a5ca4c365636933d44d24c4
 workflow-type: tm+mt
-source-wordcount: '749'
-ht-degree: 90%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -58,11 +58,11 @@ Assets Essentials proporciona los siguientes filtros personalizados:
      </tr>
      <tr>
       <td>Título</td>
-      <td>Filtre los recursos mediante el título del recurso. El título que especifique en los criterios de búsqueda que distinguen entre mayúsculas y minúsculas debe coincidir con el título exacto del recurso para mostrarlo en los resultados.</td>
+      <td>Filtre los recursos mediante el título del recurso. Puede utilizar un operador comodín (*) para permitir que Assets Essentials muestre los recursos en los resultados que coinciden parcialmente con los criterios de búsqueda. Por ejemplo, si define <b>ma*</b> como criterio de búsqueda, Assets Essentials muestra los recursos con título, como mercado, marketing, man, manchester, etc., en los resultados.</td>
      </tr>
      <tr>
       <td>Nombre</td>
-      <td>Filtre los recursos con el nombre del archivo del recurso. El nombre que especifique en los criterios de búsqueda que distinguen entre mayúsculas y minúsculas debe coincidir con el nombre de archivo exacto del recurso para mostrarlo en los resultados.</td>
+      <td>Filtre los recursos con el nombre del archivo del recurso. Puede utilizar un operador comodín (*) para permitir que Assets Essentials muestre los recursos en los resultados que coinciden parcialmente con los criterios de búsqueda.</td>
      </tr>
      <tr>
       <td>Tamaño del recurso</td>
@@ -70,7 +70,7 @@ Assets Essentials proporciona los siguientes filtros personalizados:
      </tr>
      <tr>
       <td>Etiquetas previstas</td>
-      <td>Filtre recursos con la etiqueta inteligente de recursos. El nombre de la etiqueta inteligente que especifique en los criterios de búsqueda que distinguen entre mayúsculas y minúsculas debe coincidir con el nombre exacto de la etiqueta inteligente del recurso que se mostrará en los resultados. No se pueden especificar varias etiquetas inteligentes en los criterios de búsqueda.</td>
+      <td>Filtre recursos con la etiqueta inteligente de recursos. Puede utilizar un operador comodín (*) para permitir que Assets Essentials muestre los recursos en los resultados que coinciden parcialmente con los criterios de búsqueda. Puede especificar varias etiquetas inteligentes separadas por una coma en los criterios de búsqueda.</td>
      </tr>    
     </tbody>
    </table>
