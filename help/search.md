@@ -5,8 +5,8 @@ role: User
 exl-id: be9597a3-056c-436c-a09e-15a03567c85a
 source-git-commit: 8fe62d7073b313da9a5ca4c365636933d44d24c4
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '774'
+ht-degree: 84%
 
 ---
 
@@ -125,10 +125,10 @@ When userA is searching and userB add an asset that matches search results, will
 
 ## Siguientes pasos {#next-steps}
 
-* [Vea un vídeo para buscar recursos en Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-learn/assets-essentials/basics/using.html)
+* [Vea un vídeo para buscar recursos en Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-learn/assets-essentials/basics/using.html?lang=es)
 
-* Proporcione comentarios de producto mediante [!UICONTROL Comentarios] opción disponible en la interfaz de usuario de Assets Essentials
+* Proporcione comentarios de producto mediante la opción [!UICONTROL Comentarios] disponible en la interfaz de usuario de Assets Essentials
 
-* Proporcione comentarios sobre la documentación usando [!UICONTROL Editar esta página] ![editar la página](assets/do-not-localize/edit-page.png) o [!UICONTROL Registrar un problema] ![crear un problema de GitHub](assets/do-not-localize/github-issue.png) disponible en la barra lateral derecha
+* Proporcione comentarios sobre la documentación usando [!UICONTROL Editar esta página] ![editar la página](assets/do-not-localize/edit-page.png) o [!UICONTROL Registrar una incidencia] ![crear una incidencia de GitHub](assets/do-not-localize/github-issue.png), disponibles en la barra lateral derecha.
 
-* Contacto [Servicio de atención al cliente](https://experienceleague.adobe.com/?support-solution=General#support)
+* Contacto con el [Servicio de atención al cliente](https://experienceleague.adobe.com/?support-solution=General&amp;lang=es#support)
