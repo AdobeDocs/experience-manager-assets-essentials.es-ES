@@ -4,9 +4,9 @@ description: Explicación de la interfaz de usuario de y la navegación en [!DNL
 role: User
 exl-id: 534a8084-88f7-410e-b872-719e47e62b10
 source-git-commit: 02f28c00b387fbcac4cd917fab7763124fdd5d70
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '586'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -105,11 +105,11 @@ Other use cases after previewing.
 
 ## Siguientes pasos {#next-steps}
 
-* Proporcione comentarios de producto mediante [!UICONTROL Comentarios] opción disponible en la interfaz de usuario de Assets Essentials
+* Proporcione comentarios de producto mediante la opción [!UICONTROL Comentarios] disponible en la interfaz de usuario de Assets Essentials
 
-* Proporcione comentarios sobre la documentación usando [!UICONTROL Editar esta página] ![editar la página](assets/do-not-localize/edit-page.png) o [!UICONTROL Registrar un problema] ![crear un problema de GitHub](assets/do-not-localize/github-issue.png) disponible en la barra lateral derecha
+* Proporcione comentarios sobre la documentación usando [!UICONTROL Editar esta página] ![editar la página](assets/do-not-localize/edit-page.png) o [!UICONTROL Registrar una incidencia] ![crear una incidencia de GitHub](assets/do-not-localize/github-issue.png), disponibles en la barra lateral derecha.
 
-* Contacto [Servicio de atención al cliente](https://experienceleague.adobe.com/?support-solution=General#support)
+* Contacto con el [Servicio de atención al cliente](https://experienceleague.adobe.com/?support-solution=General&amp;lang=es#support)
 
 >[!MORELIKETHIS]
 >
