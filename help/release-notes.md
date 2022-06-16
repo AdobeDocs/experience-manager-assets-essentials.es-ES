@@ -4,14 +4,67 @@ description: Notas de la versión y problemas conocidos de [!DNL Assets Essentia
 role: User,Leader,Admin,Architect,Developer
 contentOwner: AK
 exl-id: a0e29eb6-336a-4f78-b7bd-ec1338c86775
-source-git-commit: 4fcac20c15ebabcafe851ce207bd937c8a7f6b03
-workflow-type: ht
-source-wordcount: '761'
-ht-degree: 100%
+source-git-commit: 7c6293bb99d5be8084e6998da966bb89be9c714e
+workflow-type: tm+mt
+source-wordcount: '889'
+ht-degree: 86%
 
 ---
 
 # Notas de la versión de [!DNL Assets Essentials] {#release-notes}
+
+La versión actual de [!DNL Assets Essentials] se publica el 16 de junio de 2022.
+
+Esta versión proporciona lo siguiente:
+
+**Mejoras en el estado de los recursos**
+
+* Assets Essentials ahora le permite [establecer una fecha de caducidad para un recurso](manage-organize.md#set-asset-status). Además, puede [filtrar recursos](search.md#refine-search-results) en función de la variable `Expired` estado del recurso y un intervalo de fechas de caducidad.
+
+* Ahora puede ver el indicador de estado de los recursos para todos los recursos disponibles en Papelera. Como resultado, puede tomar la decisión de restaurar un recurso en función de su estado.
+
+**Mejoras en los filtros de búsqueda**
+
+* Assets Essentials ahora le permite [filtrar recursos](search.md#refine-search-results) usando la variable `No Status` estado del recurso.
+
+<!--
+
+* Assets Essentials now supports [using a wildcard operator (*) while using custom filters](search.md#custom-filters) to enable Assets Essentials to display assets in the results that partially match the search criteria.
+
+-->
+
+**Mejoras en las colecciones**
+
+<!--
+
+* Assets Essentials now enables you to [create Private collections](manage-collections.md#create-collection).
+
+-->
+
+* Assets Essentials ahora es compatible [descarga de una colección](manage-collections.md).
+
+* Ahora puede editar el campo Metadatos de descripción de una colección.
+
+**Mejoras en la documentación**
+
+* Una nueva versión de [Documentación general de Assets Essentials](introduction.md) ya está disponible.
+
+**Mejoras basadas en los comentarios de los clientes**
+
+* Mejoras y correcciones de errores basadas en los comentarios de los clientes.
+
+
+## Problemas conocidos {#known-issues}
+
+La lista de problemas conocidos de la oferta de [!DNL Assets Essentials] se revisa y actualiza de forma continua:
+
+* Assets Essentials no admite la creación de colecciones privadas.
+
+Si encuentra algún problema o incluso si tiene solicitudes de mejora, [proporcione comentarios](#provide-feedback) al equipo.
+
+## Versiones anteriores {#past-release}
+
+### 2022.4.0 {#april-2022}
 
 La versión actual de [!DNL Assets Essentials] se publicó el 12 de mayo de 2022. Esta versión proporciona lo siguiente:
 
@@ -23,25 +76,13 @@ La versión actual de [!DNL Assets Essentials] se publicó el 12 de mayo de 2022
 
 * Mejoras y correcciones de errores basadas en los comentarios de los clientes.
 
-## Modo incógnito en Chrome {#incognito-mode}
+#### Modo incógnito en Chrome {#incognito-mode}
 
 Con esta versión, estamos optimizando el rendimiento del envío de la interfaz de usuario y de las funciones específicas de Assets Essentials (comentar sobre los recursos y la edición de imágenes) depende de que se habiliten el almacenamiento local del explorador y las cookies de terceros. El modo incógnito del explorador web Chrome bloquea las cookies de terceros de forma predeterminada: los usuarios tienen varias opciones para seguir accediendo a todas las funciones:
 
 * Utilice los perfiles de Chrome en lugar del modo Incognito, cuando el usuario necesita separar las sesiones del navegador
 
 * Desactive el `Block third-party cookies` en la pantalla del modo Incognito en Chrome
-
-## Problemas conocidos {#known-issues}
-
-La lista de problemas conocidos de la oferta de [!DNL Assets Essentials] se revisa y actualiza de forma continua:
-
-* No se pueden filtrar los recursos mediante el estado del recurso `No Status`.
-
-* Assets Essentials no admite la creación de colecciones privadas.
-
-Si encuentra algún problema o incluso si tiene solicitudes de mejora, [proporcione comentarios](#provide-feedback) al equipo.
-
-## Versiones anteriores {#past-release}
 
 ### 2022.2.0 {#march-2022}
 
