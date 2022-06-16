@@ -3,10 +3,10 @@ title: Búsqueda y descubrimiento de recursos en [!DNL Assets Essentials]
 description: Busque y descubra recursos en [!DNL Assets Essentials].
 role: User
 exl-id: be9597a3-056c-436c-a09e-15a03567c85a
-source-git-commit: 8fe62d7073b313da9a5ca4c365636933d44d24c4
+source-git-commit: cfe72bb73493c84dc57a0438817e3868d8a1ed14
 workflow-type: tm+mt
-source-wordcount: '774'
-ht-degree: 84%
+source-wordcount: '802'
+ht-degree: 90%
 
 ---
 
@@ -37,8 +37,12 @@ Puede filtrar los resultados de búsqueda según los parámetros siguientes.
 * Tipo de archivo: filtre los resultados de búsqueda según los tipos de archivos admitidos, es decir, `Images`, `Documents` y `Videos`.
 * Tipo de MIME: filtre uno o varios formatos de archivo compatibles. <!-- TBD:  [supported file formats](/help/supported-file-formats.md). -->
 * Tamaño de imagen: proporcione una o más de las dimensiones mínimas y máximas para filtrar imágenes. El tamaño se proporciona en dimensiones en píxeles y no es el tamaño de archivo de las imágenes.
-* Fecha de creación: la fecha de creación del recurso tal como se indica en los metadatos. El formato de fecha estándar utilizado es `yyyy-mm-dd`.
+* Fecha de creación: La fecha de creación del recurso tal como se indica en los metadatos. El formato de fecha estándar utilizado es `yyyy-mm-dd`.
 * Fecha de modificación: fecha de la última modificación de los recursos. El formato de fecha estándar utilizado es `yyyy-mm-dd`.
+
+* Fecha de caducidad: Filtre los resultados de búsqueda en función de un `Expired` estado del recurso. Además, puede especificar un intervalo de fechas de caducidad para los recursos para filtrar aún más los resultados de búsqueda.
+
+* Filtros personalizados: [Añadir filtros personalizados](#custom-filters) a la interfaz de usuario de Assets Essentials. Aplique los filtros personalizados además de los filtros estándar para restringir los resultados de búsqueda.
 
 Puede ordenar los recursos buscados en orden creciente o descendente de `Name`, `Relevancy`, `Size`, `Modified` y `Created`.
 
@@ -58,11 +62,11 @@ Assets Essentials proporciona los siguientes filtros personalizados:
      </tr>
      <tr>
       <td>Título</td>
-      <td>Filtre los recursos mediante el título del recurso. Puede utilizar un operador comodín (*) para permitir que Assets Essentials muestre los recursos en los resultados que coinciden parcialmente con los criterios de búsqueda. Por ejemplo, si define <b>ma*</b> como criterio de búsqueda, Assets Essentials muestra los recursos con título, como mercado, marketing, man, manchester, etc., en los resultados.</td>
+      <td>Filtre los recursos mediante el título del recurso. El título que especifique en los criterios de búsqueda que distinguen entre mayúsculas y minúsculas debe coincidir con el título exacto del recurso para mostrarlo en los resultados.</td>
      </tr>
      <tr>
       <td>Nombre</td>
-      <td>Filtre los recursos con el nombre del archivo del recurso. Puede utilizar un operador comodín (*) para permitir que Assets Essentials muestre los recursos en los resultados que coinciden parcialmente con los criterios de búsqueda.</td>
+      <td>Filtre los recursos con el nombre del archivo del recurso. El nombre que especifique en los criterios de búsqueda que distinguen entre mayúsculas y minúsculas debe coincidir con el nombre de archivo exacto del recurso para mostrarlo en los resultados.</td>
      </tr>
      <tr>
       <td>Tamaño del recurso</td>
@@ -70,10 +74,19 @@ Assets Essentials proporciona los siguientes filtros personalizados:
      </tr>
      <tr>
       <td>Etiquetas previstas</td>
-      <td>Filtre recursos con la etiqueta inteligente de recursos. Puede utilizar un operador comodín (*) para permitir que Assets Essentials muestre los recursos en los resultados que coinciden parcialmente con los criterios de búsqueda. Puede especificar varias etiquetas inteligentes separadas por una coma en los criterios de búsqueda.</td>
+      <td>Filtre recursos con la etiqueta inteligente de recursos. El nombre de la etiqueta inteligente que especifique en los criterios de búsqueda que distinguen entre mayúsculas y minúsculas debe coincidir con el nombre exacto de la etiqueta inteligente del recurso que se mostrará en los resultados. No se pueden especificar varias etiquetas inteligentes en los criterios de búsqueda.</td>
      </tr>    
     </tbody>
    </table>
+
+<!--
+   You can use a wildcard operator (*) to enable Assets Essentials to display assets in the results that partially match the search criteria. For example, if you define <b>ma*</b> as the search criteria, Assets Essentials displays assets with title, such as, market, marketing, man, manchester, and so on in the results.
+
+   You can use a wildcard operator (*) to enable Assets Essentials to display assets in the results that partially match the search criteria.
+
+   You can use a wildcard operator (*) to enable Assets Essentials to display assets in the results that partially match the search criteria. You can specify multiple smart tags separated by a comma in the search criteria.
+
+   -->
 
 ### Añadir filtros personalizados {#add-custom-filters}
 
