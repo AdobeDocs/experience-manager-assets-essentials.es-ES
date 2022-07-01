@@ -6,7 +6,7 @@ exl-id: be9597a3-056c-436c-a09e-15a03567c85a
 source-git-commit: cfe72bb73493c84dc57a0438817e3868d8a1ed14
 workflow-type: tm+mt
 source-wordcount: '802'
-ht-degree: 90%
+ht-degree: 91%
 
 ---
 
@@ -32,7 +32,7 @@ Puede filtrar los resultados de búsqueda según los parámetros siguientes.
 
 *Imagen: filtre los recursos buscados según varios parámetros.*
 
-* Estado del recurso: Filtre los resultados de búsqueda mediante un `Approved`, `Rejected`o `No Status` estado del recurso.
+* Estado del recurso: filtre los resultados de búsqueda mediante un estado del recurso `Approved`, `Rejected` o `No Status`.
 
 * Tipo de archivo: filtre los resultados de búsqueda según los tipos de archivos admitidos, es decir, `Images`, `Documents` y `Videos`.
 * Tipo de MIME: filtre uno o varios formatos de archivo compatibles. <!-- TBD:  [supported file formats](/help/supported-file-formats.md). -->

@@ -7,7 +7,7 @@ exl-id: b01e98b9-0cc2-47c5-9f5b-79b8e6bef39f
 source-git-commit: cfe72bb73493c84dc57a0438817e3868d8a1ed14
 workflow-type: tm+mt
 source-wordcount: '1036'
-ht-degree: 88%
+ht-degree: 95%
 
 ---
 
@@ -109,17 +109,17 @@ Para establecer el estado del recurso:
    >[!VIDEO](https://video.tv.adobe.com/v/342495)
 
 
-### Establecer fecha de caducidad del recurso {#set-asset-expiration-date}
+### Configuración de la fecha de caducidad del recurso {#set-asset-expiration-date}
 
 Assets Essentials también le permite establecer la fecha de caducidad en los recursos disponibles en el repositorio. Entonces puede [filtrar los resultados de búsqueda](search.md#refine-search-results) basado en un `Expired` estado del recurso. Además, puede especificar un intervalo de fechas de caducidad para los recursos para filtrar aún más los resultados de búsqueda.
 
-Para establecer la fecha de caducidad del recurso:
+Para establecer la fecha de caducidad del recurso, haga lo siguiente:
 
 1. Seleccione el recurso y haga clic en **[!UICONTROL Detalles]** en la barra de herramientas.
 
-1. En el **[!UICONTROL Básico]** , defina la fecha de caducidad del recurso mediante la pestaña  **[!UICONTROL Fecha de caducidad]** campo .
+1. En la pestaña **[!UICONTROL Básico]**, defina la fecha de caducidad del recurso mediante el campo **[!UICONTROL Fecha de caducidad]**.
 
-La variable `Expired` el indicador de la tarjeta de recursos anula la `Approved` o `Rejected` conjunto de indicadores para un recurso.
+El indicador de la tarjeta de recursos `Expired` anula los indicadores `Approved` o `Rejected` definidos para un recurso.
 
 También puede filtrar recursos en función de un estado de recurso. Para obtener más información, consulte [Buscar recursos en Assets Essentials](search.md).
 
@@ -135,9 +135,9 @@ Para obtener más información sobre cómo agregar campos de metadatos adicional
 
 Para agregar el campo de metadatos Estado del recurso al formulario, arrastre **[!UICONTROL Estado del recurso]** del carril izquierdo al formulario. La propiedad de asignación se rellena automáticamente previamente. Guarde el formulario para confirmar los cambios.
 
-**Agregar el campo de metadatos Fecha de caducidad al formulario**
+**Adición del campo de metadatos Fecha de caducidad al formulario**
 
-Para agregar el campo de metadatos Fecha de caducidad al formulario, arrastre **[!UICONTROL Fecha]** del carril izquierdo al formulario. Especifique **Fecha de caducidad** como etiqueta y `pur:expirationDate` como propiedad de asignación. Guarde el formulario para confirmar los cambios.
+Para añadir el campo de metadatos Fecha de caducidad al formulario, arrastre el componente **[!UICONTROL Fecha]** del carril izquierdo al formulario. Especifique la **Fecha de caducidad** como etiqueta y `pur:expirationDate` como propiedad de asignación. Guarde el formulario para confirmar los cambios.
 
 ## Siguientes pasos {#next-steps}
 
