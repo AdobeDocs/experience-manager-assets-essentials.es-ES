@@ -5,27 +5,27 @@ role: User,Leader,Admin,Architect,Developer
 contentOwner: AK
 exl-id: a0e29eb6-336a-4f78-b7bd-ec1338c86775
 source-git-commit: 7c6293bb99d5be8084e6998da966bb89be9c714e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '889'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
 # Notas de la versión de [!DNL Assets Essentials] {#release-notes}
 
-La versión actual de [!DNL Assets Essentials] se publica el 16 de junio de 2022.
+La versión actual de [!DNL Assets Essentials] se publicó el 16 de junio de 2022.
 
 Esta versión proporciona lo siguiente:
 
-**Mejoras en el estado de los recursos**
+**Mejoras en el estado de los activos**
 
-* Assets Essentials ahora le permite [establecer una fecha de caducidad para un recurso](manage-organize.md#set-asset-status). Además, puede [filtrar recursos](search.md#refine-search-results) en función de la variable `Expired` estado del recurso y un intervalo de fechas de caducidad.
+* Assets Essentials ahora le permite [establecer una fecha de caducidad para un recurso](manage-organize.md#set-asset-status). Además, puede [filtrar recursos](search.md#refine-search-results) en función del `Expired` estado del activo y un intervalo de fechas de caducidad.
 
-* Ahora puede ver el indicador de estado de los recursos para todos los recursos disponibles en Papelera. Como resultado, puede tomar la decisión de restaurar un recurso en función de su estado.
+* Ahora puede ver el indicador de estado de los activos para todos los recursos disponibles en Papelera. Como resultado, puede tomar la decisión de restaurar un recurso en función de su estado.
 
 **Mejoras en los filtros de búsqueda**
 
-* Assets Essentials ahora le permite [filtrar recursos](search.md#refine-search-results) usando la variable `No Status` estado del recurso.
+* Assets Essentials ahora le permite [filtrar recursos](search.md#refine-search-results) usando el `No Status` estado del activo.
 
 <!--
 
@@ -41,7 +41,7 @@ Esta versión proporciona lo siguiente:
 
 -->
 
-* Assets Essentials ahora es compatible [descarga de una colección](manage-collections.md).
+* Assets Essentials ahora es compatible con la [descarga de una colección](manage-collections.md).
 
 * Ahora puede editar el campo Metadatos de descripción de una colección.
 
