@@ -3,9 +3,9 @@ title: Administrar colecciones
 description: Una colección es un conjunto de recursos dentro de Experience Manager Assets Essentials. Utilice las colecciones para compartir recursos entre los usuarios.
 exl-id: 33c889f5-c989-4772-9591-db62f50e5c80
 source-git-commit: 466f64018a37f553c0ad0cfaa2dc98b1e84b9be1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '524'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -113,7 +113,7 @@ Para ver y editar metadatos de colección:
 1. Vea los metadatos de la colección utilizando la pestaña **[!UICONTROL Básico]**.
 1. Modifique los campos de metadatos según sea necesario. Puede modificar los campos [!UICONTROL Título], [!UICONTROL Descripción] y [!UICONTROL Autor].
 
-![Metadatos de la colección](assets/collection-metadata.png)
+![Colección metadatos](assets/collection-metadata.png)
 
 ## Compartir vínculos de colecciones {#share-collection-links}
 
@@ -131,9 +131,9 @@ Para descargar una colección:
 
 1. Seleccione la colección que necesita descargar y haga clic en **[!UICONTROL Descargar]**.
 
-1. En el [!UICONTROL Descarga de recursos] cuadro de diálogo, haga clic en **[!UICONTROL OK]**.
+1. En el cuadro de diálogo [!UICONTROL Descargar recurso], haga clic en **[!UICONTROL Aceptar]**.
 
-La colección se descarga como archivo .ZIP en el equipo local.
+La colección se descarga como un archivo .ZIP en el equipo local.
 
 ## Eliminar una colección {#delete-collection}
 
@@ -149,6 +149,6 @@ Para eliminar una colección:
 
 * Proporcione comentarios de producto mediante la opción [!UICONTROL Comentarios] disponible en la interfaz de usuario de Assets Essentials
 
-* Proporcione comentarios sobre la documentación usando [!UICONTROL Editar esta página] ![editar la página](assets/do-not-localize/edit-page.png) o [!UICONTROL Registrar una incidencia] ![crear una incidencia de GitHub](assets/do-not-localize/github-issue.png), disponibles en la barra lateral derecha.
+* Proporcione comentarios sobre la documentación usando [!UICONTROL Editar esta página] ![editar la página](assets/do-not-localize/edit-page.png) o [!UICONTROL Registrar una incidencia] ![crear una incidencia de GitHub](assets/do-not-localize/github-issue.png), disponibles en la barra lateral derecha
 
 * Contacto con el [Servicio de atención al cliente](https://experienceleague.adobe.com/?support-solution=General&amp;lang=es#support)
