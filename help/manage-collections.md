@@ -2,10 +2,10 @@
 title: Administrar colecciones
 description: Una colección es un conjunto de recursos dentro de Experience Manager Assets Essentials. Utilice las colecciones para compartir recursos entre los usuarios.
 exl-id: 33c889f5-c989-4772-9591-db62f50e5c80
-source-git-commit: f273e1e3c8a290e0beee0423da00c63013062c43
+source-git-commit: 096906eded35dc0a8c231534204bfc672c2430b7
 workflow-type: tm+mt
 source-wordcount: '686'
-ht-degree: 76%
+ht-degree: 75%
 
 ---
 
@@ -47,7 +47,7 @@ Para crear una colección:
 
 1. Seleccione si necesita crear una colección privada o una colección pública. Hay una colección pública disponible para su visualización y edición por todos los usuarios. Sin embargo, hay una colección privada disponible para el creador y los usuarios con privilegios de administrador.
 
-1. Haga clic en **[!UICONTROL Guardar]** para crear la colección.
+1. Haga clic en **[!UICONTROL Crear]** para crear la colección.
 
 ![Crear colección](assets/create-collection.png)
 
