@@ -2,10 +2,10 @@
 title: Administrar colecciones
 description: Una colección es un conjunto de recursos dentro de Experience Manager Assets Essentials. Utilice las colecciones para compartir recursos entre los usuarios.
 exl-id: 33c889f5-c989-4772-9591-db62f50e5c80
-source-git-commit: 466f64018a37f553c0ad0cfaa2dc98b1e84b9be1
-workflow-type: ht
-source-wordcount: '524'
-ht-degree: 100%
+source-git-commit: f273e1e3c8a290e0beee0423da00c63013062c43
+workflow-type: tm+mt
+source-wordcount: '686'
+ht-degree: 76%
 
 ---
 
@@ -45,15 +45,15 @@ Para crear una colección:
 
 1. Especifique un título y una descripción opcional para la colección.
 
+1. Seleccione si necesita crear una colección privada o una colección pública. Hay una colección pública disponible para su visualización y edición por todos los usuarios. Sin embargo, hay una colección privada disponible para el creador y los usuarios con privilegios de administrador.
+
 1. Haga clic en **[!UICONTROL Guardar]** para crear la colección.
 
 ![Crear colección](assets/create-collection.png)
 
 <!--
-
-1. Select if you need to a create a Private collection or a Public collection.
-
-   A Public collection is available for viewing and editing to all users. However, if you are a non-administrator user, a Private collection is available for viewing and editing only to users with the appropriate [permissions](#manage-collection-access). 
+   
+   for viewing and editing only to users with the appropriate [permissions](#manage-collection-access).
 
 -->
 
@@ -70,6 +70,25 @@ Para agregar recursos a una colección:
 1. Haga clic en **[!UICONTROL Agregar]** para agregar el recurso a las colecciones seleccionadas.
 
 Para agregar recursos a la colección, también puede hacer clic en **[!UICONTROL Colecciones]** en el carril izquierdo, haga clic en la colección a la que desee agregar recursos y, a continuación, haga clic en **[!UICONTROL Agregar a colección]**, seleccione los recursos y haga clic en **[!UICONTROL Seleccionar]**.
+
+## Crear una colección inteligente {#create-smart-collection}
+
+Guarde los resultados de búsqueda como una colección inteligente para actualizar dinámicamente el contenido de la colección. Si hay recursos agregados al repositorio de Assets Essentials que se ajustan a los criterios de búsqueda definidos al crear la colección inteligente, el contenido de la colección inteligente se actualiza automáticamente.
+
+Para crear una colección inteligente:
+
+1. Haga clic en **[!UICONTROL Filtro]** y [definir los criterios de búsqueda](search.md##refine-search-results).
+
+1. Haga clic en **[!UICONTROL Guardar como]** y, a continuación, seleccione **[!UICONTROL Colección inteligente]**.
+
+1. En el [!UICONTROL Crear colecciones inteligentes] , especifique un título y una descripción para la colección inteligente.
+
+1. Select **[!UICONTROL Colección pública]** si necesita que todos los usuarios tengan acceso a la colección. Select **[!UICONTROL Colección privada]** si necesita un grupo limitado de usuarios para acceder a la colección.
+
+1. Haga clic en **[!UICONTROL Crear]** para crear la colección inteligente.
+
+![Crear una colección inteligente](assets/create-smart-collection.png)
+
 
 ## Eliminación de recursos de una colección {#remove-assets-from-collection}
 

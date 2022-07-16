@@ -1,26 +1,25 @@
 ---
 title: Administración de informes en Assets Essentials
-description: Utilice la información de los informes de Assets Essentials para derivar métricas de éxito clave y medir la adopción de Recursos en su empresa y por parte de los clientes.
-source-git-commit: 511b7904eca972e76f55e574c7c364dd88fb1721
+description: Acceda a los datos de la sección de informes de Assets Essentials para evaluar el uso de productos y funciones y obtener perspectivas sobre las métricas de éxito clave.
+exl-id: c7155459-05d9-4a95-a91f-a1fa6ae9d9a4
+source-git-commit: e445cd77c6d57281cbf2442a849b249f3da1a4ee
 workflow-type: tm+mt
-source-wordcount: '515'
+source-wordcount: '491'
 ht-degree: 4%
 
 ---
 
 # Administrar informes {#manage-reports}
 
-Los informes de recursos permiten a los administradores evaluar la utilidad de la implementación de Adobe Experience Manager Assets Essentials. Los informes proporcionan información útil sobre cómo los usuarios interactúan con los recursos disponibles en la implementación.
-
-Utilice la información de los informes para derivar métricas de éxito clave para medir la adopción de Recursos en su empresa y por parte de los clientes.
+Los informes de recursos proporcionan a los administradores visibilidad de la actividad del entorno de Adobe Experience Manager Assets Essentials. Estos datos proporcionan información útil sobre cómo los usuarios interactúan con el contenido y el producto.
 
 ## Informes de acceso {#access-reports}
 
-Todos los usuarios asignados al [Perfil de producto de los administradores de Assets Essentials](deploy-administer.md) puede acceder a las estadísticas e informes activos en Assets Essentials.
+Todos los usuarios asignados al [Perfil de producto de los administradores de Assets Essentials](deploy-administer.md) puede acceder al tablero Estadísticas activas y crear informes definidos por el usuario en Assets Essentials.
 
 ## Ver estadísticas de lanzamiento {#view-live-statistics}
 
-Assets Essentials le permite ver los datos de descarga generados automáticamente para su implementación de Assets Essentials. Puede seleccionar esta opción para ver el número de descargas de recursos realizadas durante los últimos 30 días o durante los últimos 12 meses.
+Assets Essentials le permite ver datos en tiempo real de su entorno de Assets Essentials con el panel Estadísticas activas . Puede ver las métricas de eventos en tiempo real durante los últimos 30 días o durante los últimos 12 meses.
 
 ![Opciones de la barra de herramientas al seleccionar un recurso](assets/asset-reports-live-statistics.png)
 
@@ -99,9 +98,9 @@ En la tabla siguiente se explica el uso de todas las columnas que se pueden agre
     </tbody>
    </table>
 
-## Ver la lista de informes {#view-report-list}
+## Ver informes existentes {#view-report-list}
 
-Después [creación del informe](#create-report), puede ver la lista de informes y seleccionar para descargarlos en formato CSV o eliminarlos.
+Después [creación del informe](#create-report), puede ver la lista de informes existentes y seleccionar para descargarlos en formato CSV o eliminarlos.
 
 Para ver la lista de informes, vaya a **[!UICONTROL Configuración]** > **[!UICONTROL Informes]**.
 
