@@ -3,10 +3,10 @@ title: Carga de recursos al repositorio
 description: Cargue recursos a [!DNL Assets Essentials], vea los estados de carga y resuelva problemas de carga.
 role: User
 exl-id: a85a4455-4456-48af-aee9-f05300677605
-source-git-commit: 02f28c00b387fbcac4cd917fab7763124fdd5d70
-workflow-type: ht
-source-wordcount: '810'
-ht-degree: 100%
+source-git-commit: 80cb4ba5bc56658a4ae8d162f4ae5f2ae3d822a0
+workflow-type: tm+mt
+source-wordcount: '839'
+ht-degree: 94%
 
 ---
 
@@ -32,9 +32,9 @@ Una vez que todos los archivos estén en cola, haga clic en **[!UICONTROL Cargar
 
 *Imagen: antes de cargar los recursos seleccionados, puede añadirlos o eliminarlos de la cola.*
 
->[!CAUTION]
+>[!TIP]
 >
->Utilice recursos que no tengan espacios en blanco en los nombres de archivo. Las respuestas a los comentarios no funcionan para estos recursos.
+>Si carga una estructura de carpetas en Assets Essentials, no es necesario crear un archivo .ZIP con la estructura de carpetas, puede cargar estructuras de carpetas directamente. Un archivo .ZIP cargado en Assets Essentials se almacena como un recurso ZIP y no se extrae automáticamente después de la carga.
 
 ## Visualización del progreso y estado de la carga {#upload-progress}
 
@@ -102,6 +102,6 @@ Los usuarios pueden eliminar recursos o carpetas individuales que ya no sean nec
 
 * Proporcione comentarios del producto mediante la opción [!UICONTROL Comentarios] disponible en la interfaz de usuario de Assets Essentials
 
-* Proporcione comentarios sobre la documentación usando [!UICONTROL Editar esta página] ![editar la página](assets/do-not-localize/edit-page.png) o [!UICONTROL Registrar una incidencia] ![crear una incidencia de GitHub](assets/do-not-localize/github-issue.png), disponibles en la barra lateral derecha.
+* Proporcione comentarios sobre la documentación usando [!UICONTROL Editar esta página] ![editar la página](assets/do-not-localize/edit-page.png) o [!UICONTROL Registrar una incidencia] ![crear una incidencia de GitHub](assets/do-not-localize/github-issue.png), disponibles en la barra lateral derecha
 
 * Contacto con el [Servicio de atención al cliente](https://experienceleague.adobe.com/?support-solution=General&amp;lang=es#support)
