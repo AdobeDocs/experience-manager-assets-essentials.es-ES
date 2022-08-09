@@ -3,9 +3,9 @@ title: Administrar colecciones
 description: Una colección es un conjunto de recursos dentro de Experience Manager Assets Essentials. Utilice las colecciones para compartir recursos entre los usuarios.
 exl-id: 33c889f5-c989-4772-9591-db62f50e5c80
 source-git-commit: 096906eded35dc0a8c231534204bfc672c2430b7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '686'
-ht-degree: 75%
+ht-degree: 100%
 
 ---
 
@@ -75,19 +75,19 @@ Para agregar recursos a la colección, también puede hacer clic en **[!UICONTRO
 
 Guarde los resultados de búsqueda como una colección inteligente para actualizar dinámicamente el contenido de la colección. Si hay recursos agregados al repositorio de Assets Essentials que se ajustan a los criterios de búsqueda definidos al crear la colección inteligente, el contenido de la colección inteligente se actualiza automáticamente.
 
-Para crear una colección inteligente:
+Para crear una colección inteligente, haga esto:
 
-1. Haga clic en **[!UICONTROL Filtro]** y [definir los criterios de búsqueda](search.md##refine-search-results).
+1. Haga clic en **[!UICONTROL Filtrar]** y [defina los criterios de búsqueda](search.md##refine-search-results).
 
-1. Haga clic en **[!UICONTROL Guardar como]** y, a continuación, seleccione **[!UICONTROL Colección inteligente]**.
+1. Haga clic en **[!UICONTROL Guardar como]** y luego seleccione **[!UICONTROL Colección inteligente]**.
 
-1. En el [!UICONTROL Crear colecciones inteligentes] , especifique un título y una descripción para la colección inteligente.
+1. En el cuadro de diálogo [!UICONTROL Crear colección inteligente], especifique un título y una descripción para la colección inteligente.
 
-1. Select **[!UICONTROL Colección pública]** si necesita que todos los usuarios tengan acceso a la colección. Select **[!UICONTROL Colección privada]** si necesita un grupo limitado de usuarios para acceder a la colección.
+1. Seleccione **[!UICONTROL Colección pública]** si necesita que todos los usuarios tengan acceso a la colección. Seleccione **[!UICONTROL Colección privada]** si necesita un grupo limitado de usuarios para acceder a la colección.
 
 1. Haga clic en **[!UICONTROL Crear]** para crear la colección inteligente.
 
-![Crear una colección inteligente](assets/create-smart-collection.png)
+![Crear colección inteligente](assets/create-smart-collection.png)
 
 
 ## Eliminación de recursos de una colección {#remove-assets-from-collection}
