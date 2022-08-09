@@ -5,29 +5,29 @@ role: User,Leader,Admin,Architect,Developer
 contentOwner: AK
 exl-id: a0e29eb6-336a-4f78-b7bd-ec1338c86775
 source-git-commit: f273e1e3c8a290e0beee0423da00c63013062c43
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1117'
-ht-degree: 80%
+ht-degree: 100%
 
 ---
 
 # Notas de la versión de [!DNL Assets Essentials] {#release-notes}
 
-La versión actual de [!DNL Assets Essentials] está disponible el 14 de julio de 2022.
+La versión actual de [!DNL Assets Essentials] se publicó el 14 de julio de 2022.
 
 Esta versión proporciona lo siguiente:
 
 **Colecciones inteligentes**
 
-Guarde los resultados de búsqueda como una colección inteligente para actualizar dinámicamente el contenido de la colección. Si hay recursos agregados al repositorio de Assets Essentials que se ajustan a los criterios de búsqueda definidos al [creación de la colección inteligente](manage-collections.md#create-smart-collection), el contenido de la colección inteligente se actualiza automáticamente.
+Guarde los resultados de búsqueda como una colección inteligente para actualizar dinámicamente el contenido de la colección. Si hay recursos agregados al repositorio de Assets Essentials que se ajustan a los criterios de búsqueda definidos al [crear la colección inteligente](manage-collections.md#create-smart-collection), el contenido de la colección inteligente se actualiza automáticamente.
 
 **Notificaciones**
 
-Las notificaciones de Assets Essentials le permiten [supervisar las operaciones realizadas en los recursos o carpetas disponibles en el repositorio](manage-notifications.md). Debe seleccionar y suscribirse al contenido para el que se le envían las notificaciones. También puede configurar las categorías a las que se envían las notificaciones.
+Las notificaciones de Assets Essentials permiten [supervisar las operaciones realizadas en los recursos o carpetas disponibles en el repositorio](manage-notifications.md). Debe seleccionar y suscribirse al contenido para el que se le envían las notificaciones. También puede configurar las categorías a las que se envían las notificaciones.
 
-**Informes**
+**Creación de informes**
 
-Los informes de recursos permiten a los administradores evaluar la actividad del usuario dentro de Adobe Experience Manager Assets Essentials. El panel de informes y estadísticas activas proporciona información útil sobre cómo los usuarios interactúan con los recursos disponibles en la implementación. [Utilizar la información de los informes](manage-reports.md) para obtener métricas de éxito clave para medir la adopción de activos dentro de su empresa y por parte de los clientes.
+La creación de informes de recursos permiten a los administradores evaluar la actividad del usuario dentro de Adobe Experience Manager Assets Essentials. Los informes y el tablero de estadísticas activas proporcionan información útil sobre cómo los usuarios interactúan con los recursos disponibles en la implementación. [Utilice la información de los informes](manage-reports.md) para derivar métricas de éxito clave para medir la adopción de Recursos en su empresa y por parte de los clientes.
 
 Vea los informes de descarga de recursos y el módulo del tablero de estadísticas activas para ver qué recursos se descargan y la frecuencia de las descargas.
 
@@ -47,7 +47,7 @@ La lista de problemas conocidos de la oferta de [!DNL Assets Essentials] se revi
 -->
 
 
-* Assets Essentials no admite la edición de colecciones inteligentes.
+* Assets Essentials no admite la edición de Colección inteligente.
 
 * Las colecciones privadas están disponibles para el creador y los usuarios con privilegios de administrador. Como administrador, no puede delegar los permisos para acceder a la colección a otros usuarios.
 
