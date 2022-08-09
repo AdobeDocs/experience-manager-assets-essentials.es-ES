@@ -3,9 +3,9 @@ title: Administración de informes en Assets Essentials
 description: Acceda a los datos de la sección de informes de Assets Essentials para evaluar el uso de productos y funciones y obtener perspectivas sobre las métricas de éxito clave.
 exl-id: c7155459-05d9-4a95-a91f-a1fa6ae9d9a4
 source-git-commit: e445cd77c6d57281cbf2442a849b249f3da1a4ee
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '491'
-ht-degree: 71%
+ht-degree: 100%
 
 ---
 
@@ -15,11 +15,11 @@ Los informes de recursos proporcionan a los administradores visibilidad de la ac
 
 ## Acceso a los informes {#access-reports}
 
-Todos los usuarios asignados al [Perfil de producto de los administradores de Assets Essentials](deploy-administer.md) puede acceder al tablero Estadísticas activas y crear informes definidos por el usuario en Assets Essentials.
+Todos los usuarios asignados al [Perfil de producto de los administradores de Assets Essentials](deploy-administer.md) pueden acceder al tablero de las Estadísticas activas y crear informes definidos por el usuario en Assets Essentials.
 
 ## Visualización de estadísticas de lanzamiento {#view-live-statistics}
 
-Assets Essentials le permite ver datos en tiempo real de su entorno de Assets Essentials con el panel Estadísticas activas . Puede ver las métricas de eventos en tiempo real durante los últimos 30 días o durante los últimos 12 meses.
+Assets Essentials le permite ver datos en tiempo real de su entorno de Assets Essentials con el tablero Estadísticas activas. Puede ver las métricas de eventos en tiempo real durante los últimos 30 días o 12 meses.
 
 ![Opciones de la barra de herramientas al seleccionar un recurso](assets/asset-reports-live-statistics.png)
 
@@ -56,7 +56,7 @@ En la tabla siguiente se explica el uso de todas las columnas que se pueden agre
       <td>El título del recurso.</td>
      </tr>
      <tr>
-      <td>Ruta</td>
+      <td>Ruta </td>
       <td>Ruta de la carpeta en la que el recurso está disponible en Assets Essentials.</td>
      </tr>
      <tr>
@@ -100,7 +100,7 @@ En la tabla siguiente se explica el uso de todas las columnas que se pueden agre
 
 ## Ver informes existentes {#view-report-list}
 
-Después [creación del informe](#create-report), puede ver la lista de informes existentes y seleccionar para descargarlos en formato CSV o eliminarlos.
+Después de la [creación del informe](#create-report), puede ver la lista de informes y seleccionar para descargarlos en formato CSV o eliminarlos.
 
 Para ver la lista de informes, vaya a **[!UICONTROL Configuración]** > **[!UICONTROL Informes]**.
 
