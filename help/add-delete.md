@@ -4,9 +4,9 @@ description: Cargue recursos a [!DNL Assets Essentials], vea los estados de carg
 role: User
 exl-id: a85a4455-4456-48af-aee9-f05300677605
 source-git-commit: 80cb4ba5bc56658a4ae8d162f4ae5f2ae3d822a0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '839'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -34,7 +34,7 @@ Una vez que todos los archivos estén en cola, haga clic en **[!UICONTROL Cargar
 
 >[!TIP]
 >
->Si carga una estructura de carpetas en Assets Essentials, no es necesario crear un archivo .ZIP con la estructura de carpetas, puede cargar estructuras de carpetas directamente. Un archivo .ZIP cargado en Assets Essentials se almacena como un recurso ZIP y no se extrae automáticamente después de la carga.
+>Si carga una estructura de carpetas en Assets Essentials, no es necesario crear un archivo .ZIP, puede hacerlo directamente. Un archivo .ZIP cargado en Assets Essentials se almacena como un recurso ZIP y no se extrae automáticamente después de la carga.
 
 ## Visualización del progreso y estado de la carga {#upload-progress}
 
