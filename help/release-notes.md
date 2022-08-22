@@ -4,32 +4,38 @@ description: Notas de la versión y problemas conocidos de [!DNL Assets Essentia
 role: User,Leader,Admin,Architect,Developer
 contentOwner: AK
 exl-id: a0e29eb6-336a-4f78-b7bd-ec1338c86775
-source-git-commit: f273e1e3c8a290e0beee0423da00c63013062c43
-workflow-type: ht
-source-wordcount: '1117'
-ht-degree: 100%
+source-git-commit: b44ded8b1678e9b7c1c5eda3f350072e51b52f32
+workflow-type: tm+mt
+source-wordcount: '1269'
+ht-degree: 87%
 
 ---
 
 # Notas de la versión de [!DNL Assets Essentials] {#release-notes}
 
-La versión actual de [!DNL Assets Essentials] se publicó el 14 de julio de 2022.
+La versión actual de Assets Essentials se publicó el 16 de agosto de 2022.
 
 Esta versión proporciona lo siguiente:
 
-**Colecciones inteligentes**
+**Notificaciones para colecciones**
 
-Guarde los resultados de búsqueda como una colección inteligente para actualizar dinámicamente el contenido de la colección. Si hay recursos agregados al repositorio de Assets Essentials que se ajustan a los criterios de búsqueda definidos al [crear la colección inteligente](manage-collections.md#create-smart-collection), el contenido de la colección inteligente se actualiza automáticamente.
+Ahora, las notificaciones de Assets Essentials permiten supervisar las operaciones realizadas en las colecciones disponibles en el repositorio. Debe seleccionar y suscribirse a las colecciones para las que se le envían las notificaciones. También puede configurar las operaciones para las que se envían las notificaciones, como las operaciones de eliminación, uso compartido de vínculos, movimiento, cambio de nombre y actualización realizadas en las colecciones.
 
-**Notificaciones**
+**Editar colecciones inteligentes**
 
-Las notificaciones de Assets Essentials permiten [supervisar las operaciones realizadas en los recursos o carpetas disponibles en el repositorio](manage-notifications.md). Debe seleccionar y suscribirse al contenido para el que se le envían las notificaciones. También puede configurar las categorías a las que se envían las notificaciones.
+Assets Essentials ahora también permite editar los criterios de búsqueda utilizados al crear una colección inteligente.  Guarde los nuevos criterios de búsqueda para actualizar el contenido de la colección de forma dinámica.
 
-**Creación de informes**
+<!--
 
-La creación de informes de recursos permiten a los administradores evaluar la actividad del usuario dentro de Adobe Experience Manager Assets Essentials. Los informes y el tablero de estadísticas activas proporcionan información útil sobre cómo los usuarios interactúan con los recursos disponibles en la implementación. [Utilice la información de los informes](manage-reports.md) para derivar métricas de éxito clave para medir la adopción de Recursos en su empresa y por parte de los clientes.
+**View live statistics for storage account**
 
-Vea los informes de descarga de recursos y el módulo del tablero de estadísticas activas para ver qué recursos se descargan y la frecuencia de las descargas.
+Assets Essentials now also enables you to view real-time storage account data for your Assets Essentials environment with the Live Statistics dashboard. You can view real-time event metrics for the last 30 days or for the last 12 months.
+
+-->
+
+**Ver informes de carga**
+
+Los informes de recursos ahora proporcionan a los administradores visibilidad de los recursos cargados en la implementación de Adobe Experience Manager Assets Essentials. Los administradores ya tienen la capacidad de generar informes para los recursos descargados de la implementación de Assets Essentials. Estos datos proporcionan información útil sobre cómo los usuarios interactúan con el contenido y el producto.
 
 **Mejoras basadas en los comentarios de los clientes**
 
@@ -47,17 +53,35 @@ La lista de problemas conocidos de la oferta de [!DNL Assets Essentials] se revi
 -->
 
 
-* Assets Essentials no admite la edición de Colección inteligente.
-
 * Las colecciones privadas están disponibles para el creador y los usuarios con privilegios de administrador. Como administrador, no puede delegar los permisos para acceder a la colección a otros usuarios.
 
 Si encuentra algún problema o incluso si tiene solicitudes de mejora, [proporcione comentarios](#provide-feedback) al equipo.
 
 ## Versiones anteriores {#past-release}
 
+### 2022.6.0 {#june-2022}
+
+La versión de junio de [!DNL Assets Essentials] está disponible el 14 de julio de 2022.
+
+Esta versión proporciona lo siguiente:
+
+**Colecciones inteligentes**
+
+Guarde los resultados de búsqueda como una colección inteligente para actualizar dinámicamente el contenido de la colección. Si hay recursos agregados al repositorio de Assets Essentials que se ajustan a los criterios de búsqueda definidos al [crear la colección inteligente](manage-collections.md#create-smart-collection), el contenido de la colección inteligente se actualiza automáticamente.
+
+**Notificaciones**
+
+Las notificaciones de Assets Essentials permiten [supervisar las operaciones realizadas en los recursos o carpetas disponibles en el repositorio](manage-notifications.md). Debe seleccionar y suscribirse al contenido para el que se le envían las notificaciones. También puede configurar las categorías a las que se envían las notificaciones.
+
+**Creación de informes**
+
+La creación de informes de recursos permiten a los administradores evaluar la actividad del usuario dentro de Adobe Experience Manager Assets Essentials. Los informes y el tablero de estadísticas activas proporcionan información útil sobre cómo los usuarios interactúan con los recursos disponibles en la implementación. [Utilice la información de los informes](manage-reports.md) para derivar métricas de éxito clave para medir la adopción de Recursos en su empresa y por parte de los clientes.
+
+Vea los informes de descarga de recursos y el módulo del tablero de estadísticas activas para ver qué recursos se descargan y la frecuencia de las descargas.
+
 ### 2022.5.0 {#may-2022}
 
-La versión actual de [!DNL Assets Essentials] se publicó el 16 de junio de 2022.
+La versión de mayo de [!DNL Assets Essentials] se publica el 16 de junio de 2022.
 
 Esta versión proporciona lo siguiente:
 

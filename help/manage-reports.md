@@ -2,10 +2,10 @@
 title: Administración de informes en Assets Essentials
 description: Acceda a los datos de la sección de informes de Assets Essentials para evaluar el uso de productos y funciones y obtener perspectivas sobre las métricas de éxito clave.
 exl-id: c7155459-05d9-4a95-a91f-a1fa6ae9d9a4
-source-git-commit: e445cd77c6d57281cbf2442a849b249f3da1a4ee
-workflow-type: ht
-source-wordcount: '491'
-ht-degree: 100%
+source-git-commit: cd57eda1f15ea349f810b3ce0086d3e3b92ddb19
+workflow-type: tm+mt
+source-wordcount: '712'
+ht-degree: 83%
 
 ---
 
@@ -21,17 +21,29 @@ Todos los usuarios asignados al [Perfil de producto de los administradores de As
 
 Assets Essentials le permite ver datos en tiempo real de su entorno de Assets Essentials con el tablero Estadísticas activas. Puede ver las métricas de eventos en tiempo real durante los últimos 30 días o 12 meses.
 
-![Opciones de la barra de herramientas al seleccionar un recurso](assets/asset-reports-live-statistics.png)
+![Opciones de la barra de herramientas al seleccionar un recurso](assets/assets-essentials-live-statistics.png)
 
-Vaya a **[!UICONTROL Configuración]** > **[!UICONTROL Estadísticas en directo]** para ver los datos de descarga generados automáticamente.
+Vaya a **[!UICONTROL Configuración]** > **[!UICONTROL Estadísticas en directo]** para ver los siguientes gráficos generados automáticamente:
 
-## Creación de un informe {#create-report}
+* **Descargas**: El número de recursos descargados del entorno de Assets Essentials en los últimos 30 días o 12 meses representados mediante un gráfico de líneas.
 
-Para crear un informe, haga lo siguiente:
+* **Cargas**: El número de recursos cargados en el entorno de Assets Essentials en los últimos 30 días o 12 meses representados mediante un gráfico de líneas.
+
+<!--
+
+* **Storage usage**: The storage usage, in gigabytes (GB), for the Assets Essentials environment, for the last 30 days or 12 months represented using a bar chart.
+
+-->
+
+## Crear un informe de descarga {#create-download-report}
+
+Para crear un informe de descarga:
 
 1. Vaya a **[!UICONTROL Configuración]** > **[!UICONTROL Informes]** y haga clic en **[!UICONTROL Crear informe]**.
 
-1. En la pestaña [!UICONTROL Configuración], especifique un título y una descripción opcional para el informe.
+1. En el [!UICONTROL Configuración] , especifique el tipo de informe como **[!UICONTROL Descargar]**.
+
+1. Especifique un título y una descripción opcional para el informe.
 
 1. Seleccione la ruta de la carpeta, que comprende los recursos en los que se ejecutará el informe, utilizando el campo **[!UICONTROL Seleccionar ruta de la carpeta]**.
 
@@ -60,7 +72,7 @@ En la tabla siguiente se explica el uso de todas las columnas que se pueden agre
       <td>Ruta de la carpeta en la que el recurso está disponible en Assets Essentials.</td>
      </tr>
      <tr>
-      <td>Tipo</td>
+      <td>Tipo MIME</td>
       <td>Tipo MIME del recurso.</td>
      </tr>
      <tr>
@@ -95,6 +107,69 @@ En la tabla siguiente se explica el uso de todas las columnas que se pueden agre
       <td>Descargado por (nombre de usuario)</td>
       <td>Nombre del usuario que descargó el recurso.</td>
      </tr>           
+    </tbody>
+   </table>
+
+## Crear un informe de carga {#create-upload-report}
+
+Para crear un informe de carga:
+
+1. Vaya a **[!UICONTROL Configuración]** > **[!UICONTROL Informes]** y haga clic en **[!UICONTROL Crear informe]**.
+
+1. En el [!UICONTROL Configuración] , especifique el tipo de informe como **[!UICONTROL Cargar]**.
+
+1. Especifique un título y una descripción opcional para el informe.
+
+1. Seleccione la ruta de la carpeta, que comprende los recursos en los que se ejecutará el informe, utilizando el campo **[!UICONTROL Seleccionar ruta de la carpeta]**.
+
+1. Seleccione el intervalo de fecha para el informe.
+
+1. En la pestaña [!UICONTROL Columnas], seleccione los nombres de columna que debe mostrar en el informe.
+
+1. Haga clic en **[!UICONTROL Crear]**.
+
+   ![Cargar informe](assets/upload-reports-config.png)
+
+En la tabla siguiente se explica el uso de todas las columnas que se pueden agregar al informe:
+
+<table>
+    <tbody>
+     <tr>
+      <th><strong>El nombre de la columna</strong></th>
+      <th><strong>Descripción</strong></th>
+     </tr>
+     <tr>
+      <td>Título</td>
+      <td>El título del recurso.</td>
+     </tr>
+     <tr>
+      <td>Ruta </td>
+      <td>Ruta de la carpeta en la que el recurso está disponible en Assets Essentials.</td>
+     </tr>
+     <tr>
+      <td>Tipo MIME</td>
+      <td>Tipo MIME del recurso.</td>
+     </tr>
+     <tr>
+      <td>Tamaño</td>
+      <td>El tamaño del recurso.</td>
+     </tr>
+     <tr>
+      <td>Autor</td>
+      <td>El autor del recurso.</td>
+     </tr>
+     <tr>
+      <td>Fecha de creación</td>
+      <td>La fecha en la que el recurso se carga en Assets Essentials.</td>
+     </tr>
+     <tr>
+      <td>Fecha de modificación</td>
+      <td>La fecha de la última modificación del recurso.</td>
+     </tr>
+     <tr>
+      <td>Caducado</td>
+      <td>Estado de caducidad del recurso.</td>
+     </tr>              
     </tbody>
    </table>
 

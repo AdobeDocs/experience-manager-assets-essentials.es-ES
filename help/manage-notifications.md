@@ -2,16 +2,16 @@
 title: Administrar notificaciones
 description: Monitorice las operaciones realizadas en los recursos o carpetas disponibles en el repositorio mediante las notificaciones de Assets Essentials.
 exl-id: 5c0039a2-caa2-4b55-b963-0e7e9e542c47
-source-git-commit: 5d1e2ddd292f02cd9e2693e644886d2fcd053650
-workflow-type: ht
-source-wordcount: '576'
-ht-degree: 100%
+source-git-commit: 2a8899c333e08c50e4cf8b49399188f50a0d3a46
+workflow-type: tm+mt
+source-wordcount: '585'
+ht-degree: 77%
 
 ---
 
 # Administrar notificaciones {#manage-notifications}
 
-Las notificaciones de Assets Essentials permiten supervisar las operaciones realizadas en los recursos o carpetas disponibles en el repositorio. Debe seleccionar y suscribirse al contenido para el que se le envían las notificaciones. También puede configurar las categorías a las que se envían las notificaciones.
+Las notificaciones de Assets Essentials permiten supervisar las operaciones realizadas en los recursos, carpetas o colecciones disponibles en el repositorio. Debe seleccionar y suscribirse al contenido para el que se le envían las notificaciones. También puede configurar las categorías a las que se envían las notificaciones.
 
 ## Suscripción a las categorías de notificación {#subscribe-to-notification-categories}
 
@@ -37,11 +37,11 @@ Puede elegir y suscribirse a una lista de categorías para recibir notificacione
      </tr>
      <tr>
       <td>Eliminación del contenido suscrito</td>
-      <td>Recibirá una notificación cuando un usuario elimine su carpeta o recurso suscrito.</td>
+      <td>Recibe una notificación cuando un usuario elimina el recurso, la carpeta o la colección suscritos.</td>
      </tr>
      <tr>
       <td>Participación externa del contenido suscrito</td>
-      <td>Recibirá una notificación cuando un usuario genere un vínculo público para el recurso o la carpeta suscritos.</td>
+      <td>Recibe una notificación cuando un usuario genera un vínculo público para el recurso, la carpeta o la colección suscritos.</td>
      </tr>
      <tr>
       <td>Modificación del contenido suscrito</td>
@@ -53,7 +53,7 @@ Puede elegir y suscribirse a una lista de categorías para recibir notificacione
      </tr>
      <tr>
       <td>Actualizaciones en carpetas y colecciones suscritas</td>
-      <td>Recibirá una notificación cuando un usuario agregue o elimine un recurso de una carpeta suscrita.</td>
+      <td>Recibirá una notificación cuando un usuario agregue o elimine un recurso de una carpeta o colección suscrita.</td>
      </tr>    
     </tbody>
    </table>
@@ -75,7 +75,7 @@ Para suscribirse a las categorías de notificación, haga lo siguiente:
 
 1. Seleccione las categorías de notificación para las que debe recibir notificaciones.
 
-## Ver y dejar de ver carpetas o recursos {#watch-unwatch-assets}
+## Ver y mostrar carpetas, recursos o colecciones {#watch-unwatch-assets}
 
 Después de la [suscripción a las categorías de notificación](#subscribe-to-notification-categories), debe suscribirse al contenido para comenzar a recibir notificaciones.
 
@@ -83,15 +83,15 @@ Después de la [suscripción a las categorías de notificación](#subscribe-to-n
 >
 >Para **[!UICONTROL Solicitudes]** y categorías de notificación **[!UICONTROL Asignado a mí]**, no es necesario suscribirse al contenido después de suscribirse a las categorías de notificación. Las notificaciones se envían automáticamente para las solicitudes creadas por usted y cuando se le asigna una tarea.
 
-Para suscribirse al contenido, seleccione la carpeta o el recurso al que debe suscribirse y haga clic en **[!UICONTROL Ver]**.
+Para suscribirse al contenido, seleccione la carpeta, el recurso o la colección a la que debe suscribirse y haga clic en **[!UICONTROL Watch]**.
 
 Assets Essentials muestra un mensaje de éxito. Puede hacer clic en **[!UICONTROL Ir a las preferencias de notificación]** disponibles en el mensaje de éxito para editar su [suscripción a categorías de notificación](#subscribe-to-notification-categories).
 
 ![Notificaciones en Assets Essentials](assets/watch-assets.png)
 
-Assets Essentials ahora envía notificaciones para las categorías suscritas. También puede seleccionar varios recursos o carpetas y hacer clic en **[!UICONTROL Ver]** para ahorrar tiempo. Sin embargo, si selecciona varias entidades de las cuales algunas de ellas ya están suscritas, la opción **[!UICONTROL Ver]** no se muestra.
+Assets Essentials ahora envía notificaciones para las categorías suscritas. También puede seleccionar varios recursos, carpetas o colecciones y hacer clic en **[!UICONTROL Watch]** para ahorrar tiempo. Sin embargo, si selecciona varias entidades de las cuales algunas de ellas ya están suscritas, la opción **[!UICONTROL Ver]** no se muestra.
 
-Del mismo modo, para cancelar la suscripción, seleccione el recurso o la carpeta que ha suscrito y haga clic en **[!UICONTROL Dejar de ver]**.
+Del mismo modo, para cancelar la suscripción, seleccione el recurso, la carpeta o la colección que ha suscrito y haga clic en **[!UICONTROL Unwatch]**.
 
 ## Ver notificaciones {#view-notifications}
 
