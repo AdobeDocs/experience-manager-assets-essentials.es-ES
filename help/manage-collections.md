@@ -3,9 +3,9 @@ title: Administrar colecciones
 description: Una colección es un conjunto de recursos dentro de Experience Manager Assets Essentials. Utilice las colecciones para compartir recursos entre los usuarios.
 exl-id: 33c889f5-c989-4772-9591-db62f50e5c80
 source-git-commit: cd57eda1f15ea349f810b3ce0086d3e3b92ddb19
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '752'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -31,7 +31,7 @@ Puede realizar las siguientes tareas para administrar y utilizar colecciones:
 
 * [Crear una colección inteligente](#create-smart-collection)
 
-* [Editar una colección inteligente](#edit-smart-collection)
+* [Edición de una colección inteligente](#edit-smart-collection)
 
 * [Eliminación de recursos de una colección](#remove-assets-from-collection)
 
@@ -77,7 +77,7 @@ Para agregar recursos a una colección:
 
 Para agregar recursos a la colección, también puede hacer clic en **[!UICONTROL Colecciones]** en el carril izquierdo, haga clic en la colección a la que desee agregar recursos y, a continuación, haga clic en **[!UICONTROL Agregar a colección]**, seleccione los recursos y haga clic en **[!UICONTROL Seleccionar]**.
 
-## Administrar una colección inteligente {#manage-smart-collection}
+## Administración de una colección inteligente {#manage-smart-collection}
 
 Guarde los resultados de búsqueda como una colección inteligente para actualizar dinámicamente el contenido de la colección. Si hay recursos agregados al repositorio de Assets Essentials que se ajustan a los criterios de búsqueda definidos al crear la colección inteligente, el contenido de la colección inteligente se actualiza automáticamente.
 
@@ -97,15 +97,15 @@ Para crear una colección inteligente, haga esto:
 
 1. Haga clic en **[!UICONTROL Crear]** para crear la colección inteligente.
 
-### Editar una colección inteligente {#edit-smart-collection}
+### Edición de una colección inteligente {#edit-smart-collection}
 
-Para editar una colección inteligente:
+Para editar una colección inteligente, haga lo siguiente:
 
 1. Haga clic en **[!UICONTROL Colecciones]** en el carril izquierdo y, a continuación, haga doble clic en el nombre de la colección que debe editar.
 
-1. Haga clic en **[!UICONTROL Editar colecciones inteligentes]**.
+1. Haga clic en **[!UICONTROL Editar colección inteligente]**.
 
-1. En el [!UICONTROL Editar filtros de colecciones inteligentes] , [actualizar los criterios de búsqueda](search.md##refine-search-results) para la colección inteligente.
+1. En el cuadro de diálogo [!UICONTROL Editar filtros de colecciones inteligentes], [actualice los criterios de búsqueda](search.md##refine-search-results) para la colección inteligente.
 
 1. Haga clic en **[!UICONTROL Guardar]**.
 
