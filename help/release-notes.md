@@ -6,8 +6,8 @@ contentOwner: AK
 exl-id: a0e29eb6-336a-4f78-b7bd-ec1338c86775
 source-git-commit: b118b841cbca05edc5b67d86ea87abfd09dcd452
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1269'
+ht-degree: 98%
 
 ---
 
@@ -19,7 +19,7 @@ Esta versión proporciona lo siguiente:
 
 **Notificaciones para colecciones**
 
-Ahora, las notificaciones de Assets Essentials permiten supervisar las operaciones realizadas en las colecciones disponibles en el repositorio. Debe seleccionar y suscribirse a las colecciones para las que se le envían las notificaciones. También puede configurar las operaciones para las que se envían las notificaciones, como las operaciones de eliminación, uso compartido de vínculos, movimiento, cambio de nombre y actualización realizadas en las colecciones.
+Las notificaciones de Assets Essentials ahora permiten supervisar las operaciones realizadas en los recursos, colecciones o carpetas disponibles en el repositorio. Debe seleccionar y suscribirse a las colecciones para las que se le envían las notificaciones. También puede configurar las operaciones para las que se le envían las notificaciones, como las de eliminación, uso compartido de vínculos, movimiento, cambio de nombre y actualización ejecutadas en las colecciones.
 
 **Editar colecciones inteligentes**
 
@@ -35,7 +35,7 @@ Assets Essentials now also enables you to view real-time storage account data fo
 
 **Ver informes de carga**
 
-Los informes de recursos ahora proporcionan a los administradores visibilidad de los recursos cargados en la implementación de Adobe Experience Manager Assets Essentials. Los administradores ya tienen la capacidad de generar informes para los recursos descargados de la implementación de Assets Essentials. Estos datos proporcionan información útil sobre cómo los usuarios interactúan con el contenido y el producto.
+La creación de informes de activos ahora proporcionan a los administradores visibilidad de los activos cargados en la implementación de Adobe Experience Manager Assets Essentials. Los administradores ya tienen la capacidad de generar informes para los activos descargados de la implementación de Assets Essentials. Estos datos proporcionan información útil sobre cómo los usuarios interactúan con el contenido y el producto.
 
 **Mejoras basadas en los comentarios de los clientes**
 
@@ -61,7 +61,7 @@ Si encuentra algún problema o incluso si tiene solicitudes de mejora, [proporci
 
 ### 2022.6.0 {#june-2022}
 
-La versión de junio de [!DNL Assets Essentials] está disponible el 14 de julio de 2022.
+La versión de junio de [!DNL Assets Essentials] se publicó el 14 de julio de 2022.
 
 Esta versión proporciona lo siguiente:
 
@@ -81,7 +81,7 @@ Vea los informes de descarga de recursos y el módulo del tablero de estadístic
 
 ### 2022.5.0 {#may-2022}
 
-La versión de mayo de [!DNL Assets Essentials] se publica el 16 de junio de 2022.
+La versión de mayo de [!DNL Assets Essentials] se publicó el 16 de junio de 2022.
 
 Esta versión proporciona lo siguiente:
 
