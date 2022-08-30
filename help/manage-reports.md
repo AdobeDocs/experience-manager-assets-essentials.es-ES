@@ -3,9 +3,9 @@ title: Administración de informes en Assets Essentials
 description: Acceda a los datos de la sección de informes de Assets Essentials para evaluar el uso de productos y funciones y obtener perspectivas sobre las métricas de éxito clave.
 exl-id: c7155459-05d9-4a95-a91f-a1fa6ae9d9a4
 source-git-commit: cd57eda1f15ea349f810b3ce0086d3e3b92ddb19
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '712'
-ht-degree: 83%
+ht-degree: 100%
 
 ---
 
@@ -25,9 +25,9 @@ Assets Essentials le permite ver datos en tiempo real de su entorno de Assets Es
 
 Vaya a **[!UICONTROL Configuración]** > **[!UICONTROL Estadísticas en directo]** para ver los siguientes gráficos generados automáticamente:
 
-* **Descargas**: El número de recursos descargados del entorno de Assets Essentials en los últimos 30 días o 12 meses representados mediante un gráfico de líneas.
+* **Descargas**: el número de activos descargados del entorno de Assets Essentials en los últimos 30 días o 12 meses representados mediante un gráfico de líneas.
 
-* **Cargas**: El número de recursos cargados en el entorno de Assets Essentials en los últimos 30 días o 12 meses representados mediante un gráfico de líneas.
+* **Cargas**: el número de activos cargados en el entorno de Assets Essentials en los últimos 30 días o 12 meses representados mediante un gráfico de líneas.
 
 <!--
 
@@ -35,13 +35,13 @@ Vaya a **[!UICONTROL Configuración]** > **[!UICONTROL Estadísticas en directo]
 
 -->
 
-## Crear un informe de descarga {#create-download-report}
+## Creación de un informe de descarga {#create-download-report}
 
-Para crear un informe de descarga:
+Para crear un informe de descarga, haga lo siguiente:
 
 1. Vaya a **[!UICONTROL Configuración]** > **[!UICONTROL Informes]** y haga clic en **[!UICONTROL Crear informe]**.
 
-1. En el [!UICONTROL Configuración] , especifique el tipo de informe como **[!UICONTROL Descargar]**.
+1. En la pestaña [!UICONTROL Configuración], especifique el tipo de informe como **[!UICONTROL Descargar]**.
 
 1. Especifique un título y una descripción opcional para el informe.
 
@@ -110,13 +110,13 @@ En la tabla siguiente se explica el uso de todas las columnas que se pueden agre
     </tbody>
    </table>
 
-## Crear un informe de carga {#create-upload-report}
+## Creación de un informe de carga {#create-upload-report}
 
 Para crear un informe de carga:
 
 1. Vaya a **[!UICONTROL Configuración]** > **[!UICONTROL Informes]** y haga clic en **[!UICONTROL Crear informe]**.
 
-1. En el [!UICONTROL Configuración] , especifique el tipo de informe como **[!UICONTROL Cargar]**.
+1. En la pestaña [!UICONTROL Configuración], especifique el tipo de informe como **[!UICONTROL Cargar]**.
 
 1. Especifique un título y una descripción opcional para el informe.
 
@@ -128,7 +128,7 @@ Para crear un informe de carga:
 
 1. Haga clic en **[!UICONTROL Crear]**.
 
-   ![Cargar informe](assets/upload-reports-config.png)
+   ![Informe de carga](assets/upload-reports-config.png)
 
 En la tabla siguiente se explica el uso de todas las columnas que se pueden agregar al informe:
 
