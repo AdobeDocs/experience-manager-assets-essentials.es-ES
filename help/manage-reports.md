@@ -2,10 +2,10 @@
 title: Administración de informes en Assets Essentials
 description: Acceda a los datos de la sección de informes de Assets Essentials para evaluar el uso de productos y funciones y obtener perspectivas sobre las métricas de éxito clave.
 exl-id: c7155459-05d9-4a95-a91f-a1fa6ae9d9a4
-source-git-commit: cd57eda1f15ea349f810b3ce0086d3e3b92ddb19
-workflow-type: ht
-source-wordcount: '712'
-ht-degree: 100%
+source-git-commit: 9879dd2fd28c949727e85c3a54e07ea7c1a50c82
+workflow-type: tm+mt
+source-wordcount: '736'
+ht-degree: 96%
 
 ---
 
@@ -29,11 +29,7 @@ Vaya a **[!UICONTROL Configuración]** > **[!UICONTROL Estadísticas en directo]
 
 * **Cargas**: el número de activos cargados en el entorno de Assets Essentials en los últimos 30 días o 12 meses representados mediante un gráfico de líneas.
 
-<!--
-
-* **Storage usage**: The storage usage, in gigabytes (GB), for the Assets Essentials environment, for the last 30 days or 12 months represented using a bar chart.
-
--->
+* **Uso del almacenamiento**: El uso del almacenamiento, en gigabytes (GB), para el entorno Assets Essentials, durante los últimos 30 días o 12 meses representado mediante un gráfico de barras.
 
 ## Creación de un informe de descarga {#create-download-report}
 
