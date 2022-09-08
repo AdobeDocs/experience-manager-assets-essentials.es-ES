@@ -7,7 +7,7 @@ exl-id: a0e29eb6-336a-4f78-b7bd-ec1338c86775
 source-git-commit: 9879dd2fd28c949727e85c3a54e07ea7c1a50c82
 workflow-type: tm+mt
 source-wordcount: '1312'
-ht-degree: 95%
+ht-degree: 96%
 
 ---
 
@@ -181,7 +181,7 @@ Además, la extensión de [!DNL Adobe Asset Link] para Creative Cloud (Photoshop
 
 ### Versión 2021.6.0 {#june2021}
 
-La primera versión de [!DNL Assets Essentials], que se publicó el 21 de junio de 2021, ofrece funciones de administración de recursos ligeras. Admite las siguientes funciones principales y operaciones CRUD (Crear, Leer, Actualizar y Eliminar):
+La primera versión de [!DNL Assets Essentials], que se publicó el 21 de junio de 2021, ofrece funciones de administración de recursos ligeras. Admite las siguientes funciones principales y operaciones CRUD (crear, leer, actualizar y eliminar):
 
 * Cargue y añada recursos, incluidas carpetas anidadas. Previsualice los recursos y las versiones.
 * Búsqueda de texto completo, filtros de búsqueda con matices y búsquedas guardadas para una detección rápida de recursos.
