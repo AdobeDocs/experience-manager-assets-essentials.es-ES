@@ -5,9 +5,9 @@ role: User,Leader,Admin,Architect,Developer
 contentOwner: AK
 exl-id: a0e29eb6-336a-4f78-b7bd-ec1338c86775
 source-git-commit: 9879dd2fd28c949727e85c3a54e07ea7c1a50c82
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1312'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -27,7 +27,7 @@ Assets Essentials ahora también permite editar los criterios de búsqueda utili
 
 **Ver estadísticas activas de la cuenta de almacenamiento**
 
-Ahora, Assets Essentials también le permite ver datos de cuenta de almacenamiento en tiempo real de su entorno de Assets Essentials con el panel Estadísticas activas . Puede ver las métricas de eventos en tiempo real de los últimos 30 días o de los últimos 12 meses.
+Assets Essentials ahora también le permite ver datos de la cuenta de almacenamiento en tiempo real de su entorno de Assets Essentials con el tablero Estadísticas activas. Puede ver las métricas de eventos en tiempo real durante los últimos 30 días o 12 meses.
 
 **Ver informes de carga**
 
