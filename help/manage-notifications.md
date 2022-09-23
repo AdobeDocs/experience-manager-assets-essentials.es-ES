@@ -2,10 +2,10 @@
 title: Administrar notificaciones
 description: Monitorice las operaciones realizadas en los recursos o carpetas disponibles en el repositorio mediante las notificaciones de Assets Essentials.
 exl-id: 5c0039a2-caa2-4b55-b963-0e7e9e542c47
-source-git-commit: 2a8899c333e08c50e4cf8b49399188f50a0d3a46
-workflow-type: ht
-source-wordcount: '585'
-ht-degree: 100%
+source-git-commit: 95001cb7b1d37807fcd1fed0e26333cca15bbfbd
+workflow-type: tm+mt
+source-wordcount: '614'
+ht-degree: 95%
 
 ---
 
@@ -81,7 +81,9 @@ Después de la [suscripción a las categorías de notificación](#subscribe-to-n
 
 >[!NOTE]
 >
->Para **[!UICONTROL Solicitudes]** y categorías de notificación **[!UICONTROL Asignado a mí]**, no es necesario suscribirse al contenido después de suscribirse a las categorías de notificación. Las notificaciones se envían automáticamente para las solicitudes creadas por usted y cuando se le asigna una tarea.
+>* Para **[!UICONTROL Solicitudes]** y categorías de notificación **[!UICONTROL Asignado a mí]**, no es necesario suscribirse al contenido después de suscribirse a las categorías de notificación. Las notificaciones se envían automáticamente para las solicitudes creadas por usted y cuando se le asigna una tarea.
+>* Assets Essentials envía notificaciones únicamente cuando otros usuarios realizan acciones en el contenido suscrito. No recibe notificaciones por las acciones que realiza en el contenido suscrito.
+
 
 Para suscribirse al contenido, seleccione la carpeta, la colección o el recurso al que debe suscribirse y haga clic en **[!UICONTROL Ver]**.
 

@@ -2,10 +2,10 @@
 title: Administración de informes en Assets Essentials
 description: Acceda a los datos de la sección de informes de Assets Essentials para evaluar el uso de productos y funciones y obtener perspectivas sobre las métricas de éxito clave.
 exl-id: c7155459-05d9-4a95-a91f-a1fa6ae9d9a4
-source-git-commit: 9879dd2fd28c949727e85c3a54e07ea7c1a50c82
-workflow-type: ht
-source-wordcount: '736'
-ht-degree: 100%
+source-git-commit: 95001cb7b1d37807fcd1fed0e26333cca15bbfbd
+workflow-type: tm+mt
+source-wordcount: '755'
+ht-degree: 93%
 
 ---
 
@@ -15,7 +15,7 @@ Los informes de recursos proporcionan a los administradores visibilidad de la ac
 
 ## Acceso a los informes {#access-reports}
 
-Todos los usuarios asignados al [Perfil de producto de los administradores de Assets Essentials](deploy-administer.md) pueden acceder al tablero de las Estadísticas activas y crear informes definidos por el usuario en Assets Essentials.
+Todos los usuarios asignados al [Perfil de producto de los administradores de Assets Essentials](deploy-administer.md) puede acceder al tablero Estadísticas activas o crear informes definidos por el usuario en Assets Essentials.
 
 ## Visualización de estadísticas de lanzamiento {#view-live-statistics}
 
@@ -44,6 +44,9 @@ Para crear un informe de descarga, haga lo siguiente:
 1. Seleccione la ruta de la carpeta, que comprende los recursos en los que se ejecutará el informe, utilizando el campo **[!UICONTROL Seleccionar ruta de la carpeta]**.
 
 1. Seleccione el intervalo de fecha para el informe.
+   >[!NOTE]
+   >
+   > Assets Essentials convierte todas las zonas horarias locales a la hora universal coordinada (UTC).
 
 1. En la pestaña [!UICONTROL Columnas], seleccione los nombres de columna que debe mostrar en el informe.
 
@@ -73,7 +76,7 @@ En la tabla siguiente se explica el uso de todas las columnas que se pueden agre
      </tr>
      <tr>
       <td>Tamaño</td>
-      <td>El tamaño del recurso.</td>
+      <td>El tamaño del recurso en bytes.</td>
      </tr>
      <tr>
       <td>Descargado por</td>
@@ -171,7 +174,7 @@ En la tabla siguiente se explica el uso de todas las columnas que se pueden agre
 
 ## Ver informes existentes {#view-report-list}
 
-Después de la [creación del informe](#create-report), puede ver la lista de informes y seleccionar para descargarlos en formato CSV o eliminarlos.
+Después de la [creación del informe](#create-download-report), puede ver la lista de informes y seleccionar para descargarlos en formato CSV o eliminarlos.
 
 Para ver la lista de informes, vaya a **[!UICONTROL Configuración]** > **[!UICONTROL Informes]**.
 
@@ -190,7 +193,7 @@ Para descargar un informe en formato CSV, haga lo siguiente:
 
 1. Seleccione un informe y haga clic en **[!UICONTROL Descargar CSV]**.
 
-El informe seleccionado se descarga en formato CSV. Las columnas que se muestran en el informe CSV dependen de las columnas que seleccione al [crear el informe](#create-report).
+El informe seleccionado se descarga en formato CSV. Las columnas que se muestran en el informe CSV dependen de las columnas que seleccione al [crear el informe](#create-download-report).
 
 ## Eliminar un informe {#delete-report}
 
@@ -199,3 +202,5 @@ Para eliminar un informe, haga lo siguiente:
 1. Vaya a **[!UICONTROL Configuración]** > **[!UICONTROL Informes]**.
 
 1. Seleccione un informe y haga clic en **[!UICONTROL Eliminar]**.
+
+1. Haga clic en **[!UICONTROL Eliminar]** para confirmar.
