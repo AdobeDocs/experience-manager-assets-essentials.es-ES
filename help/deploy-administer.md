@@ -4,9 +4,9 @@ description: Casos de uso de administración, como la implementación y la admin
 role: Admin
 exl-id: ef91126f-3aee-442b-b242-a6bf4034f3dc
 source-git-commit: 9818d06d8da806190c61aadeecd50a7c65b31cbe
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1331'
-ht-degree: 82%
+ht-degree: 100%
 
 ---
 
@@ -25,7 +25,7 @@ Una vez aprovisionada la solución de Assets Essentials, el administrador recibe
 
 Desde el vínculo del correo electrónico, acceda a [Admin Console](https://adminconsole.adobe.com) e inicie sesión. Si tiene acceso de administrador a más de una cuenta de organización, seleccione la adecuada o cambie a ella con el [selector de organización](https://helpx.adobe.com/es/enterprise/using/admin-console.html). Una vez completado el proceso de implementación automática, la tarjeta de producto de [!DNL AEM Assets Essentials] es visible en [!DNL Admin Console].
 
-Realice las siguientes tareas de asignación de derechos de usuario mediante el Admin Console :
+Realice las siguientes tareas de asignación de derechos de usuario mediante Admin Console:
 
 * [Crear administrador de aplicaciones de Assets Essentials](#create-assets-essentials-administrator)
 
@@ -53,22 +53,22 @@ Para obtener información sobre cómo administrar la adición de usuarios a grup
 
 ### Agregar grupos de usuarios a perfiles de producto {#add-users-to-product-profiles}
 
-Agregue grupos de usuarios a perfiles de producto para que tengan acceso a la aplicación Assets Essentials.
+Agregue grupos de usuarios a perfiles de producto para que tengan acceso a la aplicación de Assets Essentials.
 
-Para agregar grupos de usuarios a perfiles de producto:
+Para agregar grupos de usuarios a perfiles de producto, haga lo siguiente:
 
 1. Acceda a la [Admin Console](https://adminconsole.adobe.com) para su organización, haga clic en **[!UICONTROL Productos]** en la barra superior, en **[!UICONTROL AEM Assets Essentials]** y, a continuación, en la instancia de [!DNL Assets Essentials]. El nombre de la instancia puede ser diferente al de la captura de pantalla siguiente.
    >[!NOTE]
    >
-   >La instancia de [!DNL Cloud Manager] es solo para uso especial de los administradores, como comprobar el estado del servicio y obtener acceso a los registros del servicio, y no se puede utilizar para añadir usuarios al producto. 
+   >La instancia de [!DNL Cloud Manager] es solo para uso especial de los administradores, como comprobar el estado del servicio y obtener acceso a los registros del servicio, y no se puede utilizar para agregar usuarios al producto. 
 
    ![Perfil de administrador de Admin Console](assets/assets-essentials-instance.png)
 
    [!DNL Assets Essentials] tiene tres perfiles de producto que representan el acceso para los usuarios normales y consumidores y los administradores.
 
-   * Los **[!DNL Assets Essentials] administradores** tienen acceso administrativo a la aplicación. Además de todas las funcionalidades del usuario final, los administradores de aplicaciones de este grupo pueden administrar permisos para cualquier carpeta y grupo/usuario en todo el repositorio de aplicaciones.
+   * Los **[!DNL Assets Essentials] administradores**: tienen acceso administrativo a la aplicación. Además de todas las funcionalidades del usuario final, los administradores de aplicaciones de este grupo pueden administrar permisos para cualquier carpeta y grupo/usuario en todo el repositorio de aplicaciones.
 
-   * Los **[!DNL Assets Essentials] usuarios** tienen acceso a la interfaz de usuario completa. Estos usuarios pueden cargar, organizar, etiquetar y encontrar recursos digitales.
+   * Los **[!DNL Assets Essentials] usuarios**: tienen acceso a la interfaz de usuario completa. Estos usuarios pueden cargar, organizar, etiquetar y encontrar recursos digitales.
 
    * Los **[!DNL Assets Essentials] usuarios consumidores**: tienen acceso a la experiencia de selección de recursos incrustada en el editor de plantillas de correo electrónico de [!DNL Adobe Journey Optimizer]. Para obtener más información, consulte [Uso de [!DNL Assets Essentials] en [!DNL Journey Optimizer]](https://experienceleague.adobe.com/docs/journey-optimizer/using/create-messages/assets-essentials.html?lang=es).
 
@@ -90,7 +90,7 @@ Después de realizar las autorizaciones de usuario en Admin Console, puede acced
 
 * [Creación de estructura de carpetas](#create-folder-structure)
 
-* [Carga de recursos](#upload-assets)
+* [Carga de activos](#upload-assets)
 
 * [Administración de permisos para carpetas](#manage-permissions-for-folders)
 
@@ -114,11 +114,11 @@ Existen varios tipos de estructura de carpetas que puede utilizar para su organi
 
 >[!NOTE]
 >
->Para poder administrar estas tareas, sobre todo la administración de permisos, el usuario debe tener derechos de administración de aplicaciones; debe añadirse al [Perfil de producto de administrador de Assets Essentials](#add-users-to-product-profiles).
+>Para poder administrar estas tareas, sobre todo la administración de permisos, el usuario debe tener derechos de administración de aplicaciones; debe agregarse al [Perfil de producto de administrador de Assets Essentials](#add-users-to-product-profiles).
 
-### Carga de recursos {#upload-assets}
+### Carga de activos {#upload-assets}
 
-Para añadir nuevos recursos con los que trabajar, cargue algunos desde el sistema de archivos local. Puede arrastrar recursos o carpetas en la interfaz de usuario y seguir las instrucciones que aparecen en la pantalla o hacer clic en **[!UICONTROL Agregar recursos]** de la barra de herramientas y añada algunos archivos al cuadro de diálogo de carga. [!DNL Assets Essentials] ofrece una potente funcionalidad de búsqueda de texto completo, pero también puede utilizar carpetas para organizar mejor los recursos. Para obtener más información, consulte [Cargar recursos](add-delete.md).
+Para agregar nuevos activos con los que trabajar, cargue algunos desde el sistema de archivos local. Puede arrastrar activos o carpetas en la interfaz de usuario y seguir las instrucciones que aparecen en la pantalla o hacer clic en **[!UICONTROL Agregar recursos]** en la barra de herramientas y añadir algunos archivos al cuadro de diálogo de carga. [!DNL Assets Essentials] ofrece una potente funcionalidad de búsqueda de texto completo, pero también puede utilizar carpetas para organizar mejor los activos. Para obtener más información, consulte [Carga de activos](add-delete.md).
 
 ![Carga de archivos y carpetas](assets/upload-assets.png)
 
@@ -144,11 +144,11 @@ Para obtener más información, consulte [Formularios de metadatos](metadata.md#
 
 Para obtener más información sobre los Formularios de metadatos, consulte [Formularios de metadatos en Assets Essentials](metadata.md#metadata-forms).
 
-### Crear colecciones públicas (opcional) {#create-public-collections}
+### Creación de colecciones públicas (opcional) {#create-public-collections}
 
 Una colección es un conjunto de recursos dentro de Experience Manager Assets Essentials. Utilice las colecciones para compartir recursos entre los usuarios.
 
-A diferencia de las carpetas, una colección puede incluir recursos de distintas ubicaciones. Puede compartir varias colecciones con un usuario. Cada colección contiene referencias a recursos. La integridad referencial de los recursos se mantiene entre colecciones. Para obtener más información, consulte [Administrar colecciones](manage-collections.md).
+A diferencia de las carpetas, una colección puede incluir recursos de distintas ubicaciones. Puede compartir varias colecciones con un usuario. Cada colección contiene referencias a recursos. La integridad referencial de los activos se mantiene entre colecciones. Para obtener más información, consulte [Administrar colecciones](manage-collections.md).
 
 ![Colecciones](assets/collections.png)
 
@@ -166,7 +166,7 @@ A diferencia de las carpetas, una colección puede incluir recursos de distintas
 
 >[!MORELIKETHIS]
 >
->* Ayuda de [[!DNL Admin Console] ](https://helpx.adobe.com/enterprise/using/admin-console.html)
+>* Ayuda de [[!DNL Admin Console] ](https://helpx.adobe.com/es/enterprise/using/admin-console.html)
 >* Ayuda de [[!DNL Cloud Manager] ](https://experienceleague.adobe.com/docs/experience-manager-cloud-manager/using/introduction-to-cloud-manager.html?lang=es)
 >* [Documentación de Adobe Journey Optimizer](https://experienceleague.adobe.com/docs/journey-optimizer/using/ajo-home.html?lang=es)
 >* [Notas de la versión](release-notes.md)
