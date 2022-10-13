@@ -3,9 +3,9 @@ title: Administración de informes en Assets Essentials
 description: Acceda a los datos de la sección de informes de Assets Essentials para evaluar el uso de productos y funciones y obtener perspectivas sobre las métricas de éxito clave.
 exl-id: c7155459-05d9-4a95-a91f-a1fa6ae9d9a4
 source-git-commit: 95001cb7b1d37807fcd1fed0e26333cca15bbfbd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '755'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -15,7 +15,7 @@ Los informes de recursos proporcionan a los administradores visibilidad de la ac
 
 ## Acceso a los informes {#access-reports}
 
-Todos los usuarios asignados al [Perfil de producto de los administradores de Assets Essentials](deploy-administer.md) puede acceder al tablero Estadísticas activas o crear informes definidos por el usuario en Assets Essentials.
+Todos los usuarios asignados al [Perfil de producto de los administradores de Assets Essentials](deploy-administer.md) pueden acceder al tablero de las Estadísticas activas o crear informes definidos por el usuario en Assets Essentials.
 
 ## Visualización de estadísticas de lanzamiento {#view-live-statistics}
 
@@ -203,4 +203,4 @@ Para eliminar un informe, haga lo siguiente:
 
 1. Seleccione un informe y haga clic en **[!UICONTROL Eliminar]**.
 
-1. Haga clic en **[!UICONTROL Eliminar]** para confirmar.
+1. Haga clic en **[!UICONTROL Eliminar]** de nuevo para confirmar.
