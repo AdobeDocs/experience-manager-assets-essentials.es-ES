@@ -3,9 +3,9 @@ title: Administrar colecciones
 description: Una colección es un conjunto de recursos dentro de Experience Manager Assets Essentials. Utilice las colecciones para compartir recursos entre los usuarios.
 exl-id: 33c889f5-c989-4772-9591-db62f50e5c80
 source-git-commit: 95001cb7b1d37807fcd1fed0e26333cca15bbfbd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '769'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -67,7 +67,7 @@ Para crear una colección:
 
 Para agregar recursos a una colección:
 
-1. Haga clic en **[!UICONTROL Recursos]** en el carril izquierdo y seleccione los recursos que debe añadir a una colección.
+1. Haga clic en **[!UICONTROL Recursos]** en el carril izquierdo y seleccione los recursos que debe agregar a una colección.
 
 1. Haga clic en **[!UICONTROL Agregar a colección]**.
 
@@ -83,7 +83,7 @@ Para quitar recursos de una colección:
 
 1. Haga clic en **[!UICONTROL Colecciones]** en el carril izquierdo para ver la lista de colecciones.
 
-1. Haga clic en la colección y seleccione los elementos que debe eliminar de la colección.
+1. Haga clic en la colección y seleccione los elementos que debe quitar de la colección.
 
 1. Haga clic en **[!UICONTROL Quitar]**.
 
@@ -149,7 +149,7 @@ Para ver y editar metadatos de colección:
 
 1. Haga clic en **[!UICONTROL Colecciones]** en el carril izquierdo, seleccione una colección y haga clic en **[!UICONTROL Detalles]**.
 1. Vea los metadatos de la colección utilizando la pestaña **[!UICONTROL Básico]**.
-1. Modifique los campos de metadatos según sea necesario. Puede modificar el [!UICONTROL Título] y [!UICONTROL Descripción] campos.
+1. Modifique los campos de metadatos según sea necesario. Puede modificar el [!UICONTROL Título] y la [!UICONTROL Descripción] de los campos.
 
 ![Colección metadatos](assets/collection-metadata.png)
 
