@@ -3,9 +3,9 @@ title: Integración con otras soluciones de Adobe
 description: “[!DNL Assets Essentials] se integra con otras soluciones de Adobe y proporciona una experiencia integrada desde la aplicación nativa”.
 role: User
 exl-id: bc43a59e-f295-44d2-a14d-854174f91e41
-source-git-commit: 02f28c00b387fbcac4cd917fab7763124fdd5d70
-workflow-type: ht
-source-wordcount: '387'
+source-git-commit: 268b7eb82b15b658207f24750eeae085ce5bb3d4
+workflow-type: tm+mt
+source-wordcount: '369'
 ht-degree: 100%
 
 ---
@@ -22,8 +22,6 @@ La experiencia de [!DNL Assets Essentials] incorporada puede integrarse con las 
 
 * **[!DNL Adobe Journey Optimizer]**: [[!DNL Adobe Journey Optimizer]](https://business.adobe.com/es/products/journey-optimizer/adobe-journey-optimizer.html) simplifica la administración de recorridos para que los clientes proporcionen campañas omnicanal con decisiones y perspectivas inteligentes. Al diseñar mensajes utilizando [!DNL Journey Optimizer], puede acceder al repositorio de [!DNL Assets Essentials] directamente desde dentro de la interfaz de [!DNL Journey Optimizer]. Los usuarios obtienen acceso a los recursos mediante la interfaz de usuario integrada de [!DNL Assets Essentials]. Consulte el artículo de ayuda [Uso de [!DNL Assets Essentials] ](https://experienceleague.adobe.com/docs/journey-optimizer/using/create-messages/assets-essentials.html?lang=es) o el [tutorial de vídeo para crear contenido de correo electrónico](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/create-messages/create-email-content-with-the-message-editor.html?lang=es).
 
-   [Vea un vídeo para crear contenido de correo electrónico con el editor de mensajes](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/create-messages/create-email-content-with-the-message-editor.html?lang=es)
-
 * **[!DNL Adobe Workfront]**: [[!DNL Adobe Workfront]](https://www.workfront.com/) es una aplicación de administración de trabajo que le ayuda a administrar todo el ciclo de vida del trabajo en un solo lugar. La integración nativa entre [!DNL Adobe Workfront] y [!DNL Assets Essentials] permite a las organizaciones mejorar la velocidad del contenido y el tiempo de salida al mercado conectando intrínsecamente el trabajo con la administración de recursos. En el contexto de la administración de su trabajo, los usuarios tienen acceso a los documentos e imágenes necesarios en la misma solución. [!DNL Assets Essentials] está disponible como un complemento que los nuevos clientes de [!DNL Workfront] pueden comprar por separado. Consulte [configurar y usar la integración de  [!DNL Workfront] y [!DNL Essentials] ](https://one.workfront.com/s/document-item?bundleId=the-new-workfront-experience&amp;topicId=Content%2FDocuments%2FAdobe_Workfront_for_Experience_Manager_Assets_Essentials%2F_workfront-for-aem-asset-essentials.htm).
 
    [Vea un vídeo para configurar la integración de Adobe Workfront y Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-learn/assets-essentials/workfront/configure.html?lang=es)
@@ -32,7 +30,7 @@ La experiencia de [!DNL Assets Essentials] incorporada puede integrarse con las 
 
 * Proporcione comentarios de producto mediante la opción [!UICONTROL Comentarios] disponible en la interfaz de usuario de Assets Essentials
 
-* Proporcione comentarios sobre la documentación usando [!UICONTROL Editar esta página] ![editar la página](assets/do-not-localize/edit-page.png) o [!UICONTROL Registrar una incidencia] ![crear una incidencia de GitHub](assets/do-not-localize/github-issue.png), disponibles en la barra lateral derecha.
+* Proporcione comentarios sobre la documentación usando [!UICONTROL Editar esta página] ![editar la página](assets/do-not-localize/edit-page.png) o [!UICONTROL Registrar una incidencia] ![crear una incidencia de GitHub](assets/do-not-localize/github-issue.png), disponibles en la barra lateral derecha
 
 * Contacto con el [Servicio de atención al cliente](https://experienceleague.adobe.com/?support-solution=General&amp;lang=es#support)
 
