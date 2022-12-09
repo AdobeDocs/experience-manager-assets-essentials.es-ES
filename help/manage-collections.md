@@ -2,9 +2,9 @@
 title: Administrar colecciones
 description: Una colección es un conjunto de recursos dentro de Experience Manager Assets Essentials. Utilice las colecciones para compartir recursos entre los usuarios.
 exl-id: 33c889f5-c989-4772-9591-db62f50e5c80
-source-git-commit: 95001cb7b1d37807fcd1fed0e26333cca15bbfbd
-workflow-type: ht
-source-wordcount: '769'
+source-git-commit: 368b27c4f1f14ff6209c4e45ff288be192809c0e
+workflow-type: tm+mt
+source-wordcount: '737'
 ht-degree: 100%
 
 ---
@@ -74,8 +74,6 @@ Para agregar recursos a una colección:
 1. En el cuadro de diálogo [!UICONTROL Colecciones], seleccione las colecciones para agregar los recursos seleccionados.
 
 1. Haga clic en **[!UICONTROL Agregar]** para agregar el recurso a las colecciones seleccionadas.
-
-Para agregar recursos a la colección, también puede hacer clic en **[!UICONTROL Colecciones]** en el carril izquierdo, haga clic en la colección a la que desee agregar recursos y, a continuación, haga clic en **[!UICONTROL Agregar a colección]**, seleccione los recursos y haga clic en **[!UICONTROL Seleccionar]**.
 
 ## Eliminación de recursos de una colección {#remove-assets-from-collection}
 
