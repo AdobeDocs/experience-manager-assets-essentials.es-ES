@@ -3,9 +3,9 @@ title: Administración de informes en Assets Essentials
 description: Acceda a los datos de la sección de informes de Assets Essentials para evaluar el uso de productos y funciones y obtener perspectivas sobre las métricas de éxito clave.
 exl-id: c7155459-05d9-4a95-a91f-a1fa6ae9d9a4
 source-git-commit: 368b27c4f1f14ff6209c4e45ff288be192809c0e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '759'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -23,7 +23,7 @@ Assets Essentials le permite ver datos en tiempo real de su entorno de Assets Es
 
 ![Opciones de la barra de herramientas al seleccionar un recurso](assets/assets-essentials-live-statistics.png)
 
-Haga clic en **[!UICONTROL Estadísticas en directo]** disponible en el panel de navegación izquierdo para ver los siguientes gráficos generados automáticamente:
+Haga clic en **[!UICONTROL Estadísticas en directo]** disponibles en el panel de navegación izquierdo para ver los siguientes gráficos generados automáticamente:
 
 * **Descargas**: el número de activos descargados del entorno de Assets Essentials en los últimos 30 días o 12 meses representados mediante un gráfico de líneas.
 
