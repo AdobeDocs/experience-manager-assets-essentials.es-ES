@@ -1,10 +1,11 @@
 ---
 title: Integración de Assets Essentials con aplicaciones de Creative Cloud
 description: Integre Assets Essentials con aplicaciones de Creative Cloud para poder utilizar el panel integrado de Adobe Asset Link para conectarse al repositorio de  [!DNL Assets Essentials]  desde las aplicaciones de  [!DNL Adobe Creative Cloud]  de escritorio admitidas.
-source-git-commit: 44b8b8f3c734bd80e9d86177d607d897e696e4ed
-workflow-type: tm+mt
+exl-id: 817bc955-0074-435e-83a8-3fd5f7f2505a
+source-git-commit: 6194a778133842d40c4ef2bc257eec8a34b0a481
+workflow-type: ht
 source-wordcount: '761'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -26,7 +27,7 @@ Ejecute las siguientes tareas para integrar Assets Essentials con aplicaciones d
 
 ## Cree confianza de directorios entre Creative Cloud y Admin Consoles de Experience Cloud {#directory-trusting-cc-assets-essentials-consoles}
 
-Si el Creative Cloud se implementa en un Adobe Admin Console independiente del que tiene Assets Essentials (solución de Experience Cloud), debe agregar una relación de confianza entre las dos consolas.
+Si Creative Cloud se implementa en Adobe Admin Console independiente de la que se utiliza con Assets Essentials (solución de Experience Cloud), debe añadir una relación de confianza entre las dos consolas.
 
 Para integrar aplicaciones de Creative Cloud y Assets Essentials, los usuarios disponibles en la Admin Console para Creative Cloud deben estar disponibles en la Admin Console para Experience Cloud. Si Creative Cloud y Assets Essentials se implementan en Admin Consoles separadas, se requiere una relación de confianza entre ellas para habilitar esto.
 
@@ -42,7 +43,7 @@ Para obtener más información sobre cómo asignar usuarios a perfiles de produc
 
 ## Instale Adobe Asset Link {#install-asset-link}
 
-el complemento [!DNL Adobe Asset Link] se puede instalar y poner a disposición de los usuarios creativos de dos formas:
+El complemento [!DNL Adobe Asset Link] se puede instalar y poner a disposición de los usuarios creativos de dos formas:
 
 * Los usuarios creativos pueden instalar el complemento desde su aplicación [!DNL Creative Cloud Desktop]
 * El administrador de Creative Cloud puede añadir el complemento Asset Link a un paquete de Creative Cloud en Admin Console
@@ -56,7 +57,7 @@ La elección depende de las políticas de TI de la organización.
 
 La **instalación con un paquete de Creative Cloud** la lleva a cabo el administrador de Creative Cloud en Admin Console, incluyendo el complemento Asset Link al crear un paquete de implementación, que luego se puede implementar en los equipos de usuario. En la pantalla Elegir complementos administrada, busque **Adobe Asset Link** en la sección **Complementos comerciales destacados**. Para obtener más información, consulte [Empaquetado de aplicaciones a través de Admin Console](https://helpx.adobe.com/es/enterprise/using/package-apps-admin-console.html).
 
-## Uso del vínculo de recursos de Adobe {#use-asset-link}
+## Use Adobe Asset Link {#use-asset-link}
 
 Los usuarios creativos ahora pueden utilizar Adobe Asset Link con Photoshop, Illustrator, InDesign o XD. Para abrir el panel en InDesign o Illustrator, vaya a Windows > Extensiones > Adobe Asset Link. En Photoshop, vaya a Ventana > Extensiones (heredadas) > Adobe Asset Link.
 
