@@ -3,9 +3,9 @@ title: Configuración de Assets Essentials para Creative Cloud Pro con solucione
 description: Este tutorial presenta un recorrido de administrador para permitir que la aplicación de Assets Essentials se integre con las aplicaciones de escritorio de Creative Cloud y con la aplicación de Adobe Workfront. Las aplicaciones de escritorio de Creative Cloud incluyen Adobe Photoshop, Adobe Illustrator, Adobe InDesign y Adobe XD.
 exl-id: a5e9e0c3-35ec-41de-9656-f4f0f88946c7
 source-git-commit: 8920080944981fc1a990136af46c9258c5e8627c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '941'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -49,7 +49,7 @@ Los recorridos de documentación están diseñados en torno a los principios de 
 
 ## Requisitos previos
 
-* [Acceso a Adobe Admin Console para soluciones de Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/administration/admin-getting-started.html)
+* [Acceso a Adobe Admin Console para soluciones de Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/administration/admin-getting-started.html?lang=es)
 
 * [Acceso a Adobe Admin Console para la implementación de Creative Cloud para empresas](https://helpx.adobe.com/es/enterprise/admin-guide.html)
 
