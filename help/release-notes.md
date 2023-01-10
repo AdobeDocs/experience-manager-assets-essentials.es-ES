@@ -5,9 +5,9 @@ role: User,Leader,Admin,Architect,Developer
 contentOwner: AK
 exl-id: a0e29eb6-336a-4f78-b7bd-ec1338c86775
 source-git-commit: 2a19ab3dd9c3d15916cfb93083a23569005a86b6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1471'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -46,15 +46,15 @@ Ahora hay disponible una nueva opción para guardar metadatos en la interfaz de 
 
 Mejoras y correcciones de errores basadas en los comentarios de los clientes.
 
-**Adobe Asset Link versión 3.3**
+**Adobe Asset Link, versión 3.3**
 
-[Vínculo de recurso de Adobe](https://helpx.adobe.com/es/enterprise/using/adobe-asset-link.html) La versión 3.3 se publicó el 13 de diciembre de 2022 con las siguientes funciones:
+La versión 3.3 de [Adobe Asset Link](https://helpx.adobe.com/es/enterprise/using/adobe-asset-link.html) se publicó el 13 de diciembre de 2022 con las siguientes funciones:
 
-* Compatibilidad con [Creative Cloud para equipos](https://www.adobe.com/creativecloud/business/teams.html) además de [Creative Cloud para empresas](https://www.adobe.com/creativecloud/business/enterprise.html) antes.
+* Compatibilidad con [Creative Cloud para equipos](https://www.adobe.com/es/creativecloud/business/teams.html) además de [Creative Cloud para empresas](https://www.adobe.com/es/creativecloud/business/enterprise.html) antes.
 
-* Compatibilidad con las últimas aplicaciones de Adobe InDesign, Photoshop y Illustrator 2023.
+* Compatibilidad con las últimas aplicaciones de Adobe InDesign, Photoshop e Illustrator 2023.
 
-* Compatibilidad para utilizar el complemento CEP de Asset Link de Adobe en entornos con servidores proxy.
+* Compatibilidad para utilizar el complemento CEP de Adobe Asset Link en entornos con servidores proxy.
 
 ## Problemas conocidos {#known-issues}
 
