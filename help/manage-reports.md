@@ -2,10 +2,10 @@
 title: Administración de informes en Assets Essentials
 description: Acceda a los datos de la sección de informes de Assets Essentials para evaluar el uso de productos y funciones y obtener perspectivas sobre las métricas de éxito clave.
 exl-id: c7155459-05d9-4a95-a91f-a1fa6ae9d9a4
-source-git-commit: b37e633518513023dd947157d4a7a9297590ccd3
-workflow-type: ht
-source-wordcount: '735'
-ht-degree: 100%
+source-git-commit: ec9cdf0d206aa59d67b8ac96504b590a2db19663
+workflow-type: tm+mt
+source-wordcount: '731'
+ht-degree: 92%
 
 ---
 
@@ -15,15 +15,15 @@ Los informes de recursos proporcionan a los administradores visibilidad de la ac
 
 ## Acceso a los informes {#access-reports}
 
-Todos los usuarios asignados al [Perfil de producto de los administradores de Assets Essentials](deploy-administer.md) pueden acceder al tablero de las Estadísticas activas o crear informes definidos por el usuario en Assets Essentials.
+Todos los usuarios asignados al [Perfil de producto de los administradores de Assets Essentials](deploy-administer.md) puede acceder al tablero de perspectivas o crear informes definidos por el usuario en Assets Essentials.
 
-## Visualización de estadísticas de lanzamiento {#view-live-statistics}
+## Ver perspectivas {#view-live-statistics}
 
-Assets Essentials le permite ver datos en tiempo real de su entorno de Assets Essentials con el tablero Estadísticas activas. Puede ver las métricas de eventos en tiempo real durante los últimos 30 días o 12 meses.
+Assets Essentials le permite ver datos en tiempo real de su entorno de Assets Essentials con el panel de información. Puede ver las métricas de eventos en tiempo real durante los últimos 30 días o 12 meses.
 
 ![Opciones de la barra de herramientas al seleccionar un recurso](assets/assets-essentials-live-statistics.png)
 
-Haga clic en **[!UICONTROL Estadísticas en directo]** disponibles en el panel de navegación izquierdo para ver los siguientes gráficos generados automáticamente:
+Haga clic en **[!UICONTROL Perspectivas]** disponible en el panel de navegación izquierdo para ver los siguientes gráficos generados automáticamente:
 
 * **Descargas**: el número de activos descargados del entorno de Assets Essentials en los últimos 30 días o 12 meses representados mediante un gráfico de líneas.
 

@@ -4,16 +4,62 @@ description: Notas de la versión y problemas conocidos de [!DNL Assets Essentia
 role: User,Leader,Admin,Architect,Developer
 contentOwner: AK
 exl-id: a0e29eb6-336a-4f78-b7bd-ec1338c86775
-source-git-commit: 2a19ab3dd9c3d15916cfb93083a23569005a86b6
-workflow-type: ht
-source-wordcount: '1471'
-ht-degree: 100%
+source-git-commit: a085ac1c5bdd4ff6d83b8d80b334f55b3995fc96
+workflow-type: tm+mt
+source-wordcount: '1690'
+ht-degree: 87%
 
 ---
 
 # Notas de la versión de [!DNL Assets Essentials] {#release-notes}
 
-La versión actual de Assets Essentials se publicó el 17 de noviembre de 2022.
+La versión actual de Assets Essentials se publicó el 27 de enero de 2023.
+
+Esta versión proporciona lo siguiente:
+
+**Mi espacio de trabajo con widgets configurables**
+
+Assets ahora proporciona un espacio de trabajo personalizado, que sirve como solución integral para proporcionar un acceso conveniente a las áreas clave de la interfaz de usuario de Assets y a la información más relevante para usted. Un acceso más rápido a estas opciones aumenta la velocidad de contenido y la eficacia de sus proyectos.
+
+Mi espacio de trabajo incluye widgets para las próximas funciones nuevas, perspectivas, tareas y contenido. Puede configurar cómo se muestran estos widgets en el espacio de trabajo en función de sus preferencias.
+
+**Interfaz de usuario de administración de tareas dedicadas**
+
+Assets Essentials ahora le permite administrar la lista de tareas que tiene asignadas, que ha creado y que ya ha completado en una ubicación centralizada, utilizando el nuevo **[!UICONTROL Tareas]** disponible en el panel de navegación izquierdo. También puede realizar las acciones adecuadas seleccionando una tarea para aprobarla o rechazarla, o abriendo los detalles de la tarea para aprobarla, rechazarla, editarla o eliminarla.
+
+![Tareas en Workspace](assets/tasks-workspace.png)
+
+**Vínculos generados automáticamente para compartir recursos**
+
+Assets Essentials ahora genera un vínculo automáticamente en cuanto elige compartir un recurso mediante la interfaz de usuario de Assets Essentials. El vínculo generado sigue siendo válido incluso si se cambia la fecha de caducidad.
+
+![Tareas en Workspace](assets/share-asset.png)
+
+
+**Mejoras basadas en los comentarios de los clientes**
+
+Mejoras y correcciones de errores basadas en los comentarios de los clientes.
+
+## Problemas conocidos {#known-issues}
+
+La lista de problemas conocidos de la oferta de [!DNL Assets Essentials] se revisa y actualiza de forma continua:
+
+<!--
+
+* Assets Essentials does not support creating Private collections.
+
+-->
+
+
+* Las colecciones privadas están disponibles para el creador y los usuarios con privilegios de administrador. Como administrador, no puede delegar los permisos para acceder a la colección a otros usuarios.
+
+Si encuentra algún problema o incluso si tiene solicitudes de mejora, [proporcione comentarios](#provide-feedback) al equipo.
+
+## Versiones anteriores {#past-releases}
+
+### 2022.11.0 {#november-2022}
+
+La versión de noviembre de [!DNL Assets Essentials] se publicó el 17 de noviembre de 2022.
 
 Esta versión proporciona lo siguiente:
 
@@ -55,23 +101,6 @@ La versión 3.3 de [Adobe Asset Link](https://helpx.adobe.com/es/enterprise/usin
 * Compatibilidad con las últimas aplicaciones de Adobe InDesign, Photoshop e Illustrator 2023.
 
 * Compatibilidad para utilizar el complemento CEP de Adobe Asset Link en entornos con servidores proxy.
-
-## Problemas conocidos {#known-issues}
-
-La lista de problemas conocidos de la oferta de [!DNL Assets Essentials] se revisa y actualiza de forma continua:
-
-<!--
-
-* Assets Essentials does not support creating Private collections.
-
--->
-
-
-* Las colecciones privadas están disponibles para el creador y los usuarios con privilegios de administrador. Como administrador, no puede delegar los permisos para acceder a la colección a otros usuarios.
-
-Si encuentra algún problema o incluso si tiene solicitudes de mejora, [proporcione comentarios](#provide-feedback) al equipo.
-
-## Versiones anteriores {#past-releases}
 
 ### 2022.8.0 {#august-2022}
 
