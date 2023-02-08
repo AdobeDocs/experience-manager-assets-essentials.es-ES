@@ -4,9 +4,9 @@ description: Administración de metadatos de recursos en [!DNL Assets Essentials
 role: User,Leader,Admin,Architect,Developer
 contentOwner: AG
 exl-id: cfc105d1-41fc-4418-9905-b2a28a348682
-source-git-commit: 274028a1fb224b045c047e63539a9b96b1cc4357
+source-git-commit: 260eb904240652d174cc29bacfe92b03699305d0
 workflow-type: tm+mt
-source-wordcount: '1251'
+source-wordcount: '1252'
 ht-degree: 95%
 
 ---
@@ -57,7 +57,7 @@ Puede añadir más etiquetas a los recursos, además de las etiquetas inteligent
 
 También puede quitar etiquetas de la sección [!UICONTROL Etiquetas inteligentes], que [!DNL Assets Essentials] añade automáticamente a todos los recursos cargados.
 
-## Forms de metadatos {#metadata-forms}
+## Configuración de formularios de metadatos {#metadata-forms}
 
 >[!CONTEXTUALHELP]
 >id="assets_metadata_forms"
