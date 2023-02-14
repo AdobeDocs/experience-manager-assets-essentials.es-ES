@@ -3,14 +3,20 @@ title: Búsqueda y descubrimiento de recursos en [!DNL Assets Essentials]
 description: Busque y descubra recursos en [!DNL Assets Essentials].
 role: User
 exl-id: be9597a3-056c-436c-a09e-15a03567c85a
-source-git-commit: cfe72bb73493c84dc57a0438817e3868d8a1ed14
-workflow-type: ht
-source-wordcount: '802'
-ht-degree: 100%
+source-git-commit: 18929733eb7ef1c862637cc5d03d44ac3c62875b
+workflow-type: tm+mt
+source-wordcount: '869'
+ht-degree: 92%
 
 ---
 
 # Búsqueda de recursos en [!DNL Assets Essentials] {#search-assets}
+
+>[!CONTEXTUALHELP]
+>id="assets_search"
+>title="Buscar recursos"
+>abstract="Busque los recursos especificando los criterios de búsqueda o filtrando los recursos en función de su estado, tipo de archivo, tipo MIME, tamaño, creación, modificación y fechas de caducidad. También puede aplicar filtros personalizados además de los filtros estándar. Los resultados filtrados se pueden guardar como una búsqueda guardada o una colección inteligente."
+>additional-url="https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/manage-collections.html?lang=en#manage-smart-collection" text="Crear colecciones inteligentes"
 
 [!DNL Assets Essentials] proporciona una búsqueda efectiva que funciona de forma predeterminada. La búsqueda es exhaustiva, ya que es de texto completo. La potente funcionalidad de búsqueda le permite descubrir rápidamente el recurso adecuado y ayudarle a mejorar la velocidad del contenido. [!DNL Assets Essentials] proporciona búsquedas de texto completo e incluso búsquedas mediante metadatos como etiquetas inteligentes, título, fecha de creación y copyright.
 
