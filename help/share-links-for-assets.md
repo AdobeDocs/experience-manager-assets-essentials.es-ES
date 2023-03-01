@@ -3,9 +3,9 @@ title: ¿Cómo compartir vínculos a recursos?
 description: Genere un vínculo y comparta recursos con otras personas que no tengan acceso a la aplicación de  [!DNL Assets Essentials] .
 exl-id: 6e05b06c-7436-40e3-acee-c8b1ed218f9e
 source-git-commit: 79039f96a4aa44bb81923ec909766969f81e1a3f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '407'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ Para generar un vínculo para un recurso o una carpeta que contenga recursos:
 
 1. Si desea ajustarlo, haga clic en el icono del calendario para definir una fecha de caducidad para el vínculo mediante el campo **[!UICONTROL Fecha de caducidad]**. También puede especificar una fecha directamente, en formato `yyyy-mm-dd`. De forma predeterminada, la fecha de caducidad de un vínculo se establece en dos semanas a partir de la fecha en que se compartió.
 
-1. Copie el vínculo desde el **[!UICONTROL Compartir vínculo]** campo .
+1. Copie el vínculo desde el campo **[!UICONTROL Compartir vínculo]**.
 
    ![Opción para recortar y enderezar](assets/share-asset-link.png)
 
