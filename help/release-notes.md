@@ -5,9 +5,9 @@ role: User,Leader,Admin,Architect,Developer
 contentOwner: AK
 exl-id: a0e29eb6-336a-4f78-b7bd-ec1338c86775
 source-git-commit: a085ac1c5bdd4ff6d83b8d80b334f55b3995fc96
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1690'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -19,21 +19,21 @@ Esta versión proporciona lo siguiente:
 
 **Mi espacio de trabajo con widgets configurables**
 
-Assets ahora proporciona un espacio de trabajo personalizado, que sirve como solución integral para proporcionar un acceso conveniente a las áreas clave de la interfaz de usuario de Assets y a la información más relevante para usted. Un acceso más rápido a estas opciones aumenta la velocidad de contenido y la eficacia de sus proyectos.
+Assets ahora proporciona un espacio de trabajo personalizado, que sirve como solución integral para proporcionar un acceso práctico a las áreas clave de la interfaz de usuario de Assets y a la información más relevante para usted. Un acceso más rápido a estas opciones aumenta la velocidad de contenido y la eficacia de sus proyectos.
 
 Mi espacio de trabajo incluye widgets para las próximas funciones nuevas, perspectivas, tareas y contenido. Puede configurar cómo se muestran estos widgets en el espacio de trabajo en función de sus preferencias.
 
-**Interfaz de usuario de administración de tareas dedicadas**
+**IU de administración de tareas dedicadas**
 
-Assets Essentials ahora le permite administrar la lista de tareas que tiene asignadas, que ha creado y que ya ha completado en una ubicación centralizada, utilizando el nuevo **[!UICONTROL Tareas]** disponible en el panel de navegación izquierdo. También puede realizar las acciones adecuadas seleccionando una tarea para aprobarla o rechazarla, o abriendo los detalles de la tarea para aprobarla, rechazarla, editarla o eliminarla.
+Assets Essentials ahora le permite administrar la lista de tareas que tiene asignadas, que ha creado y completado en una ubicación centralizada, utilizando la nueva opción **[!UICONTROL Tareas]** disponible en el panel de navegación izquierdo. También puede realizar las acciones adecuadas seleccionando una tarea para aprobarla o rechazarla, o abriendo los detalles de la tarea para aprobarla, rechazarla, editarla o eliminarla.
 
-![Tareas en Workspace](assets/tasks-workspace.png)
+![Tareas en el espacio de trabajo](assets/tasks-workspace.png)
 
-**Vínculos generados automáticamente para compartir recursos**
+**Vínculos generados automáticamente para compartir archivos**
 
 Assets Essentials ahora genera un vínculo automáticamente en cuanto elige compartir un recurso mediante la interfaz de usuario de Assets Essentials. El vínculo generado sigue siendo válido incluso si se cambia la fecha de caducidad.
 
-![Tareas en Workspace](assets/share-asset.png)
+![Tareas en el espacio de trabajo](assets/share-asset.png)
 
 
 **Mejoras basadas en los comentarios de los clientes**
