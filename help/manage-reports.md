@@ -2,14 +2,19 @@
 title: Administración de informes en Assets Essentials
 description: Acceda a los datos de la sección de informes de Assets Essentials para evaluar el uso de productos y funciones y obtener perspectivas sobre las métricas de éxito clave.
 exl-id: c7155459-05d9-4a95-a91f-a1fa6ae9d9a4
-source-git-commit: ec9cdf0d206aa59d67b8ac96504b590a2db19663
-workflow-type: ht
-source-wordcount: '731'
-ht-degree: 100%
+source-git-commit: b222e03a8eca0837ca647740baed7d77afe96ed3
+workflow-type: tm+mt
+source-wordcount: '781'
+ht-degree: 97%
 
 ---
 
 # Administrar informes {#manage-reports}
+
+>[!CONTEXTUALHELP]
+>id="assets_reports"
+>title="Informes"
+>abstract="Los informes de recursos proporcionan a los administradores visibilidad de la actividad del entorno de Adobe Experience Manager Assets Essentials. Estos datos proporcionan información útil sobre cómo los usuarios interactúan con el contenido y el producto. Todos los usuarios asignados al Perfil de producto de los administradores pueden acceder al panel de perspectivas o crear informes definidos por el usuario."
 
 Los informes de recursos proporcionan a los administradores visibilidad de la actividad del entorno de Adobe Experience Manager Assets Essentials. Estos datos proporcionan información útil sobre cómo los usuarios interactúan con el contenido y el producto.
 
