@@ -12,7 +12,7 @@ solution: Experience Manager
 source-git-commit: a085ac1c5bdd4ff6d83b8d80b334f55b3995fc96
 workflow-type: tm+mt
 source-wordcount: '123'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 98%
 + [Mi espacio de trabajo](my-workspace.md)
 + Introducción a Assets Essentials para administradores {#get-started-admins}
    + [Administración y adición de usuarios](deploy-administer.md)
-   + Administración del acceso a carpetas{#folder-access}
+   + Administración del acceso a carpetas {#folder-access}
       + [Administración de permisos de carpeta](manage-permissions.md)
       + [Prácticas recomendadas para la administración de permisos](permission-management-best-practices.md)
    + [Recorrido de administrador de Assets Essentials para Creative Cloud Pro con soluciones de administración de trabajo](assets-essentials-cc-pro-work-management-admin-journey.md)
