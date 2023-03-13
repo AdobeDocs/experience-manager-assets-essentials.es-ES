@@ -4,7 +4,7 @@ description: Casos de uso de administración, como la implementación y la admin
 role: Admin
 exl-id: ef91126f-3aee-442b-b242-a6bf4034f3dc
 source-git-commit: 07537aea39140f649d17353430a505c36e971aea
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1329'
 ht-degree: 100%
 
