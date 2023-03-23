@@ -10,7 +10,7 @@ feature: Assets Essentials
 role: User,Leader
 solution: Experience Manager
 source-git-commit: 55f24357266d2f063d1aaf92777fae32c7b127bd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '124'
 ht-degree: 100%
 
