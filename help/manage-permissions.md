@@ -3,7 +3,7 @@ title: ¿Cómo se administran los permisos de las carpetas en AEM Assets Essenti
 description: Assets Essentials permite a los administradores administrar los niveles de acceso para las carpetas disponibles en el repositorio. Cree grupos de usuarios y asígneles permisos para administrar los niveles de acceso. Como administrador, también puede delegar los privilegios de administración de permisos en grupos de usuarios en el nivel de carpeta.
 exl-id: 5ef01dbc-87c0-4013-9367-5da3774f4f20
 source-git-commit: 999d5106469d002deed3eccd689a802396dd42d4
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1691'
 ht-degree: 100%
 
