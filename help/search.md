@@ -6,7 +6,7 @@ exl-id: be9597a3-056c-436c-a09e-15a03567c85a
 source-git-commit: f63cbffbbc6acc37a1a08f28cbdc4cee7f66d883
 workflow-type: tm+mt
 source-wordcount: '897'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -127,7 +127,7 @@ La funcionalidad de búsqueda es bastante fácil de usar en [!DNL Assets Essenti
 
 También puede filtrar los resultados de búsqueda según criterios específicos en torno a los metadatos y el tipo de recursos. Para los filtros utilizados con frecuencia, a fin de mejorar la experiencia de búsqueda, [!DNL Assets Essentials] permite guardar los parámetros de búsqueda. A continuación, puede seleccionar la búsqueda guardada para buscar y aplicar el filtro con un solo clic.
 
-Para crear una búsqueda guardada, busque algún recurso, aplique uno o varios filtros y haga clic en **[!UICONTROL Guardar como]** > **[!UICONTROL Búsqueda guardada]** en el [!UICONTROL Filtros] panel. También puede hacer clic en **[!UICONTROL Guardar como]** y seleccione **[!UICONTROL Colección inteligente]** para guardar los resultados como una colección inteligente. Consulte [Crear una colección inteligente](manage-collections.md#create-a-smart-collection) para obtener más información.
+Para crear una búsqueda guardada, busque algún recurso, aplique uno o varios filtros y haga clic en **[!UICONTROL Guardar como]** > **[!UICONTROL Búsqueda guardada]** en el panel de [!UICONTROL Filtros]. También puede hacer clic en **[!UICONTROL Guardar como]** y seleccionar **[!UICONTROL Colección inteligente]** para guardar los resultados como una Colección inteligente. Consulte [Crear una Colección inteligente](manage-collections.md#create-a-smart-collection) para obtener más información.
 
 ![Crear colección inteligente](assets/create-smart-collection.png)
 
