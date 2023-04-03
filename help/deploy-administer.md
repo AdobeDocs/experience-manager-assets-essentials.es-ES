@@ -4,9 +4,9 @@ description: Casos de uso de administración, como la implementación y la admin
 role: Admin
 exl-id: ef91126f-3aee-442b-b242-a6bf4034f3dc
 source-git-commit: 989d4b2105636b03bef8b8aa5e653c3800845f69
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1342'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -70,8 +70,8 @@ Para agregar perfiles de productos a grupos de usuarios, haga lo siguiente:
 
    * Los **[!DNL Assets Essentials] usuarios**: tienen acceso a la interfaz de usuario completa. Estos usuarios pueden cargar, organizar, etiquetar y encontrar recursos digitales.
 
-   * **[!DNL Assets Essentials]Usuarios consumidores** puede realizar operaciones de búsqueda, previsualización y descarga en Assets Essentials. También pueden buscar y seleccionar recursos en Adobe Journey Optimizer, y buscar y seleccionar recursos para usarlos en Workfront.
-Para obtener más información, consulte [Integración con otras soluciones de ](integration.md).
+   * Los Usuarios consumidores de **[!DNL Assets Essentials]** pueden realizar operaciones de búsqueda, previsualización y descarga en Assets Essentials. También pueden buscar y seleccionar recursos en Adobe Journey Optimizer, y buscar y seleccionar recursos para usarlos en Workfront.
+Para obtener más información, consulte [Integración con otras soluciones](integration.md).
 
    ![Perfil de administrador de Admin Console](assets/admin-console-admin-profile.png)
 
