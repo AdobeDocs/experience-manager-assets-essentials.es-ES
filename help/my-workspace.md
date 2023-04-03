@@ -2,9 +2,9 @@
 title: Mi espacio de trabajo de Assets
 description: Mi espacio de trabajo es una página que proporciona módulos visuales personalizables para acceder fácilmente a las áreas clave de la interfaz de usuario de Assets y a la información más relevante para el usuario.
 source-git-commit: 184e80c88fb8e13ca24049d95146b5305b2008dc
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '458'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -12,7 +12,7 @@ ht-degree: 96%
 
 Assets ahora incluye un espacio de trabajo personalizable que proporciona utilidades para acceder fácilmente a las áreas clave de la interfaz de usuario de Assets y a la información más relevante para usted. Esta página sirve como solución integral para proporcionar información general sobre los elementos de trabajo y un acceso rápido a los flujos de trabajo clave. Un acceso más práctico a estas opciones aumenta su eficacia y velocidad de contenido.
 
-Puede acceder a mi espacio de trabajo haciendo clic en **[!UICONTROL mi espacio de trabajo]** de los elementos disponibles en el panel de navegación izquierdo. Mi espacio de trabajo incluye una variedad de widgets que muestran perspectivas, tareas y utilidades de contenido. Puede configurar cómo se muestran estos widgets en el espacio de trabajo en función de sus preferencias.
+Puede acceder a mi espacio de trabajo haciendo clic en **[!UICONTROL mi espacio de trabajo]** de los elementos disponibles en el panel de navegación izquierdo. Mi espacio de trabajo incluye una serie de widgets, entre los que se muestran Insights, Tareas y Contenido. Puede configurar cómo se muestran estos widgets en el espacio de trabajo en función de sus preferencias.
 
 >[!NOTE]
 >
