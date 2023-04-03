@@ -4,9 +4,9 @@ description: Explicación de la interfaz de usuario de y la navegación en [!DNL
 role: User
 exl-id: 534a8084-88f7-410e-b872-719e47e62b10
 source-git-commit: b627c20ee9be9be79bb0325b55543ae9e2935b9a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '616'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -24,7 +24,7 @@ Al iniciar sesión en [!DNL Assets Essentials], verá la siguiente interfaz.
 
 <!-- TBD: Update this screenshot. Remove top bar. Remove 2 labels from top bar. -->
 
-Interfaz de usuario de ![[!DNL Assets Essentials]](assets/essentials-interface1.png)
+![[!DNL Assets Essentials]Interfaz de usuario](assets/essentials-interface1.png)
 
 *Imagen: primera pantalla tras el inicio de sesión y ubicación de las funciones más destacadas.*
     *A: barra lateral izquierda para examinar el repositorio, proporciona acceso a otras opciones.*
@@ -44,7 +44,7 @@ Puede examinar las carpetas desde la interfaz de usuario principal o desde la ba
 
 * **Recursos**: lista de todas las carpetas en una vista de árbol, a las que tiene acceso.
 * **Vistos recientemente**: lista de recursos que ha previsualizado recientemente. [!DNL Assets Essentials] muestra solo los recursos que previsualiza. No muestra los recursos por los que pasa de largo al examinar los archivos o carpetas del repositorio.
-* **Papelera**: Enumerar los recursos eliminados de la raíz **[!UICONTROL Recursos]** carpeta. Puede seleccionar un recurso en la carpeta Papelera para restaurarlo a la ubicación original o eliminarlo permanentemente.
+* **Papelera**: Enumere los recursos eliminados de la carpeta raíz **[!UICONTROL Assets]**.  Puede seleccionar un recurso en la carpeta Papelera para restaurarlo a la ubicación original o eliminarlo permanentemente.
 
 <!-- TBD: Not sure if we want to publish these right now. CC Libs are beta as per Greg.
 * **Libraries**: Access to [!DNL Adobe Creative Cloud Team] (CCT) Libraries view. This view is visible only if the user is entitled to CCT Libraries.
@@ -53,7 +53,7 @@ Puede examinar las carpetas desde la interfaz de usuario principal o desde la ba
 <!-- TBD: My Work Space shows task inbox and it is not visible on AEM Cloud Demos as of now. It is the source of truth server hence not documenting My Work Space option for now.
 -->
 
-puede abrir o contraer la barra lateral izquierda para aumentar el área de visualización de recursos disponible.
+Puede abrir o contraer la barra lateral izquierda para aumentar el área de visualización de recursos disponible.
 
 En [!DNL Assets Essentials], puede ver recursos, carpetas y resultados de búsqueda con cuatro tipos diferentes de diseños.
 
