@@ -4,10 +4,10 @@ description: Formatos de archivo compatibles con los distintos casos de uso de [
 role: User,Leader,Admin,Architect,Developer
 contentOwner: AG
 exl-id: bc44e98d-446e-41ff-b5b4-9dc324834630
-source-git-commit: e8791aab7c99e020921bdd65ed3d579bb11ffd6b
-workflow-type: ht
+source-git-commit: 93c6c273e2ad82237b29f93bc42d090f219e6c79
+workflow-type: tm+mt
 source-wordcount: '363'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -62,7 +62,8 @@ Los distintos tipos de archivo tienen diferentes grados de compatibilidad con lo
 | Vídeos | ✓ | ✓ | − | ✓ | ✓ | ✓ | ✓ |
 | Bibliotecas CC | − | − | − | − | − | ✓ | ✓ |
 | PDF | ✓ | ✓ | − | ✓ | ✓ | ✓ | ✓ |
-| PSD, IA e INDD | ✓ | ✓ | − | ✓ | ✓ | ✓ | ✓ |
+| PSD | ✓ | ✓ | − | ✓ | ✓ | ✓ | ✓ |
+| AI e INDD | ✓ | ✓ | − | ✓ | − | ✓ | ✓ |
 | Otros archivos binarios | ✓ | ✓ | − | ✓ | − | ✓ | ✓ |
 
 
