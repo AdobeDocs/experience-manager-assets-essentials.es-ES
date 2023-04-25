@@ -2,14 +2,14 @@
 title: Administrar notificaciones
 description: Monitorice las operaciones realizadas en los recursos o carpetas disponibles en el repositorio mediante las notificaciones de Assets Essentials.
 exl-id: 5c0039a2-caa2-4b55-b963-0e7e9e542c47
-source-git-commit: 95001cb7b1d37807fcd1fed0e26333cca15bbfbd
-workflow-type: ht
-source-wordcount: '614'
-ht-degree: 100%
+source-git-commit: c48ec7f5bfa1e449f461e73c5f3b725d52d9b1d1
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
-# Administrar notificaciones {#manage-notifications}
+# Ver recursos, carpetas y colecciones {#watch-assets-folders}
 
 Las notificaciones de Assets Essentials permiten monitorizar las operaciones realizadas en los activos, carpetas o colecciones disponibles en el repositorio. Debe seleccionar y suscribirse al contenido para el que se le envían las notificaciones. También puede configurar las categorías a las que se envían las notificaciones.
 
