@@ -3,10 +3,10 @@ title: “Interfaz de usuario de [!DNL Assets Essentials]”
 description: Explicación de la interfaz de usuario de y la navegación en [!DNL Assets Essentials].
 role: User
 exl-id: 534a8084-88f7-410e-b872-719e47e62b10
-source-git-commit: b627c20ee9be9be79bb0325b55543ae9e2935b9a
-workflow-type: ht
-source-wordcount: '616'
-ht-degree: 100%
+source-git-commit: 3cc4d8ea48b0b2c8014572fce7609ee39f5868e4
+workflow-type: tm+mt
+source-wordcount: '902'
+ht-degree: 63%
 
 ---
 
@@ -22,19 +22,17 @@ ht-degree: 100%
 
 Al iniciar sesión en [!DNL Assets Essentials], verá la siguiente interfaz.
 
-<!-- TBD: Update this screenshot. Remove top bar. Remove 2 labels from top bar. -->
+![[!DNL Assets Essentials]Interfaz de usuario](assets/essentials-interface.png)
 
-![[!DNL Assets Essentials]Interfaz de usuario](assets/essentials-interface1.png)
-
-*Imagen: primera pantalla tras el inicio de sesión y ubicación de las funciones más destacadas.*
-    *A: barra lateral izquierda para examinar el repositorio, proporciona acceso a otras opciones.*
-    *B: mostrar o contraer la barra lateral izquierda para aumentar el área de visualización de recursos.*
-    *C: filtrar los resultados de búsqueda.*
-    *D: cuadro de búsqueda.*
-    *E: opciones para ordenar los recursos.*
-    *F: proporcionar comentarios sobre el producto.*
-    *G: editar las preferencias de usuario o cerrar la sesión.*
-    *H: cambiar entre diferentes vistas.*
+    *A: Barra lateral izquierda para examinar el repositorio y proporciona acceso a algunas otras opciones*
+    *B: Mostrar o contraer la barra lateral izquierda para aumentar el área de visualización de recursos*
+    *C: Filtrar resultados de búsqueda*
+    *D: Seleccionar todo el contenido de la carpeta seleccionada*
+    *E: Opciones para ordenar recursos*
+    *F: Cuadro de búsqueda*
+    *G: Cargar o arrastrar y soltar archivos mediante `Add Assets` botón*
+    *H: Crear una carpeta nueva*
+    *I: Cambiar entre diferentes vistas*
 
 <!-- TBD: Need an embedded video here with narration. It has to be hosted on MPC to be embeddable. -->
 
@@ -42,9 +40,15 @@ Al iniciar sesión en [!DNL Assets Essentials], verá la siguiente interfaz.
 
 Puede examinar las carpetas desde la interfaz de usuario principal o desde la barra lateral izquierda. Al hacerlo, puede utilizar la interfaz para ver las miniaturas de los recursos y examinar visualmente el repositorio o ver los detalles de los recursos para encontrar rápidamente el que desee. Las opciones disponibles en la barra lateral izquierda son las siguientes:
 
-* **Recursos**: lista de todas las carpetas en una vista de árbol, a las que tiene acceso.
+* [Mi espacio de trabajo](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/my-workspace.html?lang=en): Assets ahora incluye un espacio de trabajo personalizable que proporciona utilidades para acceder fácilmente a las áreas clave de la interfaz de usuario de Assets y a la información más relevante para usted. Esta página sirve como solución integral para proporcionar información general sobre los elementos de trabajo y un acceso rápido a los flujos de trabajo clave. Un acceso más práctico a estas opciones aumenta su eficacia y velocidad de contenido.
+* [Tareas](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/my-workspace.html?lang=en): Puede ver las tareas asignadas en **Mis tareas** pestaña . Por su parte, las tareas que crea puede verse en **Tareas asignadas** pestaña . Además, las tareas que complete se encuentran en **Tareas completadas** pestaña .
+* [Recursos](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/manage-organize.html?lang=en): lista de todas las carpetas en una vista de árbol, a las que tiene acceso.
 * **Vistos recientemente**: lista de recursos que ha previsualizado recientemente. [!DNL Assets Essentials] muestra solo los recursos que previsualiza. No muestra los recursos por los que pasa de largo al examinar los archivos o carpetas del repositorio.
-* **Papelera**: Enumere los recursos eliminados de la carpeta raíz **[!UICONTROL Assets]**.  Puede seleccionar un recurso en la carpeta Papelera para restaurarlo a la ubicación original o eliminarlo permanentemente.
+* [Colecciones](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/manage-collections.html?lang=es): Una colección es un conjunto de recursos, carpetas u otras colecciones dentro de Adobe Experience Manager Assets Essentials. Utilice las colecciones para compartir recursos entre los usuarios. A diferencia de las carpetas, una colección puede incluir recursos de distintas ubicaciones. Puede compartir varias colecciones con un usuario. Cada colección contiene referencias a recursos. La integridad referencial de los recursos se mantiene entre colecciones.
+
+* [Perspectivas](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/manage-reports.html?lang=en#view-live-statistics): En [!DNL Assets Essentials], puede ver perspectivas en tiempo real en su panel. Assets Essentials le permite ver datos en tiempo real de su entorno de Assets Essentials con el tablero de Insights. Puede ver las métricas de eventos en tiempo real durante los últimos 30 días o 12 meses.
+* **Papelera**: Enumerar los recursos eliminados de la raíz **[!UICONTROL Recursos]** carpeta. Puede seleccionar un recurso en la carpeta Papelera para restaurarlo a la ubicación original o eliminarlo permanentemente.
+* **Configuración**: Puede configurar varias opciones de Assets Essentials usando **Configuración**, como formularios de metadatos, informes y administración de taxonomía.
 
 <!-- TBD: Not sure if we want to publish these right now. CC Libs are beta as per Greg.
 * **Libraries**: Access to [!DNL Adobe Creative Cloud Team] (CCT) Libraries view. This view is visible only if the user is entitled to CCT Libraries.
@@ -76,20 +80,25 @@ Antes de usar, compartir o descargar un recurso, puede verlo más de cerca. La f
 
 Para previsualizar un recurso, selecciónelo y haga clic en el ![icono de detalles](assets/do-not-localize/edit-in-icon.png) de [!UICONTROL Detalles] en la barra de herramientas de la parte superior. No solo puede ver el recurso, sino también ver sus metadatos detallados y realizar otras acciones.
 
-![Previsualización de un recurso](assets/preview-asset.png)
+![Previsualización de un recurso](assets/preview-asset-2.png)
 
-*A: volver a la carpeta actual o al resultado de búsqueda actual en el repositorio.*
-*B: nombre y formato del archivo que está previsualizando.*
-*C: metadatos básicos.*
-*D: metadatos avanzados.*
-*E: palabras clave y etiquetas inteligentes.*
-*F: previsualizar el recurso y consultar la información de metadatos.*
-*G: comentar y anotar.*
-*H: ver y administrar versiones.*
-*I: ver representaciones de la imagen.*
-*J: editar la imagen.*
-*K: previsualizar más de cerca. Zoom, pantalla completa y otras opciones.*
-*L: pasar al recurso anterior o posterior de la carpeta actual sin volver a la carpeta.*
+*A: Volver a la carpeta actual o al resultado de búsqueda actual en el repositorio*
+*B: Nombre y formato del archivo que está previsualizando*
+*C: Asignación de tareas*
+*D: Descargar recurso*
+*E: Previsualizar recurso y ver información de metadatos*
+*D: Metadatos avanzados*
+*E: Palabras clave y etiquetas inteligentes*
+*F: Comentar y anotar*
+*G: Ver tareas relacionadas con el recurso seleccionado*
+*H: Ver y administrar versiones*
+*I: Ver representaciones de la imagen*
+*J: Editar imagen*
+*K: Metadatos básicos*
+*L: Metadatos avanzados*
+*M: Palabras clave y etiquetas inteligentes*
+*N: Previsualice más de cerca. Zoom, pantalla completa y otras opciones*
+*O: Continúe con el recurso anterior o siguiente de la carpeta actual sin volver a la carpeta*
 
 También puede previsualizar los vídeos.
 
