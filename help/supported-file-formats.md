@@ -5,9 +5,9 @@ role: User,Leader,Admin,Architect,Developer
 contentOwner: AG
 exl-id: bc44e98d-446e-41ff-b5b4-9dc324834630
 source-git-commit: 93c6c273e2ad82237b29f93bc42d090f219e6c79
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '363'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -63,7 +63,7 @@ Los distintos tipos de archivo tienen diferentes grados de compatibilidad con lo
 | Bibliotecas CC | − | − | − | − | − | ✓ | ✓ |
 | PDF | ✓ | ✓ | − | ✓ | ✓ | ✓ | ✓ |
 | PSD | ✓ | ✓ | − | ✓ | ✓ | ✓ | ✓ |
-| AI e INDD | ✓ | ✓ | − | ✓ | − | ✓ | ✓ |
+| IA e INDD | ✓ | ✓ | − | ✓ | − | ✓ | ✓ |
 | Otros archivos binarios | ✓ | ✓ | − | ✓ | − | ✓ | ✓ |
 
 
