@@ -2,14 +2,19 @@
 title: Administrar colecciones
 description: Una colección es un conjunto de recursos dentro de Experience Manager Assets Essentials. Utilice las colecciones para compartir recursos entre los usuarios.
 exl-id: 33c889f5-c989-4772-9591-db62f50e5c80
-source-git-commit: 368b27c4f1f14ff6209c4e45ff288be192809c0e
-workflow-type: ht
-source-wordcount: '737'
+source-git-commit: 14048cd4c40c4d942d43a2ed955d09c71d72b684
+workflow-type: tm+mt
+source-wordcount: '793'
 ht-degree: 100%
 
 ---
 
 # Administrar colecciones {#manage-collections}
+
+>[!CONTEXTUALHELP]
+>id="assets_collections"
+>title="Administrar colecciones"
+>abstract="Una colección es un conjunto de recursos, carpetas u otras colecciones dentro de Assets Essentials. Utilice las colecciones para compartir recursos entre los usuarios. A diferencia de las carpetas, una colección puede incluir recursos de distintas ubicaciones. Puede compartir varias colecciones con un usuario. Cada colección contiene referencias a recursos. La integridad referencial de los recursos se mantiene entre colecciones."
 
 Una colección es un conjunto de recursos, carpetas u otras colecciones dentro de Adobe Experience Manager Assets Essentials. Utilice las colecciones para compartir recursos entre los usuarios.
 
