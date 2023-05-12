@@ -4,9 +4,9 @@ description: Explicación de la interfaz de usuario de y la navegación en [!DNL
 role: User
 exl-id: 534a8084-88f7-410e-b872-719e47e62b10
 source-git-commit: 3cc4d8ea48b0b2c8014572fce7609ee39f5868e4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '902'
-ht-degree: 63%
+ht-degree: 100%
 
 ---
 
@@ -28,7 +28,7 @@ Al iniciar sesión en [!DNL Assets Essentials], verá la siguiente interfaz.
     *B: Mostrar o contraer la barra lateral izquierda para aumentar el área de visualización de recursos*
     *C: Filtrar resultados de búsqueda*
     *D: Seleccionar todo el contenido de la carpeta seleccionada*
-    *E: Opciones para ordenar recursos*
+    *E: Opciones para ordenar archivos*
     *F: Cuadro de búsqueda*
     *G: Cargar o arrastrar y soltar archivos mediante `Add Assets` botón*
     *H: Crear una carpeta nueva*
@@ -40,15 +40,15 @@ Al iniciar sesión en [!DNL Assets Essentials], verá la siguiente interfaz.
 
 Puede examinar las carpetas desde la interfaz de usuario principal o desde la barra lateral izquierda. Al hacerlo, puede utilizar la interfaz para ver las miniaturas de los recursos y examinar visualmente el repositorio o ver los detalles de los recursos para encontrar rápidamente el que desee. Las opciones disponibles en la barra lateral izquierda son las siguientes:
 
-* [Mi espacio de trabajo](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/my-workspace.html?lang=en): Assets ahora incluye un espacio de trabajo personalizable que proporciona utilidades para acceder fácilmente a las áreas clave de la interfaz de usuario de Assets y a la información más relevante para usted. Esta página sirve como solución integral para proporcionar información general sobre los elementos de trabajo y un acceso rápido a los flujos de trabajo clave. Un acceso más práctico a estas opciones aumenta su eficacia y velocidad de contenido.
-* [Tareas](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/my-workspace.html?lang=en): Puede ver las tareas asignadas en **Mis tareas** pestaña . Por su parte, las tareas que crea puede verse en **Tareas asignadas** pestaña . Además, las tareas que complete se encuentran en **Tareas completadas** pestaña .
-* [Recursos](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/manage-organize.html?lang=en): lista de todas las carpetas en una vista de árbol, a las que tiene acceso.
+* [Mi espacio de trabajo](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/my-workspace.html?lang=es): Assets ahora incluye un espacio de trabajo personalizable que proporciona utilidades para acceder fácilmente a las áreas clave de la interfaz de usuario de Assets y a la información más relevante para usted. Esta página sirve como solución integral para proporcionar información general sobre los elementos de trabajo y un acceso rápido a los flujos de trabajo clave. Un acceso más práctico a estas opciones aumenta su eficacia y velocidad de contenido.
+* [Tareas](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/my-workspace.html?lang=es): Puede ver las tareas asignadas en la pestaña de **Mis tareas**. Por su parte, las tareas que crea puede verse en la pestaña de **Tareas asignadas**. Además, las tareas que complete se encuentran en la pestaña de **Tareas completadas**.
+* [Recursos](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/manage-organize.html?lang=es): lista de todas las carpetas en una vista de árbol, a las que tiene acceso.
 * **Vistos recientemente**: lista de recursos que ha previsualizado recientemente. [!DNL Assets Essentials] muestra solo los recursos que previsualiza. No muestra los recursos por los que pasa de largo al examinar los archivos o carpetas del repositorio.
-* [Colecciones](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/manage-collections.html?lang=es): Una colección es un conjunto de recursos, carpetas u otras colecciones dentro de Adobe Experience Manager Assets Essentials. Utilice las colecciones para compartir recursos entre los usuarios. A diferencia de las carpetas, una colección puede incluir recursos de distintas ubicaciones. Puede compartir varias colecciones con un usuario. Cada colección contiene referencias a recursos. La integridad referencial de los recursos se mantiene entre colecciones.
+* [Colecciones](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/manage-collections.html?lang=es): Una colección es un conjunto de archivos, carpetas u otras colecciones dentro de Adobe Experience Manager Assets Essentials. Utilice las colecciones para compartir recursos entre los usuarios. A diferencia de las carpetas, una colección puede incluir recursos de distintas ubicaciones. Puede compartir varias colecciones con un usuario. Cada colección contiene referencias a recursos. La integridad referencial de los recursos se mantiene entre colecciones.
 
-* [Perspectivas](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/manage-reports.html?lang=en#view-live-statistics): En [!DNL Assets Essentials], puede ver perspectivas en tiempo real en su panel. Assets Essentials le permite ver datos en tiempo real de su entorno de Assets Essentials con el tablero de Insights. Puede ver las métricas de eventos en tiempo real durante los últimos 30 días o 12 meses.
-* **Papelera**: Enumerar los recursos eliminados de la raíz **[!UICONTROL Recursos]** carpeta. Puede seleccionar un recurso en la carpeta Papelera para restaurarlo a la ubicación original o eliminarlo permanentemente.
-* **Configuración**: Puede configurar varias opciones de Assets Essentials usando **Configuración**, como formularios de metadatos, informes y administración de taxonomía.
+* [Perspectivas](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/manage-reports.html?lang=es#view-live-statistics): En [!DNL Assets Essentials], puede ver perspectivas en tiempo real en su panel. Assets Essentials le permite ver datos en tiempo real de su entorno de Assets Essentials con el tablero de Insights. Puede ver las métricas de eventos en tiempo real durante los últimos 30 días o 12 meses.
+* **Papelera**: Enumere los recursos eliminados de la carpeta raíz **[!UICONTROL Assets]**. Puede seleccionar un recurso en la carpeta Papelera para restaurarlo a la ubicación original o eliminarlo permanentemente.
+* **Ajustes**: Puede configurar varias opciones de Assets Essentials usando **Ajustes**, como formularios de metadatos, informes y gestión de taxonomía.
 
 <!-- TBD: Not sure if we want to publish these right now. CC Libs are beta as per Greg.
 * **Libraries**: Access to [!DNL Adobe Creative Cloud Team] (CCT) Libraries view. This view is visible only if the user is entitled to CCT Libraries.
@@ -84,7 +84,7 @@ Para previsualizar un recurso, selecciónelo y haga clic en el ![icono de detall
 
 *A: Volver a la carpeta actual o al resultado de búsqueda actual en el repositorio*
 *B: Nombre y formato del archivo que está previsualizando*
-*C: Asignación de tareas*
+*C: Asignar tareas*
 *D: Descargar recurso*
 *E: Previsualizar recurso y ver información de metadatos*
 *D: Metadatos avanzados*
