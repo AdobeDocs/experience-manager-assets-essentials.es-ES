@@ -3,7 +3,7 @@ title: ¿Cómo administrar de forma eficaz los permisos de carpeta?
 description: Prácticas recomendadas para la administración eficaz de permisos
 exl-id: 06b06f0b-3806-44ce-abc4-c1449a93dd29
 source-git-commit: 02f28c00b387fbcac4cd917fab7763124fdd5d70
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '445'
 ht-degree: 100%
 

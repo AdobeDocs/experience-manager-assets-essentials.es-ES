@@ -4,7 +4,7 @@ description: Cargue recursos a [!DNL Assets Essentials], vea los estados de carg
 role: User
 exl-id: a85a4455-4456-48af-aee9-f05300677605
 source-git-commit: 80cb4ba5bc56658a4ae8d162f4ae5f2ae3d822a0
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '839'
 ht-degree: 100%
 

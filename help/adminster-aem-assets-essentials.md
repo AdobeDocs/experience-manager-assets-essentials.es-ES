@@ -3,7 +3,7 @@ title: Administración de Experience Manager Assets Essentials
 description: Configure el acceso a la aplicación de Assets Essentials mediante Admin Console y, a continuación, administre las tareas que se pueden ejecutar después de iniciar sesión en la aplicación de Assets Essentials.
 exl-id: ffd65741-21b7-47cd-9779-63a7903879e6
 source-git-commit: a40b608ec72691c10dfbf7dff518a2cfc87d6552
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1399'
 ht-degree: 100%
 

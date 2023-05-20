@@ -3,7 +3,7 @@ title: ¿Cómo compartir vínculos a recursos?
 description: Genere un vínculo y comparta recursos con otras personas que no tengan acceso a la aplicación de  [!DNL Assets Essentials] .
 exl-id: 6e05b06c-7436-40e3-acee-c8b1ed218f9e
 source-git-commit: 79039f96a4aa44bb81923ec909766969f81e1a3f
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '407'
 ht-degree: 100%
 

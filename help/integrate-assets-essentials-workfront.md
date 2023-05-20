@@ -3,7 +3,7 @@ title: Integración de Assets Essentials con Adobe Workfront
 description: Integre Assets Essentials con la aplicación de Adobe Workfront para poder acceder al repositorio de Assets Essentials dentro de la aplicación Workfront.
 exl-id: 47c2963d-57f0-463e-8d5b-5e5af9928f77
 source-git-commit: 1bb5f1aa1bb03b38964f13f40dc2d2d675a0480f
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '634'
 ht-degree: 100%
 
