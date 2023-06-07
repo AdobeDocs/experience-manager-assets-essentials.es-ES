@@ -3,9 +3,9 @@ title: Mi espacio de trabajo de Assets
 description: Mi espacio de trabajo es una página que proporciona módulos visuales personalizables para acceder fácilmente a las áreas clave de la interfaz de usuario de Assets y a la información más relevante para el usuario.
 exl-id: 402dd3a6-44e5-4d13-97d8-1d7fa26a99e4
 source-git-commit: e6c6a7ee20fca5e87f521708fb7ddec453131e40
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '568'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -54,7 +54,7 @@ Muestra la lista de tareas que le han asignado en la pestaña **[!UICONTROL Mis 
 
 Muestra una serie de vistas de los archivos, incluida la lista de archivos que ha visto recientemente. Puede seleccionar mostrar los archivos en el widget en una vista de lista, vista de cuadrícula, vista de galería o vista de cascada, y ordenarlos por nombre, tamaño y fecha de modificación. También puede seleccionar un recurso para ver los detalles del recurso o eliminarlo de la lista de archivos visualizados recientemente.
 
-El **[!UICONTROL Descargas principales]** La pestaña muestra los diez recursos más descargados disponibles en el entorno de Assets Essentials. Puede seleccionar mostrar los recursos en la vista de lista o en la vista de cuadrícula. Ambas vistas muestran el tipo de formato y el número de descargas de cada recurso. También puede seleccionar un recurso y hacer clic en **[!UICONTROL Detalles]** para ver sus propiedades.
+La pestaña **[!UICONTROL Descargas principales]** muestra los diez recursos más descargados disponibles en el entorno de Assets Essentials. Puede seleccionar mostrar los recursos en la vista de lista o en la vista de cuadrícula. Ambas vistas muestran el tipo de formato y el número de descargas de cada recurso. También puede seleccionar un recurso y hacer clic en **[!UICONTROL Detalles]** para ver sus propiedades.
 
 ![Widget de contenido en el espacio de trabajo](assets/workspace-content.png)
 
