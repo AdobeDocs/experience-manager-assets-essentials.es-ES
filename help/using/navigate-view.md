@@ -4,7 +4,7 @@ description: Explicación de la interfaz de usuario de y la navegación en [!DNL
 role: User
 exl-id: 534a8084-88f7-410e-b872-719e47e62b10
 source-git-commit: 65200f73a954e4ebf4fbd6dc3a819acc6e0beda4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '902'
 ht-degree: 100%
 
