@@ -4,7 +4,7 @@ description: Administre sus activos con Experience Manager Assets Essentials, un
 role: User,Leader
 exl-id: 43ddf11c-36d3-4643-80c9-b7dd5d199450
 source-git-commit: 65200f73a954e4ebf4fbd6dc3a819acc6e0beda4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '640'
 ht-degree: 100%
 
