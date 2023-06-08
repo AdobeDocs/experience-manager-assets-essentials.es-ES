@@ -4,7 +4,7 @@ description: “[!DNL Assets Essentials] se integra con otras soluciones de Adob
 role: User
 exl-id: bc43a59e-f295-44d2-a14d-854174f91e41
 source-git-commit: 65200f73a954e4ebf4fbd6dc3a819acc6e0beda4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '369'
 ht-degree: 100%
 
