@@ -1,7 +1,7 @@
 ---
 title: Introducción a la vista de recursos
 description: Novedades de la vista Recursos
-source-git-commit: c633c6195efc1f249b7c7568a8688409dfa7465e
+source-git-commit: 9d14827d10d2bae34b19a318aac1cc0820e81f35
 workflow-type: tm+mt
 source-wordcount: '302'
 ht-degree: 6%
@@ -39,7 +39,7 @@ Repita estos pasos para volver a la vista Administrador.
 
 Diga hola a una solución de administración de activos digitales que comprende las diversas necesidades de diferentes funciones organizativas. La nueva y elegante vista de recursos prioriza la facilidad de uso y la velocidad, lo que se adapta a la preferencia de los especialistas en marketing por el atractivo visual y los espacios de trabajo sin desorden. Con un panel de Mi espacio de trabajo personalizable y específico del usuario, los especialistas en marketing pueden encontrar, previsualizar, editar, administrar y entregar recursos rápidamente con una eficacia notable. Despídase de las interminables horas invertidas en la búsqueda de activos específicos y dé la bienvenida a una experiencia optimizada que ponga todo lo que necesita al alcance de su mano.
 
-![Implementación de Assets Essentials](assets/my-workspace1.gif)
+![Implementación de Assets Essentials](assets/workspace.gif)
 
 [![Consulte la Guía](https://helpx.adobe.com/content/dam/help/en/marketing-cloud/how-to/digital-foundation/_jcr_content/main-pars/image_1250343773/see-the-guide-sm.png)](my-workspace.md)
 
