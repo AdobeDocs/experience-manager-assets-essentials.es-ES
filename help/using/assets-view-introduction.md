@@ -1,14 +1,17 @@
 ---
 title: Introducción a la vista de recursos
 description: Novedades de la vista Recursos
-source-git-commit: faa88352204ffa607f669e90fce0fb25320f3de8
+source-git-commit: d725a3525c7f451b6dd3377ff267adb50df72280
 workflow-type: tm+mt
-source-wordcount: '302'
-ht-degree: 6%
+source-wordcount: '305'
+ht-degree: 7%
 
 ---
 
+
 # Introducción a la vista Recursos {#assets-view}
+
+![Implementación de Assets Essentials](assets/banner-image.jpg)
 
 En el acelerado panorama actual de acceso digital, donde la creación y entrega de contenido en tiempo real son esenciales, una experiencia de administración de activos digitales (DAM) diseñada para la velocidad de marketing descendente es primordial. El Adobe, que aprovecha su experiencia para potenciar a los profesionales creativos y de marketing, presenta una nueva experiencia de usuario de vista de recursos que cambia el juego. Este enfoque, que da prioridad al flujo de trabajo, revoluciona la forma en que las empresas gestionan sus activos digitales dinámicos, lo que permite a los especialistas en marketing maximizar la eficacia a la hora de buscar, colaborar, personalizar y entregar recursos. Estos flujos de trabajo optimizados aceleran la velocidad del contenido e impulsan los esfuerzos de marketing a otro nivel.
 
