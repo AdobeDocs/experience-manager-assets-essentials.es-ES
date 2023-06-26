@@ -3,10 +3,10 @@ title: Introducción a la vista de recursos
 description: Novedades de la vista Recursos
 hidefromtoc: true
 hide: true
-source-git-commit: 7a1d9c01ed19015f8552b088142122b354c6074b
+source-git-commit: dd6734b4e43eef875515e48704757a4f53a1a185
 workflow-type: tm+mt
-source-wordcount: '657'
-ht-degree: 9%
+source-wordcount: '677'
+ht-degree: 12%
 
 ---
 
@@ -73,6 +73,10 @@ La nueva experiencia ofrece un sólido conjunto de funciones de colaboración, i
 ## Configuración rápida de la estructura jerárquica mediante cargas de carpetas {#folder-uploads}
 
 Configure rápidamente una estructura de carpetas para su organización mediante la vista Recursos cargando carpetas que existan en el sistema de archivos local. No es necesario crear carpetas en la carpeta raíz y luego cargar los recursos en esas carpetas manualmente para mantener la estructura jerárquica lógica. Todas las carpetas y recursos de la carpeta raíz se cargan automáticamente en Experience Manager Assets.
+
+![Implementación de Assets Essentials](assets/folder-uploads.gif)
+
+[![Consulte la Guía](https://helpx.adobe.com/content/dam/help/en/marketing-cloud/how-to/digital-foundation/_jcr_content/main-pars/image_1250343773/see-the-guide-sm.png)](add-delete.md)
 
 
 
