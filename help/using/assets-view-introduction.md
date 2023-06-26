@@ -3,10 +3,10 @@ title: Introducción a la vista de recursos
 description: Novedades de la vista Recursos
 hidefromtoc: true
 hide: true
-source-git-commit: 1ff1ced0910f1b2ca18e9130b07a399da1ccf27f
+source-git-commit: 7a1d9c01ed19015f8552b088142122b354c6074b
 workflow-type: tm+mt
-source-wordcount: '566'
-ht-degree: 8%
+source-wordcount: '657'
+ht-degree: 9%
 
 ---
 
@@ -62,11 +62,17 @@ Para mantener el ritmo de la velocidad del contenido, son esenciales perspectiva
 
 [![Consulte la Guía](https://helpx.adobe.com/content/dam/help/en/marketing-cloud/how-to/digital-foundation/_jcr_content/main-pars/image_1250343773/see-the-guide-sm.png)](manage-reports.md#view-live-statistics)
 
-## Acelerar la colaboración {#accelerate-collaboration}
+## Acelerar la colaboración con la integración de Adobe Photoshop Express {#accelerate-collaboration}
 
 La nueva experiencia ofrece un sólido conjunto de funciones de colaboración, incluida la edición en tiempo real con funciones integradas de Adobe Photoshop, controles de versión y herramientas de anotación. Esto permite una colaboración perfecta entre los equipos de diseño, creativos, de marca y de marketing, lo que les permite superar cuellos de botella y acelerar el proceso de operaciones de marketing. Los especialistas en marketing ahora tienen a su disposición potentes herramientas para acelerar la entrega de proyectos y aumentar su productividad general.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3420922)
+
+[![Consulte la Guía](https://helpx.adobe.com/content/dam/help/en/marketing-cloud/how-to/digital-foundation/_jcr_content/main-pars/image_1250343773/see-the-guide-sm.png)](edit-images.md)
+
+## Configuración rápida de la estructura jerárquica mediante cargas de carpetas {#folder-uploads}
+
+Configure rápidamente una estructura de carpetas para su organización mediante la vista Recursos cargando carpetas que existan en el sistema de archivos local. No es necesario crear carpetas en la carpeta raíz y luego cargar los recursos en esas carpetas manualmente para mantener la estructura jerárquica lógica. Todas las carpetas y recursos de la carpeta raíz se cargan automáticamente en Experience Manager Assets.
 
 
 
