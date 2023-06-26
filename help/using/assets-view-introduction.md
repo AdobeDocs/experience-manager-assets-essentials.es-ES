@@ -3,10 +3,10 @@ title: Introducción a la vista de recursos
 description: Novedades de la vista Recursos
 hidefromtoc: true
 hide: true
-source-git-commit: 547dd9dab9a2b176f9fb7bed62289d60f96243dc
+source-git-commit: cd99934326eab5f7701e691a7f98329c57f8d2c4
 workflow-type: tm+mt
-source-wordcount: '773'
-ht-degree: 14%
+source-wordcount: '861'
+ht-degree: 15%
 
 ---
 
@@ -78,13 +78,21 @@ Configure rápidamente una estructura de carpetas para su organización mediante
 
 [![Consulte la Guía](https://helpx.adobe.com/content/dam/help/en/marketing-cloud/how-to/digital-foundation/_jcr_content/main-pars/image_1250343773/see-the-guide-sm.png)](add-delete.md)
 
-## Suscribirse al contenido para recibir notificaciones
+## Suscripción al contenido del repositorio para una administración eficiente de los recursos
 
 La vista Recursos permite supervisar las operaciones realizadas en los recursos, carpetas o colecciones disponibles en el repositorio. Debe seleccionar y suscribirse al contenido para el que se le envían las notificaciones. También puede configurar los tipos de eventos, como la eliminación del contenido suscrito, las modificaciones del contenido suscrito, etc. A continuación, las notificaciones se envían únicamente para esos tipos de eventos.
 
 ![Recibir notificaciones](assets/notifications.gif)
 
 [![Consulte la Guía](https://helpx.adobe.com/content/dam/help/en/marketing-cloud/how-to/digital-foundation/_jcr_content/main-pars/image_1250343773/see-the-guide-sm.png)](manage-notifications.md)
+
+## Eliminación suave de recursos para proporcionar un mejor control a los administradores {#soft-delete-assets}
+
+La carpeta Papelera disponible en la vista Recursos enumera los recursos eliminados de la carpeta raíz Recursos. Puede seleccionar un recurso de la carpeta Papelera para restaurarlo a la ubicación original o eliminarlo de forma permanente. También puede especificar una palabra clave o aplicar filtros estándar o personalizados para buscar los recursos adecuados en la carpeta Papelera.
+
+![Eliminación suave](assets/soft-delete.gif)
+
+[![Consulte la Guía](https://helpx.adobe.com/content/dam/help/en/marketing-cloud/how-to/digital-foundation/_jcr_content/main-pars/image_1250343773/see-the-guide-sm.png)](navigate-view.md)
 
 
 
