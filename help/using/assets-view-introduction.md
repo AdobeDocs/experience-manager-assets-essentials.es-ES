@@ -3,10 +3,10 @@ title: Introducción a la vista de recursos
 description: Novedades de la vista Recursos
 hidefromtoc: true
 hide: true
-source-git-commit: cd99934326eab5f7701e691a7f98329c57f8d2c4
+source-git-commit: f370e2e3e1c7fc5798e6873bd37098e5c22b8e5a
 workflow-type: tm+mt
-source-wordcount: '861'
-ht-degree: 15%
+source-wordcount: '1022'
+ht-degree: 12%
 
 ---
 
@@ -93,6 +93,16 @@ La carpeta Papelera disponible en la vista Recursos enumera los recursos elimina
 ![Eliminación suave](assets/soft-delete.gif)
 
 [![Consulte la Guía](https://helpx.adobe.com/content/dam/help/en/marketing-cloud/how-to/digital-foundation/_jcr_content/main-pars/image_1250343773/see-the-guide-sm.png)](navigate-view.md)
+
+Además de estas funciones, la vista Recursos también permite realizar las siguientes funciones que no están disponibles en la vista Administración:
+
+* Cargue una nueva versión de un recurso, con un nombre diferente, desde el sistema de archivos local al repositorio de recursos. El recurso cargado está disponible como una nueva versión con el mismo nombre que la del recurso original.
+
+* Cambie el nombre de los recursos y las carpetas disponibles en el repositorio.
+
+## Conclusión {#conclusion}
+
+Ha llegado la era del digital-first y es hora de transformar nuestras herramientas de marketing para apoyar el cambiante panorama empresarial. La nueva vista de recursos de Adobe Experience Manager está diseñada para optimizar los flujos de trabajo, fomentar la colaboración y acelerar la entrega de recursos. Al adoptar la velocidad del contenido, los especialistas en marketing pueden desbloquear todo el potencial de sus recursos digitales y dar rienda suelta a la creatividad como nunca antes. Prepárese para aprovechar el poder de la nueva experiencia de visualización de recursos de Adobe y obtener resultados excepcionales en sus campañas de marketing. Es hora de adoptar el futuro de DAM e impulsar su negocio hacia adelante.
 
 
 
