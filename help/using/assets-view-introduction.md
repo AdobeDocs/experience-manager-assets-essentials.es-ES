@@ -3,9 +3,9 @@ title: Introducción a la vista de recursos
 description: Novedades de la vista Recursos
 hidefromtoc: true
 hide: true
-source-git-commit: f370e2e3e1c7fc5798e6873bd37098e5c22b8e5a
+source-git-commit: 9ce744b0a920dc553a41e631d0f1be1d8f26bb93
 workflow-type: tm+mt
-source-wordcount: '1022'
+source-wordcount: '1037'
 ht-degree: 12%
 
 ---
@@ -65,6 +65,8 @@ Para mantener el ritmo de la velocidad del contenido, son esenciales perspectiva
 ## Integración de Adobe Photoshop Express para acelerar la colaboración {#accelerate-collaboration}
 
 La nueva experiencia ofrece un sólido conjunto de funciones de colaboración, incluida la edición en tiempo real con funciones integradas de Adobe Photoshop, controles de versión y herramientas de anotación. Esto permite una colaboración perfecta entre los equipos de diseño, creativos, de marca y de marketing, lo que les permite superar cuellos de botella y acelerar el proceso de operaciones de marketing. Los especialistas en marketing ahora tienen a su disposición potentes herramientas para acelerar la entrega de proyectos y aumentar su productividad general.
+
+Vea este vídeo para comprender el poder de la integración de la vista de recursos con Adobe Photoshop Express:
 
 >[!VIDEO](https://video.tv.adobe.com/v/3420922)
 
