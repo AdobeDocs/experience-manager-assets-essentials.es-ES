@@ -3,10 +3,10 @@ title: Introducción a la vista de recursos
 description: Novedades de la vista Recursos
 hidefromtoc: true
 hide: true
-source-git-commit: dd6734b4e43eef875515e48704757a4f53a1a185
+source-git-commit: 547dd9dab9a2b176f9fb7bed62289d60f96243dc
 workflow-type: tm+mt
-source-wordcount: '677'
-ht-degree: 12%
+source-wordcount: '773'
+ht-degree: 14%
 
 ---
 
@@ -62,7 +62,7 @@ Para mantener el ritmo de la velocidad del contenido, son esenciales perspectiva
 
 [![Consulte la Guía](https://helpx.adobe.com/content/dam/help/en/marketing-cloud/how-to/digital-foundation/_jcr_content/main-pars/image_1250343773/see-the-guide-sm.png)](manage-reports.md#view-live-statistics)
 
-## Acelerar la colaboración con la integración de Adobe Photoshop Express {#accelerate-collaboration}
+## Integración de Adobe Photoshop Express para acelerar la colaboración {#accelerate-collaboration}
 
 La nueva experiencia ofrece un sólido conjunto de funciones de colaboración, incluida la edición en tiempo real con funciones integradas de Adobe Photoshop, controles de versión y herramientas de anotación. Esto permite una colaboración perfecta entre los equipos de diseño, creativos, de marca y de marketing, lo que les permite superar cuellos de botella y acelerar el proceso de operaciones de marketing. Los especialistas en marketing ahora tienen a su disposición potentes herramientas para acelerar la entrega de proyectos y aumentar su productividad general.
 
@@ -70,13 +70,21 @@ La nueva experiencia ofrece un sólido conjunto de funciones de colaboración, i
 
 [![Consulte la Guía](https://helpx.adobe.com/content/dam/help/en/marketing-cloud/how-to/digital-foundation/_jcr_content/main-pars/image_1250343773/see-the-guide-sm.png)](edit-images.md)
 
-## Configuración rápida de la estructura jerárquica mediante cargas de carpetas {#folder-uploads}
+## Cargas de carpetas para configurar la estructura jerárquica de su organización {#folder-uploads}
 
 Configure rápidamente una estructura de carpetas para su organización mediante la vista Recursos cargando carpetas que existan en el sistema de archivos local. No es necesario crear carpetas en la carpeta raíz y luego cargar los recursos en esas carpetas manualmente para mantener la estructura jerárquica lógica. Todas las carpetas y recursos de la carpeta raíz se cargan automáticamente en Experience Manager Assets.
 
-![Implementación de Assets Essentials](assets/folder-uploads.gif)
+![Cargar carpetas](assets/folder-uploads.gif)
 
 [![Consulte la Guía](https://helpx.adobe.com/content/dam/help/en/marketing-cloud/how-to/digital-foundation/_jcr_content/main-pars/image_1250343773/see-the-guide-sm.png)](add-delete.md)
+
+## Suscribirse al contenido para recibir notificaciones
+
+La vista Recursos permite supervisar las operaciones realizadas en los recursos, carpetas o colecciones disponibles en el repositorio. Debe seleccionar y suscribirse al contenido para el que se le envían las notificaciones. También puede configurar los tipos de eventos, como la eliminación del contenido suscrito, las modificaciones del contenido suscrito, etc. A continuación, las notificaciones se envían únicamente para esos tipos de eventos.
+
+![Recibir notificaciones](assets/notifications.gif)
+
+[![Consulte la Guía](https://helpx.adobe.com/content/dam/help/en/marketing-cloud/how-to/digital-foundation/_jcr_content/main-pars/image_1250343773/see-the-guide-sm.png)](manage-notifications.md)
 
 
 
