@@ -1,12 +1,13 @@
 ---
 title: Introducción a la vista de recursos
 description: Novedades de la vista Recursos
+mini-toc-levels: 3
 hidefromtoc: true
 hide: true
-source-git-commit: 9ce744b0a920dc553a41e631d0f1be1d8f26bb93
+source-git-commit: 138e8eaa8e4c0ff83c46e2b6a62e92740c87f366
 workflow-type: tm+mt
-source-wordcount: '1037'
-ht-degree: 12%
+source-wordcount: '1103'
+ht-degree: 11%
 
 ---
 
@@ -39,30 +40,35 @@ Repita estos pasos para volver a la vista Administrador.
    * Clic **[!UICONTROL Experience Manager Assets]** para acceder a la vista Recursos.
    * Clic **[!UICONTROL Experience Manager Assets]** para acceder a la vista Recursos.
 
+## ¿Por qué vista Assets?
 
-## Mi tablero de Workspace para ofrecer experiencias optimizadas
+La vista Recursos proporciona las siguientes ventajas clave que no están disponibles en la vista Administración:
+
+* [Mi tablero de Workspace para ofrecer experiencias optimizadas](#my-workspace-for-streamlined-experience)
+* [Enfoque de búsqueda para mejorar la eficacia](#search-first)
+* [Perspectivas para tomar decisiones basadas en datos](#insights-data)
+* [Integración de Adobe Photoshop Express para acelerar la colaboración](#accelerate-collaboration)
+* [Cargas de carpetas para configurar la estructura jerárquica de su organización](#folder-uploads)
+* [Suscripción al contenido del repositorio para una administración eficiente de los recursos](#subscribe-content)
+* [Eliminación suave de recursos para proporcionar un mejor control a los administradores](#soft-delete-assets)
+
+### Mi tablero de Workspace para ofrecer experiencias optimizadas {#my-workspace-for-streamlined-experience}
 
 Diga hola a una solución de administración de activos digitales que comprende las diversas necesidades de diferentes funciones organizativas. La nueva y elegante vista de recursos prioriza la facilidad de uso y la velocidad, lo que se adapta a la preferencia de los especialistas en marketing por el atractivo visual y los espacios de trabajo sin desorden. Con un panel de Mi espacio de trabajo personalizable y específico del usuario, los especialistas en marketing pueden encontrar, previsualizar, editar, administrar y entregar recursos rápidamente con una eficacia notable. Despídase de las interminables horas invertidas en la búsqueda de activos específicos y dé la bienvenida a una experiencia optimizada que ponga todo lo que necesita al alcance de su mano.
 
-![Implementación de Assets Essentials](assets/my-workspace-demo.gif)
+![Información general de Mi espacio de trabajo](assets/my-workspace-demo.gif)
 
 [![Consulte la Guía](https://helpx.adobe.com/content/dam/help/en/marketing-cloud/how-to/digital-foundation/_jcr_content/main-pars/image_1250343773/see-the-guide-sm.png)](my-workspace.md)
 
-## Enfoque de búsqueda para mejorar la eficacia
-
-Libere el potencial de la biblioteca de recursos digitales de su organización con la potencia de la búsqueda con la funcionalidad de vanguardia. Puede despedirse de la molestia de tamizar manualmente innumerables archivos y carpetas. Cualquier usuario puede localizar al instante la imagen, el vídeo o el documento perfectos que necesita para crear campañas de marketing impresionantes, presentaciones cautivadoras y contenido atractivo. Nuestro primer motor de búsqueda le permite navegar sin esfuerzo por los tipos de recursos, los metadatos, las etiquetas inteligentes e incluso el contenido en sí sin saber la palabra clave exacta. Adopte el futuro de DAM con nuestro servicio Search-First y libere todo el potencial de su biblioteca de recursos digitales.
-
-![Implementación de Assets Essentials](assets/search-first.gif)
-
-## Perspectivas para tomar decisiones basadas en datos {#insights-data}
+### Perspectivas para tomar decisiones basadas en datos {#insights-data}
 
 Para mantener el ritmo de la velocidad del contenido, son esenciales perspectivas procesables. La nueva experiencia de vista de recursos ofrece perspectivas avanzadas dentro de Mi espacio de trabajo, lo que proporciona datos valiosos sobre el rendimiento de los recursos, el uso de la audiencia y las participaciones. Los especialistas en marketing pueden tomar decisiones basadas en datos, optimizar las estrategias de contenido y refinar su envío descendente para lograr resultados óptimos. Con acceso a perspectivas significativas, las empresas pueden mantenerse por delante de la competencia e impulsar resultados excepcionales.
 
-![Implementación de Assets Essentials](assets/insights-overview.gif)
+![Resumen de perspectivas](assets/insights-overview.gif)
 
 [![Consulte la Guía](https://helpx.adobe.com/content/dam/help/en/marketing-cloud/how-to/digital-foundation/_jcr_content/main-pars/image_1250343773/see-the-guide-sm.png)](manage-reports.md#view-live-statistics)
 
-## Integración de Adobe Photoshop Express para acelerar la colaboración {#accelerate-collaboration}
+### Integración de Adobe Photoshop Express para acelerar la colaboración {#accelerate-collaboration}
 
 La nueva experiencia ofrece un sólido conjunto de funciones de colaboración, incluida la edición en tiempo real con funciones integradas de Adobe Photoshop, controles de versión y herramientas de anotación. Esto permite una colaboración perfecta entre los equipos de diseño, creativos, de marca y de marketing, lo que les permite superar cuellos de botella y acelerar el proceso de operaciones de marketing. Los especialistas en marketing ahora tienen a su disposición potentes herramientas para acelerar la entrega de proyectos y aumentar su productividad general.
 
@@ -72,7 +78,7 @@ Vea este vídeo para comprender el poder de la integración de la vista de recur
 
 [![Consulte la Guía](https://helpx.adobe.com/content/dam/help/en/marketing-cloud/how-to/digital-foundation/_jcr_content/main-pars/image_1250343773/see-the-guide-sm.png)](edit-images.md)
 
-## Cargas de carpetas para configurar la estructura jerárquica de su organización {#folder-uploads}
+### Cargas de carpetas para configurar la estructura jerárquica de su organización {#folder-uploads}
 
 Configure rápidamente una estructura de carpetas para su organización mediante la vista Recursos cargando carpetas que existan en el sistema de archivos local. No es necesario crear carpetas en la carpeta raíz y luego cargar los recursos en esas carpetas manualmente para mantener la estructura jerárquica lógica. Todas las carpetas y recursos de la carpeta raíz se cargan automáticamente en Experience Manager Assets.
 
@@ -80,7 +86,13 @@ Configure rápidamente una estructura de carpetas para su organización mediante
 
 [![Consulte la Guía](https://helpx.adobe.com/content/dam/help/en/marketing-cloud/how-to/digital-foundation/_jcr_content/main-pars/image_1250343773/see-the-guide-sm.png)](add-delete.md)
 
-## Suscripción al contenido del repositorio para una administración eficiente de los recursos
+### Enfoque de búsqueda para mejorar la eficacia {#search-first}
+
+Libere el potencial de la biblioteca de recursos digitales de su organización con la potencia de la búsqueda con la funcionalidad de vanguardia. Puede despedirse de la molestia de tamizar manualmente innumerables archivos y carpetas. Cualquier usuario puede localizar al instante la imagen, el vídeo o el documento perfectos que necesita para crear campañas de marketing impresionantes, presentaciones cautivadoras y contenido atractivo. Nuestro primer motor de búsqueda le permite navegar sin esfuerzo por los tipos de recursos, los metadatos, las etiquetas inteligentes e incluso el contenido en sí sin saber la palabra clave exacta. Adopte el futuro de DAM con nuestro servicio Search-First y libere todo el potencial de su biblioteca de recursos digitales.
+
+![Buscar primero](assets/search-first.gif)
+
+### Suscripción al contenido del repositorio para una administración eficiente de los recursos {#subscribe-content}
 
 La vista Recursos permite supervisar las operaciones realizadas en los recursos, carpetas o colecciones disponibles en el repositorio. Debe seleccionar y suscribirse al contenido para el que se le envían las notificaciones. También puede configurar los tipos de eventos, como la eliminación del contenido suscrito, las modificaciones del contenido suscrito, etc. A continuación, las notificaciones se envían únicamente para esos tipos de eventos.
 
@@ -88,7 +100,7 @@ La vista Recursos permite supervisar las operaciones realizadas en los recursos,
 
 [![Consulte la Guía](https://helpx.adobe.com/content/dam/help/en/marketing-cloud/how-to/digital-foundation/_jcr_content/main-pars/image_1250343773/see-the-guide-sm.png)](manage-notifications.md)
 
-## Eliminación suave de recursos para proporcionar un mejor control a los administradores {#soft-delete-assets}
+### Eliminación suave de recursos para proporcionar un mejor control a los administradores {#soft-delete-assets}
 
 La carpeta Papelera disponible en la vista Recursos enumera los recursos eliminados de la carpeta raíz Recursos. Puede seleccionar un recurso de la carpeta Papelera para restaurarlo a la ubicación original o eliminarlo de forma permanente. También puede especificar una palabra clave o aplicar filtros estándar o personalizados para buscar los recursos adecuados en la carpeta Papelera.
 
