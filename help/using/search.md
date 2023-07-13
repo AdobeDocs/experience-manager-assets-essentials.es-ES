@@ -3,10 +3,10 @@ title: Búsqueda y descubrimiento de recursos en [!DNL Assets Essentials]
 description: Busque y descubra recursos en [!DNL Assets Essentials].
 role: User
 exl-id: be9597a3-056c-436c-a09e-15a03567c85a
-source-git-commit: 839ec4e2dcd324c481d9b4b5aba2210ec95203ba
+source-git-commit: 99f843be67ca6ca9dc1afe4887937b0fbcbfcf8e
 workflow-type: tm+mt
-source-wordcount: '897'
-ht-degree: 100%
+source-wordcount: '1033'
+ht-degree: 86%
 
 ---
 
@@ -141,6 +141,34 @@ What about temporarily hiding an asset (suspending search on it) from the search
 
 When userA is searching and userB add an asset that matches search results, will the asset display in search as soon as userA refreshes the page? Assuming indexing is near real-time. May not be so for bulk uploads.
 -->
+
+## Trabajar con resultados de búsqueda {#work-with-search-results}
+
+Puede seleccionar los recursos que se muestran en los resultados de búsqueda y realizar las siguientes acciones:
+
+* **Detalles**: vea y edite las propiedades del recurso.
+
+* **Añadir a la colección**: agregue el recurso seleccionado a una colección.
+
+* **Descargar**: descargar un recurso.
+
+* **Eliminar**: elimine un recurso.
+
+* **Copiar**: copie un recurso en una ubicación de carpeta diferente.
+
+* **Mover**: mueva un recurso a una ubicación de carpeta diferente.
+
+* **Cambiar nombre**: cambie el nombre de un recurso.
+
+* **Asignar tareas**: asigne tareas a los usuarios de un recurso.
+
+* **Compartir vínculo**: [Compartir vínculos](share-links-for-assets.md) para un recurso con otros usuarios para que puedan acceder y descargarlo.
+
+* **Ver**: [Supervisión de las operaciones](manage-notifications.md) realizado en un recurso.
+
+* **Mostrar ubicación del archivo**: vaya a la ubicación de la carpeta de recursos.
+
+* **Anclar a Acceso rápido**: [Anclar un recurso](my-workspace.md) para un acceso más rápido cuando lo necesite más tarde. Todos los elementos anclados se muestran en la **Acceso rápido** de Mi espacio de trabajo.
 
 ## Siguientes pasos {#next-steps}
 
