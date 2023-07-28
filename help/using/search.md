@@ -3,9 +3,9 @@ title: Búsqueda y descubrimiento de recursos en [!DNL Assets Essentials]
 description: Busque y descubra recursos en [!DNL Assets Essentials].
 role: User
 exl-id: be9597a3-056c-436c-a09e-15a03567c85a
-source-git-commit: 99f843be67ca6ca9dc1afe4887937b0fbcbfcf8e
+source-git-commit: 5942762ec76b25cc89168015edfbe3fce4c4368f
 workflow-type: tm+mt
-source-wordcount: '1033'
+source-wordcount: '1042'
 ht-degree: 86%
 
 ---
@@ -50,7 +50,7 @@ Puede filtrar los resultados de búsqueda según los parámetros siguientes.
 
 * Filtros personalizados: [Agregar filtros personalizados](#custom-filters) a la interfaz de usuario de Assets Essentials. Aplique esos filtros personalizados además de los filtros estándar para restringir los resultados de búsqueda.
 
-Puede ordenar los recursos buscados en orden creciente o descendente de `Name`, `Relevancy`, `Size`, `Modified` y `Created`.
+Puede ordenar los recursos buscados en orden creciente o descendente de `Name`, `Relevance`, `Size`, `Modified` y `Created`. Los recursos buscados se ordenan según `Relevance`, de forma predeterminada.
 
 ## Administrar filtros personalizados {#custom-filters}
 
