@@ -3,9 +3,9 @@ title: Mi espacio de trabajo de Assets
 description: Mi espacio de trabajo es una página que proporciona módulos visuales personalizables para acceder fácilmente a las áreas clave de la interfaz de usuario de Assets y a la información más relevante para el usuario.
 exl-id: 402dd3a6-44e5-4d13-97d8-1d7fa26a99e4
 source-git-commit: 22786c182ac959739396f694f0a63d84efa28ae5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '687'
-ht-degree: 81%
+ht-degree: 100%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 81%
 
 Assets ahora incluye un espacio de trabajo personalizable que proporciona utilidades para acceder fácilmente a las áreas clave de la interfaz de usuario de Assets y a la información más relevante para usted. Esta página sirve como solución integral para proporcionar información general sobre los elementos de trabajo y un acceso rápido a los flujos de trabajo clave. Un acceso más práctico a estas opciones aumenta su eficacia y velocidad de contenido.
 
-Puede acceder a mi espacio de trabajo haciendo clic en **[!UICONTROL mi espacio de trabajo]** de los elementos disponibles en el panel de navegación izquierdo. Mi espacio de trabajo incluye una variedad de widgets que muestran el acceso rápido, las perspectivas, las tareas y los widgets de contenido. Puede configurar cómo se muestran estos widgets en el espacio de trabajo en función de sus preferencias.
+Puede acceder a mi espacio de trabajo haciendo clic en **[!UICONTROL mi espacio de trabajo]** de los elementos disponibles en el panel de navegación izquierdo. Mi espacio de trabajo incluye una serie de widgets, entre los que se muestran Insights, Tareas y Contenido. Puede configurar cómo se muestran estos widgets en el espacio de trabajo en función de sus preferencias.
 
 >[!NOTE]
 >
@@ -38,9 +38,9 @@ Highlights upcoming features for Assets.
 
 **Acceso rápido**
 
-Ancle archivos, carpetas y colecciones para acceder más rápidamente a estos elementos cuando los necesite más adelante. Todos los elementos anclados se muestran en la **Acceso rápido** de Mi espacio de trabajo. Puede acceder a ellas mediante Mi espacio de trabajo en lugar de desplazarse a la ubicación en la que se guardan en el repositorio.
+Fije archivos, carpetas y colecciones para acceder más rápidamente a estos elementos cuando los necesite más adelante. Todos los elementos fijados se muestran en la sección **Acceso rápido** de Mi espacio de trabajo. Puede acceder a ellos mediante Mi espacio de trabajo en lugar de desplazarse a la ubicación en la que se guardan en el repositorio.
 
-Para anclar un recurso, una carpeta o una colección, seleccione el elemento y haga clic en **[!UICONTROL Anclar a Acceso rápido]**.
+Para fijar un recurso, una carpeta o una colección, seleccione el elemento y haga clic en **[!UICONTROL Fijar en Acceso rápido]**.
 
 ![Tareas en el espacio de trabajo](assets/quick-access.png)
 
@@ -48,7 +48,7 @@ Para anclar un recurso, una carpeta o una colección, seleccione el elemento y h
 
 Los administradores pueden ver un resumen del número de descargas y cargas realizadas en el entorno de Assets durante los últimos 30 días. Puede hacer clic en **[!UICONTROL Ver todo]** para acceder rápidamente a la página de perspectivas para ver paneles más detallados.
 
-También puede ver los términos más buscados junto con el número de veces que se buscan en la implementación de Assets Essentials utilizando **Insights** de Mi espacio de trabajo. También puede navegar a Perspectivas detalladas para ver las búsquedas principales durante los últimos 30 días o 12 meses.
+También puede ver los términos más buscados junto con el número de veces que se consultan en la implementación de Assets Essentials utilizando **Insights** de Mi espacio de trabajo. También puede navegar hasta Insights detallados para ver las búsquedas principales durante los últimos 30 días o 12 meses.
 
 ![Insights en el espacio de trabajo](assets/insights.png)
 
