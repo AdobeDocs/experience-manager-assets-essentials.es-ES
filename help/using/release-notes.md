@@ -7,7 +7,7 @@ exl-id: a0e29eb6-336a-4f78-b7bd-ec1338c86775
 source-git-commit: c61a22ad3c44b26762a8afbb93422197a5cf92ca
 workflow-type: tm+mt
 source-wordcount: '2154'
-ht-degree: 84%
+ht-degree: 96%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 84%
 
 La versión actual de Assets Essentials se publicó el 27 de julio de 2023.
 
-La lista de funciones incluidas en la versión es la siguiente:
+La lista de funciones de la versión incluye lo siguiente:
 
 <!--
 
@@ -67,37 +67,37 @@ Si encuentra algún problema o incluso si tiene solicitudes de mejora, [proporci
 
 ### Versión de junio {#june2023-release}
 
-**Etiquetado jerárquico de recursos para una experiencia de búsqueda más rápida**
+**El etiquetado jerárquico de recursos para una experiencia de búsqueda más rápida**
 
-Las listas planas de vocabularios controlados se vuelven inmanejables con el tiempo. Assets Essentials ahora admite la estructura de etiquetado jerárquica, que facilita la aplicación de metadatos relevantes, la categorización de recursos, la compatibilidad con la búsqueda, la reutilización de etiquetas, la mejora de la capacidad de detección, etc.
+Las listas planas de vocabularios controlados se vuelven inmanejables con el tiempo. Assets Essentials admite ahora la estructura de etiquetado jerárquica, que facilita la aplicación de metadatos relevantes, la categorización de recursos, la compatibilidad con la búsqueda, la reutilización de etiquetas, la mejora de la capacidad de detección, etc.
 
-![Administración de etiquetas](assets/tags-hierarchy.png)
+![Administración de etiquetado](assets/tags-hierarchy.png)
 
-**Anclar archivos, carpetas y colecciones para acceder rápidamente a ellos**
+**Fijación de archivos, carpetas y colecciones para un acceso rápido**
 
-Ahora puede anclar archivos, carpetas y colecciones para acceder más rápidamente a estos elementos cuando los necesite más adelante. Los elementos anclados se muestran en la **Acceso rápido** de Mi espacio de trabajo. Puede acceder a ellas mediante Mi espacio de trabajo en lugar de desplazarse a la ubicación en la que se guardan en el repositorio.
+Ahora puede fijar archivos, carpetas y colecciones para acceder más rápidamente a estos elementos cuando los necesite más adelante. Los elementos fijados se muestran en la sección **Acceso rápido** de Mi espacio de trabajo. Puede acceder a ellos mediante Mi espacio de trabajo en lugar de desplazarse a la ubicación en la que se guardan en el repositorio.
 
 ![Tareas en el espacio de trabajo](assets/quick-access.png)
 
-**Filtrar recursos en la carpeta Papelera**
+**Filtrado de recursos en la carpeta Papelera**
 
-Assets Essentials ahora permite filtrar los recursos disponibles en la papelera. Puede aplicar filtros estándar o personalizados para buscar los recursos adecuados en la carpeta Papelera y restaurarlos o eliminarlos de forma permanente.
+Assets Essentials permite ahora filtrar los recursos disponibles en la carpeta Papelera. Puede aplicar filtros estándar o personalizados para buscar los recursos adecuados en la carpeta Papelera y restaurarlos o eliminarlos de forma permanente.
 
 **Vistas previas de miniaturas para recursos 3D**
 
-Assets Essentials ahora genera vistas previas de miniaturas para formatos de archivo 3D comunes, incluidos gLB, USDz, FBX, 3DS, OBJ y SBSAR. Cuando estos archivos se cargan en Assets Essentials, el sistema genera automáticamente las miniaturas de forma predeterminada.
+Assets Essentials genera ahora vistas previas de miniaturas para formatos de archivo 3D comunes, incluidos gLB, USDz, FBX, 3DS, OBJ y SBSAR. Cuando estos archivos se cargan en Assets Essentials, el sistema genera automáticamente las miniaturas de forma predeterminada.
 
 ![Tareas en el espacio de trabajo](assets/3d-preview.png)
 
 **Ver los términos más buscados**
 
-Assets Essentials ahora admite la visualización de los términos más buscados en la implementación de Assets Essentials mediante **Insights** de Mi espacio de trabajo. También puede navegar a Perspectivas detalladas para ver las búsquedas principales durante los últimos 30 días o 12 meses.
+Assets Essentials ahora admite la visualización de los términos más buscados en la implementación de Assets Essentials mediante la sección **Insights** de Mi espacio de trabajo. También puede navegar hasta Insights detallados para ver las búsquedas principales durante los últimos 30 días o 12 meses.
 
 ![Tareas en el espacio de trabajo](assets/insights-top-searches.png)
 
 **Mejoras en formularios de metadatos**
 
-Assets Essentials ahora permite agregar texto de varios valores y componentes de propiedad de lista desplegable a los formularios de metadatos.
+Assets Essentials permite ahora añadir texto de varios valores y componentes de propiedad de lista desplegable a los formularios de metadatos.
 
 ### Varias versiones en 2023 {#multiple-releases-2023}
 
