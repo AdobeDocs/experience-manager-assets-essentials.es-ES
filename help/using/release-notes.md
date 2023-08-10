@@ -5,15 +5,15 @@ role: User,Leader,Admin,Architect,Developer
 contentOwner: AK
 exl-id: a0e29eb6-336a-4f78-b7bd-ec1338c86775
 source-git-commit: c61a22ad3c44b26762a8afbb93422197a5cf92ca
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2154'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
 # Notas de la versión de [!DNL Assets Essentials] {#release-notes}
 
-La versión actual de Assets Essentials se publicó el 27 de julio de 2023.
+La versión actual de Assets Essentials se lanzó el 27 de junio de 2023.
 
 La lista de funciones de la versión incluye lo siguiente:
 
@@ -27,19 +27,19 @@ You can now assign metadata form to a specific folder within your Assets Essenti
 
 -->
 
-**Marco de inteligencia artificial mejorado para etiquetas inteligentes de imagen**
+**Marco de trabajo de inteligencia artificial mejorado para las etiquetas inteligentes de imagen**
 
-Experience Manager Assets ahora utiliza un marco de inteligencia artificial mejorado para las etiquetas inteligentes de imagen. Esta inteligencia de contenido mejora la relevancia y precisión de las etiquetas inteligentes disponibles para todos los activos de imagen durante la ingesta.
+Experience Manager Assets ahora utiliza un marco de inteligencia artificial mejorado para las etiquetas inteligentes de imagen. Esta inteligencia de contenido mejora la relevancia y precisión de las etiquetas inteligentes disponibles para todos los recursos de imagen durante la ingesta.
 
 **Configurar la visualización de columnas para la vista Lista de recursos**
 
-Assets Essentials ahora permite seleccionar las columnas que se muestran en la vista Lista de recursos, como Estado, Formato, Dimension, Tamaño, etc.
+Assets Essentials ahora permite seleccionar las columnas que se muestran en la vista Lista de recursos, como Estado, Formato, Dimensión, Tamaño, etc.
 
 ![Configuración de las columnas](/help/using/assets/configure-columns.png)
 
-**Ordenar resultados de búsqueda según relevancia**
+**Ordenar resultados de búsqueda según la relevancia**
 
-Assets Essentials ahora ordena los resultados de búsqueda según la relevancia de forma predeterminada. Puede ordenar los recursos buscados en orden creciente o descendente de `Name`, `Relevance`, `Size`, `Modified` y `Created`.
+Assets Essentials ahora ordena los resultados de la búsqueda según la relevancia de forma predeterminada. Puede ordenar los recursos buscados en orden creciente o descendente de `Name`, `Relevance`, `Size`, `Modified` y `Created`.
 
 **Mejoras basadas en los comentarios de los clientes**
 
