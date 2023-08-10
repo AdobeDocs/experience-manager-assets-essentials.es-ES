@@ -4,9 +4,9 @@ description: Explicación de la interfaz de usuario de y la navegación en [!DNL
 role: User
 exl-id: 534a8084-88f7-410e-b872-719e47e62b10
 source-git-commit: 4f3141fe95a0c33b22042da4f234dd2a921cbac6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1000'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -114,11 +114,11 @@ Other use cases after previewing.
 
 ## Configurar la visualización de columnas para la vista Lista de recursos {#configure-columns-list-view}
 
-Puede seleccionar las columnas que se muestran en la vista Lista de recursos, como Estado, Formato, Dimension, Tamaño, etc.:
+Puede seleccionar las columnas que se muestran en la vista Lista de recursos, como Estado, Formato, Dimensión, Tamaño, etc.:
 
-1. Seleccionar **[!UICONTROL Assets]** en el panel de navegación izquierdo, cambie a la vista Lista de recursos y haga clic en ![icono de configuración](assets/settings-icon.svg).
+1. Seleccione **[!UICONTROL Recursos]** en el panel de navegación de la izquierda, cambie a la vista Lista de recursos y haga clic en el ![icono de configuración](assets/settings-icon.svg).
 
-1. Seleccione las columnas que debe mostrar en la vista Lista y haga clic en **[!UICONTROL Confirmar]**.
+1. Seleccione las columnas que necesita visualizar en la vista Lista y haga clic en **[!UICONTROL Confirmar]**.
 
    ![Configuración de las columnas](/help/using/assets/configure-columns.png)
 
