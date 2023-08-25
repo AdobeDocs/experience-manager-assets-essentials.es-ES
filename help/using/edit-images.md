@@ -3,10 +3,10 @@ title: Edición de imágenes
 description: Edite imágenes mediante opciones que se sirven de [!DNL Adobe Photoshop Express] y guarde imágenes actualizadas como versiones.
 role: User
 exl-id: fc21a6ee-bf23-4dbf-86b0-74695a315b2a
-source-git-commit: 10709417b2656ab15a3bade94bea701f50ec5ae3
+source-git-commit: c34fa28a698523dee00f972ede0781305aee6e60
 workflow-type: tm+mt
-source-wordcount: '868'
-ht-degree: 53%
+source-wordcount: '896'
+ht-degree: 52%
 
 ---
 
@@ -22,7 +22,12 @@ Después de editar una imagen, puede guardar la nueva como una nueva versión. E
 
 <!--The editing actions that are available are Spot healing, Crop and straighten, Resize image, and Adjust image.-->
 
-## Edición de imágenes mediante [!DNL Adobe Express] {#edit-using-express}
+## Edición de imágenes mediante el Adobe Express {#edit-using-express}
+
+>[!CONTEXTUALHELP]
+>id="assets_express_integration"
+>title="Integración de Adobe Express"
+>abstract="Herramientas de edición de imágenes sencillas e intuitivas con tecnología de Adobe Express disponibles directamente en AEM Assets para aumentar la reutilización del contenido y acelerar la velocidad de contenido."
 
 ### Cambiar tamaño de imagen {#resize-image-using-express}
 

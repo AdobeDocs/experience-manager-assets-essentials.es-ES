@@ -2,10 +2,10 @@
 title: Administrar notificaciones
 description: Monitorice las operaciones realizadas en los recursos o carpetas disponibles en el repositorio mediante las notificaciones de Assets Essentials.
 exl-id: 5c0039a2-caa2-4b55-b963-0e7e9e542c47
-source-git-commit: 07457e86a37b5d39a6c843c2c2cf8750a6acb354
+source-git-commit: c34fa28a698523dee00f972ede0781305aee6e60
 workflow-type: tm+mt
-source-wordcount: '665'
-ht-degree: 99%
+source-wordcount: '617'
+ht-degree: 100%
 
 ---
 
@@ -95,11 +95,6 @@ Assets Essentials ahora envía notificaciones para las categorías suscritas. Ta
 Del mismo modo, para cancelar la suscripción, seleccione el recurso, la carpeta o la colección a la que se ha suscrito y haga clic en **[!UICONTROL Dejar de ver]**.
 
 ## Ver notificaciones {#view-notifications}
-
->[!CONTEXTUALHELP]
->id="assets_express_integration"
->title="Integración de Adobe Express"
->abstract="[!DNL Experience Manager Assets] proporciona muchos campos de metadatos estándar de forma predeterminada. Las organizaciones tienen requisitos de metadatos adicionales, y necesitan más campos para agregar los metadatos específicos de su empresa. Los formularios de metadatos permiten a las empresas añadir campos de metadatos personalizados a la página Detalles de un recurso. Los metadatos específicos de la empresa mejoran el control y el descubrimiento de sus recursos."
 
 Las notificaciones aparecen en el extremo derecho de la barra de menús de la interfaz de usuario de Assets Essentials.
 
