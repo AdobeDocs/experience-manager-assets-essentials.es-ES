@@ -4,7 +4,7 @@ description: Administración de metadatos de recursos en [!DNL Assets Essentials
 role: User,Leader,Admin,Architect,Developer
 contentOwner: AG
 exl-id: cfc105d1-41fc-4418-9905-b2a28a348682
-source-git-commit: 50b9ba30eac2d99fe72a8cfacf4b0361b8955a87
+source-git-commit: 1897989934b12b0f88b56461c76833273ca04447
 workflow-type: tm+mt
 source-wordcount: '1558'
 ht-degree: 100%
@@ -150,6 +150,8 @@ To assign a metadata form to a folder:
 3. Select the folder and click **[!UICONTROL Assign]**.
 
    ![assign metadata form to a folder](/help/using/assets/assign-to-folder.png)
+
+   You can also navigate to the folder details page and select a metadata form from the folder properties available in the right pane to assign the metadata form to the folder.
 
 -->
 

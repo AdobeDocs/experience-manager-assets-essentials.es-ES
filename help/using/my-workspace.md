@@ -2,10 +2,10 @@
 title: Mi espacio de trabajo de Assets
 description: Mi espacio de trabajo es una página que proporciona módulos visuales personalizables para acceder fácilmente a las áreas clave de la interfaz de usuario de Assets y a la información más relevante para el usuario.
 exl-id: 402dd3a6-44e5-4d13-97d8-1d7fa26a99e4
-source-git-commit: 22786c182ac959739396f694f0a63d84efa28ae5
-workflow-type: ht
-source-wordcount: '687'
-ht-degree: 100%
+source-git-commit: 1db631a927e806d4b8ed83b1e0fc4a1e4f5bef71
+workflow-type: tm+mt
+source-wordcount: '739'
+ht-degree: 88%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 100%
 
 Assets ahora incluye un espacio de trabajo personalizable que proporciona utilidades para acceder fácilmente a las áreas clave de la interfaz de usuario de Assets y a la información más relevante para usted. Esta página sirve como solución integral para proporcionar información general sobre los elementos de trabajo y un acceso rápido a los flujos de trabajo clave. Un acceso más práctico a estas opciones aumenta su eficacia y velocidad de contenido.
 
-Puede acceder a mi espacio de trabajo haciendo clic en **[!UICONTROL mi espacio de trabajo]** de los elementos disponibles en el panel de navegación izquierdo. Mi espacio de trabajo incluye una serie de widgets, entre los que se muestran Insights, Tareas y Contenido. Puede configurar cómo se muestran estos widgets en el espacio de trabajo en función de sus preferencias.
+Puede acceder a mi espacio de trabajo haciendo clic en **[!UICONTROL mi espacio de trabajo]** de los elementos disponibles en el panel de navegación izquierdo. Mi espacio de trabajo incluye una variedad de widgets que muestran el acceso rápido, las perspectivas, las tareas y los widgets de contenido. Puede configurar cómo se muestran estos widgets en el espacio de trabajo en función de sus preferencias.
 
 >[!NOTE]
 >
@@ -40,9 +40,17 @@ Highlights upcoming features for Assets.
 
 Fije archivos, carpetas y colecciones para acceder más rápidamente a estos elementos cuando los necesite más adelante. Todos los elementos fijados se muestran en la sección **Acceso rápido** de Mi espacio de trabajo. Puede acceder a ellos mediante Mi espacio de trabajo en lugar de desplazarse a la ubicación en la que se guardan en el repositorio.
 
-Para fijar un recurso, una carpeta o una colección, seleccione el elemento y haga clic en **[!UICONTROL Fijar en Acceso rápido]**.
+Para anclar un recurso, una carpeta o una colección:
 
-![Tareas en el espacio de trabajo](assets/quick-access.png)
+1. Seleccione el elemento y haga clic en **[!UICONTROL Anclar a Acceso rápido]**.
+
+1. Seleccione si necesita fijar el elemento solo para usted, para toda la organización o para los grupos seleccionados. Si selecciona **[!UICONTROL Para grupos]**, defina los nombres de grupo en la **[!UICONTROL Fijar para grupos]** field.
+
+   ![Anclar elementos para grupos](assets/pin-items-for-groups.png)
+1. Clic **[!UICONTROL Fijar]**.
+
+   El elemento seleccionado se muestra en la **[!UICONTROL Acceso rápido]** de Mi espacio de trabajo.
+   ![Tareas en el espacio de trabajo](assets/quick-access.png)
 
 **Perspectivas**
 
