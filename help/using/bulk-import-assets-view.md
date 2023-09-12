@@ -4,7 +4,7 @@ description: Obtenga información sobre cómo importar recursos de forma masiva 
 source-git-commit: 946dc5ea27c61eb5f2dc74054ebdd65cdbdb71a8
 workflow-type: tm+mt
 source-wordcount: '1244'
-ht-degree: 3%
+ht-degree: 7%
 
 ---
 
@@ -12,8 +12,8 @@ ht-degree: 3%
 
 >[!CONTEXTUALHELP]
 >id="assets_bulk_import"
->title="Importación masiva de recursos"
->abstract="Los administradores ahora tienen la capacidad de importar un gran número de recursos de un origen de datos a Experience Manager Assets mediante la vista Recursos. Los administradores ya no tienen que cargar recursos o carpetas individuales en Experience Manager Assets. Los proveedores de almacenamiento en la nube admitidos para la importación masiva son Azure, AWS, Google Cloud y Dropbox."
+>title="Importación de recursos por lotes"
+>abstract="Ahora los administradores tienen la capacidad de importar un gran número de archivos de una fuente de datos a Experience Manager Assets mediante la vista Archivos. Los administradores ya no tienen que cargar archivos o carpetas individuales a Experience Manager Assets. Los proveedores de almacenamiento en la nube admitidos para la importación por lotes son Azure, AWS, Google Cloud y Dropbox."
 
 La importación masiva en la vista de AEM Assets permite a los administradores importar un gran número de recursos desde un origen de datos a AEM Assets. Los administradores ya no tienen que cargar recursos o carpetas individuales en AEM Assets.
 
