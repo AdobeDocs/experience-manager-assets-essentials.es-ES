@@ -4,10 +4,10 @@ description: Administración de metadatos de recursos en [!DNL Assets Essentials
 role: User,Leader,Admin,Architect,Developer
 contentOwner: AG
 exl-id: cfc105d1-41fc-4418-9905-b2a28a348682
-source-git-commit: 1897989934b12b0f88b56461c76833273ca04447
-workflow-type: ht
-source-wordcount: '1558'
-ht-degree: 100%
+source-git-commit: 1df4ab7705b5478c86531a5b4cae57b09ef5a0d5
+workflow-type: tm+mt
+source-wordcount: '1686'
+ht-degree: 92%
 
 ---
 
@@ -135,25 +135,21 @@ A continuación se ofrece una descripción general de cada tipo de propiedad y d
 | Palabras clave | Añada palabras clave de forma libre (asignadas a dc:subject). |
 | Etiquetas inteligentes | Añada para aumentar las capacidades de búsqueda añadiendo automáticamente etiquetas de metadatos. |
 
-<!--
+### Asignar un formulario de metadatos a una carpeta {#assign-metadata-form-folder}
 
-### Assign metadata form to a folder {#assign-metadata-form-folder}
+También puede asignar un formulario de metadatos a una carpeta de su implementación de Assets Essentials. El formulario de metadatos asignado a una carpeta según el tipo MIME se sobrescribe cuando se aplica un formulario de metadatos a una carpeta manualmente. Todos los recursos de la carpeta, incluidos los de las subcarpetas, muestran las propiedades definidas en el formulario de metadatos.
 
-You can also assign a metadata form to a folder within your Assets Essentials deployment. The metadata form assigned to a folder as per the MIME type is overwritten when you apply a metadata form to a folder manually. All assets in the folder, including assets in the sub-folders, then display properties defined in the metadata form.
+Para asignar un formulario de metadatos a una carpeta:
 
-To assign a metadata form to a folder:
+1. Vaya a **[!UICONTROL Configuración]** > **[!UICONTROL Metadatos de Forms]** y seleccione un formulario de metadatos.
 
-1. Navigate to **[!UICONTROL Settings]** > **[!UICONTROL Metadata Forms]** and select a metadata form.
+2. Clic **[!UICONTROL Asignar a carpeta]**.
 
-2. Click **[!UICONTROL Assign to Folder]**.
+3. Seleccione la carpeta y haga clic en **[!UICONTROL Asignar]**.
 
-3. Select the folder and click **[!UICONTROL Assign]**.
+   ![asignar formulario de metadatos a una carpeta](/help/using/assets/assign-to-folder.png)
 
-   ![assign metadata form to a folder](/help/using/assets/assign-to-folder.png)
-
-   You can also navigate to the folder details page and select a metadata form from the folder properties available in the right pane to assign the metadata form to the folder.
-
--->
+   También puede navegar a la página de detalles de la carpeta y seleccionar un formulario de metadatos de las propiedades de carpeta disponibles en el panel derecho para asignar el formulario de metadatos a la carpeta.
 
 ## Siguientes pasos {#next-steps}
 
