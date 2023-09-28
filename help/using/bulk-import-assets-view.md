@@ -1,25 +1,25 @@
 ---
-title: Importación masiva de recursos mediante la vista Recursos
-description: Obtenga información sobre cómo importar recursos de forma masiva mediante la nueva IU de Assets (vista de Assets). Permite a los administradores importar un gran número de recursos desde un origen de datos a AEM Assets.
-source-git-commit: 946dc5ea27c61eb5f2dc74054ebdd65cdbdb71a8
+title: Importación masiva de recursos mediante Assets Essentials
+description: Obtenga información sobre cómo importar recursos de forma masiva mediante la nueva interfaz de usuario de Assets (Assets Essentials). Permite a los administradores importar un gran número de recursos desde un origen de datos a AEM Assets.
+source-git-commit: 8708a9140b283ab2f45db7d466c069e53fb28b2a
 workflow-type: tm+mt
-source-wordcount: '1244'
-ht-degree: 7%
+source-wordcount: '1245'
+ht-degree: 5%
 
 ---
 
-# Importación masiva de recursos mediante la vista Recursos  {#bulk-import-assets-view}
+# Importación masiva de recursos mediante Assets Essentials  {#bulk-import-essentials}
 
 >[!CONTEXTUALHELP]
 >id="assets_bulk_import"
 >title="Importación de recursos por lotes"
->abstract="Ahora los administradores tienen la capacidad de importar un gran número de archivos de una fuente de datos a Experience Manager Assets mediante la vista Archivos. Los administradores ya no tienen que cargar archivos o carpetas individuales a Experience Manager Assets. Los proveedores de almacenamiento en la nube admitidos para la importación por lotes son Azure, AWS, Google Cloud y Dropbox."
+>abstract="Los administradores ahora pueden importar un gran número de recursos desde un origen de datos a Experience Manager Assets mediante Assets Essentials. Los administradores ya no tienen que cargar archivos o carpetas individuales a Experience Manager Assets. Los proveedores de almacenamiento en la nube admitidos para la importación por lotes son Azure, AWS, Google Cloud y Dropbox."
 
-La importación masiva en la vista de AEM Assets permite a los administradores importar un gran número de recursos desde un origen de datos a AEM Assets. Los administradores ya no tienen que cargar recursos o carpetas individuales en AEM Assets.
+La importación masiva en AEM Assets Essentials permite a los administradores importar un gran número de recursos desde un origen de datos a AEM Assets. Los administradores ya no tienen que cargar recursos o carpetas individuales en AEM Assets.
 
 >[!NOTE]
 >
->El importador en bloque de la vista Recursos utiliza el mismo backend que el del importador en bloque de la vista Administración. Sin embargo, ofrece más fuentes de datos para importar de y una experiencia de usuario más optimizada.
+>El importador en bloque de Assets Essentials utiliza el mismo servidor que el importador en bloque as a Cloud Service de Assets. Sin embargo, Assets Essentials ofrece más fuentes de datos para importar de y una experiencia de usuario más optimizada.
 
 Puede importar recursos desde las siguientes fuentes de datos:
 
@@ -74,7 +74,7 @@ Al importar recursos o carpetas de forma masiva, [!DNL Experience Manager Assets
 
 Durante la importación masiva, [!DNL Experience Manager] busque las carpetas existentes para evitar volver a importar los recursos y las carpetas, y compruebe también las reglas de saneamiento aplicadas en la carpeta principal en la que se realiza la importación. Si las reglas de saneamiento se aplican en la carpeta principal, las mismas reglas se aplican al origen de importación. Para la nueva importación, se aplican las siguientes reglas de saneamiento para administrar los nombres de archivo de los recursos y las carpetas.
 
-Para obtener más información sobre los nombres no permitidos, la administración de nombres de recursos y la administración de nombres de carpetas durante la importación masiva, consulte [Administración de nombres de archivo durante la importación masiva en la vista de administración](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/manage/add-assets.html?lang=en#filename-handling-bulkimport).
+Para obtener más información sobre los nombres no permitidos, la administración de nombres de recursos y la administración de nombres de carpetas durante la importación masiva, consulte [Administración de nombres de archivo durante la importación masiva](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/manage/add-assets.html?lang=en#filename-handling-bulkimport).
 
 ## Ver configuraciones de importación masiva existentes {#view-import-configuration}
 

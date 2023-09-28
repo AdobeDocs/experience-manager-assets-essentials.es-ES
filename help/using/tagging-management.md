@@ -1,14 +1,14 @@
 ---
-title: ¿Cómo se administran las etiquetas en la vista Recursos?
-description: Obtenga información sobre cómo administrar las etiquetas en la vista Recursos. Las etiquetas le ayudan a categorizar los archivos que se pueden examinar y buscar de forma más eficaz.
-source-git-commit: 22786c182ac959739396f694f0a63d84efa28ae5
-workflow-type: ht
-source-wordcount: '1422'
-ht-degree: 100%
+title: ¿Cómo se administran las etiquetas en Assets Essentials?
+description: Obtenga información sobre cómo administrar etiquetas en Assets Essentials. Las etiquetas le ayudan a categorizar los archivos que se pueden examinar y buscar de forma más eficaz.
+source-git-commit: 8708a9140b283ab2f45db7d466c069e53fb28b2a
+workflow-type: tm+mt
+source-wordcount: '1292'
+ht-degree: 88%
 
 ---
 
-# Administración de etiquetas en la vista Recursos {#view-assets-and-details}
+# Administración de etiquetas en Assets Essentials {#view-assets-and-details}
 
 
 >[!CONTEXTUALHELP]
@@ -32,7 +32,7 @@ El etiquetado ofrece muchas ventajas, como las siguientes:
 
 * Las etiquetas pueden evolucionar con el tiempo a medida que cambia el vocabulario de la organización.
 
-* Las etiquetas administradas en la vista Administración están sincronizadas con las etiquetas administradas en la vista Recursos, que garantiza la integridad y el control de los metadatos.
+* Las etiquetas administradas en Assets as a Cloud Service permanecen sincronizadas con las etiquetas administradas en Assets Essentials, lo que garantiza la integridad y el control de los metadatos.
 
 Para poder aplicar etiquetas a los recursos, primero debe crear un área de nombres y luego crear y añadirle etiquetas. También puede crear etiquetas y añadirlas a un área de nombres existente. Todas las etiquetas que cree en el nivel raíz se añaden automáticamente al área de nombres de etiquetas estándar. A continuación, puede añadir el campo Etiquetas al formulario de metadatos para que se muestre en la página Detalles del recurso. Después de configurar estos ajustes, puede comenzar a aplicar etiquetas a los recursos.
 
@@ -42,7 +42,7 @@ Para poder aplicar etiquetas a los recursos, primero debe crear un área de nomb
 
 ![Administración de etiquetado](assets/tagging-taxonomy-management.png)
 
-En la vista Administración hay disponibles funcionalidades adicionales, además de las mencionadas en este artículo, como combinar, cambiar el nombre, localizar y publicar etiquetas.
+Hay funciones adicionales disponibles en Assets as a Cloud Service además de las mencionadas en este artículo, como combinar, cambiar el nombre, localizar y publicar etiquetas.
 
 ## Creación de un área de nombres {#creating-a-namespace}
 
@@ -92,7 +92,7 @@ Para crear una etiqueta estándar, haga clic en `Create Tag` en el nivel raíz. 
 
 >[!NOTE]
 >
->Si elimina el espacio de nombres `Standard Tags` mediante la vista Administrador, las etiquetas creadas en el nivel raíz no se muestran en la lista de etiquetas disponibles.
+>Si elimina `Standard Tags` Cuando se utiliza el área de nombres Recursos as a Cloud Service, las etiquetas creadas en el nivel raíz no se muestran en la lista de etiquetas disponibles.
 
 ## Mover etiquetas {#moving-tags}
 
@@ -115,7 +115,7 @@ Para editar el título de la etiqueta, selecciónela y haga clic en `Edit`. Espe
 >[!NOTE]
 >
 >* El `Name` de una etiqueta no se puede actualizar. La ruta raíz de una etiqueta también se basa en el nombre de la etiqueta. La ruta sigue siendo la misma aunque actualice el campo `Title`.
->* Las operaciones adicionales, como combinar, localizar y publicar, están disponibles en la vista Administración.
+>* Hay operaciones adicionales disponibles en Assets as a Cloud Service, como combinar, localizar y publicar.
 
 ## Eliminación de etiquetas {#deleting-tags}
 
@@ -134,7 +134,7 @@ Realice los siguientes pasos para eliminar etiquetas:
 
 ## Adición del componente Etiquetas al formulario de metadatos {#adding-tags-to-metadata-form}
 
-El componente de etiquetas se añade al formulario de metadatos `default` automáticamente. Puede diseñar un [formulario de metadatos](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/metadata.html?lang=es#metadata-forms) mediante una plantilla o desde cero. Si no utiliza una plantilla de formulario de metadatos existente, puede modificar el formulario de metadatos y añadir el componente de etiquetas. La asignación de propiedades de metadatos se rellena automáticamente y no se puede modificar en este momento. Los usuarios en la vista Administrador pueden actualizar la asignación para almacenar valores de etiquetas utilizando áreas de nombres personalizadas y exponer solo subconjuntos de jerarquías mediante rutas raíz.
+El componente de etiquetas se añade al formulario de metadatos `default` automáticamente. Puede diseñar un [formulario de metadatos](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/metadata.html?lang=es#metadata-forms) mediante una plantilla o desde cero. Si no utiliza una plantilla de formulario de metadatos existente, puede modificar el formulario de metadatos y añadir el componente de etiquetas. La asignación de propiedades de metadatos se rellena automáticamente y no se puede modificar en este momento. Los usuarios as a Cloud Service de Assets pueden actualizar la asignación para almacenar valores de etiquetas mediante áreas de nombres personalizadas y exponer solo subconjuntos de jerarquías mediante rutas raíz.
 
 Vea este vídeo rápido para ver cómo añadir el componente Etiquetas al formulario de metadatos:
 
@@ -149,17 +149,7 @@ Vea este vídeo rápido para ver cómo añadir el componente Etiquetas al formul
    ![Etiquetado de recursos](assets/adding-tags-to-assets.png)
 
 1. Seleccione una o varias etiquetas. La subetiqueta se selecciona automáticamente junto con la etiqueta principal o el área de nombres.
-Las etiquetas modificadas en la vista Recursos también se aplican en la vista Administración.
-
-## Restricciones {#limitations}
-
-Las siguientes funciones avanzadas de taxonomía no están disponibles en la vista Recursos en este momento y solo se puede acceder a ellas desde la vista Administrador:
-
-* **Localización:** cualquier localización debe realizarse en la vista Administrador.
-* **Ruta raíz:** las rutas raíz no se pueden configurar. Todas las áreas de nombres almacenadas en administración de taxonomía se exponen en la propiedad Etiquetas de la vista Recursos.
-* **Etiquetas estándar:** las etiquetas estándar aplicadas en la vista Administrador son visibles en la vista Recursos. No puede añadir etiquetas estándar nuevas en la vista Recursos de la página Detalles del recurso. Los valores existentes almacenados en etiquetas estándar se aplican en la página Detalles de recursos.
-* **Espacios de nombres personalizados:** las etiquetas no se pueden asignar a áreas de nombres personalizadas.
-* **Visualización de referencias:** los administradores pueden ver el uso de las etiquetas en la vista Recursos. Hace referencia a todos los recursos que utilizan activamente una etiqueta. Sin embargo, los administradores no pueden ver los recursos individuales que utilizan la etiqueta en referencias.
+Las etiquetas modificadas en los Assets Essentials se aplican también en Assets as a Cloud Service.
 
 <!--
 *   Overview

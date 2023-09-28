@@ -9,10 +9,10 @@ feature-set: Experience Manager Assets,Experience Manager
 feature: Assets Essentials
 role: User,Leader
 solution: Experience Manager
-source-git-commit: e6720e7f3f19e81b50feece7e7adaddca0b861d8
+source-git-commit: 8708a9140b283ab2f45db7d466c069e53fb28b2a
 workflow-type: tm+mt
-source-wordcount: '134'
-ht-degree: 97%
+source-wordcount: '132'
+ht-degree: 100%
 
 ---
 
@@ -33,7 +33,7 @@ ht-degree: 97%
 + [Tipos de archivos admitidos y casos de uso](supported-file-formats.md)
 + [Visualización de recursos](navigate-view.md)
 + [Carga y adición de recursos](add-delete.md)
-+ [Importación masiva de recursos](bulk-import-assets-view.md)
++ [Importación de recursos por lotes](bulk-import-assets-view.md)
 + [Búsqueda y descubrimiento de recursos](search.md)
 + [Tareas de administración de recursos](manage-organize.md)
 + [Edición de imágenes](edit-images.md)
@@ -48,4 +48,3 @@ ht-degree: 97%
    + [Integración con Creative Cloud para empresas](integrate-with-creative-cloud.md)
    + [Integración con Adobe Workfront](integrate-with-workfront.md)
 + [Vídeos](https://experienceleague.adobe.com/docs/experience-manager-learn/assets-essentials/overview.html?lang=es)
-+ [Vista de recursos](assets-view-introduction.md)
