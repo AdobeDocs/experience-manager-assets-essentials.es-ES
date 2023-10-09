@@ -1,10 +1,11 @@
 ---
 title: Importación masiva de recursos mediante Assets Essentials
 description: Obtenga información sobre cómo importar recursos de forma masiva mediante la nueva interfaz de usuario de Assets (Assets Essentials). Permite a los administradores importar un gran número de recursos desde un origen de datos a AEM Assets.
-source-git-commit: 8708a9140b283ab2f45db7d466c069e53fb28b2a
+exl-id: 5f5fc15e-959b-48b6-834a-42b213512b49
+source-git-commit: 77accbc70d973a9b4afddde1c8bcd60c37ff636d
 workflow-type: tm+mt
 source-wordcount: '1245'
-ht-degree: 5%
+ht-degree: 7%
 
 ---
 
@@ -13,7 +14,7 @@ ht-degree: 5%
 >[!CONTEXTUALHELP]
 >id="assets_bulk_import"
 >title="Importación de recursos por lotes"
->abstract="Los administradores ahora pueden importar un gran número de recursos desde un origen de datos a Experience Manager Assets mediante Assets Essentials. Los administradores ya no tienen que cargar archivos o carpetas individuales a Experience Manager Assets. Los proveedores de almacenamiento en la nube admitidos para la importación por lotes son Azure, AWS, Google Cloud y Dropbox."
+>abstract="Ahora los administradores tienen la capacidad de importar un gran número de archivos de una fuente de datos a Experience Manager Assets mediante Assets Essentials. Los administradores ya no tienen que cargar archivos o carpetas individuales a Experience Manager Assets. Los proveedores de almacenamiento en la nube admitidos para la importación por lotes son Azure, AWS, Google Cloud y Dropbox."
 
 La importación masiva en AEM Assets Essentials permite a los administradores importar un gran número de recursos desde un origen de datos a AEM Assets. Los administradores ya no tienen que cargar recursos o carpetas individuales en AEM Assets.
 
@@ -138,4 +139,3 @@ Haga clic en ... correspondiente al nombre de configuración existente en **[!UI
 ## Navegar a los recursos después de realizar una importación masiva {#view-assets-after-bulk-import}
 
 Para ver la ubicación de destino de los recursos donde se importan después de ejecutar el trabajo de importación masiva, haga clic en ... correspondiente al nombre de la configuración y, a continuación, haga clic en **[!UICONTROL Ver recursos]**.
-
