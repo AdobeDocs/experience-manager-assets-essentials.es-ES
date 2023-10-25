@@ -1,7 +1,8 @@
 ---
 title: ¿Cómo se administran las etiquetas en Assets Essentials?
 description: Obtenga información sobre cómo administrar etiquetas en Assets Essentials. Las etiquetas le ayudan a categorizar los archivos que se pueden examinar y buscar de forma más eficaz.
-source-git-commit: 8708a9140b283ab2f45db7d466c069e53fb28b2a
+exl-id: da9e8d56-c190-4006-9579-c3c8401c5e5f
+source-git-commit: 74f78f0675e01c09a8654d7f7d0db14a0ee674a2
 workflow-type: tm+mt
 source-wordcount: '1292'
 ht-degree: 88%
@@ -150,21 +151,3 @@ Vea este vídeo rápido para ver cómo añadir el componente Etiquetas al formul
 
 1. Seleccione una o varias etiquetas. La subetiqueta se selecciona automáticamente junto con la etiqueta principal o el área de nombres.
 Las etiquetas modificadas en los Assets Essentials se aplican también en Assets as a Cloud Service.
-
-<!--
-*   Overview
-*   Benefits
-*   Prerequisites and Permissions
-*   Configuration
-*   Managing Tags
-    *   Creating a Namespace
-    *   Adding Tags to a Namespace
-    *   Adding Tags to Standard Tags
-    *   Moving Tags
-    *   Editing Tags
-    *   Deleting Tags
-*   Applying Tags
-    *   Adding Tags to the Metadata form
-    *   Adding Tags to Assets
-*   Limitations
--->
