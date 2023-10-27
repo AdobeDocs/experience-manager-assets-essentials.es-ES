@@ -4,42 +4,28 @@ description: Notas de la versión y problemas conocidos de [!DNL Assets Essentia
 role: User,Leader,Admin,Architect,Developer
 contentOwner: AK
 exl-id: a0e29eb6-336a-4f78-b7bd-ec1338c86775
-source-git-commit: 1df4ab7705b5478c86531a5b4cae57b09ef5a0d5
+source-git-commit: 347ec8c64daa46f603b41dd3845503863a1ccedd
 workflow-type: tm+mt
-source-wordcount: '2342'
-ht-degree: 92%
+source-wordcount: '2435'
+ht-degree: 93%
 
 ---
 
 # Notas de la versión de [!DNL Assets Essentials] {#release-notes}
 
-La versión actual de Assets Essentials se publicó el 21 de septiembre de 2023.
+La versión actual de Assets Essentials se publicó el 26 de octubre de 2023.
 
-La lista de funciones agregadas recientemente incluye las siguientes:
+Las nuevas funciones incluyen:
 
-**Asignar un formulario de metadatos a una carpeta**
+**Importación masiva de recursos desde la fuente de datos de OneDrive**
 
-Ahora puede asignar un formulario de metadatos a una carpeta específica dentro de la implementación de Assets Essentials. Todos los recursos de la carpeta, incluidos los de las subcarpetas, muestran las propiedades definidas en el formulario de metadatos asignado.
+Los administradores ahora tienen la capacidad de [importar un gran número de recursos de OneDrive a AEM Assets](/help/using/bulk-import-assets-view.md). La lista actualizada de las fuentes de datos compatibles para la importación masiva incluye Azure, AWS, Google Cloud, Dropbox y OneDrive.
 
-![asignar formulario de metadatos a una carpeta](/help/using/assets/assign-to-folder.png)
+![asignar formulario de metadatos a una carpeta](/help/using/assets/bulk-import-source-details.png)
 
-**Importación masiva de recursos desde fuentes de datos**
+**Compatibilidad de derechos entre organizaciones para bibliotecas**
 
-Los administradores ahora tienen la capacidad de importar un gran número de recursos de un origen de datos a AEM Assets. Los administradores ya no tienen que cargar recursos o carpetas individuales en AEM Assets. Las fuentes de datos admitidas para la importación masiva incluyen Azure, AWS, Google Cloud y Dropbox.
-
-![Importación masiva de recursos desde una fuente de datos](/help/using/assets/bulk-import.png)
-
-**Herramientas de edición de imágenes con tecnología de Adobe Express**
-
-Herramientas de edición de imágenes sencillas e intuitivas con tecnología Adobe Express disponibles directamente en AEM Assets para aumentar la reutilización de contenidos y acelerar la velocidad del contenido.
-
-![Edición de imágenes con Adobe Express](/help/using/assets/edit-adobe-express.png)
-
-**Flexibilidad al anclar elementos para el acceso rápido a Mi espacio de trabajo**
-
-Capacidad para seleccionar y anclar elementos para usted, para toda su organización o para una lista de grupos para que se muestren en la sección Acceso rápido de Mi espacio de trabajo en función de su selección.
-
-![Anclar elementos para grupos](assets/pin-items-for-groups.png)
+Experience Manager Assets ahora permite configurar el acceso a las bibliotecas de Creative Cloud en una organización IMS diferente. Permite un acceso más sencillo a los flujos de trabajo entre productos más recientes entre Creative Cloud y Experience Manager, y reduce el tiempo y el esfuerzo de los creativos.
 
 **Mejoras basadas en los comentarios de los clientes**
 
@@ -64,6 +50,33 @@ La lista de problemas conocidos de la oferta de [!DNL Assets Essentials] se revi
 Si encuentra algún problema o incluso si tiene solicitudes de mejora, [proporcione comentarios](#provide-feedback) al equipo.
 
 ## Versiones anteriores {#past-releases}
+
+### Versión de septiembre de 2023 {#september2023-release}
+
+**Asignar un formulario de metadatos a una carpeta**
+
+Ahora puede asignar un formulario de metadatos a una carpeta específica dentro de la implementación de Assets Essentials. Todos los recursos de la carpeta, incluidos los de las subcarpetas, muestran las propiedades definidas en el formulario de metadatos asignado.
+
+![asignar formulario de metadatos a una carpeta](/help/using/assets/assign-to-folder.png)
+
+**Importación masiva de recursos desde fuentes de datos**
+
+Ahora los administradores tienen la capacidad de importar un gran número de archivos de una fuente de datos a AEM Assets. Los administradores ya no tienen que cargar archivos o carpetas individuales a AEM Assets. Las fuentes de datos admitidas para la importación masiva son Azure, AWS, Google Cloud y Dropbox.
+
+![Importación masiva de recursos desde una fuente de datos](/help/using/assets/bulk-import.png)
+
+**Herramientas de edición de imágenes con tecnología de Adobe Express**
+
+Herramientas de edición de imágenes sencillas e intuitivas con tecnología Adobe Express disponibles directamente en AEM Assets para aumentar la reutilización de contenidos y acelerar la velocidad del contenido.
+
+![Edición de imágenes con Adobe Express](/help/using/assets/edit-adobe-express.png)
+
+**Flexibilidad al fijar elementos para el acceso rápido de Mi espacio de trabajo**
+
+Capacidad para seleccionar y fijar elementos para usted, para toda su organización o para una lista de grupos, de modo que aparezcan en la sección Acceso rápido de Mi espacio de trabajo en función de su selección.
+
+![Fijar elementos para grupos](assets/pin-items-for-groups.png)
+
 
 ### Versión de julio de 2023 {#july2023-release}
 
