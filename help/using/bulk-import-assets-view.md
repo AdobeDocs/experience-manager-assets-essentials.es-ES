@@ -2,10 +2,10 @@
 title: Importación masiva de recursos mediante Assets Essentials
 description: Obtenga información sobre cómo importar recursos de forma masiva mediante la nueva interfaz de usuario de Assets (Assets Essentials). Permite a los administradores importar un gran número de recursos desde una fuente de datos a AEM Assets.
 exl-id: 5f5fc15e-959b-48b6-834a-42b213512b49
-source-git-commit: cadb29953741e80fdd5d70810923ed9baa8e0f24
+source-git-commit: 8a52d79ecd1ce8fdafd181e0f9b166e8d827c665
 workflow-type: tm+mt
-source-wordcount: '1812'
-ht-degree: 54%
+source-wordcount: '1809'
+ht-degree: 55%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 54%
 >[!CONTEXTUALHELP]
 >id="assets_bulk_import"
 >title="Importación de recursos por lotes"
->abstract="Los administradores tienen la capacidad de importar un gran número de recursos desde un origen de datos a Experience Manager Assets mediante Assets Essentials. Los administradores ya no tienen que cargar archivos o carpetas individuales a Experience Manager Assets. Los proveedores de almacenamiento en la nube admitidos para la importación por lotes son Azure, AWS, Google Cloud y Dropbox."
+>abstract="Los administradores pueden importar un gran número de recursos desde un origen de datos a Experience Manager Assets mediante Assets Essentials. Los administradores ya no tienen que cargar archivos o carpetas individuales a Experience Manager Assets. Los proveedores de almacenamiento en la nube admitidos para la importación por lotes son Azure, AWS, Google Cloud y Dropbox."
 >additional-url="https://images-tv.adobe.com/mpcv3/4477/98bce651-721c-442e-98b8-c43e7708e44c_1698834577.854x480at800_h264.mp4" text="Ver vídeo"
 
 La importación masiva en AEM Assets Essentials permite a los administradores importar un gran número de recursos desde un origen de datos a AEM Assets. Los administradores ya no tienen que cargar archivos o carpetas individuales en Experience Manager Assets.
