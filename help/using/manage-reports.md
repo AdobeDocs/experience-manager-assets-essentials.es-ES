@@ -2,19 +2,14 @@
 title: Administración de informes en Assets Essentials
 description: Acceda a los datos de la sección de informes de Assets Essentials para evaluar el uso de productos y funciones y obtener perspectivas sobre las métricas de éxito clave.
 exl-id: c7155459-05d9-4a95-a91f-a1fa6ae9d9a4
-source-git-commit: 7bda2024fd9e9d2ad05ccffccf76a51b16a113fa
+source-git-commit: 43ecb9862b6553ffd34cf1e116eb018505eff28e
 workflow-type: tm+mt
-source-wordcount: '839'
-ht-degree: 100%
+source-wordcount: '827'
+ht-degree: 95%
 
 ---
 
 # Administrar informes {#manage-reports}
-
->[!CONTEXTUALHELP]
->id="assets_reports"
->title="Informes"
->abstract="Los informes de recursos proporcionan a los administradores visibilidad de la actividad del entorno de Adobe Experience Manager Assets Essentials. Estos datos proporcionan información útil sobre cómo los usuarios interactúan con el contenido y el producto. Cualquier persona usuaria puede acceder al panel de Insights. Además, las personas asignadas al perfil de producto del rol de administrador pueden crear informes definidos por el usuario."
 
 Los informes de recursos proporcionan a los administradores visibilidad de la actividad del entorno de Adobe Experience Manager Assets Essentials. Estos datos proporcionan información útil sobre cómo los usuarios interactúan con el contenido y el producto. Cualquier persona usuaria puede acceder al panel de Insights. Además, las personas asignadas al perfil de producto del rol de administrador pueden crear informes definidos por el usuario.
 
@@ -23,6 +18,11 @@ Los informes de recursos proporcionan a los administradores visibilidad de la ac
 Todos los usuarios asignados al [Perfil de producto de los administradores de Assets Essentials](deploy-administer.md) pueden acceder al tablero de Insights activas o crear informes definidos por el usuario en Assets Essentials.
 
 ## Ver Insights {#view-live-statistics}
+
+>[!CONTEXTUALHELP]
+>id="assets_reports"
+>title="Informes"
+>abstract="El panel de información le permite ver las métricas de eventos en tiempo real de su entorno de Experience Manager Assets durante los últimos 30 días o 12 meses. La lista de eventos incluye el número de descargas, cargas, búsquedas principales, etc."
 
 Assets Essentials le permite ver datos en tiempo real de su entorno de Assets Essentials con el tablero de Insights. Puede ver las métricas de eventos en tiempo real durante los últimos 30 días o 12 meses.
 
