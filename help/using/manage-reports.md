@@ -2,10 +2,10 @@
 title: Administración de informes en Assets Essentials
 description: Acceda a los datos de la sección de informes de Assets Essentials para evaluar el uso de productos y funciones y obtener perspectivas sobre las métricas de éxito clave.
 exl-id: c7155459-05d9-4a95-a91f-a1fa6ae9d9a4
-source-git-commit: 43ecb9862b6553ffd34cf1e116eb018505eff28e
+source-git-commit: aee57f5a83bfa5a292e9c0c50e2cb00499dbb08c
 workflow-type: tm+mt
-source-wordcount: '827'
-ht-degree: 95%
+source-wordcount: '916'
+ht-degree: 90%
 
 ---
 
@@ -17,7 +17,21 @@ Los informes de recursos proporcionan a los administradores visibilidad de la ac
 
 Todos los usuarios asignados al [Perfil de producto de los administradores de Assets Essentials](deploy-administer.md) pueden acceder al tablero de Insights activas o crear informes definidos por el usuario en Assets Essentials.
 
-## Ver Insights {#view-live-statistics}
+Para acceder a los informes, vaya a **[!UICONTROL Informes]** bajo **[!UICONTROL Configuración]**.
+
+![Informes](assets/reports.png)
+<!--
+In the **[!UICONTROL Reports]** screen, various components are shown in the tabular format which includes the following:
+
+* **Title**: Title of the report
+* **Type**: Determines whether the report is uploaded or downloaded to the repository
+* **Description**: Provide details of the report that was given during uploading/downloading the report
+* **Status**: Determines whether the report is completed, under progress, or deleted.
+* **Author**: Provides email of the author who has uploaded/downloaded the report.
+* **Created**: Gives information of the date when the report was generated.
+-->
+
+## Vista Insights {#view-live-statistics}
 
 >[!CONTEXTUALHELP]
 >id="assets_reports"
@@ -34,13 +48,18 @@ Haga clic en **[!UICONTROL Insights]** en el panel de navegación izquierdo para
 
 * **Cargas**: el número de activos cargados en el entorno de Assets Essentials en los últimos 30 días o 12 meses representados mediante un gráfico de líneas.
 
+* **Recuento de recursos por tamaño**: la división del recuento de recursos en función de su rango de varios tamaños desde 0 MB hasta 100 GB.
+
+* **Uso de almacenamiento**: el uso del almacenamiento, en bytes, para el entorno de Assets Essentials representado mediante un gráfico de barras, según la facilidad de uso.
+
+  ![Almacenamiento](assets/storage.png)
+
+
+* **Envío**: el gráfico muestra el recuento de recursos como las fechas de envío.
+
+* **Recuento de recursos por tipo de recurso**: Representa el recuento de varios tipos MIME de los recursos disponibles. Por ejemplo, application/zip, image/png, video/mp4, application/postscript.
+
 * **Búsquedas principales**: vea los términos más buscados junto con el número de veces que se buscan en su entorno de Assets Essentials en los últimos 30 días o 12 meses representados en un formato tabular.
-
-<!--
-
-* **Storage usage**: The storage usage, in gigabytes (GB), for the Assets Essentials environment, for the last 30 days or 12 months represented using a bar chart.
-
--->
 
 ## Creación de un informe de descarga {#create-download-report}
 
