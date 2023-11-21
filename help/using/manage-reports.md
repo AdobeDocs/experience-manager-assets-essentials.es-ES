@@ -2,9 +2,9 @@
 title: Administración de informes en Assets Essentials
 description: Acceda a los datos de la sección de informes de Assets Essentials para evaluar el uso de productos y funciones y obtener perspectivas sobre las métricas de éxito clave.
 exl-id: c7155459-05d9-4a95-a91f-a1fa6ae9d9a4
-source-git-commit: aee57f5a83bfa5a292e9c0c50e2cb00499dbb08c
+source-git-commit: 37a0692c47d4fa14e9c2582a34000ec8bf975692
 workflow-type: tm+mt
-source-wordcount: '916'
+source-wordcount: '910'
 ht-degree: 90%
 
 ---
@@ -40,7 +40,7 @@ In the **[!UICONTROL Reports]** screen, various components are shown in the tabu
 
 Assets Essentials le permite ver datos en tiempo real de su entorno de Assets Essentials con el tablero de Insights. Puede ver las métricas de eventos en tiempo real durante los últimos 30 días o 12 meses.
 
-![Opciones de la barra de herramientas al seleccionar un recurso](assets/assets-essentials-live-statistics.png)
+<!--![Toolbar options when you select an asset](assets/assets-essentials-live-statistics.png)-->
 
 Haga clic en **[!UICONTROL Insights]** en el panel de navegación izquierdo para ver los siguientes gráficos generados automáticamente:
 
@@ -52,7 +52,7 @@ Haga clic en **[!UICONTROL Insights]** en el panel de navegación izquierdo para
 
 * **Uso de almacenamiento**: el uso del almacenamiento, en bytes, para el entorno de Assets Essentials representado mediante un gráfico de barras, según la facilidad de uso.
 
-  ![Almacenamiento](assets/storage.png)
+  <!--![Storage](assets/storage.png)-->
 
 
 * **Envío**: el gráfico muestra el recuento de recursos como las fechas de envío.
@@ -60,6 +60,9 @@ Haga clic en **[!UICONTROL Insights]** en el panel de navegación izquierdo para
 * **Recuento de recursos por tipo de recurso**: Representa el recuento de varios tipos MIME de los recursos disponibles. Por ejemplo, application/zip, image/png, video/mp4, application/postscript.
 
 * **Búsquedas principales**: vea los términos más buscados junto con el número de veces que se buscan en su entorno de Assets Essentials en los últimos 30 días o 12 meses representados en un formato tabular.
+
+  ![Perspectivas](assets/insights1.png)
+  ![Perspectivas](assets/insights2.png)
 
 ## Creación de un informe de descarga {#create-download-report}
 
