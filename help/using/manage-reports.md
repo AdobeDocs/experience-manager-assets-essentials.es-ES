@@ -2,10 +2,10 @@
 title: Administración de informes en Assets Essentials
 description: Acceda a los datos de la sección de informes de Assets Essentials para evaluar el uso de productos y funciones y obtener perspectivas sobre las métricas de éxito clave.
 exl-id: c7155459-05d9-4a95-a91f-a1fa6ae9d9a4
-source-git-commit: 37a0692c47d4fa14e9c2582a34000ec8bf975692
+source-git-commit: b065a56bbd0ce86bc9dd6ac568364de30d77be4e
 workflow-type: tm+mt
-source-wordcount: '910'
-ht-degree: 90%
+source-wordcount: '850'
+ht-degree: 96%
 
 ---
 
@@ -48,21 +48,23 @@ Haga clic en **[!UICONTROL Insights]** en el panel de navegación izquierdo para
 
 * **Cargas**: el número de activos cargados en el entorno de Assets Essentials en los últimos 30 días o 12 meses representados mediante un gráfico de líneas.
 
-* **Recuento de recursos por tamaño**: la división del recuento de recursos en función de su rango de varios tamaños desde 0 MB hasta 100 GB.
+<!--* **Asset Count by Size**: The division of count of assets based on their range of various sizes from 0 MB to 100 GB.-->
 
 * **Uso de almacenamiento**: el uso del almacenamiento, en bytes, para el entorno de Assets Essentials representado mediante un gráfico de barras, según la facilidad de uso.
 
   <!--![Storage](assets/storage.png)-->
 
 
-* **Envío**: el gráfico muestra el recuento de recursos como las fechas de envío.
+<!--* **Delivery**: The graph depicts the count of assets as the delivery dates.-->
 
-* **Recuento de recursos por tipo de recurso**: Representa el recuento de varios tipos MIME de los recursos disponibles. Por ejemplo, application/zip, image/png, video/mp4, application/postscript.
+<!--* **Asset Count by Asset Type**: Represents count of various MIME types of the available assets. For example, application/zip, image/png, video/mp4, application/postscripte.-->
 
 * **Búsquedas principales**: vea los términos más buscados junto con el número de veces que se buscan en su entorno de Assets Essentials en los últimos 30 días o 12 meses representados en un formato tabular.
 
-  ![Perspectivas](assets/insights1.png)
-  ![Perspectivas](assets/insights2.png)
+  <!--
+   ![Insights](assets/insights1.png)
+   ![Insights](assets/insights2.png)
+   -->
 
 ## Creación de un informe de descarga {#create-download-report}
 
