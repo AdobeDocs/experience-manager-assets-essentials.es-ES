@@ -2,9 +2,9 @@
 title: Administración de informes en Assets Essentials
 description: Acceda a los datos de la sección de informes de Assets Essentials para evaluar el uso de productos y funciones y obtener perspectivas sobre las métricas de éxito clave.
 exl-id: c7155459-05d9-4a95-a91f-a1fa6ae9d9a4
-source-git-commit: b065a56bbd0ce86bc9dd6ac568364de30d77be4e
+source-git-commit: cf5cba28d20d1633566881a7f651da6bcaa48c7b
 workflow-type: tm+mt
-source-wordcount: '850'
+source-wordcount: '851'
 ht-degree: 96%
 
 ---
@@ -52,16 +52,15 @@ Haga clic en **[!UICONTROL Insights]** en el panel de navegación izquierdo para
 
 * **Uso de almacenamiento**: el uso del almacenamiento, en bytes, para el entorno de Assets Essentials representado mediante un gráfico de barras, según la facilidad de uso.
 
-  <!--![Storage](assets/storage.png)-->
-
-
 <!--* **Delivery**: The graph depicts the count of assets as the delivery dates.-->
 
 <!--* **Asset Count by Asset Type**: Represents count of various MIME types of the available assets. For example, application/zip, image/png, video/mp4, application/postscripte.-->
 
 * **Búsquedas principales**: vea los términos más buscados junto con el número de veces que se buscan en su entorno de Assets Essentials en los últimos 30 días o 12 meses representados en un formato tabular.
 
-  <!--
+![Perspectivas](assets/insights.png)
+
+<!--
    ![Insights](assets/insights1.png)
    ![Insights](assets/insights2.png)
    -->
