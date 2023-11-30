@@ -3,18 +3,18 @@ title: Edición de imágenes
 description: Edite imágenes mediante opciones que se sirven de [!DNL Adobe Photoshop Express] y guarde imágenes actualizadas como versiones.
 role: User
 exl-id: fc21a6ee-bf23-4dbf-86b0-74695a315b2a
-source-git-commit: 701da4ddf9dcadb9e8ad3070877788344d0210fc
+source-git-commit: 57968009bc23c2c7a57fd0faf643055832707618
 workflow-type: tm+mt
-source-wordcount: '908'
-ht-degree: 54%
+source-wordcount: '1170'
+ht-degree: 75%
 
 ---
 
 # Edición de imágenes en [!DNL Assets Essentials] {#edit-images}
 
-[!DNL Assets Essentials] proporciona opciones de edición fáciles de usar que se sirven de [!DNL Adobe Express] y [!DNL Adobe Photoshop Express]. Las acciones de edición disponibles mediante [!DNL Adobe Express] son Cambiar tamaño de imagen, Quitar fondo, Recortar imagen y Convertir JPEG en PNG.
+[!DNL Assets Essentials] ofrece opciones de edición fáciles de usar y potenciadas por [!DNL Adobe Express] y [!DNL Adobe Photoshop Express]. Las acciones de edición disponibles mediante [!DNL Adobe Express] son Cambiar tamaño de imagen, Quitar fondo, Recortar imagen y Convertir JPEG en PNG.
 
-Después de editar una imagen, puede guardar la nueva como una nueva versión. El uso de versiones le ayuda a volver al recurso original más adelante, si es necesario. Para editar una imagen, [abrir su previsualización](/help/using/navigate-view.md#preview-assets) y haga clic en **[!UICONTROL Editar imagen]**.
+Después de editar una imagen, puede guardar la nueva como una nueva versión. El uso de versiones le ayuda a volver al recurso original más adelante, si es necesario. Para editar una imagen, [abra su previsualización](/help/using/navigate-view.md#preview-assets) y haga clic en **[!UICONTROL Editar imagen]**.
 
 >[!NOTE]
 >
@@ -22,55 +22,55 @@ Después de editar una imagen, puede guardar la nueva como una nueva versión. E
 
 <!--The editing actions that are available are Spot healing, Crop and straighten, Resize image, and Adjust image.-->
 
-## Edición de imágenes mediante el Adobe Express {#edit-using-express}
+## Edición de imágenes mediante Adobe Express {#edit-using-express}
 
 >[!CONTEXTUALHELP]
 >id="assets_express_integration"
 >title="Integración de Adobe Express"
->abstract="Herramientas de edición de imágenes sencillas e intuitivas con tecnología Adobe Express disponibles directamente en AEM Assets para aumentar la reutilización de contenidos y acelerar la velocidad del contenido."
+>abstract="Herramientas de edición de imágenes sencillas e intuitivas con tecnología de Adobe Express disponibles directamente en AEM Assets para aumentar la reutilización del contenido y acelerar la velocidad de contenido."
 
 ### Cambiar tamaño de imagen {#resize-image-using-express}
 
-Cambiar el tamaño de una imagen a un tamaño específico es un caso de uso popular. [!DNL Assets Essentials] le permite cambiar rápidamente el tamaño de la imagen para adaptarla a los tamaños de foto comunes, ya que proporciona nuevas resoluciones calculadas previamente para tamaños de foto específicos. Para cambiar el tamaño de la imagen mediante [!DNL Assets Essentials], siga los pasos a continuación:
+Cambiar el tamaño de una imagen a un tamaño específico es un caso de uso popular. [!DNL Assets Essentials] le permite cambiar rápidamente el tamaño de la imagen para adaptarla a los tamaños de foto comunes, ya que proporciona nuevas resoluciones calculadas previamente para tamaños de foto específicos. Para cambiar el tamaño de la imagen mediante [!DNL Assets Essentials], siga estos pasos:
 
 1. Seleccione una imagen y haga clic en **Editar**.
-2. Clic **[!UICONTROL Redimensionar imagen]** de las acciones rápidas disponibles en el panel izquierdo.
-3. Seleccione la plataforma de medios sociales adecuada en el **[!UICONTROL Cambiar tamaño para]** y seleccione el tamaño de la imagen en las opciones que se muestran.
-4. Escale la imagen, si es necesario, utilizando **[!UICONTROL Escala de imagen]** field.
-5. Clic **[!UICONTROL Aplicar]** para aplicar los cambios.
+2. Haga clic en **[!UICONTROL Redimensionar imagen]** en las acciones rápidas disponibles en el panel izquierdo.
+3. Seleccione la plataforma de medios sociales adecuada en la lista desplegable **[!UICONTROL Cambiar tamaño para]** y el tamaño de la imagen en las opciones que se muestran.
+4. Escale la imagen, si es necesario, utilizando el campo **[!UICONTROL Escala de imagen]**.
+5. Haga clic en **[!UICONTROL Aplicar]** para que tengan efecto los cambios.
    ![Edición de imágenes con Adobe Express](/help/using/assets/adobe-express-resize-image.png)
 
-   La imagen editada está disponible para descargar. Puede guardar el recurso editado como una nueva versión del mismo recurso o guardarlo como un nuevo recurso.
-   ![Guardar imagen con el Adobe Express](/help/using/assets/adobe-express-resize-save.png)
+   La imagen editada está disponible para descargar. Puede guardar el recurso editado como una nueva versión del mismo recurso o guardarlo como uno nuevo.
+   ![Guardar imagen con Adobe Express](/help/using/assets/adobe-express-resize-save.png)
 
 ### Quitar fondo {#remove-background-using-express}
 
-Puede quitar el fondo de una imagen siguiendo unos sencillos pasos, como se indica a continuación:
+Puede quitar el fondo de una imagen siguiendo unos sencillos pasos, tal como se indica a continuación:
 
 1. Seleccione una imagen y haga clic en **Editar**.
-2. Clic **[!UICONTROL Quitar fondo]** de las acciones rápidas disponibles en el panel izquierdo. Experience Manager Assets muestra la imagen sin fondo.
-3. Clic **[!UICONTROL Aplicar]** para aplicar los cambios.
-   ![Guardar imagen con el Adobe Express](/help/using/assets/adobe-express-remove-background.png)
+2. Haga clic en **[!UICONTROL Quitar fondo]** en las acciones rápidas disponibles en el panel izquierdo. Experience Manager Assets muestra la imagen sin fondo.
+3. Haga clic en **[!UICONTROL Aplicar]** para que tengan efecto los cambios.
+   ![Guardar imagen con Adobe Express](/help/using/assets/adobe-express-remove-background.png)
 
-   La imagen editada está disponible para descargar. Puede guardar el recurso editado como una nueva versión del mismo recurso o guardarlo como un nuevo recurso.
+   La imagen editada está disponible para descargar. Puede guardar el recurso editado como una nueva versión del mismo recurso o guardarlo como uno nuevo.
 
 ### Recortar imagen {#crop-image-using-express}
 
-Transformar una imagen en un tamaño perfecto es fácil gracias al uso de funciones integradas [!DNL Adobe Express] acciones rápidas.
+Transforme una imagen en un tamaño perfecto es fácil gracias al uso de las acciones integradas rápidas de [!DNL Adobe Express].
 
 1. Seleccione una imagen y haga clic en **Editar**.
-2. Clic **[!UICONTROL Recortar imagen]** de las acciones rápidas disponibles en el panel izquierdo.
-3. Arrastre los controladores de las esquinas de la imagen para crear el recorte deseado.
+2. Haga clic en **[!UICONTROL Recortar imagen]** en las acciones rápidas disponibles en el panel izquierdo.
+3. Arrastre los identificadores de las esquinas de la imagen para crear el recorte deseado.
 4. Haga clic en **[!UICONTROL Aplicar]**.
-   ![Guardar imagen con el Adobe Express](/help/using/assets/adobe-express-crop-image.png)
-La imagen recortada está disponible para descargar. Puede guardar el recurso editado como una nueva versión del mismo recurso o guardarlo como un nuevo recurso.
+   ![Guardar imagen con Adobe Express](/help/using/assets/adobe-express-crop-image.png)
+La imagen recortada está disponible para descargar. Puede guardar el recurso editado como una nueva versión del mismo recurso o guardarlo como uno nuevo.
 
 ### Convertir JPEG a PNG {#convert-jpeg-to-png-using-express}
 
-Puede convertir rápidamente una imagen de JPEG a un formato PNG con el Adobe Express. Siga estos pasos:
+Puede convertir rápidamente una imagen JPEG a un formato PNG mediante Adobe Express. Siga estos pasos:
 
 1. Seleccione una imagen y haga clic en **Editar**.
-2. Clic **[!UICONTROL JPEG a PNG]** de las acciones rápidas disponibles en el panel izquierdo.
+2. Haga clic en **[!UICONTROL JPEG a PNG]** en las acciones rápidas disponibles del panel izquierdo.
    ![Convertir a PNG con Adobe Express](/help/using/assets/adobe-express-convert-image.png)
 3. Haga clic en **[!UICONTROL Descargar]**.
 
@@ -78,7 +78,37 @@ Puede convertir rápidamente una imagen de JPEG a un formato PNG con el Adobe Ex
 
 * Resolución de imagen admitida: mínimo: 50 píxeles, máximo: 6000 píxeles por dimensión
 
-* Tamaño máximo de archivo admitido: 17 MB
+* Tamaño máximo de archivo: 17 MB
+
+## Edición de imágenes con el editor incrustado de Adobe Express {#edit-using-embedded-editor}
+
+[!DNL Assets Essentials] proporciona una edición completa de las imágenes directamente desde el repositorio de recursos. El editor integrado permite editar una imagen de forma fácil e intuitiva mediante [!DNL Adobe Express]. Acelera la reutilización de los recursos mediante el uso de plantillas o la modificación de los recursos existentes. Puede utilizar elementos predefinidos para que su recurso tenga un aspecto impresionante o realizar acciones rápidas para editar la imagen con solo unos clics.
+
+Para editar imágenes con [!DNL Adobe Express] editor incrustado, siga los pasos a continuación:
+
+1. Seleccione una imagen de su [!DNL Experience Manager] Repositorio de recursos.
+1. Clic **[!UICONTROL Abrir en Adobe Express]**. [!DNL Adobe Express] aparece la pantalla.
+
+   ![editor incrustado de Adobe Express](assets/embedded-editor.png)
+
+   Puede aprovechar la funcionalidad de [!DNL Adobe Express] para realizar todas las acciones relacionadas con la edición de imágenes, como [redimensionar imagen](https://helpx.adobe.com/in/express/using/resize-image.html), [quitar o cambiar el color de fondo](https://helpx.adobe.com/in/express/using/remove-background.html), [recortar imagen](https://helpx.adobe.com/in/express/using/crop-image.html), y mucho más.
+
+1. Una vez completada la edición de imágenes, puede descargar un recurso como nuevo o guardarlo como una nueva versión.
+
+## Crear nuevo recurso con el Adobe Express {#create-new-embedded-editor}
+
+[!DNL Assets Essentials] proporciona funcionalidad para crear una nueva plantilla desde cero mediante [!DNL Adobe Express] editor incrustado. Para crear un nuevo recurso con [!DNL Adobe Expresss], ejecute los pasos siguientes:
+
+1. Vaya a **[!UICONTROL Mi espacio de trabajo]** y haga clic en **[!UICONTROL Crear]**. [!DNL Adobe Express] el lienzo en blanco se muestra dentro de [!DNL Assets Essentials] interfaz de usuario.
+1. Cree su contenido con [Plantillas](https://helpx.adobe.com/in/express/using/work-with-templates.html). En caso contrario, vaya a **[!UICONTROL Sus cosas]** para modificar contenido existente.
+1. Una vez finalizada la edición, haga clic en **[!UICONTROL Guardar como nuevo recurso]**.
+1. Especifique la ruta de destino del recurso creado.
+
+>[!NOTE]
+>
+>* Solo puede modificar `JPEG` y `PNG` formatos.
+>* El tamaño del recurso debe ser inferior a 14 MB.
+>* Puede guardar una imagen como `PDF`, `JPEG`, o `PNG` formatos.
 
 ## Edición de imágenes mediante [!DNL Adobe Photoshop Express] {#edit-using-photoshop-express}
 
