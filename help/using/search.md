@@ -3,10 +3,10 @@ title: Búsqueda y descubrimiento de recursos en [!DNL Assets Essentials]
 description: Busque y descubra recursos en [!DNL Assets Essentials].
 role: User
 exl-id: be9597a3-056c-436c-a09e-15a03567c85a
-source-git-commit: 8a52d79ecd1ce8fdafd181e0f9b166e8d827c665
+source-git-commit: 2a885eb87d29be19f2e1206fe44e592137e43fe2
 workflow-type: tm+mt
-source-wordcount: '1041'
-ht-degree: 100%
+source-wordcount: '1303'
+ht-degree: 76%
 
 ---
 
@@ -56,7 +56,7 @@ Puede ordenar los recursos buscados en orden creciente o descendente de `Name`, 
 
 **Permisos necesarios:**  `Can Edit`, `Owner` o Administrador.
 
-Assets Essentials también permite agregar filtros personalizados a la interfaz de usuario. A continuación, puede aplicar esos filtros personalizados además de los [filtros estándar](#refine-search-results) para restringir los resultados de búsqueda.
+Los Assets Essentials también permiten agregar filtros personalizados a la interfaz de usuario. A continuación, puede aplicar esos filtros personalizados además de los [filtros estándar](#refine-search-results) para restringir los resultados de búsqueda.
 
 Assets Essentials proporciona los siguientes filtros personalizados:
 
@@ -123,7 +123,7 @@ Para eliminar filtros personalizados:
 
 ## Búsquedas guardadas {#saved-search}
 
-La funcionalidad de búsqueda es bastante fácil de usar en [!DNL Assets Essentials]. Desde el cuadro de búsqueda, no solo puede escribir una palabra clave y pulsar la tecla Intro para ver los resultados, sino que también puede buscar rápidamente de nuevo las palabras clave consultadas recientemente con un solo clic.
+La funcionalidad de búsqueda es bastante fácil de usar en [!DNL Assets Essentials]. Desde el cuadro de búsqueda, no solo puede escribir una palabra clave y pulsar Intro para ver los resultados, sino que también puede buscar rápidamente de nuevo las palabras clave buscadas recientemente con un solo clic.
 
 También puede filtrar los resultados de búsqueda según criterios específicos en torno a los metadatos y el tipo de recursos. Para los filtros utilizados con frecuencia, a fin de mejorar la experiencia de búsqueda, [!DNL Assets Essentials] permite guardar los parámetros de búsqueda. A continuación, puede seleccionar la búsqueda guardada para buscar y aplicar el filtro con un solo clic.
 
@@ -169,6 +169,39 @@ Puede seleccionar los recursos que se muestran en los resultados de búsqueda y 
 * **Mostrar ubicación del archivo**: ir a la ubicación de la carpeta de recursos.
 
 * **Fijar en Acceso rápido**: [fijar un recurso](my-workspace.md) para un acceso más rápido cuando lo necesite más tarde. Todos los elementos fijados se muestran en la sección **Acceso rápido** de Mi espacio de trabajo.
+
+## Configurar la primera página de inicio de búsqueda {#configuring-search-first-homepage}
+
+La primera página de inicio de búsqueda le permite navegar por varios archivos y carpetas al instante. Permite navegar sin esfuerzo por los tipos de recursos, los metadatos, las etiquetas inteligentes e incluso el propio contenido sin saber la palabra clave exacta. [!DNL Assets Essentials] le permite configurar su página de inicio controlando lo que debería aparecer al iniciar sesión en [!DNL Assets Essentials].
+
+Para configurar la primera página de inicio de búsqueda, ejecute los pasos a continuación:
+
+1. Vaya a **[!UICONTROL Configuración]** > **[!UICONTROL Configuración general]**.
+1. Seleccionar **[!UICONTROL Buscar primero]**. Además, abre la configuración relacionada con la búsqueda primero. Puede establecer [alineación](#setting-alignment-search-bar) o [establecer imagen de fondo y logotipo](#setting-background-image-and-logo) de su página de inicio.
+
+### Establecer la alineación de la barra de búsqueda {#setting-alignment-search-bar}
+
+[!DNL Assets Essentials] permite cambiar la alineación de la barra de búsqueda. Puede hacer que la barra de búsqueda aparezca en el centro o en la parte superior. Seleccione la alineación adecuada y haga clic en **[!UICONTROL Guardar]**.
+
+![Buscar primera alineación de página principal](assets/search-first-alignment.png)
+
+### Estableciendo imagen de fondo y logotipo de la página principal {#setting-background-image-and-logo}
+
+Puede agregar el logotipo de la marca y la imagen de fondo a la primera página de inicio de búsqueda. Siga estos pasos:
+
+1. Vaya a **[!UICONTROL Imagen de fondo y logotipo]** sección debajo de **[!UICONTROL Homepage]**.
+1. Clic **[!UICONTROL Reemplazar]** para examinar imágenes de un repositorio de recursos existente.
+1. Haga clic en **[!UICONTROL Guardar]**. [Previsualizar](#preview-configured-homepage) los cambios para revisar las modificaciones.
+
+### Previsualizar página principal configurada {#preview-configured-homepage}
+
+Puede obtener una vista previa para comprobar el diseño y el formato de la primera página de inicio de búsqueda. Uso de **[!UICONTROL Previsualizar]**, puede corregir el diseño o realizar modificaciones según sea necesario. Para obtener una vista previa de la página principal configurada, ejecute los pasos siguientes:
+
+1. Clic **[!UICONTROL Configuración general]** y seleccione **[!UICONTROL Buscar primero]**.
+1. Vaya a **[!UICONTROL Personalizar la primera página de inicio de búsqueda]** y haga clic en **[!UICONTROL Previsualizar]**. Alternar entre **[!UICONTROL Tema oscuro]** para obtener una vista previa de la página principal en un tema oscuro o claro.
+1. Clic **[!UICONTROL Cerrar]** para cerrar la pantalla de vista previa.
+
+   ![Buscar la primera previsualización de página principal](assets/search-first-preview.gif)
 
 ## Siguientes pasos {#next-steps}
 
