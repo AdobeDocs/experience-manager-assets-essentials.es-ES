@@ -3,10 +3,10 @@ title: Búsqueda y descubrimiento de recursos en [!DNL Assets Essentials]
 description: Busque y descubra recursos en [!DNL Assets Essentials].
 role: User
 exl-id: be9597a3-056c-436c-a09e-15a03567c85a
-source-git-commit: 2a885eb87d29be19f2e1206fe44e592137e43fe2
+source-git-commit: dee5bde4837795b800fad6307d18914ed4c90af9
 workflow-type: tm+mt
-source-wordcount: '1303'
-ht-degree: 76%
+source-wordcount: '1295'
+ht-degree: 77%
 
 ---
 
@@ -172,7 +172,7 @@ Puede seleccionar los recursos que se muestran en los resultados de búsqueda y 
 
 ## Configurar la primera página de inicio de búsqueda {#configuring-search-first-homepage}
 
-La primera página de inicio de búsqueda le permite navegar por varios archivos y carpetas al instante. Permite navegar sin esfuerzo por los tipos de recursos, los metadatos, las etiquetas inteligentes e incluso el propio contenido sin saber la palabra clave exacta. [!DNL Assets Essentials] le permite configurar su página de inicio controlando lo que debería aparecer al iniciar sesión en [!DNL Assets Essentials].
+Assets Essentials le permite seleccionar la página de aterrizaje predeterminada para su organización. Al utilizar Buscar primero como página principal, también tiene opciones para adaptar la marca de la página configurando las imágenes de fondo y del logotipo para que coincidan con su marca.
 
 Para configurar la primera página de inicio de búsqueda, ejecute los pasos a continuación:
 
