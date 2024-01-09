@@ -4,7 +4,7 @@ description: Acceda a los datos de la sección de informes de Assets Essentials 
 exl-id: c7155459-05d9-4a95-a91f-a1fa6ae9d9a4
 source-git-commit: b24113299b5f8d32b3c4aef453923b23dc775228
 workflow-type: tm+mt
-source-wordcount: '847'
+source-wordcount: '857'
 ht-degree: 97%
 
 ---

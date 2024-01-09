@@ -4,7 +4,7 @@ description: Obtenga información sobre cómo importar recursos de forma masiva 
 exl-id: 5f5fc15e-959b-48b6-834a-42b213512b49
 source-git-commit: 8a52d79ecd1ce8fdafd181e0f9b166e8d827c665
 workflow-type: tm+mt
-source-wordcount: '1809'
+source-wordcount: '1772'
 ht-degree: 57%
 
 ---
