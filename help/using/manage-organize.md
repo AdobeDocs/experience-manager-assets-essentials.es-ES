@@ -4,10 +4,10 @@ description: Mueva, elimine, copie, cambie de nombre, actualice y convierta en v
 role: User,Leader
 contentOwner: AG
 exl-id: b01e98b9-0cc2-47c5-9f5b-79b8e6bef39f
-source-git-commit: e13e204482e480b3a66b48263e965787bd980842
+source-git-commit: 638d1cef41c5cde1f4f16e231eef5852d779b7e1
 workflow-type: tm+mt
-source-wordcount: '1026'
-ht-degree: 100%
+source-wordcount: '1152'
+ht-degree: 90%
 
 ---
 
@@ -17,19 +17,43 @@ Puede realizar varias tareas de administración de activos digitales (DAM) fáci
 
 Use [!DNL Assets Essentials] para llevar a cabo las siguientes tareas de administración de recursos. Al seleccionar un recurso, aparecen las siguientes opciones en la barra de herramientas de la parte superior.
 
-![Opciones de la barra de herramientas al seleccionar un recurso](assets/toolbar-image-selected.png)
+![Opciones de la barra de herramientas al seleccionar un recurso](assets/asset-options.png)
 
 *Imagen: opciones disponibles en la barra de herramientas de una imagen seleccionada.*
 
+Puede seleccionar los recursos que se muestran en los resultados de búsqueda y realizar las acciones siguientes:
+
 * ![icono de anular selección](assets/do-not-localize/close-icon.png) Anule la selección.
+
+* ![buscar icono similar](assets/do-not-localize/find-similar.svg) Busque un recurso de imagen similar en la interfaz de usuario de Assets en función de los metadatos y las etiquetas inteligentes.
+
 * ![icono de detalles](assets/do-not-localize/edit-in-icon.png) Haga clic para previsualizar un recurso y ver los metadatos detallados. Al previsualizar, puede ver las versiones y editar una imagen.
+
 * ![icono de descarga](assets/do-not-localize/download-icon.png) Descargue el recurso seleccionado en el sistema de archivos local.
+
+* ![añadir icono de colección](assets/do-not-localize/add-collection.svg) Agregar el recurso seleccionado a una colección.
+
+* ![Icono de anclar recursos](assets/do-not-localize/pin-quick-access.svg) Ancle un recurso para acceder más rápido cuando lo necesite más tarde. Todos los elementos fijados se muestran en la sección **Acceso rápido** de Mi espacio de trabajo.
+
+* ![editar en icono exprés](assets/do-not-localize/edit-e.svg) Edite una imagen en el Adobe Express integrado en Adobe Experience Manager Assets.
+
+* ![editar icono de recurso](assets/do-not-localize/edit-e.svg) Edite la imagen con el Adobe Express.
+
+* ![compartir icono de vínculo de recurso](assets/do-not-localize/share-link.svg) para un recurso con otros usuarios para que puedan acceder y descargarlo.
+
 * ![icono de eliminación](assets/do-not-localize/delete-icon.png) Elimine el recurso o la carpeta seleccionados.
-* ![icono de cierre de compra](assets/do-not-localize/checkout-icon.png) Cierre el recurso seleccionado.
+
 * ![icono de copia](assets/do-not-localize/copy-icon.png) Copie el archivo o la carpeta seleccionados.
+
 * ![icono de movimiento](assets/do-not-localize/move-icon.png) Mueva el recurso o la carpeta seleccionados a una ubicación diferente en la jerarquía del repositorio.
+
 * ![icono de cambio de nombre](assets/do-not-localize/rename-icon.png) Cambie el nombre del recurso o la carpeta seleccionados. Utilice un nombre único, si no, el cambio de nombre producirá un error con una advertencia. Puede intentarlo de nuevo con un nombre nuevo.
+
+* ![icono de copiar biblioteca](assets/do-not-localize/copy-icon.png) Añada un recurso a la biblioteca.
+
 * ![icono de asignación de tarea](assets/do-not-localize/review-delegate-icon.png) Asigne tareas a otros usuarios para colaborar en un recurso.
+
+* ![icono asignar tarea](assets/do-not-localize/watch-asset.svg) Monitorice las operaciones realizadas en un recurso.
 
 Puede ver las mismas opciones en las miniaturas de recursos.
 
@@ -148,9 +172,3 @@ Para añadir el campo de metadatos Fecha de caducidad al formulario, arrastre el
 * Proporcione comentarios sobre la documentación usando [!UICONTROL Editar esta página] ![editar la página](assets/do-not-localize/edit-page.png) o [!UICONTROL Registrar una incidencia] ![crear una incidencia de GitHub](assets/do-not-localize/github-issue.png), disponibles en la barra lateral derecha
 
 * Contacto con el [Servicio de atención al cliente](https://experienceleague.adobe.com/?support-solution=General&amp;lang=es#support)
-
-
-
-<!-- * ![find similar icon](assets/do-not-localize/find-similar-image-icon.svg) Find similar image asset in the Assets UI based on the metadata and smart tags.
-* ![Add to Collection]() Add the selected asset to a collection.
-* **Pin to Quick Access**: Pin an asset to quickly access the asset when you need it later. -->
