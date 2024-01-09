@@ -3,8 +3,8 @@ title: Mi espacio de trabajo de Assets
 description: Mi espacio de trabajo es una página que proporciona módulos visuales personalizables para acceder fácilmente a las áreas clave de la interfaz de usuario de Assets y a la información más relevante para el usuario.
 exl-id: 402dd3a6-44e5-4d13-97d8-1d7fa26a99e4
 source-git-commit: 21db2f77de3245f6fa40964b64ec8ac2c45d13e9
-workflow-type: tm+mt
-source-wordcount: '738'
+workflow-type: ht
+source-wordcount: '741'
 ht-degree: 100%
 
 ---
