@@ -4,18 +4,24 @@ description: Notas de la versión y problemas conocidos de [!DNL Assets Essentia
 role: User,Leader,Admin,Architect,Developer
 contentOwner: AK
 exl-id: a0e29eb6-336a-4f78-b7bd-ec1338c86775
-source-git-commit: 10d82a8a90e718272c9bb1c5b14db30785bb1ded
+source-git-commit: 196fa10fd6788b306aaad3c63100e5763be566b2
 workflow-type: tm+mt
-source-wordcount: '2617'
-ht-degree: 88%
+source-wordcount: '2666'
+ht-degree: 86%
 
 ---
 
 # Notas de la versión de [!DNL Assets Essentials] {#release-notes}
 
-La versión actual de Assets Essentials se publicó el miércoles, 19 de diciembre de 2023.
+La versión actual de Assets Essentials se publicó el viernes, 11 de enero de 2024.
 
 Algunas de las funciones añadidas recientemente incluyen:
+
+**Lista de bloqueados de etiquetas inteligentes**
+
+Ahora, los Assets Essentials le permiten definir una lista de bloqueados compuesta por palabras que no deben añadirse como etiquetas inteligentes a los recursos cuando se cargan en el repositorio. Esta capacidad le ayuda a mantener el cumplimiento de la marca y reduce el esfuerzo por moderar las etiquetas inteligentes.
+
+![datos de uso de almacenamiento](/help/using/assets/block-tags.png)
 
 **Creación de imágenes de GenAI con Adobe Firefly**
 
@@ -32,16 +38,6 @@ Ahora puede encontrar contenido fácilmente seleccionando una imagen y viendo im
 Los usuarios con acceso a Express ahora disponen de herramientas integradas de edición y creación de imágenes desde Adobe Express y Adobe Firefly disponibles directamente en AEM Assets para mejorar la reutilización del contenido y acelerar la velocidad de contenido.
 
 ![asignar formulario de metadatos a una carpeta](/help/using/assets/adobe-express-aem-assets.png)
-
-<!--
-
-**Smart tags blocklist** 
-
-Assets Essentials now enables you to define a list of blocked tags. These tags are automatically removed from the auto-generated smart tags when you upload assets to the repository. This capability performs tags governance and saves a lot of time as you can add a tag to the block list and Assets Essentials automatically excludes it from the list of tags for any of the assets that are added to the repository.
-
-  ![storage usage insights](/help/using/assets/block-tags.png)
-
--->
 
 **Informes de uso del almacenamiento en Insights**:
 
