@@ -4,9 +4,9 @@ description: Edite imágenes mediante opciones que se sirven de [!DNL Adobe Phot
 role: User
 exl-id: fc21a6ee-bf23-4dbf-86b0-74695a315b2a
 source-git-commit: dee5bde4837795b800fad6307d18914ed4c90af9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1147'
-ht-degree: 77%
+ht-degree: 100%
 
 ---
 
@@ -80,35 +80,35 @@ Puede convertir rápidamente una imagen JPEG a un formato PNG mediante Adobe Exp
 
 * Tamaño máximo de archivo: 17 MB
 
-## Edición de imágenes con el editor incrustado de Adobe Express {#edit-using-embedded-editor}
+## Edición de imágenes mediante el editor integrado de Adobe Express {#edit-using-embedded-editor}
 
-Los usuarios con acceso a Express ahora disponen de herramientas integradas de edición y creación de imágenes desde Adobe Express y Adobe Firefly disponibles directamente en los Assets Essentials para mejorar la reutilización del contenido y acelerar la velocidad de contenido. También puede utilizar elementos predefinidos para que su recurso tenga un aspecto impresionante o realizar acciones rápidas para editar la imagen con solo unos clics.
+Los usuarios con acceso a Express ahora disponen de herramientas integradas de edición y creación de imágenes de Adobe Express y Adobe Firefly disponibles directamente en Assets Essentials para mejorar la reutilización del contenido y acelerar su velocidad. También puede utilizar elementos predefinidos para que su recurso tenga un aspecto impresionante o realizar acciones rápidas para editar la imagen con solo unos clics.
 
-Para editar imágenes con [!DNL Adobe Express] editor incrustado, siga los pasos a continuación:
+Para editar imágenes con el editor de [!DNL Adobe Express] integrado, siga estos pasos:
 
-1. Seleccione una imagen de su [!DNL Experience Manager] Repositorio de recursos.
-1. Clic **[!UICONTROL Abrir en Adobe Express]**.
+1. Seleccione una imagen de su repositorio de recursos de [!DNL Experience Manager].
+1. Haga clic en **[!UICONTROL Abrir en Adobe Express]**.
 
-   ![editor incrustado de Adobe Express](assets/embedded-editor.png)
+   ![Editor de Adobe Express integrado](assets/embedded-editor.png)
 
    Puede aprovechar la funcionalidad de [!DNL Adobe Express] para realizar todas las acciones relacionadas con la edición de imágenes, como [redimensionar imagen](https://helpx.adobe.com/in/express/using/resize-image.html), [quitar o cambiar el color de fondo](https://helpx.adobe.com/in/express/using/remove-background.html), [recortar imagen](https://helpx.adobe.com/in/express/using/crop-image.html), y mucho más.
 
 1. Una vez completada la edición de imágenes, puede descargar un recurso como nuevo o guardarlo como una nueva versión.
 
-## Creación de nuevos recursos mediante el Adobe Express {#create-new-embedded-editor}
+## Creación de nuevos recursos mediante Adobe Express {#create-new-embedded-editor}
 
-[!DNL Assets Essentials] permite crear una nueva plantilla desde cero utilizando [!DNL Adobe Express] editor incrustado. Para crear un nuevo recurso con [!DNL Adobe Express], ejecute los pasos siguientes:
+[!DNL Assets Essentials] permite crear una nueva plantilla desde cero utilizando el editor integrado de [!DNL Adobe Express]. Para crear un nuevo recurso con [!DNL Adobe Express], ejecute los pasos siguientes:
 
-1. Vaya a **[!UICONTROL Mi espacio de trabajo]** y haga clic en **[!UICONTROL Crear]** dentro del titular del Adobe Express que se muestra encima de la etiqueta [!UICONTROL Acceso rápido] sección. [!DNL Adobe Express] el lienzo en blanco se muestra dentro de [!DNL Assets Essentials] interfaz de usuario.
-1. Cree su contenido con [Plantillas](https://helpx.adobe.com/in/express/using/work-with-templates.html). En caso contrario, vaya a **[!UICONTROL Sus cosas]** para modificar contenido existente.
+1. Vaya a **[!UICONTROL Mi espacio de trabajo]** y haga clic en **[!UICONTROL Crear]** dentro del titular de Adobe Express que se muestra encima de la sección [!UICONTROL Acceso rápido]. El lienzo blanco de [!DNL Adobe Express] se muestra dentro de la interfaz de usuario de [!DNL Assets Essentials].
+1. Cree su contenido mediante [Plantillas](https://helpx.adobe.com/in/express/using/work-with-templates.html). En caso contrario, vaya a **[!UICONTROL Sus cosas]** para modificar el contenido existente.
 1. Una vez finalizada la edición, haga clic en **[!UICONTROL Guardar como nuevo recurso]**.
 1. Especifique la ruta de destino del recurso creado y haga clic en **[!UICONTROL Guardar]**.
 
 >[!NOTE]
 >
->* Solo puede modificar imágenes de `JPEG` y `PNG` tipos de formato.
+>* Solo puede modificar imágenes de los tipos de formato `JPEG` y `PNG`.
 >* El tamaño del recurso debe ser inferior a 14 MB.
->* Puede guardar una imagen en `PDF`, `JPEG`, o `PNG` formatos.
+>* Puede guardar una imagen en los formatos `PDF`, `JPEG` o `PNG`.
 
 ## Edición de imágenes mediante [!DNL Adobe Photoshop Express] {#edit-using-photoshop-express}
 
