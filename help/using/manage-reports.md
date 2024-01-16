@@ -3,9 +3,9 @@ title: Administración de informes en Assets Essentials
 description: Acceda a los datos de la sección de informes de Assets Essentials para evaluar el uso de productos y funciones y obtener perspectivas sobre las métricas de éxito clave.
 exl-id: c7155459-05d9-4a95-a91f-a1fa6ae9d9a4
 source-git-commit: b24113299b5f8d32b3c4aef453923b23dc775228
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '857'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -17,7 +17,7 @@ Los informes de recursos proporcionan a los administradores visibilidad de la ac
 
 Todos los usuarios asignados al [Perfil de producto de los administradores de Assets Essentials](deploy-administer.md) pueden acceder al tablero de Insights activas o crear informes definidos por el usuario en Assets Essentials.
 
-Para acceder a los informes, vaya a **[!UICONTROL Informes]** bajo **[!UICONTROL Configuración]**.
+Para acceder a los informes, vaya a **[!UICONTROL Informes]** debajo de **[!UICONTROL Configuración]**.
 
 ![Informes](assets/reports.png)
 <!--
@@ -52,7 +52,7 @@ Haga clic en **[!UICONTROL Insights]** en el panel de navegación izquierdo para
 
 <!--* **Asset Count by Size**: The division of count of assets based on their range of various sizes from 0 MB to 100 GB.-->
 
-* **Uso de almacenamiento**: el uso del almacenamiento, en bytes, para el entorno de Assets Essentials representado mediante un gráfico de barras.
+* **Uso del almacenamiento**: el uso del almacenamiento, en bytes, para el entorno Assets Essentials representado mediante un gráfico de barras.
 
 <!--* **Delivery**: The graph depicts the count of assets as the delivery dates.-->
 
