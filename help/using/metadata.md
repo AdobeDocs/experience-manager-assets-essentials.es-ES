@@ -5,9 +5,9 @@ role: User,Leader,Admin,Architect,Developer
 contentOwner: AG
 exl-id: cfc105d1-41fc-4418-9905-b2a28a348682
 source-git-commit: b14d8533854df448e2cb7b527ef5b7e69c072380
-workflow-type: tm+mt
-source-wordcount: '1664'
-ht-degree: 92%
+workflow-type: ht
+source-wordcount: '1652'
+ht-degree: 100%
 
 ---
 
@@ -136,13 +136,13 @@ A continuación se ofrece una descripción general de cada tipo de propiedad y d
 
 ### Asignar un formulario de metadatos a una carpeta {#assign-metadata-form-folder}
 
-También puede asignar un formulario de metadatos a una carpeta de su implementación de Assets Essentials. El formulario de metadatos asignado a una carpeta según el tipo MIME se sobrescribe cuando se aplica un formulario de metadatos a una carpeta manualmente. Todos los recursos de la carpeta, incluidos los de las subcarpetas, muestran las propiedades definidas en el formulario de metadatos.
+También puede asignar un formulario de metadatos a una carpeta dentro de su implementación de Assets Essentials. El formulario de metadatos asignado a una carpeta según el tipo MIME se sobrescribe cuando se aplica un formulario de metadatos a una carpeta manualmente. Todos los recursos de la carpeta, incluidos los de las subcarpetas, muestran las propiedades definidas en el formulario de metadatos.
 
 Para asignar un formulario de metadatos a una carpeta:
 
-1. Vaya a **[!UICONTROL Configuración]** > **[!UICONTROL Metadatos de Forms]** y seleccione un formulario de metadatos.
+1. Vaya a **[!UICONTROL Configuración]** > **[!UICONTROL Formularios de metadatos]** y seleccione un formulario de metadatos.
 
-2. Clic **[!UICONTROL Asignar a carpeta]**.
+2. Haga clic en **[!UICONTROL Asignar a carpeta]**.
 
 3. Seleccione la carpeta y haga clic en **[!UICONTROL Asignar]**.
 
