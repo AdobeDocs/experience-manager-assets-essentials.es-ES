@@ -4,9 +4,9 @@ description: “[!DNL Assets Essentials] se integra con otras soluciones de Adob
 role: User
 exl-id: bc43a59e-f295-44d2-a14d-854174f91e41
 source-git-commit: 5bcd55313d1fb8bcf3dedbb24742eca5e2663aa8
-workflow-type: tm+mt
-source-wordcount: '450'
-ht-degree: 82%
+workflow-type: ht
+source-wordcount: '385'
+ht-degree: 100%
 
 ---
 
@@ -28,7 +28,7 @@ La experiencia de [!DNL Assets Essentials] incorporada puede integrarse con las 
 
 ## Integración con la creación basada en documentos para Edge Delivery Services {#integrate-doc-authoring-edge-and-assets}
 
-Edge Delivery permite crear sitios web atractivos y rápidos donde los autores pueden actualizar y publicar contenido rápidamente y se pueden iniciar nuevos sitios rápidamente.
+Con Edge Delivery, puede crear entornos de desarrollo rápidos en los que los autores pueden actualizar y publicar contenido rápidamente y en los que se pueden iniciar nuevos sitios rápidamente. 
 
 Integre AEM Assets con la creación basada en documentos para Edge Delivery Services para permitir que los autores de sitios web utilicen las imágenes disponibles en repositorios de AEM Assets durante la creación de documentos en Microsoft Word o Google Docs. Para obtener más información, consulte [Integración de AEM Assets con la creación basada en documentos](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/edge-delivery/using.html#integrate-assets-edge).
 
