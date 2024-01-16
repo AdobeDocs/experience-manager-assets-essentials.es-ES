@@ -5,9 +5,9 @@ role: User,Leader
 contentOwner: AG
 exl-id: b01e98b9-0cc2-47c5-9f5b-79b8e6bef39f
 source-git-commit: 638d1cef41c5cde1f4f16e231eef5852d779b7e1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1152'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -25,21 +25,21 @@ Puede seleccionar los recursos que se muestran en los resultados de búsqueda y 
 
 * ![icono de anular selección](assets/do-not-localize/close-icon.png) Anule la selección.
 
-* ![buscar icono similar](assets/do-not-localize/find-similar.svg) Busque un recurso de imagen similar en la interfaz de usuario de Assets en función de los metadatos y las etiquetas inteligentes.
+* ![icono de buscar similar](assets/do-not-localize/find-similar.svg) Busque un recurso de imagen similar en la interfaz de usuario de Assets en función de los metadatos y las etiquetas inteligentes.
 
 * ![icono de detalles](assets/do-not-localize/edit-in-icon.png) Haga clic para previsualizar un recurso y ver los metadatos detallados. Al previsualizar, puede ver las versiones y editar una imagen.
 
 * ![icono de descarga](assets/do-not-localize/download-icon.png) Descargue el recurso seleccionado en el sistema de archivos local.
 
-* ![añadir icono de colección](assets/do-not-localize/add-collection.svg) Agregar el recurso seleccionado a una colección.
+* ![icono de añadir a la colección](assets/do-not-localize/add-collection.svg): añada el recurso seleccionado a una colección.
 
-* ![Icono de anclar recursos](assets/do-not-localize/pin-quick-access.svg) Ancle un recurso para acceder más rápido cuando lo necesite más tarde. Todos los elementos fijados se muestran en la sección **Acceso rápido** de Mi espacio de trabajo.
+* ![icono de Fijar recursos](assets/do-not-localize/pin-quick-access.svg): fije un recurso para un acceso más rápido cuando lo necesite más tarde. Todos los elementos fijados se muestran en la sección **Acceso rápido** de Mi espacio de trabajo.
 
-* ![editar en icono exprés](assets/do-not-localize/edit-e.svg) Edite una imagen en el Adobe Express integrado en Adobe Experience Manager Assets.
+* ![icono de editar en Express](assets/do-not-localize/edit-e.svg) Edite una imagen en el Adobe Express integrado en Adobe Experience Manager Assets.
 
-* ![editar icono de recurso](assets/do-not-localize/edit-e.svg) Edite la imagen con el Adobe Express.
+* ![icono de editar recurso](assets/do-not-localize/edit-e.svg) Edite la imagen con Adobe Express.
 
-* ![compartir icono de vínculo de recurso](assets/do-not-localize/share-link.svg) para un recurso con otros usuarios para que puedan acceder y descargarlo.
+* ![icono de compartir vínculo de recurso](assets/do-not-localize/share-link.svg) para un recurso con otros usuarios para que puedan acceder a él y lo descarguen.
 
 * ![icono de eliminación](assets/do-not-localize/delete-icon.png) Elimine el recurso o la carpeta seleccionados.
 
@@ -53,7 +53,7 @@ Puede seleccionar los recursos que se muestran en los resultados de búsqueda y 
 
 * ![icono de asignación de tarea](assets/do-not-localize/review-delegate-icon.png) Asigne tareas a otros usuarios para colaborar en un recurso.
 
-* ![icono asignar tarea](assets/do-not-localize/watch-asset.svg) Monitorice las operaciones realizadas en un recurso.
+* ![icono de asignar tarea](assets/do-not-localize/watch-asset.svg) Monitorice las operaciones realizadas en un recurso.
 
 Puede ver las mismas opciones en las miniaturas de recursos.
 
