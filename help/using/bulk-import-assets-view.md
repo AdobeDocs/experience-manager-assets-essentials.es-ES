@@ -1,11 +1,11 @@
 ---
 title: Importación masiva de recursos mediante Assets Essentials
-description: Obtenga información sobre cómo importar recursos de forma masiva mediante la nueva interfaz de usuario de Assets (Assets Essentials). Permite a los administradores importar un gran número de recursos desde una fuente de datos a AEM Assets.
+description: Obtenga información sobre cómo importar recursos de forma masiva mediante la nueva interfaz de usuario de recursos (Assets Essentials). Permite a los administradores importar un gran número de recursos desde una fuente de datos a AEM Assets.
 exl-id: 5f5fc15e-959b-48b6-834a-42b213512b49
 source-git-commit: 8a52d79ecd1ce8fdafd181e0f9b166e8d827c665
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1772'
-ht-degree: 57%
+ht-degree: 100%
 
 ---
 
@@ -17,11 +17,11 @@ ht-degree: 57%
 >abstract="Ahora los administradores pueden importar un gran número de recursos de una fuente de datos a Experience Manager Assets mediante Assets Essentials. Los administradores ya no tienen que cargar archivos o carpetas individuales a Experience Manager Assets. Los proveedores de almacenamiento en la nube admitidos para la importación por lotes son Azure, AWS, Google Cloud y Dropbox."
 >additional-url="https://images-tv.adobe.com/mpcv3/4477/98bce651-721c-442e-98b8-c43e7708e44c_1698834577.854x480at800_h264.mp4" text="Ver vídeo"
 
-La importación masiva en AEM Assets Essentials permite a los administradores importar un gran número de recursos desde un origen de datos a AEM Assets. Los administradores ya no tienen que cargar archivos o carpetas individuales en Experience Manager Assets.
+La importación masiva en la vista de AEM Assets Essentials permite a los administradores importar un gran número de recursos desde una fuente de datos a AEM Assets. Los administradores ya no tienen que cargar archivos o carpetas individuales en Experience Manager Assets.
 
 >[!NOTE]
 >
->El importador en bloque de Assets Essentials utiliza el mismo servidor que el importador en bloque as a Cloud Service de Assets. Sin embargo, Assets Essentials ofrece más fuentes de datos para importar de y una experiencia de usuario más optimizada.
+>El importador masivo de Assets Essentials utiliza el mismo back-end que el del importador masivo de Assets as a Cloud Service. Sin embargo, Assets Essentials ofrece más fuentes de datos desde las que importar y una experiencia de usuario más optimizada.
 
 Puede importar recursos desde las siguientes fuentes de datos:
 
@@ -39,37 +39,37 @@ Puede importar recursos desde las siguientes fuentes de datos:
 | AWS | <ul> <li>Región de AWS </li> <li> Contenedor de AWS <li> Clave de acceso de AWS </li><li> Secreto de acceso de AWS </li></ul> |
 | Google Cloud | <ul> <li>Contenedor de GCP </li> <li> Correo electrónico de la cuenta de servicio de GCP <li> Clave privada de la cuenta de servicio de GCP</li></ul> |
 | Dropbox | <ul> <li>ID de cliente de Dropbox </li> <li> Secreto de cliente de Dropbox</li></ul> |
-| OneDrive | <ul> <li>Identificador de inquilino de OneDrive  </li> <li> Identificador de cliente de OneDrive</li><li> Secreto de cliente de OneDrive</li></ul> |
+| OneDrive | <ul> <li>ID de inquilino de OneDrive  </li> <li> ID de cliente de OneDrive</li><li> Secreto de cliente de OneDrive</li></ul> |
 
 Además de estos requisitos previos basados en la fuente de datos, debe tener en cuenta el nombre de la carpeta de origen disponible en la fuente de datos que contiene todos los recursos que deben importarse en AEM Assets.
 
 ## Configuración de la aplicación para desarrolladores de Dropbox {#dropbox-developer-application}
 
-Antes de importar recursos desde la cuenta de Dropbox a AEM Assets, cree y configure la aplicación de desarrollador de Dropbox.
+Antes de importar recursos desde la cuenta de Dropbox a AEM Assets, cree y configure la aplicación para desarrolladores de Dropbox.
 
-Siga estos pasos:
+Ejecute los siguientes pasos:
 
-1. Inicie sesión en su [cuenta de Dropbox](https://www.dropbox.com/developers) y haga clic en **[!UICONTROL Creación de aplicaciones]**.
+1. Inicie sesión en su [cuenta de Dropbox](https://www.dropbox.com/developers) y haga clic en **[!UICONTROL Crear aplicación]**.
 
-1. En el **[!UICONTROL Elegir una API]** , seleccione el único botón de opción disponible.
+1. En la sección **[!UICONTROL Elegir una API]**, seleccione el único botón de opción disponible.
 
-1. En el **[!UICONTROL Elija el tipo de acceso que necesita]** , seleccione una de las siguientes opciones:
+1. En la sección **[!UICONTROL Elija el tipo de acceso que desea]**, seleccione una de las siguientes opciones:
 
-   * Seleccionar **[!UICONTROL Carpeta de aplicación]**, si necesita acceder a una única carpeta creada dentro de su aplicación en su cuenta de Dropbox.
+   * Seleccione **[!UICONTROL Carpeta de aplicación]**, si ha de acceder a una única carpeta creada dentro de su aplicación en su cuenta de Dropbox.
 
-   * Seleccionar **[!UICONTROL Dropbox completo]**, si necesita acceder a todos los archivos y carpetas de su cuenta de Dropbox.
+   * Seleccione **[!UICONTROL Dropbox completo]**, si ha de acceder a todos los archivos y carpetas de su cuenta de Dropbox.
 
 1. Especifique un nombre para la aplicación y haga clic en **[!UICONTROL Crear aplicación]**.
 
-1. En el **[!UICONTROL Configuración]** de la aplicación, agregue lo siguiente a la **[!UICONTROL URI de redireccionamiento]** sección:
+1. En la pestaña **[!UICONTROL Configuración]** de la aplicación, agregue lo siguiente a la sección **[!UICONTROL URI de redireccionamiento]**:
 
    * https://exc-unifiedcontent.experience.adobe.net
 
    * https://exc-unifiedcontent.experience-stage.adobe.net (válido solo para entornos de ensayo)
 
-1. Copie los valores de **[!UICONTROL Clave de aplicación]** y **[!UICONTROL Secreto de aplicación]** campos. Los valores son necesarios al configurar la herramienta de importación masiva en AEM Assets.
+1. Copie los valores de los campos **[!UICONTROL Clave de aplicación]** y **[!UICONTROL Secreto de aplicación]**. Los valores son necesarios al configurar la herramienta de importación masiva en AEM Assets.
 
-1. En el **[!UICONTROL Permisos]** , agregue los siguientes permisos dentro de la pestaña **[!UICONTROL Ámbitos individuales]** sección.
+1. En la pestaña **[!UICONTROL Permisos]**, agregue los siguientes permisos dentro de la sección **[!UICONTROL Ámbitos individuales]**.
 
    * account_info.read
 
@@ -79,40 +79,40 @@ Siga estos pasos:
 
    * files.content.write
 
-1. Clic **[!UICONTROL Enviar]** para guardar los cambios.
+1. Haga clic en **[!UICONTROL Enviar]** para guardar los cambios.
 
-## Configurar la aplicación para desarrolladores de OneDrive {#onedrive-developer-application}
+## Configuración de la aplicación para desarrolladores de OneDrive {#onedrive-developer-application}
 
 Antes de importar recursos desde la cuenta de OneDrive a AEM Assets, cree y configure la aplicación para desarrolladores de OneDrive.
 
-Siga estos pasos:
+Ejecute los pasos siguientes:
 
 1. Inicie sesión en su [Cuenta de OneDrive](https://portal.azure.com/#view/Microsoft_AAD_RegisteredApps/ApplicationsListBlade) y haga clic en **[!UICONTROL Nuevo registro]**.
 
-1. Especifique un nombre para la aplicación, seleccione **[!UICONTROL Solo cuentas en este directorio organizativo (solo Adobe: inquilino único)]** de **[!UICONTROL Tipos de cuenta admitidos]** y haga clic en **[!UICONTROL Registrar]**. La aplicación se ha creado correctamente.
+1. Especifique un nombre para la aplicación, seleccione **[!UICONTROL Solo cuentas en este directorio organizativo (solo Adobe: inquilino único)]** de **[!UICONTROL Tipos de cuenta compatibles]** y haga clic en **[!UICONTROL Registrar]**. La aplicación se ha creado correctamente.
 
 1. Copie los valores de los campos ID de cliente de aplicación e ID de inquilino. Los valores son necesarios al configurar la herramienta de importación masiva en AEM Assets.
 
-1. Ejecute los siguientes pasos para agregar un certificado:
+1. Ejecute los siguientes pasos para añadir un certificado:
    1. En la página de información general de la aplicación, haga clic en **[!UICONTROL Agregar un certificado o secreto]** y luego haga clic en **[!UICONTROL Nuevo secreto de cliente]**.
    1. Especifique la descripción y la caducidad del secreto del cliente y haga clic en **[!UICONTROL Añadir]**.
-   1. Después de crear el Secreto del cliente, copie el **[!UICONTROL Valor]** (No copie el campo ID secreto). Es necesario al configurar la importación masiva en AEM Assets.
+   1. Después de crear el secreto del cliente, copie el campo **[!UICONTROL Valor]** (No copie el campo ID de secreto). Es necesario al configurar la importación masiva en AEM Assets.
 
-1. Siga estos pasos para agregar URI de redireccionamiento:
-   1. En la página de información general de la aplicación, haga clic en **[!UICONTROL Añadir un URI de redireccionamiento]** > **[!UICONTROL Añadir una plataforma]** > **[!UICONTROL Web]**.
-   1. Añada lo siguiente a **[!UICONTROL URI de redireccionamiento]** sección:
+1. Ejecute los pasos siguientes para añadir URI de redireccionamiento:
+   1. En la página de información general de la aplicación, haga clic en **[!UICONTROL Añadir un URI de redireccionamiento]** > **[!UICONTROL Añadir una plataforma]** > **[!UICONTROL Web]**
+   1. Añada lo siguiente a la sección **[!UICONTROL URI de redireccionamiento]**:
 
       * https://exc-unifiedcontent.experience.adobe.net
 
       * https://exc-unifiedcontent.experience-stage.adobe.net (válido solo para entornos de ensayo)
 
-      Añada el primer URI y haga clic en **[!UICONTROL Configurar]** para agregarlo. Para agregar más, haga clic en **[!UICONTROL Añadir URI]** opción disponible en el **[!UICONTROL Web]** en la sección **[!UICONTROL Autenticación]** página.
+      Añada el primer URI y haga clic en **[!UICONTROL Configurar]** para agregarlo. Para agregar más, haga clic en la opción **[!UICONTROL Añadir URI]** disponible en la sección **[!UICONTROL Web]** en la página **[!UICONTROL Autenticación]**.
 
 1. Ejecute los siguientes pasos para agregar permisos de API para la aplicación:
-   1. Clic **[!UICONTROL Permisos de API]** en el panel izquierdo y haga clic en **[!UICONTROL Añadir un permiso]**.
-   1. Clic **[!UICONTROL Gráfico de Microsoft]** > **[!UICONTROL Permisos delegados]**. El **[!UICONTROL Seleccionar permiso]** Esta sección muestra los permisos disponibles.
-   1. Seleccionar `offline_access` permiso de `OpenId permissions` y `Files.ReadWrite.All` permiso de `Files`.
-   1. Clic **[!UICONTROL Añadir permisos]** para guardar las actualizaciones.
+   1. Haga clic en **[!UICONTROL Permisos de API]** en el panel izquierdo y haga clic en **[!UICONTROL Agregar un permiso]**.
+   1. Haga clic en **[!UICONTROL Gráfico de Microsoft]** > **[!UICONTROL Permisos delegados]**. La sección **[!UICONTROL Seleccionar permiso]** muestra los permisos disponibles.
+   1. Seleccione el permiso `offline_access` de `OpenId permissions` y el permiso `Files.ReadWrite.All` de `Files`.
+   1. Haga clic en **[!UICONTROL Agregar permisos]** para guardar los permisos.
 
 ## Crear configuración de importación masiva {#create-bulk-import-configuration}
 
@@ -127,8 +127,8 @@ Siga estos pasos para crear una configuración de importación masiva:
    >[!NOTE]
    >
    >Si utiliza Dropbox como fuente de datos, especifique la ruta de la carpeta de origen en función de las siguientes reglas:
-   >* Si selecciona **Dropbox completo** al crear la aplicación Dropbox, y la carpeta que contiene los recursos existe en `https://www.dropbox.com/home/bulkimport-assets`y luego especifique `bulkimport-assets` en el **[!UICONTROL Carpeta de origen]** field.
-   >* Si selecciona **Carpeta de aplicación** al crear la aplicación Dropbox, y la carpeta que contiene los recursos existe en `https://www.dropbox.com/home/Apps/BulkImportAppFolderScope/bulkimport-assets`y luego especifique `bulkimport-assets` en el **[!UICONTROL Carpeta de origen]** field, donde `BulkImportAppFolderScope` hace referencia al nombre de la aplicación. `Apps` se añade automáticamente después de `home` en este caso.
+   >* Si selecciona **Dropbox completo** al crear la aplicación Dropbox, y la carpeta que contiene los recursos existe en `https://www.dropbox.com/home/bulkimport-assets`, especifique `bulkimport-assets` en el campo **[!UICONTROL Carpeta de origen]**.
+   >* Si selecciona **Carpeta de aplicación** al crear la aplicación Dropbox, y la carpeta que contiene los recursos existe en `https://www.dropbox.com/home/Apps/BulkImportAppFolderScope/bulkimport-assets`, especifique `bulkimport-assets` en el campo **[!UICONTROL Carpeta de origen]**, donde `BulkImportAppFolderScope` hace referencia al nombre de la aplicación. `Apps` se añade automáticamente después de `home` en este caso.
 
 1. (Opcional) Seleccione la opción **[!UICONTROL Eliminar archivo de origen tras importar]** para eliminar los archivos originales del almacén de datos de origen después de importar los archivos en Experience Manager Assets.
 1. Seleccione el **[!UICONTROL Modo de importación]**. Seleccione **[!UICONTROL Omitir]**, **[!UICONTROL Reemplazar]** o **[!UICONTROL Crear versión]**. El modo de omisión es el predeterminado y, en este modo, el ingestor omite la importación de un recurso si ya existe.
@@ -150,13 +150,13 @@ Siga estos pasos para crear una configuración de importación masiva:
 
 1. Haga clic en **[!UICONTROL Guardar]** para ejecutar la opción seleccionada.
 
-### Administración de nombres de archivo durante la importación masiva {#filename-handling-bulkimport-assets-view}
+### Uso de nombres de archivo durante la importación masiva {#filename-handling-bulkimport-assets-view}
 
-Al importar recursos o carpetas de forma masiva, [!DNL Experience Manager Assets] importa toda la estructura de lo que existe en el origen de importación. [!DNL Experience Manager] sigue las reglas integradas para los caracteres especiales en los nombres de recursos y carpetas, por lo que estos nombres de archivo necesitan saneamiento. Tanto para el nombre de la carpeta como para el nombre del recurso, el título definido por el usuario permanece sin cambios y se almacena en `jcr:title`.
+Al importar recursos o carpetas de forma masiva, [!DNL Experience Manager Assets] importa toda la estructura existente en el origen de importación. [!DNL Experience Manager] sigue las reglas integradas en cuanto a los caracteres especiales en los nombres de recursos y carpetas, por lo que estos nombres de archivo necesitan limpiarse. Tanto para el nombre de la carpeta como para el nombre del recurso, el título definido por el usuario permanece sin cambios y se almacena en `jcr:title`.
 
-Durante la importación masiva, [!DNL Experience Manager] busque las carpetas existentes para evitar volver a importar los recursos y las carpetas, y compruebe también las reglas de saneamiento aplicadas en la carpeta principal en la que se realiza la importación. Si las reglas de saneamiento se aplican en la carpeta principal, las mismas reglas se aplican al origen de importación. Para la nueva importación, se aplican las siguientes reglas de saneamiento para administrar los nombres de archivo de los recursos y las carpetas.
+Durante la importación masiva, [!DNL Experience Manager] busque las carpetas existentes para evitar volver a importar los recursos y las carpetas, y compruebe también las reglas de limpieza aplicadas en la carpeta principal en la que se realiza la importación. Si las reglas de limpieza se aplican en la carpeta principal, se aplicarán las mismas reglas al origen de importación. Para la nueva importación, se aplican las siguientes reglas de limpieza para administrar los nombres de archivo de los recursos y las carpetas.
 
-Para obtener más información sobre los nombres no permitidos, la administración de nombres de recursos y la administración de nombres de carpetas durante la importación masiva, consulte [Administración de nombres de archivo durante la importación masiva](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/manage/add-assets.html?lang=en#filename-handling-bulkimport).
+Para obtener más información sobre los nombres no permitidos, el uso de nombres de recursos y el uso de nombres de carpetas durante la importación masiva, consulte [Uso de nombres de archivo durante la importación masiva](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/manage/add-assets.html?lang=es#filename-handling-bulkimport).
 
 ## Ver configuraciones de importación masiva existentes {#view-import-configuration}
 
