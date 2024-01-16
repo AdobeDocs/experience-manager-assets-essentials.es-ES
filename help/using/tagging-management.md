@@ -3,9 +3,9 @@ title: ¿Cómo se administran las etiquetas en Assets Essentials?
 description: Obtenga información sobre cómo administrar etiquetas en Assets Essentials. Las etiquetas le ayudan a categorizar los archivos que se pueden examinar y buscar de forma más eficaz.
 exl-id: da9e8d56-c190-4006-9579-c3c8401c5e5f
 source-git-commit: 74f78f0675e01c09a8654d7f7d0db14a0ee674a2
-workflow-type: tm+mt
-source-wordcount: '1292'
-ht-degree: 88%
+workflow-type: ht
+source-wordcount: '1284'
+ht-degree: 100%
 
 ---
 
@@ -33,7 +33,7 @@ El etiquetado ofrece muchas ventajas, como las siguientes:
 
 * Las etiquetas pueden evolucionar con el tiempo a medida que cambia el vocabulario de la organización.
 
-* Las etiquetas administradas en Assets as a Cloud Service permanecen sincronizadas con las etiquetas administradas en Assets Essentials, lo que garantiza la integridad y el control de los metadatos.
+* Las etiquetas administradas en Assets as a Cloud Service están sincronizadas con las etiquetas administradas en Assets Essentials, lo que garantiza la integridad y el control de los metadatos.
 
 Para poder aplicar etiquetas a los recursos, primero debe crear un área de nombres y luego crear y añadirle etiquetas. También puede crear etiquetas y añadirlas a un área de nombres existente. Todas las etiquetas que cree en el nivel raíz se añaden automáticamente al área de nombres de etiquetas estándar. A continuación, puede añadir el campo Etiquetas al formulario de metadatos para que se muestre en la página Detalles del recurso. Después de configurar estos ajustes, puede comenzar a aplicar etiquetas a los recursos.
 
@@ -43,7 +43,7 @@ Para poder aplicar etiquetas a los recursos, primero debe crear un área de nomb
 
 ![Administración de etiquetado](assets/tagging-taxonomy-management.png)
 
-Hay funciones adicionales disponibles en Assets as a Cloud Service además de las mencionadas en este artículo, como combinar, cambiar el nombre, localizar y publicar etiquetas.
+En Assets as a Cloud Service hay disponibles funcionalidades adicionales, además de las mencionadas en este artículo, como combinar, cambiar el nombre, localizar y publicar etiquetas.
 
 ## Creación de un área de nombres {#creating-a-namespace}
 
@@ -93,7 +93,7 @@ Para crear una etiqueta estándar, haga clic en `Create Tag` en el nivel raíz. 
 
 >[!NOTE]
 >
->Si elimina `Standard Tags` Cuando se utiliza el área de nombres Recursos as a Cloud Service, las etiquetas creadas en el nivel raíz no se muestran en la lista de etiquetas disponibles.
+>Si elimina el `Standard Tags`espacio de nombres mediante Assets as a Cloud Service, las etiquetas creadas en el nivel raíz no se muestran en la lista de etiquetas disponibles.
 
 ## Mover etiquetas {#moving-tags}
 
@@ -116,7 +116,7 @@ Para editar el título de la etiqueta, selecciónela y haga clic en `Edit`. Espe
 >[!NOTE]
 >
 >* El `Name` de una etiqueta no se puede actualizar. La ruta raíz de una etiqueta también se basa en el nombre de la etiqueta. La ruta sigue siendo la misma aunque actualice el campo `Title`.
->* Hay operaciones adicionales disponibles en Assets as a Cloud Service, como combinar, localizar y publicar.
+>* Las operaciones adicionales, como combinar, localizar y publicar, están disponibles en Assets as a Cloud Service.
 
 ## Eliminación de etiquetas {#deleting-tags}
 
@@ -135,7 +135,7 @@ Realice los siguientes pasos para eliminar etiquetas:
 
 ## Adición del componente Etiquetas al formulario de metadatos {#adding-tags-to-metadata-form}
 
-El componente de etiquetas se añade al formulario de metadatos `default` automáticamente. Puede diseñar un [formulario de metadatos](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/metadata.html?lang=es#metadata-forms) mediante una plantilla o desde cero. Si no utiliza una plantilla de formulario de metadatos existente, puede modificar el formulario de metadatos y añadir el componente de etiquetas. La asignación de propiedades de metadatos se rellena automáticamente y no se puede modificar en este momento. Los usuarios as a Cloud Service de Assets pueden actualizar la asignación para almacenar valores de etiquetas mediante áreas de nombres personalizadas y exponer solo subconjuntos de jerarquías mediante rutas raíz.
+El componente de etiquetas se añade al formulario de metadatos `default` automáticamente. Puede diseñar un [formulario de metadatos](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/metadata.html?lang=es#metadata-forms) mediante una plantilla o desde cero. Si no utiliza una plantilla de formulario de metadatos existente, puede modificar el formulario de metadatos y añadir el componente de etiquetas. La asignación de propiedades de metadatos se rellena automáticamente y no se puede modificar en este momento. Los usuarios de Assets as a Cloud Service pueden actualizar la asignación para almacenar valores de etiquetas utilizando áreas de nombres personalizadas y exponer solo subconjuntos de jerarquías mediante rutas raíz.
 
 Vea este vídeo rápido para ver cómo añadir el componente Etiquetas al formulario de metadatos:
 
@@ -150,4 +150,4 @@ Vea este vídeo rápido para ver cómo añadir el componente Etiquetas al formul
    ![Etiquetado de recursos](assets/adding-tags-to-assets.png)
 
 1. Seleccione una o varias etiquetas. La subetiqueta se selecciona automáticamente junto con la etiqueta principal o el área de nombres.
-Las etiquetas modificadas en los Assets Essentials se aplican también en Assets as a Cloud Service.
+Las etiquetas modificadas en Assets Essentials se aplican también en Assets as a Cloud Service.
