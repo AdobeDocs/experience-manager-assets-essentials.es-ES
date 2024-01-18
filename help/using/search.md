@@ -6,7 +6,7 @@ exl-id: be9597a3-056c-436c-a09e-15a03567c85a
 source-git-commit: 92cfe963d37df919b8bc29c49da7c8e9bd62638e
 workflow-type: tm+mt
 source-wordcount: '1524'
-ht-degree: 64%
+ht-degree: 85%
 
 ---
 
@@ -56,7 +56,7 @@ Puede ordenar los recursos buscados en orden creciente o descendente de `Name`, 
 
 **Permisos necesarios:**  `Can Edit`, `Owner` o Administrador.
 
-Los Assets Essentials también permiten agregar filtros personalizados a la interfaz de usuario. A continuación, puede aplicar esos filtros personalizados además de los [filtros estándar](#refine-search-results) para restringir los resultados de búsqueda.
+Assets Essentials también permite agregar filtros personalizados a la interfaz de usuario. A continuación, puede aplicar esos filtros personalizados además de los [filtros estándar](#refine-search-results) para restringir los resultados de búsqueda.
 
 Assets Essentials proporciona los siguientes filtros personalizados:
 
@@ -154,7 +154,7 @@ Para cargar el recurso generado en el repositorio de recursos:
 
 ## Búsquedas guardadas {#saved-search}
 
-La funcionalidad de búsqueda es bastante fácil de usar en [!DNL Assets Essentials]. Desde el cuadro de búsqueda, no solo puede escribir una palabra clave y pulsar Intro para ver los resultados, sino que también puede buscar rápidamente de nuevo las palabras clave buscadas recientemente con un solo clic.
+La funcionalidad de búsqueda es bastante fácil de usar en [!DNL Assets Essentials]. Desde el cuadro de búsqueda, no solo puede escribir una palabra clave y pulsar la tecla Enter para ver los resultados, sino que también puede buscar rápidamente de nuevo las palabras clave buscadas recientemente con un solo clic.
 
 También puede filtrar los resultados de búsqueda según criterios específicos en torno a los metadatos y el tipo de recursos. Para los filtros utilizados con frecuencia, a fin de mejorar la experiencia de búsqueda, [!DNL Assets Essentials] permite guardar los parámetros de búsqueda. A continuación, puede seleccionar la búsqueda guardada para buscar y aplicar el filtro con un solo clic.
 
@@ -189,7 +189,7 @@ Puede seleccionar los recursos que se muestran en los resultados de búsqueda y 
 
 * **Abrir en Adobe Express**: edite una imagen en el Adobe Express integrado desde la pantalla de Experience Manager Assets.
 
-* **Editar**: edite la imagen con el Adobe Express.
+* **Editar**: edite la imagen con Adobe Express.
 
 * **Compartir vínculo**: [compartir vínculos](share-links-for-assets.md) para un recurso con otros usuarios para que puedan acceder a él y descargarlo.
 
@@ -201,44 +201,44 @@ Puede seleccionar los recursos que se muestran en los resultados de búsqueda y 
 
 * **Cambiar nombre**: cambiar el nombre de un recurso.
 
-* **Copiar a bibliotecas**: agregue un recurso a la biblioteca.
+* **Copiar en las bibliotecas**: agregue un recurso a la biblioteca.
 
 * **Asignar tareas**: asignar tareas a los usuarios de un recurso.
 
 * **Ver**: [monitorizar las operaciones](manage-notifications.md) realizadas en un recurso.
 
-## Configurar la primera página de inicio de búsqueda {#configuring-search-first-homepage}
+## Configuración de la página principal Buscar primero {#configuring-search-first-homepage}
 
-Assets Essentials le permite seleccionar la página de aterrizaje predeterminada para su organización. Al utilizar Buscar primero como página principal, también tiene opciones para adaptar la marca de la página configurando las imágenes de fondo y del logotipo para que coincidan con su marca.
+Assets Essentials le permite seleccionar la página de aterrizaje predeterminada para su organización. Al utilizar Buscar primero como página principal, también tiene opciones para adaptar la personalización de marca de la página configurando las imágenes de fondo y del logotipo para que coincidan con su marca.
 
-Para configurar la primera página de inicio de búsqueda, ejecute los pasos a continuación:
+Para configurar la página principal Buscar primero, ejecute los siguientes pasos:
 
 1. Vaya a **[!UICONTROL Configuración]** > **[!UICONTROL Configuración general]**.
-1. Seleccionar **[!UICONTROL Buscar primero]**. Además, abre la configuración relacionada con la búsqueda primero. Puede establecer [alineación](#setting-alignment-search-bar) o [establecer imagen de fondo y logotipo](#setting-background-image-and-logo) de su página de inicio.
+1. Seleccione **[!UICONTROL Buscar primero]**. Además, abre la configuración relacionada con Buscar primero. Puede establecer [alineación](#setting-alignment-search-bar) o [establecer imagen de fondo y logotipo](#setting-background-image-and-logo) de su página principal.
 
-### Establecer la alineación de la barra de búsqueda {#setting-alignment-search-bar}
+### Alineación de la barra de búsqueda {#setting-alignment-search-bar}
 
 [!DNL Assets Essentials] permite cambiar la alineación de la barra de búsqueda. Puede hacer que la barra de búsqueda aparezca en el centro o en la parte superior. Seleccione la alineación adecuada y haga clic en **[!UICONTROL Guardar]**.
 
-![Buscar primera alineación de página principal](assets/search-first-alignment.png)
+![Alineación de la página principal Buscar primero](assets/search-first-alignment.png)
 
-### Estableciendo imagen de fondo y logotipo de la página principal {#setting-background-image-and-logo}
+### Imagen de fondo y logotipo de la página principal {#setting-background-image-and-logo}
 
-Puede agregar el logotipo de la marca y la imagen de fondo a la primera página de inicio de búsqueda. Siga estos pasos:
+Puede agregar el logotipo de la marca y la imagen de fondo a la página principal Buscar primero. Ejecute los siguientes pasos:
 
-1. Vaya a **[!UICONTROL Imagen de fondo y logotipo]** sección debajo de **[!UICONTROL Homepage]**.
-1. Clic **[!UICONTROL Reemplazar]** para examinar imágenes de un repositorio de recursos existente.
-1. Haga clic en **[!UICONTROL Guardar]**. [Previsualizar](#preview-configured-homepage) los cambios para revisar las modificaciones.
+1. Vaya a **[!UICONTROL Imagen de fondo y logotipo]** sección debajo de **[!UICONTROL Página principal]**.
+1. Haga clic en **[!UICONTROL Reemplazar]** para examinar imágenes de un repositorio de recursos existente.
+1. Haga clic en **[!UICONTROL Guardar]**. [Previsualice](#preview-configured-homepage) los cambios para revisar las modificaciones.
 
-### Previsualizar página principal configurada {#preview-configured-homepage}
+### Vista previa de la página principal configurada {#preview-configured-homepage}
 
-Puede obtener una vista previa para comprobar el diseño y el formato de la primera página de inicio de búsqueda. Uso de **[!UICONTROL Previsualizar]**, puede corregir el diseño o realizar modificaciones según sea necesario. Para obtener una vista previa de la página principal configurada, ejecute los pasos siguientes:
+Puede obtener una vista previa para comprobar el diseño y el formato de la página principal Buscar primero. Mediante **[!UICONTROL Vista previa]** puede corregir el diseño o realizar modificaciones según sea necesario. Para obtener una vista previa de la página principal configurada, ejecute los pasos siguientes:
 
-1. Clic **[!UICONTROL Configuración general]** y seleccione **[!UICONTROL Buscar primero]**.
-1. Vaya a **[!UICONTROL Personalizar la primera página de inicio de búsqueda]** y haga clic en **[!UICONTROL Previsualizar]**. Alternar entre **[!UICONTROL Tema oscuro]** para obtener una vista previa de la página principal en un tema oscuro o claro.
-1. Clic **[!UICONTROL Cerrar]** para cerrar la pantalla de vista previa.
+1. Haga clic en **[!UICONTROL Configuración general]** y seleccione **[!UICONTROL Buscar primero]**.
+1. Vaya a **[!UICONTROL Personalizar la página principal Buscar primero]** y haga clic en **[!UICONTROL Vista previa]**. Cambie mediante el botón **[!UICONTROL Tema oscuro]** para obtener una vista previa de la página principal en un tema oscuro o claro.
+1. Haga clic en **[!UICONTROL Cerrar]** para cerrar el cuadro de diálogo.
 
-   ![Buscar la primera previsualización de página principal](assets/search-first-preview.gif)
+   ![Vista previa de la página principal Buscar primero](assets/search-first-preview.gif)
 
 ## Siguientes pasos {#next-steps}
 

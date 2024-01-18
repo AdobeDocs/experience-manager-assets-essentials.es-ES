@@ -7,7 +7,7 @@ exl-id: a0e29eb6-336a-4f78-b7bd-ec1338c86775
 source-git-commit: 196fa10fd6788b306aaad3c63100e5763be566b2
 workflow-type: tm+mt
 source-wordcount: '2666'
-ht-degree: 86%
+ht-degree: 98%
 
 ---
 
@@ -15,15 +15,15 @@ ht-degree: 86%
 
 La versión actual de Assets Essentials se publicó el viernes, 11 de enero de 2024.
 
-Algunas de las funciones añadidas recientemente incluyen:
+Algunas de las funciones añadidas recientemente son:
 
 **Lista de bloqueados de etiquetas inteligentes**
 
 Ahora, los Assets Essentials le permiten definir una lista de bloqueados compuesta por palabras que no deben añadirse como etiquetas inteligentes a los recursos cuando se cargan en el repositorio. Esta capacidad le ayuda a mantener el cumplimiento de la marca y reduce el esfuerzo por moderar las etiquetas inteligentes.
 
-![datos de uso de almacenamiento](/help/using/assets/block-tags.png)
+![uso de almacenamiento en Insights](/help/using/assets/block-tags.png)
 
-**Creación de imágenes de GenAI con Adobe Firefly**
+**Crear imágenes GenAI con Adobe Firefly**
 
 Cree nuevas imágenes basadas en consultas de búsqueda con una integración de la función de Adobe Firefly de texto a imagen (requiere licencia de Adobe Firefly).
 
@@ -33,9 +33,9 @@ Cree nuevas imágenes basadas en consultas de búsqueda con una integración de 
 
 Ahora puede encontrar contenido fácilmente seleccionando una imagen y viendo imágenes similares en el repositorio de Experience Manager Assets.
 
-**Editor de Adobes Express incrustados en AEM Assets**
+**Editor integrado de Adobes Express en AEM Assets**
 
-Los usuarios con acceso a Express ahora disponen de herramientas integradas de edición y creación de imágenes desde Adobe Express y Adobe Firefly disponibles directamente en AEM Assets para mejorar la reutilización del contenido y acelerar la velocidad de contenido.
+Los usuarios con acceso a Express ahora disponen de herramientas integradas de edición y creación de imágenes de Adobe Express y Adobe Firefly disponibles directamente en AEM Assets para mejorar la reutilización del contenido y acelerar su velocidad.
 
 ![asignar formulario de metadatos a una carpeta](/help/using/assets/adobe-express-aem-assets.png)
 
@@ -43,13 +43,13 @@ Los usuarios con acceso a Express ahora disponen de herramientas integradas de e
 
 Los administradores ahora pueden ver los informes de uso del almacenamiento disponibles como parte de Insights.
 
-![datos de uso de almacenamiento](/help/using/assets/storage-usage-insights.png)
+![uso de almacenamiento en Insights](/help/using/assets/storage-usage-insights.png)
 
-**Configuración de la primera página principal de búsqueda**
+**Buscar la configuración de la primera página principal Buscar primero**
 
-Assets Essentials ahora le permite configurar la experiencia de la página principal para su organización. Si selecciona buscar primero como página principal, puede configurar la alineación de la barra de búsqueda, la imagen de fondo y el logotipo de su organización.
+Assets Essentials ahora le permite configurar la experiencia de la página principal para su organización. Si selecciona Buscar primero como página principal, puede configurar la alineación de la barra de búsqueda, la imagen de fondo y el logotipo de su organización.
 
-![buscar primera configuración](/help/using/assets/search-first-configuration.png)
+![configuración de Buscar primero](/help/using/assets/search-first-configuration.png)
 
 
 
@@ -81,13 +81,13 @@ Si encuentra algún problema o incluso si tiene solicitudes de mejora, [proporci
 
 **Importación masiva de recursos desde la fuente de datos de OneDrive**
 
-Los administradores ahora tienen la capacidad de [importar un gran número de recursos de OneDrive a AEM Assets](/help/using/bulk-import-assets-view.md). La lista actualizada de las fuentes de datos compatibles para la importación masiva incluye Azure, AWS, Google Cloud, Dropbox y OneDrive.
+Ahora los administradores tienen la posibilidad de [importar un gran número de recursos de OneDrive a AEM Assets.](/help/using/bulk-import-assets-view.md) La lista actualizada de las fuentes de datos compatibles para la importación masiva incluye Azure, AWS, Google Cloud, Dropbox y OneDrive.
 
 ![asignar formulario de metadatos a una carpeta](/help/using/assets/bulk-import-source-details.png)
 
 **Compatibilidad de derechos entre organizaciones para bibliotecas**
 
-Experience Manager Assets ahora permite configurar el acceso a las bibliotecas de Creative Cloud en una organización IMS diferente. Permite un acceso más sencillo a los flujos de trabajo entre productos más recientes entre Creative Cloud y Experience Manager, y reduce el tiempo y el esfuerzo de los creativos.
+Experience Manager Assets ahora le permite configurar el acceso a Bibliotecas Creative Cloud en una organización IMS diferente. Permite un acceso más sencillo a los flujos de trabajo entre productos más recientes entre Creative Cloud y Experience Manager, y reduce el tiempo y el esfuerzo de los creativos.
 
 ### Versión de septiembre de 2023 {#september2023-release}
 
