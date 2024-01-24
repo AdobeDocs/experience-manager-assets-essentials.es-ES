@@ -5,9 +5,9 @@ role: User,Leader,Admin,Architect,Developer
 contentOwner: AK
 exl-id: a0e29eb6-336a-4f78-b7bd-ec1338c86775
 source-git-commit: 196fa10fd6788b306aaad3c63100e5763be566b2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2666'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ Algunas de las funciones añadidas recientemente son:
 
 **Lista de bloqueados de etiquetas inteligentes**
 
-Ahora, los Assets Essentials le permiten definir una lista de bloqueados compuesta por palabras que no deben añadirse como etiquetas inteligentes a los recursos cuando se cargan en el repositorio. Esta capacidad le ayuda a mantener el cumplimiento de la marca y reduce el esfuerzo por moderar las etiquetas inteligentes.
+Ahora, Assets Essentials permite definir una lista de bloqueados compuesta por palabras que no deben añadirse como etiquetas inteligentes a los recursos cuando se cargan en el repositorio. Esta posibilidad le ayuda a mantener el cumplimiento de la marca y reduce el esfuerzo por moderar las etiquetas inteligentes.
 
 ![uso de almacenamiento en Insights](/help/using/assets/block-tags.png)
 
