@@ -4,9 +4,9 @@ description: Busque y descubra recursos en [!DNL Assets Essentials].
 role: User
 exl-id: be9597a3-056c-436c-a09e-15a03567c85a
 source-git-commit: 92cfe963d37df919b8bc29c49da7c8e9bd62638e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1524'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
@@ -54,7 +54,7 @@ Puede ordenar los recursos buscados en orden creciente o descendente de `Name`, 
 
 ## Administrar filtros personalizados {#custom-filters}
 
-**Permisos necesarios:**  `Can Edit`, `Owner` o Administrador.
+**Permisos necesarios:** `Can Edit`, `Owner` o Administrador.
 
 Assets Essentials también permite agregar filtros personalizados a la interfaz de usuario. A continuación, puede aplicar esos filtros personalizados además de los [filtros estándar](#refine-search-results) para restringir los resultados de búsqueda.
 
@@ -120,37 +120,37 @@ Para eliminar filtros personalizados:
 
 1. Haga clic en **[!UICONTROL Confirmar]** para eliminar los filtros de la interfaz de usuario.
 
-## Búsqueda de recursos mediante [!DNL Adobe Firefly] {#search-firefly}
+## Búsqueda de recursos con [!DNL Adobe Firefly] {#search-firefly}
 
-Puede buscar un recurso que no esté disponible en ninguna de las carpetas de recursos utilizando [!DNL Adobe Firefly] función de búsqueda de recursos dentro de [!DNL Experience Manager Assets]. Esto le permite generar de forma eficaz recursos en tiempo real que no se almacenan en las carpetas de recursos.
+Puede buscar un recurso que no esté disponible en ninguna de las carpetas de recursos utilizando la [!DNL Adobe Firefly] funcionalidad de búsqueda de recursos dentro de [!DNL Experience Manager Assets]. Esto permite generar eficazmente recursos en tiempo real que no están almacenados en las carpetas de recursos.
 
 ### Antes de empezar
 
-Debe tener un activo [!DNL Adobe Express] suscripción.
+Debe tener una suscripción [!DNL Adobe Express] activa.
 
-### Generar recursos
+### Generación de recursos
 
 Para generar nuevos recursos mediante [!DNL Adobe Firefly]:
 
-1. Vaya a [!DNL AEM Assets] workspace.
+1. Navegue hasta el espacio de trabajo [!DNL AEM Assets].
 1. Introduzca el nombre del recurso en la barra de búsqueda situada en la parte superior de la página.<br>
 Por ejemplo, puede buscar un recurso mediante la palabra clave `Bugatti Type 57`. Al buscar el recurso, no se encuentran resultados porque el recurso no está presente en ninguna de las carpetas de recursos.
 1. Escriba el nombre del recurso en la barra de búsqueda situada en medio de la página y haga clic en **[!UICONTROL Generar]**.
    ![Integración de Firefly](firefly-integration.jpg)
-   *Imagen: no se han encontrado resultados para Bugatti Type 57 en la carpeta de recursos.*<br>
+   *Figura: no se han encontrado resultados para Bugatti Tipo 57 en la carpeta de recursos.*<br>
 Los nuevos recursos se han generado correctamente.
    ![Integración de Firefly](assets/bugatti-type-57.jpg)
-   *Imagen: recursos de referencia buscados con [!DNL Adobe Firefly] función de búsqueda de recursos.* <br>
+   *Figura: recursos de referencia buscados con la funcionalidad de búsqueda de recursos [!DNL Adobe Firefly].* <br>
 Puede cargar estos recursos en su carpeta preferida para acceder fácilmente a ellos.
 
 ### Carga de activos
 
 Para cargar el recurso generado en el repositorio de recursos:
 
-1. Clic **[!UICONTROL Cargar]**.
+1. Haga clic en **[!UICONTROL Cargar]**. 
 1. Seleccione la carpeta de recursos en la que debe cargar el recurso y haga clic en **[!UICONTROL Seleccionar carpeta]**.
    ![Cargar recurso](assets/upload-asset-firefly.jpg)
-   *Imagen: seleccione la carpeta para cargar el recurso.*
+   *Figura: seleccione la carpeta para cargar el recurso.*
 
 ## Búsquedas guardadas {#saved-search}
 
@@ -187,7 +187,7 @@ Puede seleccionar los recursos que se muestran en los resultados de búsqueda y 
 
 * **Fijar en Acceso rápido**: [fijar un recurso](my-workspace.md) para un acceso más rápido cuando lo necesite más tarde. Todos los elementos fijados se muestran en la sección **Acceso rápido** de Mi espacio de trabajo.
 
-* **Abrir en Adobe Express**: edite una imagen en el Adobe Express integrado desde la pantalla de Experience Manager Assets.
+* **Abrir en Adobe Express**: edite una imagen en Adobe Express integrado desde la pantalla de Adobe Experience Manager Assets.
 
 * **Editar**: edite la imagen con Adobe Express.
 
