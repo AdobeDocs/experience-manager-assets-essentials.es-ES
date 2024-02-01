@@ -6,10 +6,11 @@ type: Documentation
 git-repo: https://github.com/AdobeDocs/experience-manager-assets-essentials.es-ES
 mini-toc-levels: 1
 index: true
-source-git-commit: bd544f8afe112d5a95d5a3266f8d74bff4ef04c8
+recommendations: noDisplay
+source-git-commit: a33f67452fdb1c42e534c5f423549c933fd5d59a
 workflow-type: tm+mt
-source-wordcount: '95'
-ht-degree: 100%
+source-wordcount: '93'
+ht-degree: 93%
 
 ---
 
@@ -27,5 +28,5 @@ En el archivo TOC.md
 
 | metadata | función |
 |--- |--- |
-| user-guide-title | Se utiliza en el encabezado del artículo como vínculo. |
+| user-guide-title | Se utiliza como vínculo en el encabezado del artículo. |
 | user-guide-url | Abre la página del centro de Aprendizaje y asistencia. |
