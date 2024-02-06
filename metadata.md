@@ -8,9 +8,9 @@ mini-toc-levels: 1
 index: true
 recommendations: noDisplay
 source-git-commit: a33f67452fdb1c42e534c5f423549c933fd5d59a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '93'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -28,5 +28,5 @@ En el archivo TOC.md
 
 | metadata | función |
 |--- |--- |
-| user-guide-title | Se utiliza como vínculo en el encabezado del artículo. |
+| user-guide-title | Se utiliza en el encabezado del artículo como vínculo. |
 | user-guide-url | Abre la página del centro de Aprendizaje y asistencia. |
