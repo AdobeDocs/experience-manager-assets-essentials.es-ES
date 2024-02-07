@@ -3,10 +3,10 @@ title: “Interfaz de usuario de [!DNL Assets Essentials]”
 description: Explicación de la interfaz de usuario de y la navegación en [!DNL Assets Essentials].
 role: User
 exl-id: 534a8084-88f7-410e-b872-719e47e62b10
-source-git-commit: 4f3141fe95a0c33b22042da4f234dd2a921cbac6
-workflow-type: ht
-source-wordcount: '1000'
-ht-degree: 100%
+source-git-commit: 7dbba95fef582cff32fa705a529f8da8b7e98124
+workflow-type: tm+mt
+source-wordcount: '992'
+ht-degree: 91%
 
 ---
 
@@ -47,7 +47,9 @@ Puede examinar las carpetas desde la interfaz de usuario principal o desde la ba
 * [Colecciones](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/manage-collections.html?lang=es): Una colección es un conjunto de archivos, carpetas u otras colecciones dentro de Adobe Experience Manager Assets Essentials. Utilice las colecciones para compartir recursos entre los usuarios. A diferencia de las carpetas, una colección puede incluir recursos de distintas ubicaciones. Puede compartir varias colecciones con un usuario. Cada colección contiene referencias a recursos. La integridad referencial de los recursos se mantiene entre colecciones.
 
 * [Perspectivas](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/manage-reports.html?lang=es#view-live-statistics): En [!DNL Assets Essentials], puede ver perspectivas en tiempo real en su panel. Assets Essentials le permite ver datos en tiempo real de su entorno de Assets Essentials con el tablero de Insights. Puede ver las métricas de eventos en tiempo real durante los últimos 30 días o 12 meses.
-* **Papelera**: Enumere los recursos eliminados de la carpeta raíz **[!UICONTROL Assets]**. Puede seleccionar un recurso en la carpeta Papelera para restaurarlo a la ubicación original o eliminarlo permanentemente. También puede especificar una palabra clave o aplicar filtros estándar o personalizados para buscar los recursos adecuados en la carpeta Papelera. Para obtener más información sobre el uso de filtros estándar y personalizados, consulte [Búsqueda de recursos en Assets Essentials](search.md).
+
+* **Papelera**: Enumere los recursos eliminados de la carpeta raíz **[!UICONTROL Assets]**. Puede seleccionar un recurso de la carpeta Papelera para restaurarlo a su ubicación original o eliminarlo de forma permanente. Puede especificar una palabra clave o aplicar filtros como el estado del recurso, el tipo de archivo, el tipo de mime, el tamaño de la imagen, la creación del recurso, la modificación y las fechas de caducidad, así como filtrar por los recursos que descarta el usuario actual. También puede aplicar filtros personalizados para buscar los recursos adecuados en la carpeta Papelera. Para obtener más información sobre el uso de filtros estándar y personalizados, vea cómo [buscar recursos en Assets Essentials](search.md).
+
 * **Ajustes**: Puede configurar varias opciones de Assets Essentials usando **Ajustes**, como formularios de metadatos, informes y gestión de taxonomía.
 
 <!-- TBD: Not sure if we want to publish these right now. CC Libs are beta as per Greg.
