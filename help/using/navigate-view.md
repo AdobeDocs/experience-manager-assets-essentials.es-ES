@@ -3,7 +3,7 @@ title: “Interfaz de usuario de [!DNL Assets Essentials]”
 description: Explicación de la interfaz de usuario de y la navegación en [!DNL Assets Essentials].
 role: User
 exl-id: 534a8084-88f7-410e-b872-719e47e62b10
-source-git-commit: c56e4950e85efd671260c5235ebb54d95b13606c
+source-git-commit: 028c9fbe496e2f29f0b1d46cfcc3cdc20c3d5857
 workflow-type: tm+mt
 source-wordcount: '992'
 ht-degree: 91%
@@ -48,7 +48,7 @@ Puede examinar las carpetas desde la interfaz de usuario principal o desde la ba
 
 * [Perspectivas](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/manage-reports.html?lang=es#view-live-statistics): En [!DNL Assets Essentials], puede ver perspectivas en tiempo real en su panel. Assets Essentials le permite ver datos en tiempo real de su entorno de Assets Essentials con el tablero de Insights. Puede ver las métricas de eventos en tiempo real durante los últimos 30 días o 12 meses.
 
-* **Papelera**: Enumere los recursos eliminados de la carpeta raíz **[!UICONTROL Assets]**. Puede seleccionar un recurso de la carpeta Papelera para restaurarlo a su ubicación original o eliminarlo de forma permanente. Puede especificar una palabra clave o aplicar filtros como el estado del recurso, el tipo de archivo, el tipo de mime, el tamaño de la imagen, la creación del recurso, la modificación y las fechas de caducidad, así como filtrar por los recursos que descarta el usuario actual. También puede aplicar filtros personalizados para buscar los recursos adecuados en la carpeta Papelera. Para obtener más información sobre el uso de filtros estándar y personalizados, vea cómo [buscar recursos en Assets Essentials](search.md).
+* **Papelera**: Enumere los recursos eliminados de la carpeta raíz **[!UICONTROL Assets]**. Puede seleccionar un recurso de la carpeta Papelera para restaurarlo a su ubicación original o eliminarlo de forma permanente. Puede especificar una palabra clave o aplicar filtros como el estado del recurso, el tipo de archivo, el tipo de mime, el tamaño de la imagen, la creación del recurso, la modificación y las fechas de caducidad, así como filtrar por los recursos descartados por el usuario actual. También puede aplicar filtros personalizados para buscar los recursos adecuados en la carpeta Papelera. Para obtener más información sobre el uso de filtros estándar y personalizados, vea cómo [buscar recursos en Assets Essentials](search.md).
 
 * **Ajustes**: Puede configurar varias opciones de Assets Essentials usando **Ajustes**, como formularios de metadatos, informes y gestión de taxonomía.
 
