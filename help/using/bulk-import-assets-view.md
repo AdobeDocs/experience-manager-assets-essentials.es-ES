@@ -1,15 +1,15 @@
 ---
 title: Importación masiva de recursos mediante Assets Essentials
-description: Obtenga información sobre cómo importar recursos de forma masiva mediante la nueva interfaz de usuario de recursos (Assets Essentials). Permite a los administradores importar un gran número de recursos desde una fuente de datos a AEM Assets.
+description: Obtenga información sobre cómo importar recursos de forma masiva mediante la nueva interfaz de usuario de recursos (Assets Essentials). Permite a los administradores importar un gran número de recursos desde un origen de datos a AEM Assets.
 exl-id: 5f5fc15e-959b-48b6-834a-42b213512b49
-source-git-commit: 8a52d79ecd1ce8fdafd181e0f9b166e8d827c665
-workflow-type: ht
-source-wordcount: '1772'
-ht-degree: 100%
+source-git-commit: 530880cdd7536a4370cc0315f0d485d258d40102
+workflow-type: tm+mt
+source-wordcount: '1812'
+ht-degree: 68%
 
 ---
 
-# Importación masiva de recursos mediante Assets Essentials  {#bulk-import-essentials}
+# Importación masiva de recursos mediante Assets Essentials   {#bulk-import-essentials}
 
 >[!CONTEXTUALHELP]
 >id="assets_bulk_import"
@@ -39,7 +39,7 @@ Puede importar recursos desde las siguientes fuentes de datos:
 | AWS | <ul> <li>Región de AWS </li> <li> Contenedor de AWS <li> Clave de acceso de AWS </li><li> Secreto de acceso de AWS </li></ul> |
 | Google Cloud | <ul> <li>Contenedor de GCP </li> <li> Correo electrónico de la cuenta de servicio de GCP <li> Clave privada de la cuenta de servicio de GCP</li></ul> |
 | Dropbox | <ul> <li>ID de cliente de Dropbox </li> <li> Secreto de cliente de Dropbox</li></ul> |
-| OneDrive | <ul> <li>ID de inquilino de OneDrive  </li> <li> ID de cliente de OneDrive</li><li> Secreto de cliente de OneDrive</li></ul> |
+| OneDrive | <ul> <li>ID de inquilino de OneDrive </li> <li> ID de cliente de OneDrive</li><li> Secreto de cliente de OneDrive</li></ul> |
 
 Además de estos requisitos previos basados en la fuente de datos, debe tener en cuenta el nombre de la carpeta de origen disponible en la fuente de datos que contiene todos los recursos que deben importarse en AEM Assets.
 
@@ -49,7 +49,7 @@ Antes de importar recursos desde la cuenta de Dropbox a AEM Assets, cree y confi
 
 Ejecute los siguientes pasos:
 
-1. Inicie sesión en su [cuenta de Dropbox](https://www.dropbox.com/developers) y haga clic en **[!UICONTROL Crear aplicación]**.
+1. Inicie sesión en su [cuenta de Dropbox](https://www.dropbox.com/developers) y haga clic en **[!UICONTROL Creación de aplicaciones]**. <br>Si utiliza una cuenta de Dropbox empresarial, debe tener acceso a la función de administrador de contenido.
 
 1. En la sección **[!UICONTROL Elegir una API]**, seleccione el único botón de opción disponible.
 
@@ -61,11 +61,7 @@ Ejecute los siguientes pasos:
 
 1. Especifique un nombre para la aplicación y haga clic en **[!UICONTROL Crear aplicación]**.
 
-1. En la pestaña **[!UICONTROL Configuración]** de la aplicación, agregue lo siguiente a la sección **[!UICONTROL URI de redireccionamiento]**:
-
-   * https://exc-unifiedcontent.experience.adobe.net
-
-   * https://exc-unifiedcontent.experience-stage.adobe.net (válido solo para entornos de ensayo)
+1. En el **[!UICONTROL Configuración]** de la aplicación, agregue https://experience.adobe.com al **[!UICONTROL URI de redireccionamiento]** sección.
 
 1. Copie los valores de los campos **[!UICONTROL Clave de aplicación]** y **[!UICONTROL Secreto de aplicación]**. Los valores son necesarios al configurar la herramienta de importación masiva en AEM Assets.
 
@@ -85,44 +81,49 @@ Ejecute los siguientes pasos:
 
 Antes de importar recursos desde la cuenta de OneDrive a AEM Assets, cree y configure la aplicación para desarrolladores de OneDrive.
 
-Ejecute los pasos siguientes:
+<!-- Execute the following steps: -->
+
+### Creación de una aplicación
 
 1. Inicie sesión en su [Cuenta de OneDrive](https://portal.azure.com/#view/Microsoft_AAD_RegisteredApps/ApplicationsListBlade) y haga clic en **[!UICONTROL Nuevo registro]**.
 
-1. Especifique un nombre para la aplicación, seleccione **[!UICONTROL Solo cuentas en este directorio organizativo (solo Adobe: inquilino único)]** de **[!UICONTROL Tipos de cuenta compatibles]** y haga clic en **[!UICONTROL Registrar]**. La aplicación se ha creado correctamente.
-
-1. Copie los valores de los campos ID de cliente de aplicación e ID de inquilino. Los valores son necesarios al configurar la herramienta de importación masiva en AEM Assets.
-
-1. Ejecute los siguientes pasos para añadir un certificado:
-   1. En la página de información general de la aplicación, haga clic en **[!UICONTROL Agregar un certificado o secreto]** y luego haga clic en **[!UICONTROL Nuevo secreto de cliente]**.
-   1. Especifique la descripción y la caducidad del secreto del cliente y haga clic en **[!UICONTROL Añadir]**.
-   1. Después de crear el secreto del cliente, copie el campo **[!UICONTROL Valor]** (No copie el campo ID de secreto). Es necesario al configurar la importación masiva en AEM Assets.
+1. Especifique un nombre para la aplicación, seleccione **[!UICONTROL Solo cuentas en este directorio organizativo (solo Adobe: inquilino único)]** de **[!UICONTROL Tipos de cuenta admitidos]**.
 
 1. Ejecute los pasos siguientes para añadir URI de redireccionamiento:
-   1. En la página de información general de la aplicación, haga clic en **[!UICONTROL Añadir un URI de redireccionamiento]** > **[!UICONTROL Añadir una plataforma]** > **[!UICONTROL Web]**
-   1. Añada lo siguiente a la sección **[!UICONTROL URI de redireccionamiento]**:
 
-      * https://exc-unifiedcontent.experience.adobe.net
+   1. En el **[!UICONTROL Seleccione una plataforma]** menú desplegable, seleccione **[!UICONTROL Web]**.
 
-      * https://exc-unifiedcontent.experience-stage.adobe.net (válido solo para entornos de ensayo)
+   1. Agregue https://experience.adobe.com al **[!UICONTROL URI de redireccionamiento]** sección.
+   <!-- Add the first URI and click **[!UICONTROL Configure]** to add it. You can add more by clicking **[!UICONTROL Add URI]** option available in the **[!UICONTROL Web]** section on the **[!UICONTROL Authentication]** page. -->
 
-      Añada el primer URI y haga clic en **[!UICONTROL Configurar]** para agregarlo. Para agregar más, haga clic en la opción **[!UICONTROL Añadir URI]** disponible en la sección **[!UICONTROL Web]** en la página **[!UICONTROL Autenticación]**.
+1. Haga clic en **[!UICONTROL Registrar]**. La aplicación se ha creado correctamente.
 
-1. Ejecute los siguientes pasos para agregar permisos de API para la aplicación:
-   1. Haga clic en **[!UICONTROL Permisos de API]** en el panel izquierdo y haga clic en **[!UICONTROL Agregar un permiso]**.
-   1. Haga clic en **[!UICONTROL Gráfico de Microsoft]** > **[!UICONTROL Permisos delegados]**. La sección **[!UICONTROL Seleccionar permiso]** muestra los permisos disponibles.
-   1. Seleccione el permiso `offline_access` de `OpenId permissions` y el permiso `Files.ReadWrite.All` de `Files`.
-   1. Haga clic en **[!UICONTROL Agregar permisos]** para guardar los permisos.
+1. Copie los valores de **[!UICONTROL ID de aplicación (cliente)]** y **[!UICONTROL ID de directorio (inquilino)]** campos. Los valores son necesarios al configurar la herramienta de importación masiva en AEM Assets.
 
-## Crear configuración de importación masiva {#create-bulk-import-configuration}
+1. Clic **[!UICONTROL Agregar un certificado o secreto]** correspondiente a **[!UICONTROL Credenciales del cliente]** opción.
 
-Siga estos pasos para crear una configuración de importación masiva:
+1. Clic **[!UICONTROL Nuevo secreto de cliente]**, proporcione la descripción del secreto del cliente, la caducidad y haga clic en **[!UICONTROL Añadir]**.
 
-1. Vaya a **[!UICONTROL Configuración]** > **[!UICONTROL Importación masiva]** y haga clic en **[!UICONTROL Crear importación]**.
-1. Seleccione la fuente de datos. Las opciones disponibles incluyen Azure, AWS, Google Cloud y Dropbox.
+1. Después de crear el secreto del cliente, copie el campo **[!UICONTROL Valor]** (No copie el campo ID de secreto). Es necesario al configurar la importación masiva en AEM Assets.
+
+### Añadir permisos de API
+
+Ejecute los siguientes pasos para agregar permisos de API para la aplicación:
+
+1. Haga clic en **[!UICONTROL Permisos de API]** en el panel izquierdo y haga clic en **[!UICONTROL Agregar un permiso]**.
+1. Haga clic en **[!UICONTROL Gráfico de Microsoft]** > **[!UICONTROL Permisos delegados]**. La sección **[!UICONTROL Seleccionar permiso]** muestra los permisos disponibles.
+1. Seleccione el permiso `offline_access` de `OpenId permissions` y el permiso `Files.ReadWrite.All` de `Files`.
+1. Haga clic en **[!UICONTROL Agregar permisos]** para guardar los permisos.
+
+## Crear configuración de importación masiva{#create-bulk-import-configuration}
+
+Siga estos pasos para crear una configuración de importación masiva en [!DNL Experience Manager Assets]:
+
+1. Clic **[!UICONTROL Importación masiva]** en el panel izquierdo y haga clic en **[!UICONTROL Crear importación]**.
+1. Seleccione la fuente de datos. Las opciones disponibles incluyen **[!UICONTROL Azure]**, **[!UICONTROL AWS]**, **[!UICONTROL Google Cloud]**, **[!UICONTROL Dropbox]** y **[!UICONTROL OneDrive]**.
 1. Especifique un nombre para la configuración de importación masiva en el campo **[!UICONTROL Nombre]**.
 1. Especifique las credenciales específicas de la fuente de datos, tal como se menciona en [Requisitos previos](#prerequisites).
-1. Proporcione el nombre de la carpeta raíz que contiene los recursos de la fuente de datos en el campo **[!UICONTROL Carpeta de origen]**.
+1. Proporcione el nombre de la carpeta raíz que contiene los recursos de la fuente de datos en la **[!UICONTROL Carpeta de origen]** field.
 
    >[!NOTE]
    >
@@ -130,11 +131,11 @@ Siga estos pasos para crear una configuración de importación masiva:
    >* Si selecciona **Dropbox completo** al crear la aplicación Dropbox, y la carpeta que contiene los recursos existe en `https://www.dropbox.com/home/bulkimport-assets`, especifique `bulkimport-assets` en el campo **[!UICONTROL Carpeta de origen]**.
    >* Si selecciona **Carpeta de aplicación** al crear la aplicación Dropbox, y la carpeta que contiene los recursos existe en `https://www.dropbox.com/home/Apps/BulkImportAppFolderScope/bulkimport-assets`, especifique `bulkimport-assets` en el campo **[!UICONTROL Carpeta de origen]**, donde `BulkImportAppFolderScope` hace referencia al nombre de la aplicación. `Apps` se añade automáticamente después de `home` en este caso.
 
-1. (Opcional) Seleccione la opción **[!UICONTROL Eliminar archivo de origen tras importar]** para eliminar los archivos originales del almacén de datos de origen después de importar los archivos en Experience Manager Assets.
+1. (Opcional) Seleccione la **[!UICONTROL Eliminar archivo de origen tras importar]** opción para eliminar los archivos originales del almacén de datos de origen después de importar los archivos en [!DNL Experience Manager Assets].
 1. Seleccione el **[!UICONTROL Modo de importación]**. Seleccione **[!UICONTROL Omitir]**, **[!UICONTROL Reemplazar]** o **[!UICONTROL Crear versión]**. El modo de omisión es el predeterminado y, en este modo, el ingestor omite la importación de un recurso si ya existe.
    ![Importar detalles de origen](assets/bulk-import-source-details.png)
 
-1. (Opcional) Especifique el archivo de metadatos que desea importar, proporcionado en formato CSV, en el campo Archivo de metadatos y haga clic en **[!UICONTROL Siguiente]** para ir a **[!UICONTROL Ubicación y filtros]**.
+1. (Opcional) Especifique el archivo de metadatos que desea importar, proporcionado en formato CSV, en la variable **[!UICONTROL Archivo de metadatos]** field. El archivo de origen de metadatos debe estar en la carpeta de origen. Clic **[!UICONTROL Siguiente]** para ir a **[!UICONTROL Ubicación y filtros]**.
 1. Especifique una ruta para definir una ubicación en DAM en la que se importarán los recursos mediante **[!UICONTROL Carpeta de destino de recursos]**. Por ejemplo, `/content/dam/imported_assets`.
 1. (Opcional) En la sección **[!UICONTROL Elegir filtros]**, proporcione el tamaño mínimo de archivo de los recursos en MB para incluirlos en el proceso de ingesta en el campo **[!UICONTROL Filtrar por tamaño mínimo]**.
 1. (Opcional) Proporcione el tamaño máximo de archivo de los recursos en MB para incluirlos en el proceso de ingesta en **[!UICONTROL Filtrar por tamaño máximo]**.
@@ -144,9 +145,13 @@ Siga estos pasos para crear una configuración de importación masiva:
 
    ![Filtros de importación masiva](assets/bulk-import-location.png)
 
-1. Haga clic en **[!UICONTROL Siguiente]**. Seleccione **[!UICONTROL Guardar y ejecutar importación]** para guardar la configuración y ejecutar la importación masiva. Seleccionar **[!UICONTROL Guardar importación]** para guardar la configuración por ahora y poder ejecutarla más adelante.
+1. Haga clic en **[!UICONTROL Siguiente]**. Seleccione una de las siguientes opciones según sus preferencias:
 
-   ![Ejecución de una importación masiva](assets/bulk-import-run.png)
+   * **[!UICONTROL Guardar importación]** para guardar la configuración por ahora y poder ejecutarla más adelante.
+   * **[!UICONTROL Guardar y ejecutar importación]** para guardar la configuración y ejecutar la importación masiva.
+   * **[!UICONTROL Guardar y programar importación]** para guardar la configuración y programar la importación masiva para un momento posterior. Puede elegir la frecuencia de la importación masiva y establecer la fecha y la hora de la importación. La importación masiva se ejecutará en la fecha y hora establecidas en la frecuencia seleccionada.
+
+   ![Ejecución de una importación masiva](assets/save-run.png)
 
 1. Haga clic en **[!UICONTROL Guardar]** para ejecutar la opción seleccionada.
 
@@ -160,27 +165,28 @@ Para obtener más información sobre los nombres no permitidos, el uso de nombre
 
 ## Ver configuraciones de importación masiva existentes {#view-import-configuration}
 
-Si selecciona guardar la configuración después de crearla, la configuración se muestra en la pestaña **[!UICONTROL Importaciones guardadas]**.
+Para ver las importaciones en bloque existentes, seleccione la **[!UICONTROL Importaciones masivas]** en el panel izquierdo. La página de importaciones masivas aparece con la lista de **[!UICONTROL Importaciones ejecutadas]**. <br>
+También puede ver la **[!UICONTROL Importaciones guardadas]** y **[!UICONTROL Importaciones programadas]** en la opción desplegable.
 
-![Guardar configuración de importación masiva](assets/bulk-import-save.png)
+![Guardar configuración de importación masiva](assets/bulk-import-options.png)
 
-Si selecciona guardar y ejecutar la importación, la configuración de importación se muestra en la pestaña **[!UICONTROL Importaciones ejecutadas]**.
+<!-- If you select to save and run the import, the import configuration displays in the **[!UICONTROL Executed Imports]** tab.
 
-![Guardar configuración de importación masiva](assets/bulk-import-executed.png)
+![Save bulk import configuration](assets/bulk-import-executed.png)
 
-Si programa una importación, se muestra en la pestaña **[!UICONTROL Importaciones programadas]**.
+If you schedule an import, it displays in the **[!UICONTROL Scheduled Imports]** tab.  -->
 
 ## Editar configuración de importación masiva {#edit-import-configuration}
 
-Para editar los detalles de configuración, haga clic en … correspondiente al nombre de la configuración y haga clic en **[!UICONTROL Editar]**. No se puede editar el título de la configuración y la fuente de datos de importación mientras se realiza la operación de edición. Puede editar la configuración mediante las pestañas Importaciones ejecutadas, programadas o guardadas.
+Para editar los detalles de configuración, haga clic en ![Icono Más](assets/do-not-localize/more-icon.svg) correspondiente al nombre de la configuración y haga clic en **[!UICONTROL Editar]**. No se puede editar el título de la configuración y la fuente de datos de importación mientras se realiza la operación de edición. Puede editar la configuración mediante las pestañas Importaciones ejecutadas, programadas o guardadas.
 
-![Editar configuración de importación masiva](assets/bulk-import-edit.png)
+![Editar configuración de importación masiva](assets/edit-bulk-import.png)
 
 ## Programar importaciones únicas o recurrentes {#schedule-imports}
 
 Para programar una importación masiva única o recurrente, ejecute los siguientes pasos:
 
-1. haga clic en … correspondiente al nombre de configuración disponible en la pestaña **[!UICONTROL Importaciones ejecutadas]** o **[!UICONTROL Importaciones guardadas]** y haga clic en **[!UICONTROL Programación]**. También puede reprogramar una importación programada existente navegando hasta **[!UICONTROL Importaciones programadas]** y haciendo clic en **[!UICONTROL Programación]**.
+1. Clic ![Icono Más](assets/do-not-localize/more-icon.svg) correspondiente al nombre de configuración disponible en la variable **[!UICONTROL Importaciones ejecutadas]** o **[!UICONTROL Importaciones guardadas]** y haga clic en **[!UICONTROL Programación]**. También puede reprogramar una importación programada existente navegando hasta **[!UICONTROL Importaciones programadas]** y haciendo clic en **[!UICONTROL Programación]**.
 
 1. Establezca una ingesta única o programe una programación horaria, diaria o semanal. Haga clic en **[!UICONTROL Enviar]**.
 
@@ -188,21 +194,21 @@ Para programar una importación masiva única o recurrente, ejecute los siguient
 
 ## Realizar una comprobación de estado de importación {#import-health-check}
 
-Para validar la conexión con la fuente de datos, haga clic en … correspondiente al nombre de la configuración y, a continuación, haga clic en **[!UICONTROL Comprobación]**. Si la conexión se realiza correctamente, Experience Manager Assets muestra el siguiente mensaje:
+Para validar la conexión con el origen de datos, haga clic en ![Icono Más](assets/do-not-localize/more-icon.svg) correspondiente al nombre de la configuración y, a continuación, haga clic en **[!UICONTROL Marque]**. Si la conexión se realiza correctamente, Experience Manager Assets muestra el siguiente mensaje:
 
 ![Comprobación de estado de importación masiva](assets/bulk-import-health-check.png)
 
 ## Realice un ensayo antes de ejecutar una importación {#dry-run-bulk-import}
 
-Haga clic en … correspondiente al nombre de la configuración y haga clic en **[!UICONTROL Ensayo]** para invocar una ejecución de prueba para el trabajo de importación masiva. Experience Manager Assets muestra los siguientes detalles sobre el trabajo de importación masiva:
+Clic ![Icono Más](assets/do-not-localize/more-icon.svg) correspondiente al nombre de la configuración y haga clic en **[!UICONTROL Ejecución en seco]** para invocar una ejecución de prueba para el trabajo de importación masiva. Experience Manager Assets muestra los siguientes detalles sobre el trabajo de importación masiva:
 
 ![Comprobación de estado de importación masiva](assets/bulk-import-dry-run.png)
 
 ## Ejecución de una importación masiva {#run-bulk-import}
 
-Si ha guardado la importación al crear la configuración, puede ir la pestaña Importaciones guardadas, hacer clic en … correspondiente a la configuración y hacer clic en **[!UICONTROL Ejecutar]**.
+Si ha guardado la importación al crear la configuración, puede navegar a la pestaña Importaciones guardadas y hacer clic en ![Icono Más](assets/do-not-localize/more-icon.svg) correspondiente a la configuración y haga clic en **[!UICONTROL Ejecutar]**.
 
-Del mismo modo, si necesita efectuar una importación ya ejecutada, vaya a la pestaña Importaciones ejecutadas, haga clic en … correspondiente al nombre de configuración y haga clic en **[!UICONTROL Ejecutar]**.
+Del mismo modo, si necesita ejecutar una importación ya ejecutada, vaya a la pestaña Importaciones ejecutadas y haga clic en ![Icono Más](assets/do-not-localize/more-icon.svg) correspondiente al nombre de la configuración y haga clic en **[!UICONTROL Ejecutar]**.
 
 ## Detener o programar una importación en curso {#schedule-stop-ongoing-report}
 
@@ -215,8 +221,12 @@ También puede ver los recursos que se han importado en la carpeta de destino ha
 
 ## Eliminar una configuración de importación masiva {#delete-bulk-import-configuration}
 
-Haga clic en … correspondiente al nombre de configuración existente en **[!UICONTROL Importaciones ejecutadas]**, **[!UICONTROL Importaciones programadas]** o **[!UICONTROL Importaciones guardadas]** y haga clic en **[!UICONTROL Eliminar]** para borrar la configuración de importación masiva.
+Clic ![Icono Más](assets/do-not-localize/more-icon.svg) correspondiente al nombre de configuración existente en **[!UICONTROL Importaciones ejecutadas]**, **[!UICONTROL Importaciones programadas]**, o **[!UICONTROL Importaciones guardadas]** y haga clic en **[!UICONTROL Eliminar]** para eliminar la configuración de importación masiva.
 
 ## Ir a los recursos después de realizar una importación masiva {#view-assets-after-bulk-import}
 
-Para ver la ubicación de destino de los recursos donde se importan después de ejecutar el trabajo de importación masiva, haga clic en … correspondiente al nombre de la configuración y, a continuación, haga clic en **[!UICONTROL Ver recursos]**.
+Para ver la ubicación de destino de los recursos donde se importan después de ejecutar el trabajo de importación masiva, haga clic en ![Icono Más](assets/do-not-localize/more-icon.svg) correspondiente al nombre de la configuración y, a continuación, haga clic en **[!UICONTROL Ver recursos]**.
+
+## Vídeo: Importación masiva de recursos mediante Assets Essentials
+
+>[!VIDEO](https://video.tv.adobe.com/v/3428012)
