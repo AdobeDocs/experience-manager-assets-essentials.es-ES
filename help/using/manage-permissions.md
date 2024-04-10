@@ -2,9 +2,9 @@
 title: ¿Cómo se administran los permisos de las carpetas en AEM Assets Essentials?
 description: Assets Essentials permite a los administradores administrar los niveles de acceso para las carpetas disponibles en el repositorio. Cree grupos de usuarios y asígneles permisos para administrar los niveles de acceso. Como administrador, también puede delegar los privilegios de administración de permisos en grupos de usuarios en el nivel de carpeta.
 exl-id: 5ef01dbc-87c0-4013-9367-5da3774f4f20
-source-git-commit: 65200f73a954e4ebf4fbd6dc3a819acc6e0beda4
-workflow-type: tm+mt
-source-wordcount: '1691'
+source-git-commit: a77513f925203f9ad6cad9fd517f28989385af95
+workflow-type: ht
+source-wordcount: '0'
 ht-degree: 100%
 
 ---
@@ -211,8 +211,6 @@ Los siguientes son los niveles de acceso para todos los grupos de usuarios en la
 ## Siguientes pasos {#next-steps}
 
 * [Vea un vídeo para administrar permisos en Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-learn/assets-essentials/configuring/permissions-management.html?lang=es)
-
-* Proporcione comentarios de producto mediante la opción [!UICONTROL Comentarios] disponible en la interfaz de usuario de Assets Essentials
 
 * Proporcione comentarios sobre la documentación usando [!UICONTROL Editar esta página] ![editar la página](assets/do-not-localize/edit-page.png) o [!UICONTROL Registrar una incidencia] ![crear una incidencia de GitHub](assets/do-not-localize/github-issue.png), disponibles en la barra lateral derecha
 
