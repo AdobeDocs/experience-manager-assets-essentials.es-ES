@@ -2,8 +2,8 @@
 title: Importación masiva de recursos mediante Assets Essentials
 description: Obtenga información sobre cómo importar recursos de forma masiva mediante la nueva interfaz de usuario de recursos (Assets Essentials). Permite a los administradores importar un gran número de recursos desde una fuente de datos a AEM Assets.
 exl-id: 5f5fc15e-959b-48b6-834a-42b213512b49
-source-git-commit: 530880cdd7536a4370cc0315f0d485d258d40102
-workflow-type: ht
+source-git-commit: 4d4b239b0b75ac8a26a7c3001e5b28dcb6243f63
+workflow-type: tm+mt
 source-wordcount: '1812'
 ht-degree: 100%
 
@@ -25,11 +25,11 @@ La importación masiva en la vista de AEM Assets Essentials permite a los admini
 
 Puede importar recursos desde las siguientes fuentes de datos:
 
-* Azure
 * AWS
 * Google Cloud
 * Dropbox
 * OneDrive
+* Azure
 
 ## Requisitos previos {#prerequisites}
 
