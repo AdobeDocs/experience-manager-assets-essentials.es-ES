@@ -4,10 +4,10 @@ description: Mueva, elimine, copie, cambie de nombre, actualice y convierta en v
 role: User,Leader
 contentOwner: AG
 exl-id: b01e98b9-0cc2-47c5-9f5b-79b8e6bef39f
-source-git-commit: 638d1cef41c5cde1f4f16e231eef5852d779b7e1
-workflow-type: ht
-source-wordcount: '1152'
-ht-degree: 100%
+source-git-commit: a49bfcdf3dbd6601ed15ae8a3309922c0483b3d7
+workflow-type: tm+mt
+source-wordcount: '1195'
+ht-degree: 95%
 
 ---
 
@@ -48,6 +48,9 @@ Puede seleccionar los recursos que se muestran en los resultados de búsqueda y 
 * ![icono de movimiento](assets/do-not-localize/move-icon.png) Mueva el recurso o la carpeta seleccionados a una ubicación diferente en la jerarquía del repositorio.
 
 * ![icono de cambio de nombre](assets/do-not-localize/rename-icon.png) Cambie el nombre del recurso o la carpeta seleccionados. Utilice un nombre único, si no, el cambio de nombre producirá un error con una advertencia. Puede intentarlo de nuevo con un nombre nuevo.
+Además, puede hacer clic en el título de un recurso o de una carpeta para cambiarle el nombre. Mencione el nuevo texto en la **Cambiar nombre de recurso** y haga clic en **Guardar**. Esta funcionalidad está disponible en las vistas Cuadrícula, Galería, Cascada y Lista.
+
+* ![icono de vista de cascada](assets/do-not-localize/waterfall-view.png) [!UICONTROL Vista de cascada].
 
 * ![icono de copiar biblioteca](assets/do-not-localize/copy-icon.png) Añada un recurso a la biblioteca.
 
