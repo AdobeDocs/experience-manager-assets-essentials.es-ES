@@ -2,7 +2,7 @@
 title: ¿Cómo se administran los permisos de las carpetas en AEM Assets Essentials?
 description: Assets Essentials permite a los administradores administrar los niveles de acceso para las carpetas disponibles en el repositorio. Cree grupos de usuarios y asígneles permisos para administrar los niveles de acceso. Como administrador, también puede delegar los privilegios de administración de permisos en grupos de usuarios en el nivel de carpeta.
 exl-id: 5ef01dbc-87c0-4013-9367-5da3774f4f20
-source-git-commit: a77513f925203f9ad6cad9fd517f28989385af95
+source-git-commit: ec723ae4222254c64e8ddc2e03f8a523203f9f8a
 workflow-type: tm+mt
 source-wordcount: '1657'
 ht-degree: 100%
@@ -118,7 +118,7 @@ Para asignar permisos de grupo en las carpetas:
 
 1. En el cuadro de diálogo **[!UICONTROL Administrar permisos]**, especifique el nombre del grupo o de un usuario en el campo **[!UICONTROL Grupos y usuarios]**.
 
-1. Seleccione el [nivel de acceso](#manage-permissions-folders) en la lista desplegable **[!UICONTROL Acceso]**.
+1. Seleccione el [nivel de acceso](#manage-permissions-on-folders) en la lista desplegable **[!UICONTROL Acceso]**.
 
 1. Haga clic en **[!UICONTROL Añadir]** para realizar un cambio inmediato en los permisos del usuario o grupo de usuarios.
 
@@ -144,7 +144,7 @@ Para editar permisos asignados a grupos de usuarios en carpetas:
 
 1. Seleccione la carpeta y haga clic en **[!UICONTROL Administrar permisos]**.
 
-1. En el cuadro de diálogo **[!UICONTROL Administrar permisos]**, edite el [nivel de acceso](#manage-permissions-folders) en la lista desplegable **[!UICONTROL Acceso]**.
+1. En el cuadro de diálogo **[!UICONTROL Administrar permisos]**, edite el [nivel de acceso](#manage-permissions-on-folders) en la lista desplegable **[!UICONTROL Acceso]**.
 
 1. [Añada más grupos de usuarios o usuarios](#add-permissions) a las reglas de permisos existentes, si es necesario.
 

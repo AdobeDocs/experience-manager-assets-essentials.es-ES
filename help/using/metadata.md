@@ -4,10 +4,10 @@ description: Administración de metadatos de recursos en [!DNL Assets Essentials
 role: User,Leader,Admin,Architect,Developer
 contentOwner: AG
 exl-id: cfc105d1-41fc-4418-9905-b2a28a348682
-source-git-commit: b14d8533854df448e2cb7b527ef5b7e69c072380
-workflow-type: ht
-source-wordcount: '1652'
-ht-degree: 100%
+source-git-commit: 37beb971f1e675162eb4b8e9ab008b20a241c066
+workflow-type: tm+mt
+source-wordcount: '1773'
+ht-degree: 92%
 
 ---
 
@@ -134,7 +134,7 @@ A continuación se ofrece una descripción general de cada tipo de propiedad y d
 | Palabras clave | Añada palabras clave de forma libre (asignadas a dc:subject). |
 | Etiquetas inteligentes | Añada para aumentar las capacidades de búsqueda añadiendo automáticamente etiquetas de metadatos. |
 
-### Asignar un formulario de metadatos a una carpeta {#assign-metadata-form-folder}
+### Asignar formulario de metadatos a las carpetas {#assign-metadata-form-folder}
 
 También puede asignar un formulario de metadatos a una carpeta dentro de su implementación de Assets Essentials. El formulario de metadatos asignado a una carpeta según el tipo MIME se sobrescribe cuando se aplica un formulario de metadatos a una carpeta manualmente. Todos los recursos de la carpeta, incluidos los de las subcarpetas, muestran las propiedades definidas en el formulario de metadatos.
 
@@ -142,13 +142,29 @@ Para asignar un formulario de metadatos a una carpeta:
 
 1. Vaya a **[!UICONTROL Configuración]** > **[!UICONTROL Formularios de metadatos]** y seleccione un formulario de metadatos.
 
-2. Haga clic en **[!UICONTROL Asignar a carpeta]**.
+2. Clic **[!UICONTROL Asignar a las carpetas]**.
 
-3. Seleccione la carpeta y haga clic en **[!UICONTROL Asignar]**.
+3. Seleccione las carpetas y haga clic en **[!UICONTROL Asignar]**. Puede seleccionar las carpetas haciendo clic en sus nombres.
 
    ![asignar formulario de metadatos a una carpeta](/help/using/assets/assign-to-folder.png)
 
    También puede navegar a la página de detalles de la carpeta y seleccionar un formulario de metadatos de las propiedades de carpeta disponibles en el panel derecho para asignar el formulario de metadatos a la carpeta.
+
+   ![propiedades de carpeta de formulario de metadatos](/help/using/assets/folder-properties-metadata-forms.png)
+
+### Quitar formulario de metadatos de las carpetas {#remove-metadata-form-folder}
+
+Después de asignar un formulario de metadatos a una o varias carpetas, Experience Manager Assets también permite quitar formularios de metadatos de las carpetas seleccionadas.
+
+Para quitar un formulario de metadatos de una carpeta:
+
+1. Vaya a **[!UICONTROL Configuración]** > **[!UICONTROL Formularios de metadatos]** y seleccione un formulario de metadatos.
+
+1. Clic **[!UICONTROL Eliminar de las carpetas]**. Se muestra la lista de carpetas asignadas para el formulario de metadatos.
+
+1. Seleccione la carpeta y haga clic en **[!UICONTROL Eliminar]**. También puede seleccionar varias carpetas de la lista.
+
+También puede navegar a la página de detalles de la carpeta y seleccionar **[!UICONTROL Formulario de metadatos asignado al sistema]** desde el **[!UICONTROL Metadatos de Forms]** para quitar el formulario de metadatos asignado de una carpeta.
 
 ## Siguientes pasos {#next-steps}
 
