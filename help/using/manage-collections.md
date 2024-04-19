@@ -3,7 +3,7 @@ title: Administrar colecciones
 description: Una colección es un conjunto de recursos dentro de Experience Manager Assets Essentials. Utilice las colecciones para compartir recursos entre los usuarios.
 exl-id: 33c889f5-c989-4772-9591-db62f50e5c80
 source-git-commit: d0884f7c5a50d89cb8ce4166dc038814bd7fd07d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '907'
 ht-degree: 100%
 
