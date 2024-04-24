@@ -4,9 +4,9 @@ description: Busque y descubra recursos en [!DNL Assets Essentials].
 role: User
 exl-id: be9597a3-056c-436c-a09e-15a03567c85a
 source-git-commit: 0da570c129407b6ecaf3e41223f61ce279a308d0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1890'
-ht-degree: 81%
+ht-degree: 100%
 
 ---
 
@@ -205,9 +205,9 @@ Puede seleccionar los recursos que se muestran en los resultados de búsqueda y 
 
 * **Asignar tareas**: asignar tareas a los usuarios de un recurso.
 
-* **Ver**: [monitorizar las operaciones](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/search-assets) realizadas en un recurso.
+* **Ver**: [monitorizar las operaciones](https://experienceleague.adobe.com/es/docs/experience-manager-cloud-service/content/assets/manage/search-assets) realizadas en un recurso.
 
-## Configurar la primera página de inicio de búsqueda {#configuring-search-first-homepage}
+## Configurar la página principal Buscar primero {#configuring-search-first-homepage}
 
 Assets Essentials le permite seleccionar la página de aterrizaje predeterminada para su organización. Al utilizar Buscar primero como página principal, también tiene opciones para adaptar la personalización de marca de la página configurando las imágenes de fondo y del logotipo para que coincidan con su marca.
 
@@ -242,17 +242,17 @@ Puede obtener una vista previa para comprobar el diseño y el formato de la pág
 
 ## Búsqueda contextual {#contextual-search}
 
-También puede buscar recursos disponibles en el repositorio definiendo mensajes de texto. Experience Manager Assets transforma automáticamente esos mensajes de texto en filtros de búsqueda y muestra los resultados de búsqueda. Puede ver y modificar los filtros automáticos mediante el panel Filtros para reducir aún más los resultados de búsqueda.
+También puede buscar recursos disponibles en el repositorio definiendo mensajes de texto. Experience Manager Assets transforma automáticamente esos mensajes de texto en filtros de búsqueda y muestra los resultados de la búsqueda. Puede ver y modificar los filtros automáticos mediante el panel Filtros para reducir aún más los resultados de la búsqueda.
 
-### Acceso a búsqueda contextual {#access-contextual-search}
+### Acceso a la búsqueda contextual {#access-contextual-search}
 
 Para acceder a la búsqueda contextual en Experience Manager Assets:
 
-1. Clic **[!UICONTROL Buscar]** en el panel izquierdo.
+1. Haga clic en **[!UICONTROL Búsqueda]** en el panel de la izquierda.
 
    ![Búsqueda contextual](/help/using/assets/access-contextual-search.png)
 
-1. Defina la solicitud de texto en el cuadro de texto Buscar y haga clic en **[!UICONTROL Búsqueda contextual]**.
+1. Defina el mensaje de texto en el cuadro de texto de búsqueda y haga clic en **[!UICONTROL Búsqueda contextual]**.
 
    ![Mensaje de texto de búsqueda contextual](/help/using/assets/contextual-search-text-prompt.png)
 
@@ -263,13 +263,13 @@ Para acceder a la búsqueda contextual en Experience Manager Assets:
 
 La búsqueda contextual admite los siguientes filtros predeterminados. Base sus mensajes de texto en estos filtros para ver los resultados de búsqueda adecuados.
 
-* Altura de imagen
+* Altura de la imagen
 
-* Anchura de imagen
+* Anchura de la imagen
 
 * Tipo de archivo: imagen, documento, vídeo o carpeta.
 
-* Tipo MIME: JPG, PNG, TIFF, GIF, MP4, PDF, PPTX, DOCX o XLSX
+* Tipo de MIME: JPG, PNG, TIFF, GIF, MP4, PDF, PPTX, DOCX o XLSX
 
 * Fecha de creación
 
@@ -277,13 +277,13 @@ La búsqueda contextual admite los siguientes filtros predeterminados. Base sus 
 
 * Fecha de caducidad
 
-* Estado del recurso: aprobado, rechazado o todos
+* Estado del recurso: aprobado, rechazado o todo
 
 * Recursos caducados
 
-### Ejemplos de las indicaciones de texto {#text-prompts-examples}
+### Ejemplos de mensajes de texto {#text-prompts-examples}
 
-**Ejemplo: 1**
+**Ejemplo 1**
 
 **Mensaje de texto**: imágenes creadas este mes.
 
@@ -291,39 +291,39 @@ La búsqueda contextual admite los siguientes filtros predeterminados. Base sus 
 
 ![Ejemplo 1 de búsqueda contextual](/help/using/assets/contextual-search-example1.png)
 
-**Ejemplo: 2**
+**Ejemplo 2**
 
-**Mensaje de texto**: Imágenes de al menos 200 píxeles de altura y 100 píxeles de ancho con playa y cielo despejado.
+**Mensaje de texto**: Imágenes de al menos 200 píxeles de altura y 100 píxeles de anchura con playa y cielo despejado.
 
 [!DNL Experience Manager Assets] aplica los siguientes filtros automáticamente y muestra los resultados de la búsqueda:
 
 ![Ejemplo 2 de búsqueda contextual](/help/using/assets/contextual-search-example2.png)
 
-**Ejemplo: 3**
+**Ejemplo 3**
 
-**Mensaje de texto**: Necesito imágenes de cielo azul que tengan 1500 y 2500 píxeles de altura y que se hayan creado en el último mes y que no hayan caducado ni estén aprobadas.
+**Mensaje de texto**: Necesito imágenes de cielo azul de 1500 y 2500 píxeles de altura y creadas en el último último mes que no hayan caducado ni estén aprobadas.
 
 [!DNL Experience Manager Assets] aplica los siguientes filtros automáticamente y muestra los resultados de la búsqueda:
 
 ![Ejemplo 3 de búsqueda contextual](/help/using/assets/contextual-search-example3.png)
 
-El siguiente vídeo ilustra el proceso de extremo a extremo desde el acceso a la interfaz de usuario de búsqueda contextual hasta la definición de indicaciones de texto y la visualización de los resultados de búsqueda.
+El siguiente vídeo ilustra el proceso de extremo a extremo desde el acceso a la interfaz de usuario de búsqueda contextual hasta la definición de mensajes de texto y la visualización de los resultados de la búsqueda.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3428407)
 
-### Desactivar búsqueda contextual {#disable-contextual-search}
+### Deshabilitación de la búsqueda contextual {#disable-contextual-search}
 
 Los administradores también tienen la opción de deshabilitar la búsqueda contextual para los usuarios de su organización. Para ello, ejecute los siguientes pasos:
 
 1. Vaya a **[!UICONTROL Configuración]** > **[!UICONTROL Configuración general]**.
 
-1. En el [!UICONTROL Búsqueda contextual] , desactive la sección **[!UICONTROL Habilitar la búsqueda contextual para su organización]** Marque esta opción para desactivar la función Búsqueda contextual para todos los usuarios de su organización.
+1. En la sección [!UICONTROL Búsqueda contextual], desactive el conmutador **[!UICONTROL Habilitar la búsqueda contextual para su organización]** para deshabilitar la función de búsqueda contextual para todos los usuarios de su organización.
 
-### Comentarios de búsqueda contextual {#contextual-search-feedback}
+### Comentarios sobre la búsqueda contextual {#contextual-search-feedback}
 
-Si necesita proporcionar comentarios sobre la función de búsqueda contextual, haga clic en ![Icono de búsqueda contextual](assets/do-not-localize/contextual-search-icon.png)  y haga clic en el icono Comentarios. Seleccione el tipo de comentarios, especifique el asunto y la descripción y haga clic en **[!UICONTROL Enviar]**.
+Si necesita facilitar comentarios sobre la función de búsqueda contextual, haga clic en el ![icono de búsqueda contextual](assets/do-not-localize/contextual-search-icon.png)  y haga clic en el icono Comentarios. Seleccione el tipo de comentarios, especifique el asunto y la descripción y haga clic en **[!UICONTROL Enviar]**.
 
-![Comentarios de búsqueda contextual](/help/using/assets/contextual-search-feedback.png)
+![Comentarios sobre la búsqueda contextual](/help/using/assets/contextual-search-feedback.png)
 
 
 ## Siguientes pasos {#next-steps}
