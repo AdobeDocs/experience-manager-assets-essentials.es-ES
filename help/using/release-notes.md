@@ -5,21 +5,21 @@ role: User,Leader,Admin,Architect,Developer
 contentOwner: AK
 exl-id: a0e29eb6-336a-4f78-b7bd-ec1338c86775
 source-git-commit: ae72670b4e66b79ac531f4050703951e0e7852e0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2847'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
 # Notas de la versión de [!DNL Assets Essentials] {#release-notes}
 
-La versión actual de Assets Essentials se publicó el viernes, 18 de abril de 2024.
+La versión actual de Assets Essentials se publicó el 18 de abril de 2024.
 
 Algunas de las funciones añadidas recientemente son:
 
 **Búsqueda contextual**
 
-Ahora también puede buscar recursos disponibles en el repositorio definiendo mensajes de texto. Experience Manager Assets transforma automáticamente esos mensajes de texto en filtros de búsqueda y muestra los resultados de búsqueda. Puede ver y modificar los filtros automáticos mediante el panel Filtros para reducir aún más los resultados de búsqueda.
+También puede buscar recursos disponibles en el repositorio definiendo mensajes de texto. Experience Manager Assets transforma automáticamente esos mensajes de texto en filtros de búsqueda y muestra los resultados de la búsqueda. Puede ver y modificar los filtros automáticos mediante el panel Filtros para reducir aún más los resultados de la búsqueda.
 
 ![uso de almacenamiento en Insights](/help/using/assets/contextual-search-text-prompt1.png)
 
@@ -33,23 +33,23 @@ You can now view and download dynamic renditions (including smart crops) in Expe
 
 -->
 
-**Cambio de nombre local para recursos y carpetas**
+**Cambio de nombre in situ de recursos y carpetas**
 
-Experience Manager Assets ahora ofrece una experiencia de usuario simplificada al proporcionar la capacidad de cambiar el nombre de un recurso o una carpeta con un solo clic.
+Experience Manager Assets ahora ofrece una experiencia de usuario simplificada al brindar la posibilidad de cambiar el nombre de un recurso o una carpeta con un solo clic.
 
-**Acciones rápidas de vídeo exprés**
+**Acciones rápidas de vídeo exprés.**
 
-Experience Manager Assets ahora incluye herramientas de edición de vídeo sencillas e intuitivas con tecnología de Adobe Express para aumentar la reutilización del contenido y acelerar la velocidad de contenido. Las opciones de edición incluyen recortar, recortar, cambiar el tamaño de un vídeo y también convertir un MP4 en un archivo de GIF.
+Experience Manager Assets ahora incluye herramientas de edición de video sencillas e intuitivas con tecnología de Adobe Express para aumentar la reutilización del contenido y acelerar su velocidad. Las opciones de edición incluyen recortar, cambiar el tamaño de un video y convertir también un archivo MP4 a GIF.
 
 ![recortar vídeo con Adobe Express](/help/using/assets/adobe-express-crop-video.png)
 
-**Asignar o quitar formularios de metadatos a varias carpetas**
+**Asignar o quitar formulario de metadatos a varias carpetas**
 
 Ahora puede asignar o quitar formularios de metadatos a varias carpetas.
 
 **Administración de permisos para colecciones privadas**
 
-Puede permitir a los administradores administrar los niveles de acceso para las colecciones privadas disponibles en el repositorio. Puede asignar permisos como `Can View` y `Can Edit` a los grupos de usuarios o a los usuarios. También puede delegar privilegios de administración de permisos a grupos de usuarios.
+Puede permitir que los administradores administren niveles de acceso para colecciones privadas disponibles en el repositorio. Puede asignar permisos como `Can View` y `Can Edit` a los grupos de usuarios o a los usuarios. También puede delegar privilegios de administración de permisos a grupos de usuarios. 
 
 
 **Mejoras basadas en los comentarios de los clientes**
