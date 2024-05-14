@@ -5,9 +5,9 @@ role: User,Leader,Admin,Architect,Developer
 contentOwner: AK
 exl-id: a0e29eb6-336a-4f78-b7bd-ec1338c86775
 source-git-commit: eac31e102b9e26241cd513b1aeb8774802120a9d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2903'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -44,7 +44,7 @@ Experience Manager Assets ahora incluye herramientas de edición de video sencil
 ![recortar vídeo con Adobe Express](/help/using/assets/adobe-express-crop-video.png)
 
 >[!NOTE]
-> Derechos de acceso [!DNL Adobe Express] es obligatorio y debe haber al menos un entorno dentro de AEM Assets. El entorno puede ser cualquiera de los repositorios de [!DNL Assets as a Cloud Service] o [!DNL Assets Essentials].
+> Los derechos de acceso a [!DNL Adobe Express] son obligatorios y debe haber al menos un entorno dentro de AEM Assets. El entorno puede ser cualquiera de los repositorios de [!DNL Assets as a Cloud Service] o [!DNL Assets Essentials].
 
 **Asignar o quitar formulario de metadatos a varias carpetas**
 
@@ -52,7 +52,7 @@ Ahora se puede asignar o quitar un formulario de metadatos de varias carpetas.
 
 **Administración de permisos para colecciones privadas**
 
-Puede permitir que los administradores o no administradores (otros usuarios) administren los niveles de acceso para las colecciones privadas disponibles en el repositorio. Puede asignar permisos como `Can View` y `Can Edit` a los grupos de usuarios o a los usuarios. También puede delegar privilegios de administración de permisos a grupos de usuarios. 
+Puede permitir que los administradores o no administradores (otros usuarios) administren niveles de acceso para colecciones privadas disponibles en el repositorio. Puede asignar permisos como `Can View` y `Can Edit` a los grupos de usuarios o a los usuarios. También puede delegar privilegios de administración de permisos a grupos de usuarios. 
 
 
 **Mejoras basadas en los comentarios de los clientes**
@@ -62,7 +62,7 @@ Mejoras y correcciones de errores basadas en los comentarios de los clientes.
 
 ## Problemas conocidos {#known-issues}
 
-La lista de problemas conocidos de [!DNL Assets Essentials] La oferta de se revisa y actualiza de forma continua.
+La lista de problemas conocidos de la oferta de [!DNL Assets Essentials] se revisa y actualiza de forma continua.
 
 <!--
 
@@ -109,7 +109,7 @@ Los administradores ahora pueden ver los informes de uso del almacenamiento disp
 
 **Buscar la configuración de la primera página principal Buscar primero**
 
-Assets Essentials ahora le permite configurar la experiencia de la página principal para su organización. Si selecciona buscar primero como página principal, puede configurar la alineación de la barra de búsqueda, la imagen de fondo y el logotipo de su organización. Elección [!UICONTROL Configuración general] anula la página de aterrizaje predeterminada. Por ejemplo, el aterrizaje predeterminado es [!UICONTROL Mi espacio de trabajo] para administradores y [!UICONTROL Buscar primero] para los usuarios que no son administradores, elegir cualquiera de las opciones en Configuración general aplica eso a todos los usuarios
+Assets Essentials ahora le permite configurar la experiencia de la página principal para su organización. Si selecciona Buscar primero como página principal, puede configurar la alineación de la barra de búsqueda, la imagen de fondo y el logotipo de su organización. Al elegir [!UICONTROL Configuración general] se anula la página de aterrizaje predeterminada. Por ejemplo, el aterrizaje predeterminado es [!UICONTROL Mi espacio de trabajo] para administradores y [!UICONTROL Buscar primero] para los usuarios que no son administradores. Al elegir cualquiera de las opciones en Configuración general se aplica a todos los usuarios
 
 ![configuración de Buscar primero](/help/using/assets/search-first-configuration.png)
 
@@ -212,7 +212,7 @@ Mi espacio de trabajo ahora muestra los diez recursos más descargados para su e
 
 **Actualizaciones masivas en los metadatos de recursos**
 
-Las actualizaciones de metadatos masivas le permiten ejecutar simultáneamente actualizaciones de metadatos comunes en varios recursos. No es necesario actualizar los registros individualmente y puede aplicar rápidamente propiedades a los recursos o carpetas a los que se accede mediante la búsqueda. Además, las actualizaciones masivas de metadatos sobrescriben los valores existentes, por lo que la actualización masiva de metadatos sobrescribe las palabras clave existentes.
+Las actualizaciones de metadatos masivas le permiten ejecutar simultáneamente actualizaciones de metadatos comunes en varios recursos. No es necesario actualizar los registros de forma individual y puede aplicar rápidamente propiedades a los recursos o carpetas a los que se accede mediante la búsqueda. Además, las actualizaciones masivas de metadatos sobrescriben los valores existentes, lo que significa que las palabras clave existentes se sobrescriben con la actualización de metadatos masivos.
 
 **Mi espacio de trabajo con widgets configurables**
 

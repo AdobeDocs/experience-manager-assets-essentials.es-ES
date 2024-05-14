@@ -3,9 +3,9 @@ title: ¿Cómo compartir vínculos a recursos?
 description: Genere un vínculo y comparta recursos con otras personas que no tengan acceso a la aplicación de  [!DNL Assets Essentials] .
 exl-id: 6e05b06c-7436-40e3-acee-c8b1ed218f9e
 source-git-commit: 0ce79167583178f2b81b7ac9f91dd518455cc49f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '413'
-ht-degree: 76%
+ht-degree: 100%
 
 ---
 
@@ -23,7 +23,7 @@ Para generar un vínculo para un recurso o una carpeta que contenga recursos:
 
 >[!NOTE]
 > El formato de fecha cambia según la configuración regional elegida.
-> Por ejemplo, la variable `de-DE` utiliza `dd-mm-yyyy`, `ja-JA` utiliza `yyyy-mm-dd`, mientras que, `en-EN` utiliza `mm-dd-yyyy`.
+> Por ejemplo, `de-DE` utiliza `dd-mm-yyyy`, `ja-JA` utiliza `yyyy-mm-dd`, mientras que, `en-EN` utiliza `mm-dd-yyyy`.
 >
 
 1. Copie el vínculo desde el campo **[!UICONTROL Compartir vínculo]**.
@@ -48,10 +48,10 @@ Para descargar todos los recursos a la vez, cambie a la **[!UICONTROL Vista de l
 
 ## Siguientes pasos {#next-steps}
 
-* [Vea un vídeo para compartir vínculos para recursos en Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-learn/assets-essentials/basics/link-sharing.html?lang=es).
+* [Vea un vídeo para compartir vínculos para los recursos de Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-learn/assets-essentials/basics/link-sharing.html?lang=es).
 
-* Proporcione comentarios sobre productos usando [!UICONTROL Comentarios] opción disponible en la interfaz de usuario de Assets Essentials.
+* Facilite comentarios del producto mediante la opción [!UICONTROL Comentarios] disponible en la interfaz de usuario de Assets Essentials.
 
-* Proporcione comentarios sobre la documentación usando [!UICONTROL Editar esta página] ![editar la página](assets/do-not-localize/edit-page.png) o [!UICONTROL Registrar un problema] ![crear una incidencia de GitHub](assets/do-not-localize/github-issue.png) disponible en la barra lateral derecha.
+* Facilite comentarios sobre la documentación usando [!UICONTROL Editar esta página] ![editar la página](assets/do-not-localize/edit-page.png) o [!UICONTROL Registrar un problema] ![crear un problema de GitHub](assets/do-not-localize/github-issue.png), disponibles en la barra lateral derecha.
 
-* Contacto [Atención al cliente](https://experienceleague.adobe.com/?support-solution=General&amp;lang=es#support).
+* Contacte con el [Servicio de atención al cliente](https://experienceleague.adobe.com/?support-solution=General&amp;lang=es#support).
