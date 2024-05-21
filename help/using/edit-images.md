@@ -3,7 +3,7 @@ title: Edición de imágenes
 description: Edite imágenes mediante opciones que se sirven de [!DNL Adobe Photoshop Express] y guarde imágenes actualizadas como versiones.
 role: User
 exl-id: fc21a6ee-bf23-4dbf-86b0-74695a315b2a
-source-git-commit: 1f306241ef3040557661cdd79b8864916e3a4240
+source-git-commit: 745dd77210caece8ef2497e4340e55d85347546f
 workflow-type: tm+mt
 source-wordcount: '797'
 ht-degree: 100%
@@ -170,9 +170,9 @@ TBD: Insert a video of the available social media options.
 
 ### Siguientes pasos {#next-steps}
 
-* Proporcione comentarios de producto mediante la opción [!UICONTROL Comentarios] disponible en la interfaz de usuario de Assets Essentials
+* Facilite comentarios del producto mediante la opción [!UICONTROL Comentarios] disponible en la interfaz de usuario de Assets Essentials.
 
-* Proporcione comentarios sobre la documentación usando [!UICONTROL Editar esta página] ![editar la página](assets/do-not-localize/edit-page.png) o [!UICONTROL Registrar una incidencia] ![crear una incidencia de GitHub](assets/do-not-localize/github-issue.png), disponibles en la barra lateral derecha
+* Facilite comentarios sobre la documentación usando [!UICONTROL Editar esta página] ![editar la página](assets/do-not-localize/edit-page.png) o [!UICONTROL Registrar un problema] ![crear un problema de GitHub](assets/do-not-localize/github-issue.png), disponibles en la barra lateral derecha.
 
 * Contacto con el [Servicio de atención al cliente](https://experienceleague.adobe.com/?support-solution=General&amp;lang=es#support)
 
