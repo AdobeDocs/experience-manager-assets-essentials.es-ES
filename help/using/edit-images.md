@@ -4,7 +4,7 @@ description: Edite imágenes mediante opciones que se sirven de [!DNL Adobe Phot
 role: User
 exl-id: fc21a6ee-bf23-4dbf-86b0-74695a315b2a
 source-git-commit: 1f306241ef3040557661cdd79b8864916e3a4240
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '797'
 ht-degree: 100%
 
