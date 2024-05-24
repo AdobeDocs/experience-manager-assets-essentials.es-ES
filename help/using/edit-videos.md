@@ -3,7 +3,7 @@ title: Edición de vídeos
 description: Editar vídeos con [!DNL Adobe Express] opciones de y guardar vídeos actualizados como versiones de.
 role: User
 exl-id: 8468d572-89f1-431d-be7f-01e583d06cd7
-source-git-commit: e775f6ebeda48ff01082c471a9f997c57e0dedb3
+source-git-commit: 456ffec077617909f98b66bed711921c0b7b3925
 workflow-type: tm+mt
 source-wordcount: '786'
 ht-degree: 18%
@@ -87,7 +87,7 @@ El vídeo está disponible en formato GIF para su descarga. Puede guardar el rec
 
 * El tamaño máximo de archivo de origen admitido es de 200 MB.
 
-* Los vídeos admitidos tienen más de 46 píxeles y menos de 3840 píxeles en cualquier lado
+* Los vídeos admitidos tienen más de 46 píxeles y menos de 3840 píxeles en cualquier lado.
 
 * Los exploradores web admitidos son Google Chrome, Firefox, Safari y Edge.
 
