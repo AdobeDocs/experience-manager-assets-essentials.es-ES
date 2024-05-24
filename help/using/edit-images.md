@@ -4,9 +4,9 @@ description: Edite imágenes mediante opciones que se sirven de [!DNL Adobe Expr
 role: User
 exl-id: fc21a6ee-bf23-4dbf-86b0-74695a315b2a
 source-git-commit: f65e4eb7e0877e8b8d7ba4d5dd88c64b4423f152
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '796'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -76,7 +76,7 @@ Puede convertir rápidamente una imagen JPEG a un formato PNG mediante Adobe Exp
 
 ### Restricciones {#limitations-adobe-express}
 
-* Resolución de imagen admitida: mínimo: 50 píxeles, máximo: 6000 píxeles por dimensión.
+* Resolución de imagen admitida: mínimo de 50 píxeles, máximo de 6000 píxeles por dimensión.
 
 * Tamaño máximo de archivo admitido: 17 MB.
 
