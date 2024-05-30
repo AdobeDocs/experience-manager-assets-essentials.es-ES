@@ -2,10 +2,10 @@
 title: Administración de informes en Assets Essentials
 description: Acceda a los datos de la sección de informes de Assets Essentials para evaluar el uso de productos y funciones y obtener perspectivas sobre las métricas de éxito clave.
 exl-id: c7155459-05d9-4a95-a91f-a1fa6ae9d9a4
-source-git-commit: 8f91cd833712363e09b81a5f59b08e2f41237d90
+source-git-commit: 3f2c2cdb948a3a33c25e10588aa2bc8fa2a5a845
 workflow-type: tm+mt
-source-wordcount: '862'
-ht-degree: 100%
+source-wordcount: '929'
+ht-degree: 93%
 
 ---
 
@@ -65,6 +65,12 @@ Haga clic en **[!UICONTROL Insights]** en el panel de navegación izquierdo para
    ![Insights](assets/insights1.png)
    ![Insights](assets/insights2.png)
    -->
+
+* **Recuento de recursos por tamaño:** Segmenta el recuento total de recursos en el entorno de vista de recursos en diferentes intervalos de tamaño, destacando el recuento y el porcentaje de recursos en cada intervalo de tamaño, representados por un gráfico de anillo.
+  ![insights-assets-count-by-size](/help/using/assets/insights-assets-count-by-size.svg)
+
+* **Recuento de recursos por tipo de recurso:** Segmenta el recuento total de recursos en el entorno de vista de recursos, resaltando el recuento y el porcentaje de recursos en función de sus tipos de archivo, representados por un gráfico de anillo.
+  ![insights-assets-count-by-size](/help/using/assets/insights-assest-count-by-asset-type1.svg)
 
 ## Creación de un informe de descarga {#create-download-report}
 
