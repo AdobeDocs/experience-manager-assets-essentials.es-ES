@@ -2,7 +2,7 @@
 title: Administración de informes en Assets Essentials
 description: Acceda a los datos de la sección de informes de Assets Essentials para evaluar el uso de productos y funciones y obtener perspectivas sobre las métricas de éxito clave.
 exl-id: c7155459-05d9-4a95-a91f-a1fa6ae9d9a4
-source-git-commit: 5b5fe779f1dd50470016706a5ba3f6f59ab46793
+source-git-commit: 71a0381f5f7c32d3da1923778b3cd7b678391cae
 workflow-type: tm+mt
 source-wordcount: '862'
 ht-degree: 100%
@@ -86,7 +86,7 @@ Para crear un informe de descarga, haga lo siguiente:
 
 1. En la pestaña [!UICONTROL Columnas], seleccione los nombres de columna que debe mostrar en el informe.
 
-1. Haga clic en **[!UICONTROL Crear]**.
+1. Haga clic en **[!UICONTROL Crear]**
 
    ![Descargar informe](assets/download-reports-config.png)
 
