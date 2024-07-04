@@ -4,15 +4,15 @@ description: Edite imágenes mediante opciones que se sirven de [!DNL Adobe Expr
 role: User
 exl-id: fc21a6ee-bf23-4dbf-86b0-74695a315b2a
 source-git-commit: 5947e7db586b691f1db3bf734481de8438e5a3b5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1116'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
 # Edición de imágenes en [!DNL Assets Essentials] {#edit-images-in-assets-essentials}
 
-La IU de Assets Essentials permite la edición básica de imágenes, como el cambio de tamaño, la eliminación de fondo, el recorte y la conversión entre los formatos JPEG y PNG. Además, permite realizar ediciones avanzadas integrándolas con Adobe Express. Después de editar una imagen, puede guardar la nueva como una nueva versión. El uso de versiones le ayuda a volver al recurso original más adelante, si es necesario. Para editar una imagen, [abra su previsualización](https://experienceleague.adobe.com/es/docs/experience-manager-assets-essentials/help/navigate-view#preview-assets) y haga clic en **Editar imagen**.
+La interfaz de usuario de Asset Essentials permite la edición básica de imágenes, como cambiar el tamaño, quitar el fondo, realizar recortes y convertir entre los formatos JPEG y PNG. Además, permite realizar ediciones avanzadas integrándolas con Adobe Express. Después de editar una imagen, puede guardar la nueva como una nueva versión. El uso de versiones le ayuda a volver al recurso original más adelante, si es necesario. Para editar una imagen, [abra su previsualización](https://experienceleague.adobe.com/es/docs/experience-manager-assets-essentials/help/navigate-view#preview-assets) y haga clic en **Editar imagen**.
 
 >[!NOTE]
 >
@@ -22,8 +22,8 @@ La IU de Assets Essentials permite la edición básica de imágenes, como el cam
 
 ## Editar imagen {#edit-images}
 
-Aterrizar en la interfaz de usuario de Assets Essentials mediante el vínculo - [IU de Assets Essentials](https://experience.adobe.com/#/assets) y seleccionando el repositorio adecuado. Para obtener acceso, póngase en contacto con el administrador de su organización.
-Para cualquier información de referencia adicional, consulte [Introducción a Adobe Experience Manager Assets Essentials](https://experienceleague.adobe.com/es/docs/experience-manager-assets-essentials/help/get-started), [comprensión de la interfaz de usuario](https://experienceleague.adobe.com/es/docs/experience-manager-assets-essentials/help/navigate-view), [Casos de uso de Assets essentials](https://experienceleague.adobe.com/es/docs/experience-manager-assets-essentials/help/get-started#use-cases) y [problemas conocidos](https://experienceleague.adobe.com/es/docs/experience-manager-assets-essentials/help/release-notes).
+Para acceder a la interfaz de usuario de Asset Essentials utilice el vínculo de [IU de Asset Essentials](https://experience.adobe.com/#/assets) y seleccione el repositorio adecuado. Para obtener acceso, póngase en contacto con el administrador de su organización.
+Para cualquier información de consulta adicional, consulte [Introducción a Adobe Experience Manager Assets Essentials](https://experienceleague.adobe.com/es/docs/experience-manager-assets-essentials/help/get-started), [comprensión de la interfaz de usuario](https://experienceleague.adobe.com/es/docs/experience-manager-assets-essentials/help/navigate-view), [casos de uso de Asset Essentials](https://experienceleague.adobe.com/es/docs/experience-manager-assets-essentials/help/get-started#use-cases) y [problemas conocidos](https://experienceleague.adobe.com/es/docs/experience-manager-assets-essentials/help/release-notes).
 <!--
 >[!CONTEXTUALHELP]
 >id="assets_express_integration"
@@ -86,11 +86,11 @@ Los usuarios con derechos para Express pueden utilizar el editor Express integra
 ![express en la IU de essentials](/help/using/assets/express-in-essentials-ui.jpg)
 Para editar imágenes con el editor integrado de Adobe Express, siga estos pasos:
 
-1. Vaya a la interfaz de usuario de AEM Assets Essentials mediante el vínculo: [IU de AEM Assets Essentials](https://experience.adobe.com/#/assets) y seleccione el repositorio adecuado.
+1. Acceda a la IU de AEM Assets Essentials mediante el vínculo de [AEM IU de Asset Essentials](https://experience.adobe.com/#/assets) y seleccione el repositorio adecuado.
 1. Haga clic en **Assets**, introduzca una carpeta y seleccione una imagen.
 1. Haga clic en **Abrir en Adobe Express**. La imagen se abre en un lienzo exprés.
 1. Realice los cambios necesarios en la imagen.
-1. Si el proyecto requiere que agregue más páginas, haga clic en **Añadir**, seleccione recursos, introduzca una carpeta, seleccione una imagen para llevarla a la página de lienzo y, a continuación, realice las ediciones necesarias en la imagen.
+1. Si el proyecto requiere que se añadan más páginas, haga clic en **Añadir**, seleccione Assets, introduzca una carpeta, seleccione una imagen para llevarla a la página de lienzo y, a continuación, realice los cambios necesarios en la imagen.
 1. Para guardar las imágenes, haga clic en **Guardar**. Aparece el cuadro de diálogo para guardar.
 
    >[!NOTE]
@@ -123,7 +123,7 @@ Para editar imágenes con el editor integrado de Adobe Express, siga estos pasos
 Assets Essenitals le permite crear una nueva plantilla desde cero utilizando el editor integrado de Adobe Express. Para crear un nuevo recurso con Adobe Express, ejecute los pasos siguientes:
 
 1. Vaya a **Mi espacio de trabajo** y haga clic en **Crear** dentro del banner de Adobe Express que se muestra dentro de Adobe Express en la parte superior. El lienzo en blanco de Adobe Express se muestra en la interfaz de usuario de Assets Essentials.
-1. Cree su contenido mediante [Plantillas](https://helpx.adobe.com/in/express/using/work-with-templates.html). En caso contrario, vaya a Sus cosas para modificar el contenido existente.
+1. Cree su contenido mediante [Plantillas](https://helpx.adobe.com/es/express/using/work-with-templates.html). En caso contrario, vaya a Sus cosas para modificar el contenido existente.
 1. Una vez completada la edición, haga clic en **Guardar**.
 1. Especifique la ruta de destino del recurso creado y haga clic en **Guardar como nuevo recurso**.
 
