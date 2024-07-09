@@ -3,10 +3,10 @@ title: Edición de imágenes
 description: Edite imágenes mediante opciones que se sirven de [!DNL Adobe Express] y guarde imágenes actualizadas como versiones.
 role: User
 exl-id: fc21a6ee-bf23-4dbf-86b0-74695a315b2a
-source-git-commit: 5947e7db586b691f1db3bf734481de8438e5a3b5
-workflow-type: ht
-source-wordcount: '1116'
-ht-degree: 100%
+source-git-commit: a9ef92194f55da9ad5352adf4251c85e3abcdcd1
+workflow-type: tm+mt
+source-wordcount: '1138'
+ht-degree: 99%
 
 ---
 
@@ -20,17 +20,17 @@ La interfaz de usuario de Asset Essentials permite la edición básica de imáge
 
 <!--The editing actions that are available are Spot healing, Crop and straighten, Resize image, and Adjust image.-->
 
-## Editar imagen {#edit-images}
+## Editar imágenes {#edit-images}
 
 Para acceder a la interfaz de usuario de Asset Essentials utilice el vínculo de [IU de Asset Essentials](https://experience.adobe.com/#/assets) y seleccione el repositorio adecuado. Para obtener acceso, póngase en contacto con el administrador de su organización.
 Para cualquier información de consulta adicional, consulte [Introducción a Adobe Experience Manager Assets Essentials](https://experienceleague.adobe.com/es/docs/experience-manager-assets-essentials/help/get-started), [comprensión de la interfaz de usuario](https://experienceleague.adobe.com/es/docs/experience-manager-assets-essentials/help/navigate-view), [casos de uso de Asset Essentials](https://experienceleague.adobe.com/es/docs/experience-manager-assets-essentials/help/get-started#use-cases) y [problemas conocidos](https://experienceleague.adobe.com/es/docs/experience-manager-assets-essentials/help/release-notes).
-<!--
+
+### Editar imágenes con el Adobe Express {#edit-images-using-adobe-express}
+
 >[!CONTEXTUALHELP]
 >id="assets_express_integration"
->title="Adobe Express Integration"
->abstract="Easy and intuitive image-editing tools powered by Adobe Express available directly within AEM Assets to increase content reuse and accelerate content velocity."-->
-
-### Editar la imagen en la IU de Essentials mediante Adobe Express {#edit-image-on-essentials-ui-using-adobe-express}
+>title="Integración de Adobe Express"
+>abstract="Herramientas de edición de imágenes sencillas e intuitivas con tecnología Adobe Express disponibles directamente en AEM Assets para aumentar la reutilización de contenidos y acelerar la velocidad del contenido."
 
 Después de acceder a la IU de Essentials, haga clic en **Assets**, seleccione una imagen y haga clic en **Editar** en el carril superior. La nueva pantalla muestra las opciones de edición disponibles, como cambiar el tamaño, quitar el fondo, realizar recortes y convertir entre los formatos JPEG y PNG.
 

@@ -3,10 +3,10 @@ title: Edición de vídeos
 description: Editar vídeos con [!DNL Adobe Express] opciones de y guardar vídeos actualizados como versiones de.
 role: User
 exl-id: 8468d572-89f1-431d-be7f-01e583d06cd7
-source-git-commit: 78187929a6baa0f1ab5d8675287408a24e1ada98
+source-git-commit: a9ef92194f55da9ad5352adf4251c85e3abcdcd1
 workflow-type: tm+mt
-source-wordcount: '786'
-ht-degree: 18%
+source-wordcount: '833'
+ht-degree: 22%
 
 ---
 
@@ -23,6 +23,11 @@ Más información sobre la [interfaz de previsualización](/help/using/navigate-
 Derechos de acceso [!DNL Adobe Express] y al menos un entorno dentro de AEM Assets. El entorno puede ser cualquiera de los repositorios de [!DNL Assets as a Cloud Service] o [!DNL Assets Essentials].
 
 ## Editar vídeos con el Adobe Express {#edit-video-using-express}
+
+>[!CONTEXTUALHELP]
+>id="assets_express_integration_videos"
+>title="Integración de Adobe Express para la edición de vídeo"
+>abstract="Experience Manager Assets ahora incluye herramientas de edición de video sencillas e intuitivas con tecnología de Adobe Express para aumentar la reutilización del contenido y acelerar su velocidad. Las opciones de edición incluyen recortar, cambiar el tamaño de un video y convertir también un archivo MP4 a GIF."
 
 Transformar un vídeo en un tamaño y una orientación perfectos es fácil gracias al uso de funciones integradas [!DNL Adobe Express] acciones rápidas.
 
@@ -81,7 +86,7 @@ Puede convertir rápidamente un vídeo MP4 a un formato de GIF mediante el Adobe
 
 El vídeo está disponible en formato GIF para su descarga. Puede guardar el recurso editado como una nueva versión del mismo recurso o guardarlo como uno nuevo.
 
-## Restricciones {#limitations-video-adobe-express}
+## Limitaciones {#limitations-video-adobe-express}
 
 * Solo se admiten vídeos en formato MP4 para su edición.
 
