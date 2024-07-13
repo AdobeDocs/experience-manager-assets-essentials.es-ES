@@ -3,7 +3,7 @@ title: ¿Cómo se administran las etiquetas en Assets Essentials?
 description: Obtenga información sobre cómo administrar etiquetas en Assets Essentials. Las etiquetas le ayudan a categorizar los archivos que se pueden examinar y buscar de forma más eficaz.
 exl-id: da9e8d56-c190-4006-9579-c3c8401c5e5f
 source-git-commit: eef4aec6f67700d0a5b096577b9637d96949b488
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1748'
 ht-degree: 100%
 

@@ -4,8 +4,8 @@ description: Información general de seguridad para Assets Essentials
 mini-toc-levels: 1
 exl-id: 7efa50d5-2e9d-47bf-a810-ebc19e003af1
 source-git-commit: 65200f73a954e4ebf4fbd6dc3a819acc6e0beda4
-workflow-type: ht
-source-wordcount: '129'
+workflow-type: tm+mt
+source-wordcount: '115'
 ht-degree: 100%
 
 ---

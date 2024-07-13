@@ -4,8 +4,8 @@ description: Acceso, experiencia de inicio de sesión, casos de uso compatibles 
 role: User, Leader
 exl-id: 7917b2a0-8340-4d94-aa6f-30ce986fa752
 source-git-commit: fedcf02b5338d6640e557dad25ca03cfbd78d7e5
-workflow-type: ht
-source-wordcount: '432'
+workflow-type: tm+mt
+source-wordcount: '418'
 ht-degree: 100%
 
 ---

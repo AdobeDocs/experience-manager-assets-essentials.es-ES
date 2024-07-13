@@ -3,7 +3,7 @@ title: Conectar AEM Assets a Creative Cloud
 description: Obtenga información sobre cómo configurar y conectar AEM Assets a Creative Cloud. Conéctese a un derecho de Creative Cloud que se haya suministrado a una organización IMS diferente para utilizar fácilmente las integraciones de Creative Cloud más recientes en AEM Assets, incluidas las bibliotecas Express y Creative Cloud.
 exl-id: 3d8d7429-ddf6-44cd-a6e7-ba2afcbaf52b
 source-git-commit: 36f13972e7dc7b1546cdba0713a60f95f2bbc415
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '286'
 ht-degree: 100%
 
