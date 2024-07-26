@@ -3,10 +3,10 @@ title: “Interfaz de usuario de [!DNL Assets Essentials]”
 description: Explicación de la interfaz de usuario de y la navegación en [!DNL Assets Essentials].
 role: User
 exl-id: 534a8084-88f7-410e-b872-719e47e62b10
-source-git-commit: c6b04d1882347a4647a690939353856844b2a27a
+source-git-commit: 8debab75bb335d4a81279c9c0e84229c3b3ca2cd
 workflow-type: tm+mt
 source-wordcount: '1036'
-ht-degree: 90%
+ht-degree: 88%
 
 ---
 
@@ -55,7 +55,7 @@ Al examinar los recursos de una carpeta, puede utilizar la interfaz para ver las
 
 Puede abrir o contraer la barra lateral izquierda para aumentar el área de visualización de recursos disponible.
 
-En [!DNL Assets Essentials], puede ver recursos, carpetas y resultados de búsqueda con cuatro tipos diferentes de diseños.
+En [!DNL Assets Essentials], puede ver recursos, carpetas y resultados de búsqueda en cuatro tipos diferentes de diseños:
 
 * ![icono de vista de lista](assets/do-not-localize/list-view.png) [!UICONTROL Vista de lista]
 * ![icono de vista de cuadrícula](assets/do-not-localize/grid-view.png) [!UICONTROL Vista de cuadrícula]
