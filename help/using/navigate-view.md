@@ -3,10 +3,10 @@ title: “Interfaz de usuario de [!DNL Assets Essentials]”
 description: Explicación de la interfaz de usuario de y la navegación en [!DNL Assets Essentials].
 role: User
 exl-id: 534a8084-88f7-410e-b872-719e47e62b10
-source-git-commit: 8620efd0430d230338ef8005847de498a5a95a7e
+source-git-commit: c6b04d1882347a4647a690939353856844b2a27a
 workflow-type: tm+mt
-source-wordcount: '982'
-ht-degree: 100%
+source-wordcount: '1036'
+ht-degree: 90%
 
 ---
 
@@ -30,7 +30,8 @@ Al iniciar sesión en [!DNL Assets Essentials], verá la siguiente interfaz.
 
 ## Examen y visualización de recursos y carpetas {#browse-repository}
 
-Puede examinar las carpetas desde la interfaz de usuario principal o desde la barra lateral izquierda. Al hacerlo, puede utilizar la interfaz para ver las miniaturas de los recursos y examinar visualmente el repositorio o ver los detalles de los recursos para encontrar rápidamente el que desee. Las opciones disponibles en la barra lateral izquierda son las siguientes:
+Puede examinar las carpetas desde la interfaz de usuario principal o desde la barra lateral izquierda. Experience Manager Assets ahora muestra vistas previas visuales del contenido de la carpeta en la miniatura de la carpeta al examinar o buscar contenido, lo que mejora la capacidad de detección de los recursos disponibles en el repositorio de AEM Assets. Esta miniatura de carpeta le ahorra el tiempo empleado en buscar recursos específicos dentro de una carpeta en el repositorio de AEM Assets.
+Al examinar los recursos de una carpeta, puede utilizar la interfaz para ver las miniaturas de los recursos y examinar visualmente el repositorio o ver los detalles de los recursos para encontrar rápidamente el que desee. Las opciones disponibles en la barra lateral izquierda son las siguientes:
 
 * [Mi espacio de trabajo](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/my-workspace.html?lang=es): Assets ahora incluye un espacio de trabajo personalizable que proporciona utilidades para acceder fácilmente a las áreas clave de la interfaz de usuario de Assets y a la información más relevante para usted. Esta página sirve como solución integral para proporcionar información general sobre los elementos de trabajo y un acceso rápido a los flujos de trabajo clave. Un acceso más práctico a estas opciones aumenta su eficacia y velocidad de contenido.
 * [Tareas](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/my-workspace.html?lang=es): Puede ver las tareas asignadas en la pestaña de **Mis tareas**. Por su parte, las tareas que crea puede verse en la pestaña de **Tareas asignadas**. Además, las tareas que complete se encuentran en la pestaña de **Tareas completadas**.
@@ -63,7 +64,7 @@ En [!DNL Assets Essentials], puede ver recursos, carpetas y resultados de búsqu
 
 Para localizar recursos, puede ordenarlos en orden de subida o de bajada de `Name`, `Relevancy`, `Size`, `Modified` y `Created`.
 
-Para desplazarse a una carpeta, haga doble clic en las miniaturas de la carpeta o selecciónela en la barra lateral izquierda. Para ver los detalles de una carpeta, selecciónela y haga clic en Detalles en la barra de herramientas de la parte superior. Para desplazarse hacia arriba y abajo en la jerarquía, utilice la barra lateral izquierda o las rutas de exploración de la parte superior.
+Para desplazarse por una carpeta, haga doble clic en las miniaturas de la carpeta o selecciónela en la barra lateral izquierda. Para ver los detalles de una carpeta, selecciónela y haga clic en Detalles en la barra de herramientas de la parte superior. Para desplazarse hacia arriba y abajo en la jerarquía, utilice la barra lateral izquierda o las rutas de exploración de la parte superior.
 
 ![Examen de carpetas](assets/browsing-folders.png)
 
