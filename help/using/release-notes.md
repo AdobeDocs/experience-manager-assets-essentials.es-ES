@@ -5,27 +5,27 @@ role: User,Leader,Admin,Architect,Developer
 contentOwner: AK
 exl-id: a0e29eb6-336a-4f78-b7bd-ec1338c86775
 source-git-commit: 323e1ebd3ee81dfae0d15dc4120997ae3c4798b9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2976'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
 # Notas de la versión de [!DNL Assets Essentials] {#release-notes}
 
-La versión actual de Assets Essentials se publicó el viernes, 25 de julio de 2024.
+La versión actual de Assets Essentials se publicó el 25 de julio de 2024.
 
 Algunas de las funciones añadidas recientemente son:
 
-**Integración de Contentes credentials**
+**Integración de credenciales de contenido**
 
-Experience Manager Assets ahora admite contentes credentials para los formatos de imagen admitidos. Proporciona información sobre el linaje del recurso y cómo se creó, incluso si se modificó con GenAI.
+Experience Manager Assets ahora admite credenciales de contenido para los formatos de imagen admitidos. Proporciona información sobre el linaje del recurso y cómo se creó, incluso si se modificó con GenAI.
 
-![Contentes credentials](/help/using/assets/content-credentials.png)
+![Credenciales de contenido](/help/using/assets/content-credentials.png)
 
 **Vistas previas visuales del contenido de la carpeta**
 
-Experience Manager Assets ahora muestra vistas previas visuales del contenido de la carpeta en la miniatura de la carpeta al examinar o buscar contenido, lo que mejora la capacidad de detección de los recursos disponibles en el repositorio de AEM Assets.
+Experience Manager Assets ahora muestra vistas previas visuales del contenido de la carpeta en la miniatura de la carpeta al examinar o buscar contenido, lo que mejora la posibilidad de descubrir los recursos disponibles en el repositorio de AEM Assets.
 
 **Búsqueda contextual**
 
