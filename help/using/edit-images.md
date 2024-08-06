@@ -3,7 +3,7 @@ title: Edición de imágenes
 description: Edite imágenes mediante opciones que se sirven de [!DNL Adobe Express] y guarde imágenes actualizadas como versiones.
 role: User
 exl-id: fc21a6ee-bf23-4dbf-86b0-74695a315b2a
-source-git-commit: 56a2af8467f3e44855f26bd86a394c76e9f7ccf3
+source-git-commit: 53f638e0dc934f2a4134acb89713b5d4828c8d1f
 workflow-type: tm+mt
 source-wordcount: '1182'
 ht-degree: 63%
@@ -85,6 +85,7 @@ Puede convertir rápidamente entre los formatos de imagen JPEG y PNG mediante Ad
 ### Edición de imágenes en el editor integrado de Adobe Express {#edit-images-in-adobe-express-embedded-editor}
 
 Los usuarios con derechos de Express pueden utilizar el editor Express integrado desde la interfaz de usuario de Assets Essentials para editar el contenido y crear contenido nuevo con GenAI desde el Adobe Firefly fácilmente. Esta función mejora la reutilización del contenido y acelera la velocidad de contenido. También puede utilizar elementos predefinidos para que su recurso tenga un aspecto impresionante o realizar acciones rápidas para editar la imagen con solo unos clics.
+
 ![express en la interfaz de usuario de essentials](/help/using/assets/express-in-essentials-ui.jpg)
 Para editar imágenes dentro del editor incrustado en Adobe Express, siga los pasos a continuación:
 
