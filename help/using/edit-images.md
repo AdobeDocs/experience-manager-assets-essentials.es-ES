@@ -3,10 +3,10 @@ title: Edición de imágenes
 description: Edite imágenes mediante opciones que se sirven de [!DNL Adobe Express] y guarde imágenes actualizadas como versiones.
 role: User
 exl-id: fc21a6ee-bf23-4dbf-86b0-74695a315b2a
-source-git-commit: 65e9f9414fe71d9e9add9b794856d77f87aed086
+source-git-commit: 56a2af8467f3e44855f26bd86a394c76e9f7ccf3
 workflow-type: tm+mt
 source-wordcount: '1182'
-ht-degree: 65%
+ht-degree: 63%
 
 ---
 
@@ -34,7 +34,7 @@ Para obtener más información de referencia, consulte [Introducción a Adobe Ex
 >title="Integración de Adobe Express"
 >abstract="Herramientas de edición de imágenes sencillas e intuitivas con tecnología Adobe Express disponibles directamente en AEM Assets para aumentar la reutilización de contenidos y acelerar la velocidad del contenido."
 
-Después de acceder a la IU de Essentials, haga clic en **Assets**, seleccione una imagen y haga clic en **Editar** en el carril superior. La nueva pantalla muestra las opciones de edición disponibles con Adobe Express, que incluyen el cambio de tamaño, la eliminación de fondo, el recorte y la conversión entre los formatos JPEG y PNG.
+Después de ir a la interfaz de usuario de Essentials, haz clic en **Assets**, selecciona una imagen y, a continuación, haz clic en **Editar** desde el carril superior. La nueva pantalla muestra las opciones de edición disponibles con Adobe Express, que incluyen el cambio de tamaño, la eliminación de fondo, el recorte y la conversión entre los formatos JPEG y PNG.
 
 #### Cambiar tamaño de imagen {#resize-image-using-express}
 
