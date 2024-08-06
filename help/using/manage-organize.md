@@ -4,10 +4,10 @@ description: Mueva, elimine, copie, cambie de nombre, actualice y convierta en v
 role: User,Leader
 contentOwner: AG
 exl-id: b01e98b9-0cc2-47c5-9f5b-79b8e6bef39f
-source-git-commit: a49bfcdf3dbd6601ed15ae8a3309922c0483b3d7
+source-git-commit: ce92eb58ede5d1ebbe88a98bfa7629532396f3be
 workflow-type: tm+mt
-source-wordcount: '1195'
-ht-degree: 100%
+source-wordcount: '1222'
+ht-degree: 96%
 
 ---
 
@@ -132,6 +132,7 @@ Para establecer el estado del activo:
 1. Seleccione el recurso y haga clic en **[!UICONTROL Detalles]** en la barra de herramientas.
 
 1. En la pestaña **[!UICONTROL Básico]**, seleccione el estado del activo en la lista desplegable **[!UICONTROL Estado]**. Los valores posibles incluyen Aprobado, Rechazado y Sin estado (predeterminado).
+Si tiene Dynamic Media con capacidades OpenAPI proporcionadas para su entorno, Experience Manager Assets genera una URL pública en cuanto marca el recurso como `Approved`.
 
    >[!VIDEO](https://video.tv.adobe.com/v/342495)
 
