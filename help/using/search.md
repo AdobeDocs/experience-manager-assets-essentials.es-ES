@@ -3,7 +3,7 @@ title: Búsqueda y descubrimiento de recursos en [!DNL Assets Essentials]
 description: Busque y descubra recursos en [!DNL Assets Essentials].
 role: User
 exl-id: be9597a3-056c-436c-a09e-15a03567c85a
-source-git-commit: a471074ec0eee8487222cc344046715ed5d90d0b
+source-git-commit: 6b6f898f2232a03c69a517c3d315d565253b37b7
 workflow-type: tm+mt
 source-wordcount: '1890'
 ht-degree: 100%
@@ -254,7 +254,7 @@ Para acceder a la búsqueda contextual en Experience Manager Assets:
 
 1. Defina el mensaje de texto en el cuadro de texto de búsqueda y haga clic en **[!UICONTROL Búsqueda contextual]**.
 
-   ![Mensaje de texto de búsqueda contextual](/help/using/assets/contextual-search-text-prompt.png)
+   ![Mensaje de texto de búsqueda contextual](/help/using/assets/wknd-contextual-search.png)
 
    [!DNL Experience Manager Assets] muestra los resultados de la búsqueda.
 
