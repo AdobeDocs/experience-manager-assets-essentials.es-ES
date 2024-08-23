@@ -3,10 +3,10 @@ title: Búsqueda y descubrimiento de recursos en [!DNL Assets Essentials]
 description: Busque y descubra recursos en [!DNL Assets Essentials].
 role: User
 exl-id: be9597a3-056c-436c-a09e-15a03567c85a
-source-git-commit: ebd019640ddb984e0600fb4fb99b0f2d0afdba7d
+source-git-commit: 332a4842f6ae017b802fbd0edd75e74d6f2e8c97
 workflow-type: tm+mt
-source-wordcount: '1890'
-ht-degree: 100%
+source-wordcount: '1967'
+ht-degree: 80%
 
 ---
 
@@ -15,10 +15,10 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="assets_search"
 >title="Buscar archivos"
->abstract="Busque los recursos especificando una palabra clave en la barra de búsqueda o filtrando los recursos en función de su estado, tipo de archivo, tipo MIME, tamaño, creación, modificación y fechas de caducidad. También puede aplicar filtros personalizados, además de los filtros estándar. Los resultados filtrados se pueden guardar como una búsqueda guardada o una colección inteligente."
+>abstract="Busque los archivos especificando una palabra clave en la barra de búsqueda o filtrando los archivos en función de su estado, tipo de archivo, tipo MIME, tamaño, creación, modificación y fechas de caducidad. También puede aplicar filtros personalizados, además de los filtros estándar. Los resultados filtrados se pueden guardar como una búsqueda guardada o una colección inteligente."
 >additional-url="https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/manage-collections.html?lang=es#manage-smart-collection" text="Crear colecciones inteligentes"
 
-[!DNL Assets Essentials] proporciona una búsqueda efectiva que funciona de forma predeterminada. La búsqueda es exhaustiva, ya que es de texto completo. La potente funcionalidad de búsqueda le permite descubrir rápidamente el recurso adecuado y ayudarle a mejorar la velocidad del contenido. [!DNL Assets Essentials] proporciona búsquedas de texto completo e incluso búsquedas mediante metadatos como etiquetas inteligentes, título, fecha de creación y copyright.
+[!DNL Assets Essentials] proporciona una búsqueda efectiva que funciona de manera predeterminada. La búsqueda es exhaustiva, ya que es de texto completo. La potente funcionalidad de búsqueda le permite descubrir rápidamente el recurso adecuado y ayudarle a mejorar la velocidad del contenido. [!DNL Assets Essentials] proporciona búsquedas de texto completo e incluso búsquedas mediante metadatos como etiquetas inteligentes, título, fecha de creación y copyright.
 
 Para buscar recursos, haga lo siguiente:
 
@@ -26,7 +26,7 @@ Para buscar recursos, haga lo siguiente:
 
   ![cuadro de búsqueda](assets/search-box.png)
 
-   * Busque con una palabra clave y, si quiere, cambie la carpeta. Pulse Intro.
+   * Busque con una palabra clave y, opcionalmente, cambie la carpeta. Pulse Intro.
 
    * Empiece a trabajar con un recurso visualizado hace poco directamente buscándolo. Haga clic en el cuadro de búsqueda y seleccione un recurso visualizado recientemente en las sugerencias.
 
@@ -35,8 +35,6 @@ Para buscar recursos, haga lo siguiente:
 Puede filtrar los resultados de búsqueda según los parámetros siguientes.
 
 ![Filtros de búsqueda](assets/filters1.png)
-
-*Imagen: filtre los recursos buscados según varios parámetros.*
 
 * Estado de los activos: filtre los resultados de búsqueda mediante un estado del activo `Approved`, `Rejected` o `No Status`.
 
@@ -124,37 +122,47 @@ Para eliminar filtros personalizados:
 
 Puede buscar un recurso que no esté disponible en ninguna de las carpetas de recursos utilizando la [!DNL Adobe Firefly] funcionalidad de búsqueda de recursos dentro de [!DNL Experience Manager Assets]. Esto permite generar eficazmente recursos en tiempo real que no están almacenados en las carpetas de recursos.
 
-### Antes de empezar
+### Antes de empezar {#search-assets-firefly-prereqs}
 
 Debe tener una suscripción [!DNL Adobe Express] activa.
 
-### Generación de recursos
+### Generación de recursos {#generate-assets-firefly}
 
 Para generar nuevos recursos mediante [!DNL Adobe Firefly]:
 
 1. Navegue hasta el espacio de trabajo [!DNL AEM Assets].
-1. Introduzca el nombre del recurso en la barra de búsqueda situada en la parte superior de la página.<br>
-Por ejemplo, puede buscar un recurso mediante la palabra clave `Bugatti Type 57`. Al buscar el recurso, no se encuentran resultados porque el recurso no está presente en ninguna de las carpetas de recursos.
-1. Escriba el nombre del recurso en la barra de búsqueda situada en medio de la página y haga clic en **[!UICONTROL Generar]**.
-   ![Integración de Firefly](firefly-integration.jpg)
-   *Figura: no se han encontrado resultados para Bugatti Tipo 57 en la carpeta de recursos.*<br>
-Los nuevos recursos se han generado correctamente.
-   ![Integración de Firefly](assets/bugatti-type-57.jpg)
-   *Figura: recursos de referencia buscados con la funcionalidad de búsqueda de recursos [!DNL Adobe Firefly].* <br>
-Puede cargar estos recursos en su carpeta preferida para acceder fácilmente a ellos.
 
-### Carga de activos
+1. Escriba el nombre del recurso en la barra de búsqueda. Por ejemplo, puede buscar un recurso utilizando la palabra clave `Bugatti Type 57`. Al buscar el recurso, no se encuentran resultados porque el recurso no está presente en ninguna de las carpetas de recursos. Para generar recursos mediante IA, haga clic en **[!UICONTROL Generar con el Firefly]**. Aparecerá la pantalla [!DNL Adobe Firefly].
+
+   ![Integración de Firefly](assets/firefly-integration.png)
+
+   Los nuevos recursos se han generado correctamente. Además, puede cambiar la descripción de la imagen escribiendo el nuevo mensaje de texto en el cuadro de descripción. [Aprenda a escribir un buen indicador de IA para generar contenido extraordinario y relevante.](https://helpx.adobe.com/in/firefly/using/tips-and-tricks.html) También puede [editar la imagen con otras características como cambiar el estilo, las dimensiones de la imagen y mucho más.](https://helpx.adobe.com/in/firefly/using/text-to-image.html)
+
+   ![Integración de Firefly](assets/bugatti-type-57.png)
+
+1. Seleccione la imagen que desea guardar. Haz clic en **[!UICONTROL Guardar]** para guardar los recursos en tu carpeta preferida y facilitar el acceso.
+
+1. Aparecerá el formulario Guardar recurso. Especifique los campos siguientes:
+
+   * Introduzca un nombre para el archivo en el campo **Guardar como**.
+   * Seleccione una carpeta de destino.
+   * Proporcione detalles como Nombre del proyecto o de la campaña, Palabras clave, Canales, Periodo de tiempo y Región.
+
+   ![Integración de Firefly](assets/save-generated-asset.png)
+
+1. Haga clic en **Guardar como nuevo recurso** para guardar los recursos.
+
+### Carga de activos {#upload-assets-firefly}
 
 Para cargar el recurso generado en el repositorio de recursos:
 
 1. Haga clic en **[!UICONTROL Cargar]**. 
 1. Seleccione la carpeta de recursos en la que debe cargar el recurso y haga clic en **[!UICONTROL Seleccionar carpeta]**.
    ![Cargar recurso](assets/upload-asset-firefly.jpg)
-   *Figura: seleccione la carpeta para cargar el recurso.*
 
 ## Búsquedas guardadas {#saved-search}
 
-La funcionalidad de búsqueda es bastante fácil de usar en [!DNL Assets Essentials]. Desde el cuadro de búsqueda, no solo puede escribir una palabra clave y pulsar la tecla Enter para ver los resultados, sino que también puede buscar rápidamente de nuevo las palabras clave buscadas recientemente con un solo clic.
+La funcionalidad de búsqueda es bastante fácil de usar en [!DNL Assets Essentials]. Desde el cuadro de búsqueda, no solo puede escribir una palabra clave y pulsar Intro para ver los resultados, sino que también puede buscar rápidamente de nuevo las palabras clave buscadas recientemente con un solo clic.
 
 También puede filtrar los resultados de búsqueda según criterios específicos en torno a los metadatos y el tipo de recursos. Para los filtros utilizados con frecuencia, a fin de mejorar la experiencia de búsqueda, [!DNL Assets Essentials] permite guardar los parámetros de búsqueda. A continuación, puede seleccionar la búsqueda guardada para buscar y aplicar el filtro con un solo clic.
 
@@ -177,7 +185,7 @@ When userA is searching and userB add an asset that matches search results, will
 
 Puede seleccionar los recursos que se muestran en los resultados de búsqueda y realizar las acciones siguientes:
 
-* **Buscar imagen similar**: busque un recurso de imagen similar en la interfaz de usuario de Assets en función de los metadatos y las etiquetas inteligentes.
+* **Buscar imagen similar**: encuentre un recurso de imagen similar en la interfaz de usuario de Assets en función de los metadatos y las etiquetas inteligentes.
 
 * **Detalles**: ver y editar las propiedades del recurso.
 
@@ -201,7 +209,7 @@ Puede seleccionar los recursos que se muestran en los resultados de búsqueda y 
 
 * **Cambiar nombre**: cambiar el nombre de un recurso.
 
-* **Copiar en las bibliotecas**: agregue un recurso a la biblioteca.
+* **Copiar a bibliotecas**: agregue un recurso a la biblioteca.
 
 * **Asignar tareas**: asignar tareas a los usuarios de un recurso.
 
@@ -214,20 +222,20 @@ Assets Essentials le permite seleccionar la página de aterrizaje predeterminada
 Para configurar la página principal Buscar primero, ejecute los siguientes pasos:
 
 1. Vaya a **[!UICONTROL Configuración]** > **[!UICONTROL Configuración general]**.
-1. Seleccione **[!UICONTROL Buscar primero]**. Además, abre la configuración relacionada con Buscar primero. Puede establecer [alineación](#setting-alignment-search-bar) o [establecer imagen de fondo y logotipo](#setting-background-image-and-logo) de su página principal.
+1. Seleccione **[!UICONTROL Buscar primero]**. Se abre además la configuración relacionada con la búsqueda en primer lugar. Puede establecer [alignment](#setting-alignment-search-bar) o [establecer el fondo y la imagen del logotipo](#setting-background-image-and-logo) de su página principal.
 
 ### Alineación de la barra de búsqueda {#setting-alignment-search-bar}
 
-[!DNL Assets Essentials] permite cambiar la alineación de la barra de búsqueda. Puede hacer que la barra de búsqueda aparezca en el centro o en la parte superior. Seleccione la alineación adecuada y haga clic en **[!UICONTROL Guardar]**.
+[!DNL Assets Essentials] le permite cambiar la alineación de la barra de búsqueda. Puede hacer que la barra de búsqueda aparezca en el centro o en la parte superior. Seleccione la alineación adecuada y haga clic en **[!UICONTROL Guardar]**.
 
 ![Alineación de la página principal Buscar primero](assets/search-first-alignment.png)
 
 ### Imagen de fondo y logotipo de la página principal {#setting-background-image-and-logo}
 
-Puede agregar el logotipo de la marca y la imagen de fondo a la página principal Buscar primero. Ejecute los siguientes pasos:
+Puede agregar un logotipo de marca y una imagen de fondo a la primera página de inicio de búsqueda. Ejecute los siguientes pasos:
 
-1. Vaya a **[!UICONTROL Imagen de fondo y logotipo]** sección debajo de **[!UICONTROL Página principal]**.
-1. Haga clic en **[!UICONTROL Reemplazar]** para examinar imágenes de un repositorio de recursos existente.
+1. Vaya a la sección **[!UICONTROL Fondo e imagen del logotipo]** en **[!UICONTROL Página principal]**.
+1. Haga clic en **[!UICONTROL Reemplazar]** para examinar las imágenes del repositorio de recursos existente.
 1. Haga clic en **[!UICONTROL Guardar]**. [Previsualice](#preview-configured-homepage) los cambios para revisar las modificaciones.
 
 ### Vista previa de la página principal configurada {#preview-configured-homepage}
@@ -235,7 +243,7 @@ Puede agregar el logotipo de la marca y la imagen de fondo a la página principa
 Puede obtener una vista previa para comprobar el diseño y el formato de la página principal Buscar primero. Mediante **[!UICONTROL Vista previa]** puede corregir el diseño o realizar modificaciones según sea necesario. Para obtener una vista previa de la página principal configurada, ejecute los pasos siguientes:
 
 1. Haga clic en **[!UICONTROL Configuración general]** y seleccione **[!UICONTROL Buscar primero]**.
-1. Vaya a **[!UICONTROL Personalizar la página principal Buscar primero]** y haga clic en **[!UICONTROL Vista previa]**. Cambie mediante el botón **[!UICONTROL Tema oscuro]** para obtener una vista previa de la página principal en un tema oscuro o claro.
+1. Vaya a **[!UICONTROL Personalizar la página principal Buscar primero]** y haga clic en **[!UICONTROL Vista previa]**. Desplácese por el botón **[!UICONTROL Tema oscuro]** para obtener una vista previa de la página principal con el tema oscuro o claro.
 1. Haga clic en **[!UICONTROL Cerrar]** para cerrar el cuadro de diálogo.
 
    ![Vista previa de la página principal Buscar primero](assets/search-first-preview.gif)
@@ -301,7 +309,7 @@ La búsqueda contextual admite los siguientes filtros predeterminados. Base sus 
 
 **Ejemplo 3**
 
-**Mensaje de texto**: Necesito imágenes de cielo azul de 1500 y 2500 píxeles de altura y creadas en el último último mes que no hayan caducado ni estén aprobadas.
+**Mensaje de texto**: Necesito imágenes de cielo azul que tengan una altura de 1500 y 2500 píxeles y que se hayan creado el mes pasado y que no hayan caducado ni se hayan aprobado.
 
 [!DNL Experience Manager Assets] aplica los siguientes filtros automáticamente y muestra los resultados de la búsqueda:
 
