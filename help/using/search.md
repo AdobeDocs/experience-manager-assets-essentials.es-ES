@@ -4,9 +4,9 @@ description: Busque y descubra recursos en [!DNL Assets Essentials].
 role: User
 exl-id: be9597a3-056c-436c-a09e-15a03567c85a
 source-git-commit: 84695c5a2b6423b0a5863b088ac8507f0de0e80d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1967'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -146,7 +146,7 @@ Para generar nuevos recursos mediante [!DNL Adobe Firefly]:
 
    * Introduzca un nombre para el archivo en el campo **Guardar como**.
    * Seleccione una carpeta de destino.
-   * Introduzca detalles como Nombre del proyecto o de la campaña, Palabras clave, Canales, Periodo de tiempo y Región.
+   * Introduzca detalles como el nombre del proyecto o de la campaña, palabras clave, canales, lapso de tiempo y región.
 
    ![Integración de Firefly](assets/save-generated-asset.png)
 
