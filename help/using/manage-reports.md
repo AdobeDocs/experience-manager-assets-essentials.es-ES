@@ -2,10 +2,10 @@
 title: Administración de informes en Assets Essentials
 description: Acceda a los datos de la sección de informes de Assets Essentials para evaluar el uso de productos y funciones y obtener perspectivas sobre las métricas de éxito clave.
 exl-id: c7155459-05d9-4a95-a91f-a1fa6ae9d9a4
-source-git-commit: 71a0381f5f7c32d3da1923778b3cd7b678391cae
+source-git-commit: 49b650b3efe5740eb1ce39b7dcf6f84e34e0e81a
 workflow-type: tm+mt
-source-wordcount: '862'
-ht-degree: 100%
+source-wordcount: '1226'
+ht-degree: 37%
 
 ---
 
@@ -30,6 +30,143 @@ In the **[!UICONTROL Reports]** screen, various components are shown in the tabu
 * **Author**: Provides email of the author who has uploaded/downloaded the report.
 * **Created**: Gives information of the date when the report was generated.
 -->
+
+## Crear un informe {#create-report}
+
+El entorno de AEM Assets Essentials ofrece funcionalidades completas de creación de informes a través del panel Informes. Esta capacidad permite a los usuarios generar y descargar informes CSV que detallan las cargas y descargas de recursos en intervalos de tiempo especificados, desde intervalos únicos hasta intervalos diarios, semanales, mensuales o anuales.
+
+**Para crear un informe:**
+
+1. Vaya a **Informes** y haga clic en **Crear informe** (en la parte superior derecha). El cuadro de diálogo **crear informe** muestra los siguientes campos:
+   ![create-report](/help/using/assets/executed-reports1.svg)
+
+   **En la ficha Configuración:**
+
+   1. **Tipo de informe:** Seleccione entre el tipo de carga y descarga.
+   1. **Título:** Agregue un título al informe.
+   1. **Descripción:** Agregue una descripción opcional al informe.
+   1. **Seleccionar ruta de acceso a la carpeta:** Seleccione una ruta de acceso a la carpeta para generar el informe de los recursos cargados y descargados dentro de esa carpeta específica. Por ejemplo, si necesita el informe de recursos cargados en una carpeta, especifique la ruta a esa carpeta.
+   1. **Seleccionar intervalo de fecha:** Seleccione el intervalo de fecha para ver la actividad de carga o descarga dentro de la carpeta.
+   <br>
+
+   >[!NOTE]
+   >
+   > Assets Essentials convierte todas las zonas horarias locales a la hora universal coordinada (UTC).
+
+   **En la ficha Columnas:** Seleccione los nombres de columna que se mostrarán en el informe. En la tabla siguiente se explica el uso de todas las columnas:
+
+   <table>
+    <tbody>
+     <tr>
+      <th><strong>El nombre de la columna</strong></th>
+      <th><strong>Descripción</strong></th>
+      <th><strong>Tipo de informe</strong></th>
+     </tr>
+     <tr>
+      <td>Título</td>
+      <td>El título del recurso.</td>
+      <td>Cargar y descargar</td>
+     </tr>
+     <tr>
+      <td>Ruta </td>
+      <td>Ruta de la carpeta en la que el recurso está disponible en Assets Essentials.</td>
+      <td>Cargar y descargar</td>
+     </tr>
+     <tr>
+      <td>Tipo MIME</td>
+      <td>Tipo MIME del recurso.</td>
+      <td>Cargar y descargar</td>
+     </tr>
+     <tr>
+      <td>Tamaño</td>
+      <td>El tamaño del recurso en bytes.</td>
+      <td>Cargar y descargar</td>
+     </tr>
+     <tr>
+      <td>Descargado por</td>
+      <td>ID de correo electrónico del usuario que descargó el recurso.</td>
+      <td>Descargar</td>
+     </tr>
+     <tr>
+      <td>Fecha de descarga</td>
+      <td>La fecha en la que se realiza la acción de descarga de recursos.</td>
+      <td>Descargar</td>
+     </tr>
+     <tr>
+      <td>Autor</td>
+      <td>El autor del recurso.</td>
+      <td>Cargar y descargar</td>
+     </tr>
+     <tr>
+      <td>Fecha de creación</td>
+      <td>La fecha en la que el recurso se carga en Assets Essentials.</td>
+      <td>Cargar y descargar</td>
+     </tr>
+     <tr>
+      <td>Fecha de modificación</td>
+      <td>La fecha de la última modificación del recurso.</td>
+      <td>Cargar y descargar</td>
+     </tr>
+     <tr>
+      <td>Caducado</td>
+      <td>Estado de caducidad del recurso.</td>
+      <td>Cargar y descargar</td>
+     </tr>
+     <tr>
+      <td>Descargado por (nombre de usuario)</td>
+      <td>Nombre del usuario que descargó el recurso.</td>
+      <td>Descargar</td>
+     </tr>           
+    </tbody>
+   </table>
+
+## Ver y descargar un informe existente {#View-and-download-existing-report}
+
+Los informes existentes se muestran en la ficha **Informes ejecutados**. Haga clic en **Informes** y seleccione **Informes ejecutados** para ver todos los informes creados con el estado **completado**, lo que indica que están listos para descargarse. Para descargar el informe en formato CSV o eliminarlo, seleccione la fila del informe. Luego selecciona **Descargar CSV** o **Eliminar**.
+![ver y descargar informes existentes](/help/using/assets/view-download-existing-report.png)
+
+## Programar un informe {#schedule-report}
+
+AEM En la interfaz de usuario de Essentials, **Programar informe** configura una generación automática de informes en intervalos futuros especificados, como diario, semanal, mensual o anual. Esta función ayuda a optimizar las necesidades recurrentes de creación de informes y garantiza actualizaciones de datos puntuales. Mientras **Crear informe** genera informes para fechas pasadas. Los informes completados se enumeran en **Informes ejecutados** y los informes próximos se encuentran en **Informes programados**.
+
+Para programar un informe, siga los pasos a continuación:
+
+1. Haga clic en Informes en el panel izquierdo y, a continuación, haga clic en Crear informe (desde la parte superior derecha).
+1. El cuadro de diálogo del informe muestra la siguiente información:
+   1. **Tipo de informe:** Seleccione entre el tipo de carga y descarga.
+   1. **Título:** Agregue un título al informe.
+   1. **Descripción**: agregue una descripción opcional al informe.
+   1. **Seleccionar ruta de carpeta:** Seleccione una ruta de carpeta para generar un informe para los recursos que se cargarán o descargarán de esa carpeta específica en el futuro.
+   1. Alternar **Programar informe:** Alternar para programar el informe para un momento posterior o para su repetición repetida.
+      ![informe de programación](/help/using/assets/schedule-reports1.svg)
+
+   1. **Elija la frecuencia:** Especifique el intervalo para generar el informe (por ejemplo, diario, semanal, mensual, anual o una vez) y establezca la fecha y la hora para ejecutar el informe junto con la fecha final para la periodicidad. AEM Para un informe único, seleccione el intervalo de fechas para el informe en el tipo de actividad seleccionado en el entorno de trabajo de la actividad de la actividad de la que se ha hecho clic en el botón de la opción de menú de una sola vez. Por ejemplo, si necesita un informe sobre los recursos descargados del 10 al 29 (fechas futuras) de un mes específico, seleccione estas fechas en el campo **Seleccionar intervalo de fecha**.
+
+   >[!NOTE]
+   >
+   > Assets Essentials convierte todas las zonas horarias locales a la hora universal coordinada (UTC).
+
+## Ver informes programados {#view-scheduled-reports}
+
+Los informes programados se muestran en la ficha **Informes programados** de una manera organizada de manera sistemática. Todos los informes completados de cada informe programado se almacenan en una sola carpeta de informes. Haga clic en ![expandir contracción](/help/using/assets/expand-icon1.svg) para ver los informes completados. Por ejemplo, si ha programado un informe diario, todos los informes completados se agrupan en una carpeta. Esta organización simplifica tanto la navegación como la detección de informes. Para ver los informes programados, haga clic en **Informes** y luego haga clic en **Informes programados**. Se muestran todos los informes programados con su estado en curso o completado. Los informes completados están listos para descargarse.
+![informe programado](/help/using/assets/scheduled-reports-tab.png)
+
+## Editar y cancelar informes programados {#edit-cancel-scheduled-reports}
+
+1. Vaya a la pestaña **Informes programados**.
+1. Seleccione la fila del informe.
+1. Haga clic en **Editar**.
+1. Haga clic en **Cancelar programación** y, a continuación, haga clic en **Confirmar** para cancelar el informe programado. Para los informes cancelados, el siguiente tiempo de ejecución pasa a estar vacío y el estado se muestra cancelado.
+   ![editar y cancelar informe programado](/help/using/assets/cancel-edit-scheduled-reports.png)
+
+### Reanudar programación {#resume-schedule}
+
+Para reanudar la programación cancelada, seleccione la fila del informe y haga clic en **Reanudar programación**. Cuando se reanuda, las siguientes entradas de tiempo de ejecución se muestran de nuevo y el estado es En curso.
+![reanudar programación](/help/using/assets/resume-schedule.png)
+
+>[!NOTE]
+>
+> Si reanuda un informe cancelado antes de la fecha de finalización programada, los informes desde la fecha de cancelación hasta la fecha de reanudación se generan automáticamente.
 
 ## Vista Insights {#view-live-statistics}
 
@@ -66,177 +203,9 @@ Haga clic en **[!UICONTROL Insights]** en el panel de navegación izquierdo para
    ![Insights](assets/insights2.png)
    -->
 
-## Creación de un informe de descarga {#create-download-report}
+* **Recuento de recursos por tamaño:** segmenta el recuento total de recursos en su entorno de Assets essentials en diferentes intervalos de tamaño, resaltando el recuento y el porcentaje de recursos en cada intervalo de tamaño, representado por un gráfico de anillo.
+  ![insights-assets-count-by-size](/help/using/assets/insights-assets-count-by-size.svg)
 
-Para crear un informe de descarga, haga lo siguiente:
+* **Recuento de recursos por tipo de recurso:** Segmenta el recuento total de recursos en su entorno de Assets essentials, destacando el recuento y el porcentaje de recursos en función de sus tipos de archivos, representados por un gráfico circular.
+  ![insights-assets-count-by-size](/help/using/assets/insights-assest-count-by-asset-type1.svg)
 
-1. Vaya a **[!UICONTROL Configuración]** > **[!UICONTROL Informes]** y haga clic en **[!UICONTROL Crear informe]**.
-
-1. En la pestaña [!UICONTROL Configuración], especifique el tipo de informe como **[!UICONTROL Descargar]**.
-
-1. Especifique un título y una descripción opcional para el informe.
-
-1. Seleccione la ruta de la carpeta, que comprende los recursos en los que se ejecutará el informe, utilizando el campo **[!UICONTROL Seleccionar ruta de la carpeta]**.
-
-1. Seleccione el intervalo de fecha para el informe.
-
-   >[!NOTE]
-   >
-   > Assets Essentials convierte todas las zonas horarias locales a la hora universal coordinada (UTC).
-
-1. En la pestaña [!UICONTROL Columnas], seleccione los nombres de columna que debe mostrar en el informe.
-
-1. Haga clic en **[!UICONTROL Crear]**
-
-   ![Descargar informe](assets/download-reports-config.png)
-
-En la tabla siguiente se explica el uso de todas las columnas que se pueden agregar al informe:
-
-<table>
-    <tbody>
-     <tr>
-      <th><strong>El nombre de la columna</strong></th>
-      <th><strong>Descripción</strong></th>
-     </tr>
-     <tr>
-      <td>Título</td>
-      <td>El título del recurso.</td>
-     </tr>
-     <tr>
-      <td>Ruta </td>
-      <td>Ruta de la carpeta en la que el recurso está disponible en Assets Essentials.</td>
-     </tr>
-     <tr>
-      <td>Tipo MIME</td>
-      <td>Tipo MIME del recurso.</td>
-     </tr>
-     <tr>
-      <td>Tamaño</td>
-      <td>El tamaño del recurso en bytes.</td>
-     </tr>
-     <tr>
-      <td>Descargado por</td>
-      <td>ID de correo electrónico del usuario que descargó el recurso.</td>
-     </tr>
-     <tr>
-      <td>Fecha de descarga</td>
-      <td>La fecha en la que se realiza la acción de descarga de recursos.</td>
-     </tr>
-     <tr>
-      <td>Autor</td>
-      <td>El autor del recurso.</td>
-     </tr>
-     <tr>
-      <td>Fecha de creación</td>
-      <td>La fecha en la que el recurso se carga en Assets Essentials.</td>
-     </tr>
-     <tr>
-      <td>Fecha de modificación</td>
-      <td>La fecha de la última modificación del recurso.</td>
-     </tr>
-     <tr>
-      <td>Caducado</td>
-      <td>Estado de caducidad del recurso.</td>
-     </tr>
-     <tr>
-      <td>Descargado por (nombre de usuario)</td>
-      <td>Nombre del usuario que descargó el recurso.</td>
-     </tr>           
-    </tbody>
-   </table>
-
-## Creación de un informe de carga {#create-upload-report}
-
-Para crear un informe de carga:
-
-1. Vaya a **[!UICONTROL Configuración]** > **[!UICONTROL Informes]** y haga clic en **[!UICONTROL Crear informe]**.
-
-1. En la pestaña [!UICONTROL Configuración], especifique el tipo de informe como **[!UICONTROL Cargar]**.
-
-1. Especifique un título y una descripción opcional para el informe.
-
-1. Seleccione la ruta de la carpeta, que comprende los recursos en los que se ejecutará el informe, utilizando el campo **[!UICONTROL Seleccionar ruta de la carpeta]**.
-
-1. Seleccione el intervalo de fecha para el informe.
-
-1. En la pestaña [!UICONTROL Columnas], seleccione los nombres de columna que debe mostrar en el informe.
-
-1. Haga clic en **[!UICONTROL Crear]**.
-
-   ![Informe de carga](assets/upload-reports-config.png)
-
-En la tabla siguiente se explica el uso de todas las columnas que se pueden agregar al informe:
-
-<table>
-    <tbody>
-     <tr>
-      <th><strong>El nombre de la columna</strong></th>
-      <th><strong>Descripción</strong></th>
-     </tr>
-     <tr>
-      <td>Título</td>
-      <td>El título del recurso.</td>
-     </tr>
-     <tr>
-      <td>Ruta </td>
-      <td>Ruta de la carpeta en la que el recurso está disponible en Assets Essentials.</td>
-     </tr>
-     <tr>
-      <td>Tipo MIME</td>
-      <td>Tipo MIME del recurso.</td>
-     </tr>
-     <tr>
-      <td>Tamaño</td>
-      <td>El tamaño del recurso.</td>
-     </tr>
-     <tr>
-      <td>Autor</td>
-      <td>El autor del recurso.</td>
-     </tr>
-     <tr>
-      <td>Fecha de creación</td>
-      <td>La fecha en la que el recurso se carga en Assets Essentials.</td>
-     </tr>
-     <tr>
-      <td>Fecha de modificación</td>
-      <td>La fecha de la última modificación del recurso.</td>
-     </tr>
-     <tr>
-      <td>Caducado</td>
-      <td>Estado de caducidad del recurso.</td>
-     </tr>              
-    </tbody>
-   </table>
-
-## Ver informes existentes {#view-report-list}
-
-Después de la [creación del informe](#create-download-report), puede ver la lista de informes y seleccionar para descargarlos en formato CSV o eliminarlos.
-
-Para ver la lista de informes, vaya a **[!UICONTROL Configuración]** > **[!UICONTROL Informes]**.
-
-Para cada informe, puede ver el título del informe, el tipo de informe, la descripción especificada al crear el informe, el estado del informe, el ID de correo electrónico del autor que lo creó y la fecha de creación del informe.
-
-`Completed ` el estado del informe indica que el informe está listo para descargarse.
-
-![Lista de informes](assets/list-of-reports.png)
-
-
-## Descargar un informe CSV {#download-csv-report}
-
-Para descargar un informe en formato CSV, haga lo siguiente:
-
-1. Vaya a **[!UICONTROL Configuración]** > **[!UICONTROL Informes]**.
-
-1. Seleccione un informe y haga clic en **[!UICONTROL Descargar CSV]**.
-
-El informe seleccionado se descarga en formato CSV. Las columnas que se muestran en el informe CSV dependen de las columnas que seleccione al [crear el informe](#create-download-report).
-
-## Eliminar un informe {#delete-report}
-
-Para eliminar un informe, haga lo siguiente:
-
-1. Vaya a **[!UICONTROL Configuración]** > **[!UICONTROL Informes]**.
-
-1. Seleccione un informe y haga clic en **[!UICONTROL Eliminar]**.
-
-1. Haga clic en **[!UICONTROL Eliminar]** de nuevo para confirmar.
