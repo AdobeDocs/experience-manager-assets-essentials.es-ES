@@ -2,10 +2,10 @@
 title: Administración de informes en Assets Essentials
 description: Acceda a los datos de la sección de informes de Assets Essentials para evaluar el uso de productos y funciones y obtener perspectivas sobre las métricas de éxito clave.
 exl-id: c7155459-05d9-4a95-a91f-a1fa6ae9d9a4
-source-git-commit: 49b650b3efe5740eb1ce39b7dcf6f84e34e0e81a
-workflow-type: ht
-source-wordcount: '1226'
-ht-degree: 100%
+source-git-commit: cb3cd047d3fbfa8e6b2e5a398c11301f93692b2e
+workflow-type: tm+mt
+source-wordcount: '1591'
+ht-degree: 79%
 
 ---
 
@@ -42,7 +42,7 @@ El entorno de AEM Assets Essentials ofrece funcionalidades completas para la cre
 
    **En pestaña Configuración:**
 
-   1. **Tipo de informe:** seleccione entre el tipo de carga y descarga.
+   1. **Tipo de informe:** Seleccione entre el tipo [!UICONTROL cargar], [!UICONTROL descargar] o [Informe de envío de Dynamic Media](#dynamic-media-delivery-reports).
    1. **Título:** añada un título al informe.
    1. **Descripción:** añada una descripción opcional al informe.
    1. **Seleccionar ruta de la carpeta:** seleccione una ruta de la carpeta para generar el informe de los recursos cargados y descargados dentro de esa carpeta específica. Por ejemplo, si necesita que el informe de recursos se cargue en una carpeta, especifique la ruta a esa carpeta.
@@ -70,7 +70,7 @@ El entorno de AEM Assets Essentials ofrece funcionalidades completas para la cre
      <tr>
       <td>Ruta</td>
       <td>Ruta de la carpeta en la que el recurso está disponible en Assets Essentials.</td>
-      <td>Cargar y descargar</td>
+      <td>Carga, descarga y envío de Dynamic Media</td>
      </tr>
      <tr>
       <td>Tipo MIME</td>
@@ -116,13 +116,71 @@ El entorno de AEM Assets Essentials ofrece funcionalidades completas para la cre
       <td>Descargado por (nombre de usuario)</td>
       <td>Nombre del usuario que descargó el recurso.</td>
       <td>Descargar</td>
-     </tr>           
+     </tr>
+     <tr>
+      <td>Referencia</td>
+      <td>Dirección URL donde se entrega o se incluye el recurso</td>
+      <td>Entrega de Dynamic Media</td>
+     </tr>  
+     <tr>
+      <td>Visitas</td>
+      <td>El número de veces que se entrega el recurso (recuento de envíos)</td>
+      <td>Entrega de Dynamic Media</td>
+     </tr>             
     </tbody>
    </table>
 
+## Informes de envío de Dynamic Media {#dynamic-media-delivery-reports}
+
+Obtenga información de envío para los recursos que se envían con Dynamic Media, con el recuento de envíos a nivel de recurso, información del remitente del envío, ruta de recursos en AEM Assets e ID de recurso único. Se pueden generar informes para todos los recursos entregados mediante el repositorio de Dynamic Media para AEM Assets o para una jerarquía de carpetas específica en AEM Assets. Además, las perspectivas de los informes de entrega de Dynamic Media ayudan a medir el retorno de la inversión de los recursos entregados, medir el rendimiento del canal y realizar tareas de administración de recursos informadas para los recursos.
+
+>[!NOTE]
+> 
+>Para obtener acceso anticipado al informe de entrega de Dynamic Media en su cuenta de Dynamic Media, [cree y envíe un caso de asistencia al cliente de Adobe](https://helpx.adobe.com/es/enterprise/using/support-for-experience-cloud.html).
+
+### Requisitos previos {#prereqs-dynamic-media-delivery-reports}
+
+Debe tener una licencia de Dynamic Media para crear y utilizar este informe.
+
+>[!IMPORTANT]
+> 
+>* Se proporcionan informes para los recursos enviados a través de Dynamic Media.
+>* Los informes se generan para el primer millón de filas. Para capturar todos los archivos que se encuentran dentro de este límite, considere la posibilidad de incluir la columna de referente para las carpetas más pequeñas.
+>* Solo se pueden generar informes de los últimos 3 meses.
+
+### Creación de un informe de envío de Dynamic Media{#create-dynamic-media-delivery-report}
+
+1. Cree un informe de envío de Dynamic Media siguiendo los pasos mencionados en [Crear un informe](#create-report).
+
+1. Seleccione **[!UICONTROL Envío de Dynamic Media]** de la lista desplegable **[!UICONTROL Tipo de informe]**.
+
+   ![Lista desplegable de informes de envío de Dynamic Media](/help/using/assets/dynamic-media-delivery-report-option.png)
+
+
+1. En la ficha **[!UICONTROL Columnas]**, puede seleccionar la columna **[!UICONTROL Referente]** para incluirla en el informe.
+
+   ![Referente](/help/using/assets/referrer.png)
+
+   Todas las columnas del informe descargado son de solo lectura, excepto la columna **Referente**, que puede modificar para incluir o excluir del informe. <!--Choosing a referrer displays the number of visitors received from each referred report that directs traffic to the site. It offers insights into the sources of traffic and the origin of the visitors. Such insights help measure ROI of delivered assets, measure channel performance, and help take informed asset management tasks for assets.-->
+
+### Acciones realizadas en el informe de envío de Dynamic Media {#actions-performed-dynamic-media-delivery-reports}
+
+Después de crear el informe, puede realizar las siguientes acciones:
+
+* **[!UICONTROL Eliminar]**: puede eliminar el informe seleccionado.
+* **[!UICONTROL Descargar CSV]**: Puede descargar el informe seleccionado en formato CSV. El informe descargado consta de las columnas Nombre, Ruta, Dynamic MediaID, Referente, Visitas.
+   * La columna **Referente** enumera la dirección URL donde se entrega o se incluye el recurso.
+
+   * La columna **Visitas** enumera la cantidad de veces que se entrega el recurso (recuento de envíos).
+
+Para eliminar o descargar el informe de envío de Dynamic Media como CSV, consulte [Ver y descargar el informe existente](#View-and-download-existing-report).
+
+![CSV descargado en el informe de envío de Dynamic Media](/help/using/assets/csv-dynamic-media-delivery-report.png)
+
+
 ## Visualización y descarga de un informe existente {#View-and-download-existing-report}
 
-Los informes existentes se muestran en la pestaña **Informes ejecutados**. Haga clic en **Informes** y seleccione **Informes ejecutados** para ver todos los informes creados con el estado **completado**, lo que indica que están listos para descargarse. Para descargar el informe en formato CSV o eliminarlo, seleccione la fila del informe. A continuación, seleccione **Descargar CSV** o **Eliminar**.
+Los informes existentes se muestran en la pestaña **Informes ejecutados**. Haga clic en **Informes** y seleccione **Informes ejecutados** para ver todos los informes creados con el estado **completado**, lo que indica que están listos para descargarse. Para descargar el informe en formato CSV o eliminarlo, seleccione la fila del informe y seleccione **Descargar CSV** o **Eliminar**.
 ![ver y descargar informes existentes](/help/using/assets/view-download-existing-report.png)
 
 ## Programación de un informe {#schedule-report}
