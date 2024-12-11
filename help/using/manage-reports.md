@@ -3,9 +3,9 @@ title: Administración de informes en Assets Essentials
 description: Acceda a los datos de la sección de informes de Assets Essentials para evaluar el uso de productos y funciones y obtener perspectivas sobre las métricas de éxito clave.
 exl-id: c7155459-05d9-4a95-a91f-a1fa6ae9d9a4
 source-git-commit: 810bb62cd5eb664e36a6ea267050dd025828e900
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1226'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -42,7 +42,7 @@ El entorno de AEM Assets Essentials ofrece funcionalidades completas para la cre
 
    **En pestaña Configuración:**
 
-   1. **Tipo de informe:** Seleccione entre [!UICONTROL Cargar] o [!UICONTROL Descargar] tipo de informe.
+   1. **Tipo de informe:** seleccione entre [!UICONTROL Cargar] o [!UICONTROL Descargar] tipo de informe.
    1. **Título:** añada un título al informe.
    1. **Descripción:** añada una descripción opcional al informe.
    1. **Seleccionar ruta de la carpeta:** seleccione una ruta de la carpeta para generar el informe de los recursos cargados y descargados dentro de esa carpeta específica. Por ejemplo, si necesita que el informe de recursos se cargue en una carpeta, especifique la ruta a esa carpeta.
