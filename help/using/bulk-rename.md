@@ -2,7 +2,8 @@
 title: Cambiar nombre y cambiar el nombre de los recursos en bloque en  [!DNL Assets Essentials]
 description: Obtenga información sobre cómo cambiar el nombre de los recursos de forma masiva mediante la nueva IU de Assets (Assets Essentials). Permite cambiar el nombre de varios recursos a la vez.
 role: User
-source-git-commit: 9232f1ccb1d71057c909330d7e4861d048310b7b
+exl-id: 5d18950f-1863-46c0-83d7-079ae95a6320
+source-git-commit: 0526340ed0491d33a5084ea3538fa872ec2899e5
 workflow-type: tm+mt
 source-wordcount: '440'
 ht-degree: 17%
@@ -67,3 +68,4 @@ A continuación se muestran algunos ejemplos de cómo utilizar IA para cambiar e
 * Proporcione comentarios sobre la documentación usando [!UICONTROL Editar esta página] ![editar la página](assets/do-not-localize/edit-page.png) o [!UICONTROL Registrar una incidencia] ![crear una incidencia de GitHub](assets/do-not-localize/github-issue.png), disponibles en la barra lateral derecha
 
 * Contacto con el [Servicio de atención al cliente](https://experienceleague.adobe.com/?support-solution=General&amp;lang=es#support)
+
