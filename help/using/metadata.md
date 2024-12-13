@@ -4,10 +4,10 @@ description: Administración de metadatos de recursos en [!DNL Assets Essentials
 role: User,Leader,Admin,Architect,Developer
 contentOwner: AG
 exl-id: cfc105d1-41fc-4418-9905-b2a28a348682
-source-git-commit: 37beb971f1e675162eb4b8e9ab008b20a241c066
+source-git-commit: 09040ef6dc777aa631b00bb37108f86b83bdf583
 workflow-type: tm+mt
-source-wordcount: '1773'
-ht-degree: 100%
+source-wordcount: '1884'
+ht-degree: 94%
 
 ---
 
@@ -130,9 +130,11 @@ A continuación se ofrece una descripción general de cada tipo de propiedad y d
 | Lista desplegable | Añada una lista desplegable. |
 | Estado | Añadir la propiedad de estado del repositorio (asignada a repo:state) |
 | Estado de los recursos | Añadir la propiedad predeterminada Estado del recurso (asignada a dam:assetStatus) |
+| Aprobado para | |
 | Etiquetas | Añada una etiqueta de los valores almacenados en Administración de taxonomía (asignados a xcm:tags). |
 | Palabras clave | Añada palabras clave de forma libre (asignadas a dc:subject). |
 | Etiquetas inteligentes | Añada para aumentar las capacidades de búsqueda añadiendo automáticamente etiquetas de metadatos. |
+| Vínculo | Añada para habilitar direcciones URL externas. |
 
 ### Asignar un formulario de metadatos a una carpeta {#assign-metadata-form-folder}
 
@@ -165,6 +167,19 @@ Para asignar un formulario de metadatos a una carpeta:
 1. Seleccione la carpeta y haga clic en **[!UICONTROL Quitar]**. También puede seleccionar varias carpetas de la lista.
 
 También puede ir hasta la página de detalles de la carpeta y seleccionar **[!UICONTROL Formulario de metadatos asignado al sistema]** en **[!UICONTROL Formularios de metadatos]** para quitar el formulario de metadatos asignado de una carpeta.
+
+### Uso del componente Vínculo en el formulario de metadatos {#link-component-metadata-form}
+
+El componente de vínculo se utiliza para habilitar direcciones URL externas, incluidos vínculos de almacenamiento, información de copyright, formularios de contacto, etc. Para usar el componente de vínculo en el formulario de metadatos, debe [configurar el formulario de metadatos](#metadata-forms).
+
+Siga los pasos a continuación para utilizar el componente de vínculo en el formulario de metadatos:
+
+1. Vaya a la página de detalles del recurso y luego a **[!UICONTROL URL del vínculo]**.
+1. Añada una URL que desee utilizar para redirigir el recurso seleccionado.
+1. Haga clic en **[!UICONTROL Agregar vínculo]**. Realice una de las siguientes acciones:
+   * Haga clic en ![icono de copia](assets/do-not-localize/copy.svg) para copiar la dirección URL.
+   * Haga clic en ![editar icono](assets/do-not-localize/edit.svg) para editar la dirección URL.
+1. Haga clic en **[!UICONTROL Guardar]** para guardar los cambios.
 
 ## Siguientes pasos {#next-steps}
 
