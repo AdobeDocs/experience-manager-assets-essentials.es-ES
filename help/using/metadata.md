@@ -4,10 +4,10 @@ description: Administración de metadatos de recursos en [!DNL Assets Essentials
 role: User,Leader,Admin,Architect,Developer
 contentOwner: AG
 exl-id: cfc105d1-41fc-4418-9905-b2a28a348682
-source-git-commit: 0526340ed0491d33a5084ea3538fa872ec2899e5
+source-git-commit: f922e9191cc3bf6beef66665dec49fd3876bf33b
 workflow-type: tm+mt
-source-wordcount: '1884'
-ht-degree: 94%
+source-wordcount: '1964'
+ht-degree: 90%
 
 ---
 
@@ -130,11 +130,10 @@ A continuación se ofrece una descripción general de cada tipo de propiedad y d
 | Lista desplegable | Añada una lista desplegable. |
 | Estado | Añadir la propiedad de estado del repositorio (asignada a repo:state) |
 | Estado de los recursos | Añadir la propiedad predeterminada Estado del recurso (asignada a dam:assetStatus) |
-| Aprobado para | |
 | Etiquetas | Añada una etiqueta de los valores almacenados en Administración de taxonomía (asignados a xcm:tags). |
 | Palabras clave | Añada palabras clave de forma libre (asignadas a dc:subject). |
 | Etiquetas inteligentes | Añada para aumentar las capacidades de búsqueda añadiendo automáticamente etiquetas de metadatos. |
-| Vínculo | Añada para habilitar direcciones URL externas. |
+| Vínculo | Añada para habilitar direcciones URL externas. Una vez configurado en el formulario de metadatos, el componente URL se puede asignar a una propiedad de metadatos determinada en la página Editor de metadatos. Este formulario de [metadatos se puede asignar a las carpetas](#assign-metadata-form-folder). |
 
 ### Asignar un formulario de metadatos a una carpeta {#assign-metadata-form-folder}
 
@@ -170,9 +169,9 @@ También puede ir hasta la página de detalles de la carpeta y seleccionar **[!U
 
 ### Uso del componente Vínculo en el formulario de metadatos {#link-component-metadata-form}
 
-El componente de vínculo se utiliza para habilitar direcciones URL externas, incluidos vínculos de almacenamiento, información de copyright, formularios de contacto, etc. Para usar el componente de vínculo en el formulario de metadatos, debe [configurar el formulario de metadatos](#metadata-forms).
+El componente de vínculo se utiliza para habilitar direcciones URL externas, incluidos vínculos de almacenamiento, información de copyright, formularios de contacto, etc. Para usar el componente de vínculo en el formulario de metadatos, debe [configurar el formulario de metadatos](#metadata-forms). El componente URL se puede asignar a una propiedad de metadatos determinada en la página del editor de metadatos, que funciona del mismo modo que otros componentes de metadatos. Este formulario de metadatos se puede asignar a carpetas. Por lo tanto, en la página de detalles del recurso de carpeta asignado, puede ver el valor de los metadatos de vínculo del recurso.
 
-Siga los pasos a continuación para utilizar el componente de vínculo en el formulario de metadatos:
+Siga los pasos a continuación para utilizar el componente Vínculo en la página Detalles del recurso:
 
 1. Vaya a la página de detalles del recurso y luego a **[!UICONTROL URL del vínculo]**.
 1. Añada una URL que desee utilizar para redirigir el recurso seleccionado.
