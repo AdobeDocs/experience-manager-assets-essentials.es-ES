@@ -3,7 +3,7 @@ title: Cambiar nombre y cambiar el nombre de los recursos en bloque en  [!DNL As
 description: Obtenga información sobre cómo cambiar el nombre de los recursos de forma masiva mediante la nueva IU de Assets (Assets Essentials). Permite cambiar el nombre de varios recursos a la vez.
 role: User
 exl-id: 5d18950f-1863-46c0-83d7-079ae95a6320
-source-git-commit: 0526340ed0491d33a5084ea3538fa872ec2899e5
+source-git-commit: 631156a70271b6f480264e2c604314f09a820fc9
 workflow-type: tm+mt
 source-wordcount: '440'
 ht-degree: 17%
@@ -51,7 +51,7 @@ A continuación se muestran algunos ejemplos de cómo utilizar IA para cambiar e
 * Elimine el prefijo y el sufijo, solo mantenga la parte central del nombre.
 * Agregue a los archivos el prefijo 001, 002, etc. y traducirlo al inglés.
 
-  >[!VIDEO](https://video.tv.adobe.com/v/3440975)
+>[!VIDEO](https://video.tv.adobe.com/v/3440975)
 
 >[!NOTE]
 >
