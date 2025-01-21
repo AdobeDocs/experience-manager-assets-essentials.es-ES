@@ -10,9 +10,9 @@ feature: Assets Essentials
 role: User,Leader
 solution: Experience Manager
 source-git-commit: c6298614d6085deca8618112d1d1533b4b980f54
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '146'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -45,7 +45,7 @@ ht-degree: 99%
 + [Administrar colecciones](manage-collections.md)
 + [Ver recursos, carpetas y colecciones](manage-notifications.md)
 + [Administrar informes](manage-reports.md)
-+ [Reprocesamiento](reprocessing.md)
++ [Reprocesando](reprocessing.md)
 + [Administrar etiquetas](tagging-management.md)
 + [Credenciales de contenido](/help/using/content-credentials.md)
 + Integración con otras soluciones {#integration-with-other-solutions}
