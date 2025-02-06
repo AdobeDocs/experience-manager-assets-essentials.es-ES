@@ -4,9 +4,9 @@ description: Aprenda a crear plantillas de Dynamic Media con un editor de planti
 hide: true
 role: User
 exl-id: 07de648e-4ae2-4524-8e05-3cf10bb6006d
-source-git-commit: a06bdadcd2194e1ffce23c672e605cfb95f14bcf
+source-git-commit: 85b8fc64c6bb0243803df3d8e18c00d1b17b1868
 workflow-type: tm+mt
-source-wordcount: '2800'
+source-wordcount: '2758'
 ht-degree: 0%
 
 ---
@@ -86,8 +86,6 @@ Para [crear una carpeta](/help/assets/add-delete-assets-view.md) en **[!UICONTRO
 **Opciones de menú en el panel izquierdo:** Utilice estas opciones para acciones comunes del editor como se menciona a continuación.
 
 * ![Plantillas DM](/help/using/assets/layer-selector.svg): seleccione una capa.
-* ![plantillas que admiten personalización](/help/using/assets/bring-forward.svg): haga clic para avanzar una capa seleccionada o presione **Ctrl** + **]** (Windows) o **Cmd** + **]** (Mac).
-* ![cómo crear una plantilla que se pueda personalizar fácilmente](/help/using/assets/send-backward.svg): haga clic para enviar una capa seleccionada hacia atrás o presione **Ctrl** + **[** (Windows) o **Cmd** + **[** (Mac).
 * ![crear una plantilla que se pueda personalizar al instante](/help/using/assets/undo.svg): haz clic para deshacer la última acción o presiona **Ctrl** + **Z** (Windows) o **Cmd** + **Z** (Mac).
 * ![plantilla para crear titulares rápidamente](/help/using/assets/redo.svg): haz clic para rehacer la última acción o presiona **Ctrl** + **Y** (Windows) o **Cmd** + **Y** (Mac).
 * ![plantilla para crear prospectos rápidamente](/help/using/assets/zoomin.svg): haga clic para ampliar el lienzo o presione **Ctrl** + **+** (Windows) o Cmd + **+** (Mac).
