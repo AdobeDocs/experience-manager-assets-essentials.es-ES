@@ -4,16 +4,16 @@ description: Aprenda a crear plantillas de Dynamic Media con un editor de planti
 hide: true
 role: User
 exl-id: 07de648e-4ae2-4524-8e05-3cf10bb6006d
-source-git-commit: 85b8fc64c6bb0243803df3d8e18c00d1b17b1868
+source-git-commit: e09573fb64567b2975d5e7e08c2cf2db62b72202
 workflow-type: tm+mt
-source-wordcount: '2758'
+source-wordcount: '2766'
 ht-degree: 0%
 
 ---
 
 # Dynamic Media templates{#dynamic-media-templates}
 
-| [Prácticas recomendadas de búsqueda](/help/assets/search-best-practices.md) | [Prácticas recomendadas de metadatos](/help/assets/metadata-best-practices.md) | [Centro de contenido](/help/assets/product-overview.md) | [Documentación de desarrollador de AEM Assets](https://developer.adobe.com/experience-cloud/experience-manager-apis/) |
+| [Prácticas recomendadas de búsqueda](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/best-practices/search-best-practices) | [Prácticas recomendadas de metadatos](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/best-practices/metadata-best-practices) | [Centro de contenido](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/content-hub/product-overview) | [Documentación de desarrollador de AEM Assets](https://developer.adobe.com/experience-cloud/experience-manager-apis/) |
 | ------------- | --------------------------- |---------|-----|
 
 Cree plantillas de Dynamic Media con un editor de plantillas de WYSIWYG e incluya varias imágenes y capas de texto para crear rápidamente titulares y prospectos y utilizarlos en aplicaciones de flujo descendente. También puede agregar parámetros a las imágenes y las capas de texto incluidas en la plantilla y usar [URL de Dynamic Media](https://experienceleague.adobe.com/en/docs/commerce-admin/content-design/wysiwyg/storage/catalog-urls-dynamic-media) para actualizar los valores de esas capas en tiempo real.
@@ -44,10 +44,10 @@ Algunas de las ventajas clave de las plantillas de Dynamic Media son:
 Para crear una plantilla de Dynamic Media, debe tener:
 
 1. Acceso a Dynamic Media.
-1. [Sincronizó las imágenes disponibles en su instancia de AEM Assets con Dynamic Media para usarlas para crear la plantilla](/help/assets/dynamic-media/config-dm.md).
+1. [Sincronizó las imágenes disponibles en su instancia de AEM Assets con Dynamic Media para usarlas para crear la plantilla](https://experienceleague.adobe.com/es/docs/experience-manager-cloud-service/content/assets/dynamicmedia/config-dm).
 1. Se ha verificado lo siguiente en la IU táctil:
-   * En la **[!UICONTROL página Editar configuración de Dynamic Media]**, el **[!UICONTROL modo de sincronización de Dynamic Media AEM]** establecido en **[!UICONTROL Deshabilitado de forma predeterminada]** no se aplica a todas las carpetas de la (**[!UICONTROL Sincronizar todo el contenido]** está desmarcado). Consulte [Configuración del Cloud Service de Dynamic Media](/help/assets/dynamic-media/config-dm.md) para obtener más información.
-   * **[!UICONTROL El modo de sincronización de Dynamic Media]** está establecido en **[!UICONTROL Habilitar para subcarpetas]** para la carpeta o subcarpeta de destino en la que guardará la plantilla después de crearla. Consulte [Configuración del Cloud Service de Dynamic Media](/help/assets/dynamic-media/config-dm.md) para obtener más información.
+   * En la **[!UICONTROL página Editar configuración de Dynamic Media]**, el **[!UICONTROL modo de sincronización de Dynamic Media AEM]** establecido en **[!UICONTROL Deshabilitado de forma predeterminada]** no se aplica a todas las carpetas de la (**[!UICONTROL Sincronizar todo el contenido]** está desmarcado). Consulte [Configuración del Cloud Service de Dynamic Media](https://experienceleague.adobe.com/es/docs/experience-manager-cloud-service/content/assets/dynamicmedia/config-dm) para obtener más información.
+   * **[!UICONTROL El modo de sincronización de Dynamic Media]** está establecido en **[!UICONTROL Habilitar para subcarpetas]** para la carpeta o subcarpeta de destino en la que guardará la plantilla después de crearla. Consulte [Configuración del Cloud Service de Dynamic Media](https://experienceleague.adobe.com/es/docs/experience-manager-cloud-service/content/assets/dynamicmedia/config-dm) para obtener más información.
 
 ## Crear una plantilla de Dynamic Media WYSIWYG{#how-to-create-dynamic-media-wysiwyg-template}
 
@@ -69,7 +69,7 @@ Siga estos pasos para crear un lienzo en blanco:
 
 1. Haga clic en **[!UICONTROL Crear plantilla]** para guardar la plantilla en Dynamic Media Assets o navegue a una carpeta y haga clic en **[!UICONTROL Crear plantilla]** para guardar la plantilla en esa carpeta. Se muestra el cuadro de diálogo **[!UICONTROL Nueva plantilla]**.
    ![cómo crear plantillas dinámicas que se pueden personalizar en tiempo real](/help/using/assets/new-template.png)
-Para [crear una carpeta](/help/assets/add-delete-assets-view.md) en **[!UICONTROL Dynamic Media Assets]**, cree una carpeta en **[!UICONTROL Assets]**. El árbol de carpetas de **[!UICONTROL Assets]** se replica en **[!UICONTROL Dynamic Media Assets]**.
+Para [crear una carpeta](/help/using/add-delete.md) en **[!UICONTROL Dynamic Media Assets]**, cree una carpeta en **[!UICONTROL Assets]**. El árbol de carpetas de **[!UICONTROL Assets]** se replica en **[!UICONTROL Dynamic Media Assets]**.
 1. Especifique un nombre de plantilla, defina la anchura y altura del lienzo y haga clic en **[!UICONTROL Crear]**. Se muestra un lienzo en blanco con opciones de menú en ambos lados que se utilizan para crear la plantilla. Pase el ratón sobre las opciones del menú para ver su información sobre herramientas.
    ![plantilla personalizable en tiempo real](/help/using/assets/blank-canvas-page.png)
 
@@ -89,7 +89,7 @@ Para [crear una carpeta](/help/assets/add-delete-assets-view.md) en **[!UICONTRO
 * ![crear una plantilla que se pueda personalizar al instante](/help/using/assets/undo.svg): haz clic para deshacer la última acción o presiona **Ctrl** + **Z** (Windows) o **Cmd** + **Z** (Mac).
 * ![plantilla para crear titulares rápidamente](/help/using/assets/redo.svg): haz clic para rehacer la última acción o presiona **Ctrl** + **Y** (Windows) o **Cmd** + **Y** (Mac).
 * ![plantilla para crear prospectos rápidamente](/help/using/assets/zoomin.svg): haga clic para ampliar el lienzo o presione **Ctrl** + **+** (Windows) o Cmd + **+** (Mac).
-* ![plantilla para crear titulares rápidamente](/help/using/assets/zoomout.svg): haga clic para alejar el lienzo o presione **Ctrl** + **-** (Windows) o **Cmd** + **-** (Mac).
+* ![plantilla para crear titulares rápidamente](/help/using/assets/ZoomOut-1.svg): haga clic para alejar el lienzo o presione **Ctrl** + **-** (Windows) o **Cmd** + **-** (Mac).
 * Pulse **Retroceso** o **eliminar** para eliminar la capa seleccionada si no se está editando ningún texto o propiedad.
 
 Haga clic en ![plantilla para crear prospectos rápidamente](/help/using/assets/show-layers-list.svg) **>** más opciones (![](/help/using/assets/three-dots.svg)) en la capa Lienzo para editar las dimensiones de lienzo en cualquier momento mientras crea la plantilla.
@@ -121,7 +121,7 @@ Consulte el [**[!UICONTROL Panel de propiedades]**](#reposition-resize-delete-a-
 
 >[!NOTE]
 >
-> Para utilizar una fuente distinta a la familia de fuentes predeterminada Adobe Sans F2, debe cargar y publicar el archivo de fuente en AEM Assets y Dynamic Media. Si tiene fuentes antiguas en su instancia, asegúrese de [volver a procesar](/help/assets/reprocessing-assets-view.md) para verlas en el editor de plantillas.
+> Para utilizar una fuente distinta a la familia de fuentes predeterminada Adobe Sans F2, debe cargar y publicar el archivo de fuente en AEM Assets y Dynamic Media. Si tiene fuentes antiguas en su instancia, asegúrese de [volver a procesar](/help/using/reprocessing.md) para verlas en el editor de plantillas.
 
 ### Edición o eliminación de una capa {#edit-or-delete-a-layer}
 
@@ -281,5 +281,5 @@ Edite la plantilla siguiendo estos pasos:
 
 ## Ver también
 
-1. Explorar [Dynamic Media y sus funcionalidades](/help/assets/dynamic-media/dynamic-media.md)
-1. Explorar [Dynamic Media con funciones de OpenAPI](/help/assets/dynamic-media-open-apis-overview.md)
+1. Explorar [Dynamic Media y sus funcionalidades](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media)
+1. Explorar [Dynamic Media con funciones de OpenAPI](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media-open-apis/dynamic-media-open-apis-overview)
