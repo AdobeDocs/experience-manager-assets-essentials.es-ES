@@ -4,10 +4,10 @@ description: Aprenda a crear plantillas de Dynamic Media con un editor de planti
 hide: true
 role: User
 exl-id: 07de648e-4ae2-4524-8e05-3cf10bb6006d
-source-git-commit: e09573fb64567b2975d5e7e08c2cf2db62b72202
+source-git-commit: 64123ef9b8f669da24b296a5c1ea6bd514778c32
 workflow-type: tm+mt
 source-wordcount: '2766'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -65,7 +65,7 @@ Siga estos pasos para crear un lienzo en blanco:
 
 1. Vaya a Assets Essentials y haga clic en **[!UICONTROL Dynamic Media Assets]**, disponible en el panel izquierdo.
 
-   ![plantillas de Dynamic Media](/help/using/assets/DM-Assets1.png)
+   ![Plantillas de Dynamic Media](/help/using/assets/DM-Assets1.png)
 
 1. Haga clic en **[!UICONTROL Crear plantilla]** para guardar la plantilla en Dynamic Media Assets o navegue a una carpeta y haga clic en **[!UICONTROL Crear plantilla]** para guardar la plantilla en esa carpeta. Se muestra el cuadro de diálogo **[!UICONTROL Nueva plantilla]**.
    ![cómo crear plantillas dinámicas que se pueden personalizar en tiempo real](/help/using/assets/new-template.png)
