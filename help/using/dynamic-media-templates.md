@@ -4,9 +4,9 @@ description: Aprenda a crear plantillas de Dynamic Media con un editor de planti
 hide: true
 role: User
 exl-id: 07de648e-4ae2-4524-8e05-3cf10bb6006d
-source-git-commit: 64123ef9b8f669da24b296a5c1ea6bd514778c32
+source-git-commit: 8bf4babf2fefb8735b14eb4d4cb08205c54a77bb
 workflow-type: tm+mt
-source-wordcount: '2766'
+source-wordcount: '2810'
 ht-degree: 1%
 
 ---
@@ -15,6 +15,12 @@ ht-degree: 1%
 
 | [Prácticas recomendadas de búsqueda](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/best-practices/search-best-practices) | [Prácticas recomendadas de metadatos](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/best-practices/metadata-best-practices) | [Centro de contenido](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/content-hub/product-overview) | [Documentación de desarrollador de AEM Assets](https://developer.adobe.com/experience-cloud/experience-manager-apis/) |
 | ------------- | --------------------------- |---------|-----|
+
+>[!CONTEXTUALHELP]
+>id="assets_dm_templates"
+>title="Administración de plantillas de Dynamic Media"
+>abstract="Cree y personalice banners de imagen y texto sobre la marcha, con una interfaz de WYSIWYG fácil de usar, e incruste la URL de Dynamic Media en cualquier aplicación propia o de terceros para lograr experiencias muy atractivas. ¡Pruébalo!"
+>additional-url="https://images-tv.adobe.com/mpcv3/4477/b74738ca-888c-4a37-9a9e-14fabd68ee45_1738206841.854x480at800_h264.mp4" text="Ver vídeo"
 
 Cree plantillas de Dynamic Media con un editor de plantillas de WYSIWYG e incluya varias imágenes y capas de texto para crear rápidamente titulares y prospectos y utilizarlos en aplicaciones de flujo descendente. También puede agregar parámetros a las imágenes y las capas de texto incluidas en la plantilla y usar [URL de Dynamic Media](https://experienceleague.adobe.com/en/docs/commerce-admin/content-design/wysiwyg/storage/catalog-urls-dynamic-media) para actualizar los valores de esas capas en tiempo real.
 
