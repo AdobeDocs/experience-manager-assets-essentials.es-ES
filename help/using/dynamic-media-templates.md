@@ -1,17 +1,17 @@
 ---
-title: ¿Cómo se administran las plantillas de Dynamic Media?
-description: Aprenda a crear plantillas de Dynamic Media con un editor de plantillas de WYSIWYG e incluir varias imágenes y capas de texto para crear rápidamente titulares y folletos y utilizarlos en aplicaciones de flujo descendente.
+title: ¿Cómo administrar las plantillas de Dynamic Media?
+description: Aprenda a crear plantillas de Dynamic Media con un editor de plantillas de WYSIWYG e incluya varias imágenes y capas de texto para crear rápidamente titulares y prospectos y utilizarlos en aplicaciones de flujo descendente.
 hide: true
 role: User
 exl-id: 07de648e-4ae2-4524-8e05-3cf10bb6006d
 source-git-commit: 8bf4babf2fefb8735b14eb4d4cb08205c54a77bb
 workflow-type: tm+mt
 source-wordcount: '2810'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
-# Dynamic Media templates{#dynamic-media-templates}
+# Plantillas de Dynamic Media{#dynamic-media-templates}
 
 | [Prácticas recomendadas de búsqueda](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/best-practices/search-best-practices) | [Prácticas recomendadas de metadatos](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/best-practices/metadata-best-practices) | [Centro de contenido](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/content-hub/product-overview) | [Documentación de desarrollador de AEM Assets](https://developer.adobe.com/experience-cloud/experience-manager-apis/) |
 | ------------- | --------------------------- |---------|-----|
@@ -19,14 +19,14 @@ ht-degree: 1%
 >[!CONTEXTUALHELP]
 >id="assets_dm_templates"
 >title="Administración de plantillas de Dynamic Media"
->abstract="Cree y personalice banners de imagen y texto sobre la marcha, con una interfaz de WYSIWYG fácil de usar, e incruste la URL de Dynamic Media en cualquier aplicación propia o de terceros para lograr experiencias muy atractivas. ¡Pruébalo!"
+>abstract="Cree y personalice banners de imagen y texto sobre la marcha, con una interfaz de WYSIWYG fácil de usar, e incruste la URL de Dynamic Media en cualquier aplicación propia o de terceros para lograr experiencias muy atractivas. ¡Pruébelo!"
 >additional-url="https://images-tv.adobe.com/mpcv3/4477/b74738ca-888c-4a37-9a9e-14fabd68ee45_1738206841.854x480at800_h264.mp4" text="Ver vídeo"
 
 Cree plantillas de Dynamic Media con un editor de plantillas de WYSIWYG e incluya varias imágenes y capas de texto para crear rápidamente titulares y prospectos y utilizarlos en aplicaciones de flujo descendente. También puede agregar parámetros a las imágenes y las capas de texto incluidas en la plantilla y usar [URL de Dynamic Media](https://experienceleague.adobe.com/en/docs/commerce-admin/content-design/wysiwyg/storage/catalog-urls-dynamic-media) para actualizar los valores de esas capas en tiempo real.
 
 Algunas de las características principales incluyen:
 
-* **Editor de plantillas de Dynamic Media WYSIWYG:** Cree banners personalizables con capas de texto e imagen.
+* **Editor de plantillas de Dynamic Media WYSIWYG:** Cree titulares personalizables con capas de texto e imagen.
 * **Parametrización de capas:** Defina pares dinámicos de clave-valor para las capas a fin de habilitar las actualizaciones en tiempo real.
 * **Compatibilidad con URL de Dynamic Media:** Utilice URL de Dynamic Media para plantillas, integrando valores personalizados de aplicaciones de origen o de terceros.
 * **Control de visibilidad de la capa:** Oculte o muestre de forma dinámica las capas según sea necesario.
@@ -43,7 +43,7 @@ Algunas de las ventajas clave de las plantillas de Dynamic Media son:
 
 >[!NOTE]
 >
->Los clientes con suscripciones al SKU de seguridad mejorada no pueden utilizar ninguna funcionalidad de Dynamic Media, incluidas las plantillas de Dynamic Media, en ese programa de Cloud Service.
+>Los clientes con suscripciones al SKU de seguridad mejorada no pueden utilizar ninguna funcionalidad de Dynamic Media, incluidas las plantillas de Dynamic Media, en ese programa de Cloud Services.
 
 ## Antes de empezar{#prerequisites-for-dynamic-media-wysiwyg-template}
 
@@ -52,8 +52,8 @@ Para crear una plantilla de Dynamic Media, debe tener:
 1. Acceso a Dynamic Media.
 1. [Sincronizó las imágenes disponibles en su instancia de AEM Assets con Dynamic Media para usarlas para crear la plantilla](https://experienceleague.adobe.com/es/docs/experience-manager-cloud-service/content/assets/dynamicmedia/config-dm).
 1. Se ha verificado lo siguiente en la IU táctil:
-   * En la **[!UICONTROL página Editar configuración de Dynamic Media]**, el **[!UICONTROL modo de sincronización de Dynamic Media AEM]** establecido en **[!UICONTROL Deshabilitado de forma predeterminada]** no se aplica a todas las carpetas de la (**[!UICONTROL Sincronizar todo el contenido]** está desmarcado). Consulte [Configuración del Cloud Service de Dynamic Media](https://experienceleague.adobe.com/es/docs/experience-manager-cloud-service/content/assets/dynamicmedia/config-dm) para obtener más información.
-   * **[!UICONTROL El modo de sincronización de Dynamic Media]** está establecido en **[!UICONTROL Habilitar para subcarpetas]** para la carpeta o subcarpeta de destino en la que guardará la plantilla después de crearla. Consulte [Configuración del Cloud Service de Dynamic Media](https://experienceleague.adobe.com/es/docs/experience-manager-cloud-service/content/assets/dynamicmedia/config-dm) para obtener más información.
+   * En la página **[!UICONTROL Editar configuración de Dynamic Media]**, el **[!UICONTROL modo de sincronización de Dynamic Media]** establecido en **[!UICONTROL Deshabilitado de forma predeterminada]** no se aplica a todas las carpetas de AEM (**[!UICONTROL Sincronizar todo el contenido]** está desmarcado). Consulte [Configuración de Dynamic Media Cloud Service](https://experienceleague.adobe.com/es/docs/experience-manager-cloud-service/content/assets/dynamicmedia/config-dm) para obtener más información.
+   * **[!UICONTROL El modo de sincronización de Dynamic Media]** está establecido en **[!UICONTROL Habilitar para subcarpetas]** para la carpeta o subcarpeta de destino en la que guardará la plantilla después de crearla. Consulte [Configuración de Dynamic Media Cloud Service](https://experienceleague.adobe.com/es/docs/experience-manager-cloud-service/content/assets/dynamicmedia/config-dm) para obtener más información.
 
 ## Crear una plantilla de Dynamic Media WYSIWYG{#how-to-create-dynamic-media-wysiwyg-template}
 
@@ -69,7 +69,7 @@ Para crear una plantilla de DM, siga estos pasos:
 
 Siga estos pasos para crear un lienzo en blanco:
 
-1. Vaya a Assets Essentials y haga clic en **[!UICONTROL Dynamic Media Assets]**, disponible en el panel izquierdo.
+1. Vaya a Assets Essentials y haga clic en **[!UICONTROL Dynamic Media Assets]** disponible en el panel izquierdo.
 
    ![Plantillas de Dynamic Media](/help/using/assets/DM-Assets1.png)
 
@@ -217,7 +217,7 @@ Siga estos pasos para asignar el mismo nombre a los parámetros de ocultación (
 1. Vaya al panel Parámetro de otras capas seleccionándolas en el lienzo y alterne su parámetro **[!UICONTROL Hide]** si no está parametrizado.
 1. Reemplace su nombre **[!UICONTROL Hide parameter]** con el nombre copiado.
 1. Haga clic en **[!UICONTROL Guardar]** para agrupar las capas.
-1. Ejecute el paso 3 y luego el 4 en la sección [**[!UICONTROL Vista previa y Publish]**](#preview-and-publish-template-and-copy-template-deliver-url) para ver los cambios.
+1. Ejecute el paso 3 y luego el 4 en la sección [**[!UICONTROL Previsualizar y publicar]**](#preview-and-publish-template-and-copy-template-deliver-url) para ver los cambios.
 
 ## Previsualice y publique la plantilla para copiar la dirección URL de envío{#preview-and-publish-template-and-copy-template-deliver-url}
 
@@ -235,7 +235,7 @@ Siga estos pasos para previsualizar y publicar la plantilla y copiar la direcci�
    ![creando contenido sobre la marcha](/help/using/assets/dm-templates-publish-status.png)
 También puede alternar **[!UICONTROL Incluir todos los parámetros]** para editar todos los valores de parámetros mostrados y ver las actualizaciones en la vista previa de la plantilla.
    <br>
-1. Para publicar la plantilla en la página de vista previa, haz clic en **[!UICONTROL Publish]** y confirma la publicación. Se muestra el mensaje Publish Complete y el estado de publicación se actualiza a Published.
+1. Para publicar la plantilla en la página de vista previa, haz clic en **[!UICONTROL Publicar]** y confirma la publicación. Se muestra el mensaje Publicación completa y el estado de publicación se actualiza a Publicado.
 
 >[!NOTE]
 >
@@ -248,7 +248,7 @@ Los parámetros seleccionados en la página **[!UICONTROL Vista previa]** se con
 Para copiar la URL de la plantilla publicada que se muestra en la vista previa:
 
 1. Haga clic en **[!UICONTROL Copiar URL]**. Se muestra el cuadro de diálogo **[!UICONTROL Copiar URL]**. Seleccione y copie la dirección URL mostrada. Observe que el primer parámetro de la dirección URL comienza después del signo de interrogación **(?)** y un par clave-valor comienza con **$** y termina con **&amp;**. La clave y el valor están separados por un signo igual **(=)**, con la clave a la izquierda y el valor a la derecha.
-1. Pegue esta dirección URL en la pestaña del explorador y vea la plantilla activa. Personalice la plantilla en tiempo real actualizando el valor del parámetro requerido (valor de clave) en la dirección URL directamente como se muestra en el [paso 2](#preview-and-publish-template-and-copy-template-deliver-url) de la sección **Vista previa y Publish**.
+1. Pegue esta dirección URL en la pestaña del explorador y vea la plantilla activa. Personalice la plantilla en tiempo real actualizando el valor del parámetro requerido (valor de clave) en la dirección URL directamente, tal como se muestra en el [paso 2](#preview-and-publish-template-and-copy-template-deliver-url) de la sección **Previsualizar y publicar**.
 1. Utilice esta URL para la comercialización rápida de sus productos o servicios. Puede compartir esta URL con sus clientes o integrarla en su sitio web o en cualquier aplicación de terceros descendente para mostrar el banner y realizar actualizaciones en tiempo real para reflejar las ofertas en curso.
 
 Aprenda a crear una plantilla de Dynamic Media paso a paso en este vídeo.
@@ -271,7 +271,7 @@ Pegue esta URL actualizada en el explorador para ver los cambios.
 
 Edite la plantilla siguiendo estos pasos:
 
-1. En Assets Essentials, haz clic en **[!UICONTROL Dynamic Media Assets]**.
+1. En Assets Essentials, haga clic en **[!UICONTROL Dynamic Media Assets]**.
 2. Navegue hasta la ubicación de la plantilla.
 3. Seleccione la plantilla.
 4. Haga clic en **[!UICONTROL Editar plantilla]**. El lienzo de la plantilla muestra la plantilla y la lista de todas sus capas en el panel Capas. Comience a editar la plantilla según sus necesidades.
@@ -281,11 +281,11 @@ Edite la plantilla siguiendo estos pasos:
 * Después de crear una plantilla con capas de imagen parametrizadas para actualizaciones dinámicas, asegúrese de que las imágenes destinadas a actualizaciones futuras compartan las mismas dimensiones que las imágenes parametrizadas. Esto garantiza que las imágenes se ajusten perfectamente dentro de las capas sin desbordarse ni dejar espacios vacíos. Actualmente, la plantilla no admite ajustes de dimensión automáticos para ajustar las imágenes a las capas.
 * No se admiten subcadenas en una capa de texto. El usuario no puede aplicar propiedades de fuente diferentes en la subcadena de una capa de texto.
 * Actualmente, la compatibilidad de varias empresas de Dynamic Media no está disponible con las plantillas de Dynamic Media.
-* En caso de copia o movimiento, el Selector de destino muestra todas las carpetas (incluidas las carpetas sincronizadas que no sean de Dynamic Media). Además, actualmente no muestra los recursos de la plantilla de Dynamic Media (ambas son limitaciones del selector de destino).
-* Cualquier operación de actualización en una carpeta (por ejemplo, Publish o Delete) desde la sección de Assets afecta a las plantillas de Dynamic Media disponibles en esa carpeta.
-* La papelera no funciona para las plantillas de Dynamic Media. AEM Si un recurso se mueve a la papelera y, a continuación, se restaura, se restaura en el recurso, pero no en el servidor de Dynamic Media, en el que se encuentra el recurso en el que se ha realizado la restauración Lo mismo es válido para las plantillas de Dynamic Media.
+* En caso de copia o movimiento, el Selector de destino muestra todas las carpetas (incluidas las carpetas sincronizadas que no sean de Dynamic Media). Además, actualmente no muestra los recursos de plantilla de Dynamic Media (ambas son limitaciones del selector de destino).
+* Cualquier operación de actualización en una carpeta (por ejemplo, Publicar o Eliminar) desde la sección de Assets afecta a las plantillas de Dynamic Media disponibles en esa carpeta.
+* La papelera no funciona para las plantillas de Dynamic Media. Si un recurso se mueve a la papelera y, a continuación, se restaura, se restaura en AEM pero no en Dynamic Media. Lo mismo es válido para las plantillas de Dynamic Media.
 
-## Ver también
+## Véase también
 
-1. Explorar [Dynamic Media y sus funcionalidades](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media)
+1. Explorar [Dynamic Media y sus capacidades](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media)
 1. Explorar [Dynamic Media con funciones de OpenAPI](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media-open-apis/dynamic-media-open-apis-overview)
