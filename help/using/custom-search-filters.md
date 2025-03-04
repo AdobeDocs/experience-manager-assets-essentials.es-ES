@@ -2,7 +2,8 @@
 title: Filtros de búsqueda personalizados
 description: Obtenga información sobre cómo personalizar el formulario de filtros de búsqueda
 role: User, Leader, Developer
-source-git-commit: 2a71e6e18bc0c08a2daf5e4a76c042c41a9f9e64
+exl-id: 8c579d5b-6bfc-44bb-a381-ca5716bd20cb
+source-git-commit: 7d87b25b25d866af741a8aef22ec52abdaa7b974
 workflow-type: tm+mt
 source-wordcount: '1279'
 ht-degree: 13%
@@ -375,7 +376,7 @@ Cada elemento de filtro está asociado a un conjunto de propiedades. Las siguien
         <ul>
         <li>Haga clic en <b>agregar</b> para agregar un nuevo valor. 
         <li>Haga clic en <span>✎</span> para editar la etiqueta. 
-        <li>Haga clic en <img src="assets/do-not-localize/delete.svg"> para eliminar el valor de la opción. 
+        <li>Haga clic en <img src="assets/do-not-localize/delete-icon.png"> para eliminar el valor de la opción. 
         <li>Haga clic en <b>Editar</b> para modificar las opciones de edición. 
         <li>También puede cambiar la secuencia de las opciones manteniéndolas.
         </td>
