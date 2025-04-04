@@ -5,9 +5,9 @@ role: User,Leader,Admin,Architect,Developer
 contentOwner: AG
 exl-id: cfc105d1-41fc-4418-9905-b2a28a348682
 source-git-commit: 1cda73b6ddc573d2736fdaa45b582198420ed5b1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2159'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -169,9 +169,9 @@ También puede ir hasta la página de detalles de la carpeta y seleccionar **[!U
 
 ### Cómo trabajar con el componente Vínculo en el formulario de metadatos {#link-component-metadata-form}
 
-El componente de vínculo se utiliza para habilitar URL externas, incluidos enlaces de almacenamiento, información de derechos de autor, formularios de contacto, etc. Para utilizar el componente de vínculo en el formulario de metadatos, debe [configurar el formulario de metadatos](#metadata-forms). El componente URL se puede asignar a una propiedad de metadatos particular en la página Editor de metadatos, que funciona de la misma manera que otros componentes de metadatos. Este formulario de metadatos se puede asignar a carpetas. Por lo tanto, en la página de detalles del recurso de carpeta asignado, puede ver el valor de los metadatos de vínculo del recurso.
+El componente de vínculo se utiliza para habilitar URL externas, incluidos enlaces de almacenamiento, información de derechos de autor, formularios de contacto, etc. Para utilizar el componente de vínculo en el formulario de metadatos, debe [configurar el formulario de metadatos](#metadata-forms). El componente URL se puede asignar a una propiedad de metadatos particular en la página Editor de metadatos, que funciona de la misma manera que otros componentes de metadatos. Este formulario de metadatos se puede asignar a carpetas. De esta forma, en la página de detalles del recurso de la carpeta asignada, podrá ver el valor de metadatos del vínculo del recurso.
 
-Siga los pasos a continuación para utilizar el componente Vínculo en la página Detalles del recurso:
+Siga los pasos que se indican a continuación para utilizar el componente de vínculo en la página de detalles del recurso:
 
 1. Vaya a la página de detalles del recurso y navegue hasta la **[!UICONTROL URL del vínculo]**.
 1. Añada una URL que desee utilizar para redirigir al activo seleccionado.
@@ -180,22 +180,22 @@ Siga los pasos a continuación para utilizar el componente Vínculo en la págin
    * Hacer clic en el ![icono de edición](assets/do-not-localize/edit.svg) para editar la URL.
 1. Haga clic en **[!UICONTROL Guardar]** para guardar los cambios.
 
-### Uso del componente Etiquetas en el formulario de metadatos {#tag-component-metadata-form}
+### Cómo trabajar con el componente Etiquetas en el formulario de metadatos {#tag-component-metadata-form}
 
-El elemento raíz representa la estructura de árbol de las etiquetas que puede asociar con los recursos, lo que ayuda a identificar el recurso en función de la etiqueta asignada. Además, puede restringir el acceso de una taxonomía específica al configurar el formulario de metadatos en el editor de metadatos.
+El elemento raíz representa la estructura de árbol de las etiquetas que puede asociar con los recursos, lo que identifica el recurso en función de la etiqueta asignada. Además, puede restringir el acceso de una taxonomía específica al configurar el formulario de metadatos en el editor de metadatos.
 
 #### Configuración del componente Etiquetas {#tags-component-configuration}
 
 Configure el componente etiquetas ejecutando los siguientes pasos:
 
 1. Vaya al editor de metadatos, desplácese hasta **[!UICONTROL Etiquetas]** y colóquelo en el lienzo.
-1. Cambie el nombre del componente en el lienzo. Para ello, vaya a **[!UICONTROL Label]** bajo la [!UICONTROL propiedad Metadata] en el panel de configuración y agregue el texto para su identificación.
-1. En la [!UICONTROL propiedad de metadatos] del panel de configuración, busque la propiedad de metadatos que desee asignar al componente.
-1. Haga clic en **[!UICONTROL Restringir a una taxonomía específica]** para restringir la ruta raíz de la taxonomía. Para ello, examine las etiquetas y elija la taxonomía de la ruta concreta.
+1. Cambie el nombre del componente en el lienzo. Para ello, vaya a **[!UICONTROL Etiqueta]** bajo la [!UICONTROL Propiedad de metadatos] en el panel Ajustes y añada el texto para su identificación.
+1. En la [!UICONTROL Propiedad de metadatos] del panel Ajustes, busque la propiedad de metadatos que desee asignar al componente.
+1. Haga clic en **[!UICONTROL Restringir a la taxonomía específica]** para restringir la ruta raíz de la taxonomía. Para ello, examine las etiquetas y elija la taxonomía de la ruta concreta.
 1. Haga clic en **[!UICONTROL Guardar]** para guardar los cambios.
 
    ![Configuración de etiquetas raíz](assets/root-tag-config.png)
-1. [Asignar formulario de metadatos a las carpetas](#assign-metadata-form-folder).
+1. [Asignar un formulario de metadatos a una carpeta](#assign-metadata-form-folder).
 
 <!--
 #### Mapping between assets and taxonomy {#asset-taxonomy-mapping}
