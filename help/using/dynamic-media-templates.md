@@ -13,7 +13,7 @@ ht-degree: 2%
 
 # Plantillas de Dynamic Media{#dynamic-media-templates}
 
-| [Prácticas recomendadas de búsqueda](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/best-practices/search-best-practices) | [Prácticas recomendadas de metadatos](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/best-practices/metadata-best-practices) | [Centro de contenido](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/content-hub/product-overview) | [Documentación de desarrollador de AEM Assets](https://developer.adobe.com/experience-cloud/experience-manager-apis/) |
+| [Prácticas recomendadas de búsqueda](https://experienceleague.adobe.com/es/docs/experience-manager-cloud-service/content/assets/best-practices/search-best-practices) | [Prácticas recomendadas de metadatos](https://experienceleague.adobe.com/es/docs/experience-manager-cloud-service/content/assets/best-practices/metadata-best-practices) | [Centro de contenido](https://experienceleague.adobe.com/es/docs/experience-manager-cloud-service/content/assets/content-hub/product-overview) | [Documentación de desarrollador de AEM Assets](https://developer.adobe.com/experience-cloud/experience-manager-apis/) |
 | ------------- | --------------------------- |---------|-----|
 
 >[!CONTEXTUALHELP]
@@ -22,7 +22,7 @@ ht-degree: 2%
 >abstract="Cree y personalice banners de imagen y texto sobre la marcha, con una interfaz de WYSIWYG fácil de usar, e incruste la URL de Dynamic Media en cualquier aplicación propia o de terceros para lograr experiencias muy atractivas. ¡Pruébelo!"
 >additional-url="https://images-tv.adobe.com/mpcv3/4477/b74738ca-888c-4a37-9a9e-14fabd68ee45_1738206841.854x480at800_h264.mp4" text="Ver vídeo"
 
-Cree plantillas de Dynamic Media con un editor de plantillas de WYSIWYG e incluya varias imágenes y capas de texto para crear rápidamente titulares y prospectos y utilizarlos en aplicaciones de flujo descendente. También puede agregar parámetros a las imágenes y las capas de texto incluidas en la plantilla y usar [URL de Dynamic Media](https://experienceleague.adobe.com/en/docs/commerce-admin/content-design/wysiwyg/storage/catalog-urls-dynamic-media) para actualizar los valores de esas capas en tiempo real.
+Cree plantillas de Dynamic Media con un editor de plantillas de WYSIWYG e incluya varias imágenes y capas de texto para crear rápidamente titulares y prospectos y utilizarlos en aplicaciones de flujo descendente. También puede agregar parámetros a las imágenes y las capas de texto incluidas en la plantilla y usar [URL de Dynamic Media](https://experienceleague.adobe.com/es/docs/commerce-admin/content-design/wysiwyg/storage/catalog-urls-dynamic-media) para actualizar los valores de esas capas en tiempo real.
 
 Algunas de las características principales incluyen:
 
@@ -109,7 +109,7 @@ Haga clic en ![plantilla para crear prospectos rápidamente](/help/using/assets/
 
 Siga estos pasos para agregar imágenes al lienzo:
 
-1. Haga clic en ![crear un titular en poco tiempo](/help/using/assets/add-image.svg) para mostrar el panel [Selector de recursos](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/asset-selector/overview-asset-selector). El panel muestra las imágenes de la instancia de AEM Assets sincronizadas con Dynamic Media.
+1. Haga clic en ![crear un titular en poco tiempo](/help/using/assets/add-image.svg) para mostrar el panel [Selector de recursos](https://experienceleague.adobe.com/es/docs/experience-manager-cloud-service/content/assets/manage/asset-selector/overview-asset-selector). El panel muestra las imágenes de la instancia de AEM Assets sincronizadas con Dynamic Media.
 1. Examine el panel o utilice palabras clave en la barra de búsqueda para encontrar una imagen específica.
 1. Arrastre y suelte una imagen en el lienzo para utilizarla. Consulte el [**[!UICONTROL Panel de propiedades]**](#reposition-resize-delete-a-layer) para cambiar el tamaño o la posición de una capa en el lienzo.
    ![crear un titular en cuestión de segundos](/help/using/assets/add-image-to-canvas.png)
@@ -166,7 +166,7 @@ Consulte estas acciones comunes de edición de capas para editar un texto o una 
 
 Dé formato al texto según la fuente, el tamaño, el color, el estilo y la alineación deseados (en la capa) al cambiar sus valores en los campos respectivos de la sección **[!UICONTROL Texto]** del panel.
 
-**[!UICONTROL Cambio de tamaño del texto inteligente]** Asegúrese de incluir **[!UICONTROL Cambio de tamaño del texto inteligente]** ([Ajuste de texto inteligente](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/http-protocol-reference/text-formatting/r-copy-fitting)) para ajustar de forma óptima cualquier texto del área designada ajustando su tamaño y longitud de fuente de forma inteligente. Esta capacidad evita que el texto se desborde o minimiza los espacios adicionales en la parte inferior del texto.
+**[!UICONTROL Cambio de tamaño del texto inteligente]** Asegúrese de incluir **[!UICONTROL Cambio de tamaño del texto inteligente]** ([Ajuste de texto inteligente](https://experienceleague.adobe.com/es/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/http-protocol-reference/text-formatting/r-copy-fitting)) para ajustar de forma óptima cualquier texto del área designada ajustando su tamaño y longitud de fuente de forma inteligente. Esta capacidad evita que el texto se desborde o minimiza los espacios adicionales en la parte inferior del texto.
 ![creación de contenido rápidamente](/help/using/assets/smart-text-resize.png)
 
 ### Parametrizar capas {#parameterise-a-layer}
@@ -287,5 +287,5 @@ Edite la plantilla siguiendo estos pasos:
 
 ## Véase también
 
-1. Explorar [Dynamic Media y sus capacidades](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media)
-1. Explorar [Dynamic Media con funciones de OpenAPI](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media-open-apis/dynamic-media-open-apis-overview)
+1. Explorar [Dynamic Media y sus capacidades](https://experienceleague.adobe.com/es/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media)
+1. Explorar [Dynamic Media con funciones de OpenAPI](https://experienceleague.adobe.com/es/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media-open-apis/dynamic-media-open-apis-overview)

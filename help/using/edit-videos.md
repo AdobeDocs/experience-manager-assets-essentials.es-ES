@@ -104,7 +104,7 @@ El vídeo está disponible en formato GIF para su descarga. Puede guardar el rec
 
 * Facilite comentarios sobre la documentación usando [!UICONTROL Editar esta página] ![editar la página](assets/do-not-localize/edit-page.png) o [!UICONTROL Registrar un problema] ![crear un problema de GitHub](assets/do-not-localize/github-issue.png), disponibles en la barra lateral derecha.
 
-* Contacte con el [Servicio de atención al cliente](https://experienceleague.adobe.com/?support-solution=General#support).
+* Contacte con el [Servicio de atención al cliente](https://experienceleague.adobe.com/es?support-solution=General#support).
 
 >[!MORELIKETHIS]
 >
