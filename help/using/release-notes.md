@@ -334,7 +334,7 @@ Las notificaciones de Assets Essentials permiten [supervisar las operaciones rea
 
 **Creación de informes**
 
-La creación de informes de recursos permiten a los administradores evaluar la actividad del usuario dentro de Adobe Experience Manager Assets Essentials. Los informes y el tablero de estadísticas activas proporcionan información útil sobre cómo los usuarios interactúan con los recursos disponibles en la implementación. [Utilice la información de los informes ](manage-reports.md) para derivar métricas de éxito clave para medir la adopción de Assets en su empresa y por parte de los clientes.
+La creación de informes de recursos permiten a los administradores evaluar la actividad del usuario dentro de Adobe Experience Manager Assets Essentials. Los informes y el tablero de estadísticas activas proporcionan información útil sobre cómo los usuarios interactúan con los recursos disponibles en la implementación. [Utilice la información de los informes &#x200B;](manage-reports.md) para derivar métricas de éxito clave para medir la adopción de Assets en su empresa y por parte de los clientes.
 
 Vea los informes de descarga de recursos y el módulo del panel de control de estadísticas activas para ver qué recursos se descargan y la frecuencia de las descargas.
 
