@@ -3,21 +3,21 @@ title: Introducción a  [!DNL Assets Essentials]
 description: Administre sus activos con Experience Manager Assets Essentials, una herramienta de administración de activos digitales ligera que funciona dentro de las aplicaciones de Experience Cloud.
 role: User,Leader
 exl-id: 43ddf11c-36d3-4643-80c9-b7dd5d199450
-source-git-commit: 65200f73a954e4ebf4fbd6dc3a819acc6e0beda4
+source-git-commit: 2ad90f931f84bf8e0ceb51e4e6450d36a7b31a03
 workflow-type: tm+mt
-source-wordcount: '621'
-ht-degree: 100%
+source-wordcount: '660'
+ht-degree: 97%
 
 ---
 
 # Información general de [!DNL Adobe Experience Manager Assets Essentials] {#assets-essentials}
 
-<!-- TBD: Update this banner to remove Beta label. 
+<!-- 
+TBD: Update this banner to remove Beta label. 
 ![Banner image for beta docs](assets/do-not-localize/banner-image-beta-docs.png)
-
 -->
 
-Adobe ofrece una solución sólida de administración de activos digitales (DAM) para que usted pueda sacar el máximo partido sus recursos digitales. Adobe Experience Manager Assets Essentials es la solución de administración de recursos ligera de Adobe para almacenar, administrar, descubrir y usar recursos digitales.
+Adobe ofrece una solución sólida de administración de activos digitales (DAM) para que usted pueda sacar el máximo partido sus recursos digitales. Adobe Experience Manager Assets Essentials es la solución de administración de recursos ligera de Adobe para almacenar, administrar, descubrir y utilizar recursos digitales.
 
 ## ¿Qué es Assets Essentials? {#assets-essemtials-overview}
 
@@ -75,7 +75,7 @@ Para obtener más información, consulte [Integración con otras soluciones de A
 
 **Plataforma basada en la nube**
 
-Assets Essentials, que se basa en la infraestructura de la nube de Adobe, permite a las organizaciones centrarse en sus necesidades comerciales en la creación, administración y distribución de recursos digitales. Además, Adobe garantiza que la solución esté disponible, sea segura, escalable y esté siempre actualizada, con innovaciones de producto que se proporcionan a los usuarios sin problemas mediante actualizaciones frecuentes.
+Assets Essentials, que se basa en la infraestructura de la nube de Adobe, permite a las organizaciones centrarse en sus necesidades empresariales en la creación, administración y distribución de recursos digitales. Además, Adobe garantiza que la solución esté disponible, sea segura, escalable y esté siempre actualizada, con innovaciones de producto que se proporcionan a los usuarios sin problemas mediante actualizaciones frecuentes.
 
 **Aumento de las capacidades**
 
@@ -90,7 +90,7 @@ Cuando sus necesidades empresariales aumentan y necesita soporte para los requis
 
 * Proporcione comentarios sobre la documentación usando [!UICONTROL Editar esta página] ![editar la página](assets/do-not-localize/edit-page.png) o [!UICONTROL Registrar una incidencia] ![crear una incidencia de GitHub](assets/do-not-localize/github-issue.png), disponibles en la barra lateral derecha
 
-* Contacto con el [Servicio de atención al cliente](https://experienceleague.adobe.com/es?support-solution=General&amp;lang=es#support)
+* Contacto con el [Servicio de atención al cliente](https://experienceleague.adobe.com/?support-solution=General&lang=es#support)
 
 
 >[!MORELIKETHIS]

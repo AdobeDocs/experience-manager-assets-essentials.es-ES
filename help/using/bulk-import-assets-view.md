@@ -2,10 +2,10 @@
 title: Importación masiva de recursos mediante Assets Essentials
 description: Obtenga información sobre cómo importar recursos de forma masiva mediante la nueva interfaz de usuario de recursos (Assets Essentials). Permite a los administradores importar un gran número de recursos desde una fuente de datos a AEM Assets.
 exl-id: 5f5fc15e-959b-48b6-834a-42b213512b49
-source-git-commit: 4d4b239b0b75ac8a26a7c3001e5b28dcb6243f63
+source-git-commit: 2ad90f931f84bf8e0ceb51e4e6450d36a7b31a03
 workflow-type: tm+mt
-source-wordcount: '1812'
-ht-degree: 100%
+source-wordcount: '1849'
+ht-degree: 92%
 
 ---
 
@@ -36,8 +36,8 @@ Puede importar recursos desde las siguientes fuentes de datos:
 | Fuente de datos | Requisitos previos |
 |-----|------|
 | Azure | <ul> <li>Cuenta de almacenamiento de Azure </li> <li> Contenedor de blob de Azure <li> Clave de acceso de Azure o token SAS basado en el modo de autenticación </li></ul> |
-| AWS | <ul> <li>Región de AWS </li> <li> Contenedor de AWS <li> Clave de acceso de AWS </li><li> Secreto de acceso de AWS </li></ul> |
-| Google Cloud | <ul> <li>Contenedor de GCP </li> <li> Correo electrónico de la cuenta de servicio de GCP <li> Clave privada de la cuenta de servicio de GCP</li></ul> |
+| AWS | <ul> <li>Región de AWS </li> <li> Bloque de AWS <li> Clave de acceso de AWS </li><li> Secreto de acceso de AWS </li></ul> |
+| Google Cloud | <ul> <li>Bloque de GCP </li> <li> Correo electrónico de la cuenta de servicio de GCP <li> Clave privada de la cuenta de servicio de GCP</li></ul> |
 | Dropbox | <ul> <li>ID de cliente de Dropbox </li> <li> Secreto de cliente de Dropbox</li></ul> |
 | OneDrive | <ul> <li>ID de inquilino de OneDrive </li> <li> ID de cliente de OneDrive</li><li> Secreto de cliente de OneDrive</li></ul> |
 
@@ -49,7 +49,7 @@ Antes de importar recursos desde la cuenta de Dropbox a AEM Assets, cree y confi
 
 Ejecute los siguientes pasos:
 
-1. Inicie sesión en su [cuenta de Dropbox](https://www.dropbox.com/developers) y haga clic en **[!UICONTROL Crear aplicaciones]**. <br>Si está utilizando una cuenta Enterprise de Dropbox, debe tener acceso a la función de administrador de contenido.
+1. Inicia sesión en tu [cuenta de Dropbox](https://www.dropbox.com/developers) y haz clic en **[!UICONTROL Crear aplicaciones]**. <br>Si utiliza una cuenta de Enterprise Dropbox, debe tener acceso a la función Administrador de contenido.
 
 1. En la sección **[!UICONTROL Elegir una API]**, seleccione el único botón de opción disponible.
 
@@ -102,7 +102,7 @@ Antes de importar recursos desde la cuenta de OneDrive a AEM Assets, cree y conf
 
 1. Haga clic en **[!UICONTROL Añadir un certificado o secreto]** correspondiente a la opción **[!UICONTROL Credenciales del cliente]**.
 
-1. Haga clic en **[!UICONTROL Nuevo secreto de cliente]**, proporcione la descripción del secreto del cliente, su vencimiento y haga clic en **[!UICONTROL Añadir]**.
+1. Haga clic en **[!UICONTROL Nuevo secreto de cliente]**, proporcione la descripción del secreto del cliente, su caducidad y haga clic en **[!UICONTROL Añadir]**.
 
 1. Después de crear el secreto del cliente, copie el campo **[!UICONTROL Valor]** (No copie el campo ID de secreto). Es necesario al configurar la importación masiva en AEM Assets.
 
@@ -113,7 +113,7 @@ Ejecute los siguientes pasos para agregar permisos de API para la aplicación:
 1. Haga clic en **[!UICONTROL Permisos de API]** en el panel izquierdo y haga clic en **[!UICONTROL Agregar un permiso]**.
 1. Haga clic en **[!UICONTROL Gráfico de Microsoft]** > **[!UICONTROL Permisos delegados]**. La sección **[!UICONTROL Seleccionar permiso]** muestra los permisos disponibles.
 1. Seleccione el permiso `offline_access` de `OpenId permissions` y el permiso `Files.ReadWrite.All` de `Files`.
-1. Haga clic en **[!UICONTROL Agregar permisos]** para guardar los permisos.
+1. Haga clic en **[!UICONTROL Agregar permisos]** para guardar las actualizaciones.
 
 ## Crear configuración de importación masiva{#create-bulk-import-configuration}
 
@@ -129,7 +129,7 @@ Siga estos pasos para crear una configuración de importación masiva en [!DNL E
    >
    >Si utiliza Dropbox como fuente de datos, especifique la ruta de la carpeta de origen en función de las siguientes reglas:
    >* Si selecciona **Dropbox completo** al crear la aplicación Dropbox, y la carpeta que contiene los recursos existe en `https://www.dropbox.com/home/bulkimport-assets`, especifique `bulkimport-assets` en el campo **[!UICONTROL Carpeta de origen]**.
-   >* Si selecciona **Carpeta de aplicación** al crear la aplicación Dropbox, y la carpeta que contiene los recursos existe en `https://www.dropbox.com/home/Apps/BulkImportAppFolderScope/bulkimport-assets`, especifique `bulkimport-assets` en el campo **[!UICONTROL Carpeta de origen]**, donde `BulkImportAppFolderScope` hace referencia al nombre de la aplicación. `Apps` se añade automáticamente después de `home` en este caso.
+   >* Si selecciona **Carpeta de la aplicación** al crear la aplicación de Dropbox y la carpeta que contiene los recursos existe en `https://www.dropbox.com/home/Apps/BulkImportAppFolderScope/bulkimport-assets`, especifique `bulkimport-assets` en el campo **[!UICONTROL Carpeta de Source]**, donde `BulkImportAppFolderScope` hace referencia al nombre de la aplicación. `Apps` se agrega automáticamente después de `home` en este caso.
 
 1. (Opcional) Seleccione la opción **[!UICONTROL Eliminar archivo de origen tras importar]** para eliminar los archivos originales del almacén de datos de origen después de importar los archivos en [!DNL Experience Manager Assets].
 1. Seleccione el **[!UICONTROL Modo de importación]**. Seleccione **[!UICONTROL Omitir]**, **[!UICONTROL Reemplazar]** o **[!UICONTROL Crear versión]**. El modo de omisión es el predeterminado y, en este modo, el ingestor omite la importación de un recurso si ya existe.
@@ -157,7 +157,7 @@ Siga estos pasos para crear una configuración de importación masiva en [!DNL E
 
 ### Uso de nombres de archivo durante la importación masiva {#filename-handling-bulkimport-assets-view}
 
-Al importar recursos o carpetas de forma masiva, [!DNL Experience Manager Assets] importa toda la estructura existente en el origen de importación. [!DNL Experience Manager] sigue las reglas integradas en cuanto a los caracteres especiales en los nombres de recursos y carpetas, por lo que estos nombres de archivo necesitan limpiarse. Tanto para el nombre de la carpeta como para el nombre del recurso, el título definido por el usuario permanece sin cambios y se almacena en `jcr:title`.
+Al importar recursos o carpetas de forma masiva, [!DNL Experience Manager Assets] importa toda la estructura de lo que existe en el origen de importación. [!DNL Experience Manager] sigue las reglas integradas para los caracteres especiales en los nombres de recursos y carpetas, por lo que estos nombres de archivo necesitan saneamiento. Tanto para el nombre de la carpeta como para el nombre del recurso, el título definido por el usuario permanece sin cambios y se almacena en `jcr:title`.
 
 Durante la importación masiva, [!DNL Experience Manager] busque las carpetas existentes para evitar volver a importar los recursos y las carpetas, y compruebe también las reglas de limpieza aplicadas en la carpeta principal en la que se realiza la importación. Si las reglas de limpieza se aplican en la carpeta principal, se aplicarán las mismas reglas al origen de importación. Para la nueva importación, se aplican las siguientes reglas de limpieza para administrar los nombres de archivo de los recursos y las carpetas.
 
@@ -165,16 +165,18 @@ Para obtener más información sobre los nombres no permitidos, el uso de nombre
 
 ## Ver configuraciones de importación masiva existentes {#view-import-configuration}
 
-Para ver las importaciones masivas existentes, seleccione la opción **[!UICONTROL Importaciones masivas]** en el panel izquierdo. Aparece la página de importaciones masivas con la lista de **[!UICONTROL Importaciones ejecutadas]**. <br>
-También puede ver las **[!UICONTROL Importaciones guardadas]** e **[!UICONTROL Importaciones programadas]** desde la opción desplegable.
+Para ver las importaciones masivas existentes, seleccione la opción **[!UICONTROL Importaciones masivas]** en el panel izquierdo. Aparecerá la página de importaciones en lotes con la lista de **[!UICONTROL Importaciones ejecutadas]**. <br>
+También puede ver **[!UICONTROL Importaciones guardadas]** e **[!UICONTROL Importaciones programadas]** en la opción desplegable.
 
 ![Guardar configuración de importación masiva](assets/bulk-import-options.png)
 
-<!-- If you select to save and run the import, the import configuration displays in the **[!UICONTROL Executed Imports]** tab.
+<!-- 
+If you select to save and run the import, the import configuration displays in the **[!UICONTROL Executed Imports]** tab.
 
 ![Save bulk import configuration](assets/bulk-import-executed.png)
 
-If you schedule an import, it displays in the **[!UICONTROL Scheduled Imports]** tab.  -->
+If you schedule an import, it displays in the **[!UICONTROL Scheduled Imports]** tab.  
+-->
 
 ## Editar configuración de importación masiva {#edit-import-configuration}
 

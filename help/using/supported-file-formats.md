@@ -1,12 +1,12 @@
 ---
 title: Formatos de archivo compatibles
 description: Formatos de archivo compatibles con los distintos casos de uso de [!DNL Assets Essentials]
-role: User,Leader,Admin,Architect,Developer
+role: User,Leader,Admin,Developer
 contentOwner: AG
 exl-id: bc44e98d-446e-41ff-b5b4-9dc324834630
-source-git-commit: 243a41aef81cd1fdcbad8f4355fe2d888db394d1
-workflow-type: ht
-source-wordcount: '527'
+source-git-commit: b3c726122425c9a89a5d6c0ac35b652d20d8e0b9
+workflow-type: tm+mt
+source-wordcount: '372'
 ht-degree: 100%
 
 ---
@@ -29,13 +29,14 @@ Los distintos tipos de archivo tienen diferentes grados de compatibilidad con lo
 
 | Nivel de soporte | Descripción |
 |-------------------|-------------------------|
-| ✓ | Compatibilidad |
+| ✓ | Compatible |
 | ✓ ‡ | Compatible con condiciones |
 | − | No aplicable |
 
 ## Adición, carga y visualización de recursos {#support-to-upload-view}
 
-<!-- TBD: For AEM, AI files require the PDF option to be selected when saving the AI file.
+<!-- 
+TBD: For AEM, AI files require the PDF option to be selected when saving the AI file.
 -->
 
 | Tipo de recurso | [Examinar](/help/using/navigate-view.md) | Copiar | [Cargar](/help/using/add-delete.md) | Crear | [Eliminar](/help/using/add-delete.md#delete-assets) | Detalles | Zoom de imagen | [Vistos recientemente](/help/using/navigate-view.md) |
@@ -48,7 +49,8 @@ Los distintos tipos de archivo tienen diferentes grados de compatibilidad con lo
 | PSD, IA, PSB e INDD | ✓ | ✓ | ✓ | − | ✓ | ✓ ‡ | − | ✓ |
 | Otros archivos binarios | ✓ | ✓ | ✓ | − | ✓ | ✓ | − | ✓ |
 
-<!-- Hiding CC Libraries (considered beta) as per PM feedback.
+<!-- 
+Hiding CC Libraries (considered beta) as per PM feedback.
 | CC Libraries  | &#10003; | &minus;  | &#10003; | &#10003; | &#10003; | &#10003; | &minus;    | &minus;         |
 -->
 
@@ -57,7 +59,7 @@ Los distintos tipos de archivo tienen diferentes grados de compatibilidad con lo
 | Tipo de recurso | [Descargar](/help/using/manage-organize.md#download) | Arrastrar y colocar | [Editor de imágenes](/help/using/edit-images.md) | [Buscar](/help/using/search.md) | [Etiquetas inteligentes](/help/using/metadata.md#tags) | [Cambiar nombre](/help/using/manage-organize.md) | [Versiones](/help/using/manage-organize.md#versions-of-assets) |
 |---------------|----------|---------------|--------------|----------|------------|----------|----------|
 | Rasterización de imágenes | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
-| Archivos RAW | ✓ | ✓ | − | ✓ | ✓ | ✓ | ✓ | ✓ |
+| Archivos RAW | ✓ | ✓ | − | ✓ | ✓ | ✓ | ✓ |
 | Carpetas | ✓ | ✓ | − | ✓ | − | ✓ | ✓ |
 | Vídeos | ✓ | ✓ | − | ✓ | ✓ | ✓ | ✓ |
 | Bibliotecas CC | − | − | − | − | − | ✓ | ✓ |
@@ -104,7 +106,8 @@ Los distintos tipos de archivo tienen diferentes grados de compatibilidad con lo
 
 Los usuarios de [!DNL Adobe Asset Link] pueden cargar y registrar archivos (cargar una nueva versión) en el repositorio de [!DNL Assets Essentials] desde las aplicaciones de escritorio de [!DNL Adobe Creative Cloud] admitidas.
 
-<!-- TBD: Saving the template table separately for later use.
+<!-- 
+TBD: Saving the template table separately for later use.
 | Asset type    | Features |
 |---------------|----------|
 | Raster images |          |
@@ -127,4 +130,4 @@ Los usuarios de [!DNL Adobe Asset Link] pueden cargar y registrar archivos (carg
 
 * Proporcione comentarios sobre la documentación usando [!UICONTROL Editar esta página] ![editar la página](assets/do-not-localize/edit-page.png) o [!UICONTROL Registrar una incidencia] ![crear una incidencia de GitHub](assets/do-not-localize/github-issue.png), disponibles en la barra lateral derecha
 
-* Contacto con el [Servicio de atención al cliente](https://experienceleague.adobe.com/es?support-solution=General#support)
+* Contacto con el [Servicio de atención al cliente](https://experienceleague.adobe.com/es/home?support-solution=General#support)

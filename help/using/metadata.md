@@ -1,13 +1,13 @@
 ---
 title: Administración de metadatos
 description: Administración de metadatos de recursos en [!DNL Assets Essentials]
-role: User,Leader,Admin,Architect,Developer
+role: User,Leader,Admin,Developer
 contentOwner: AG
 exl-id: cfc105d1-41fc-4418-9905-b2a28a348682
-source-git-commit: 1cda73b6ddc573d2736fdaa45b582198420ed5b1
-workflow-type: ht
-source-wordcount: '2159'
-ht-degree: 100%
+source-git-commit: 2ad90f931f84bf8e0ceb51e4e6450d36a7b31a03
+workflow-type: tm+mt
+source-wordcount: '2195'
+ht-degree: 96%
 
 ---
 
@@ -37,7 +37,7 @@ Los metadatos básicos, como título, descripción y fecha de carga, están disp
 
 ## Actualización de los metadatos {#update-metadata}
 
-Una vez que el administrador configura el formulario de los metadatos, los demás campos se pueden actualizar manualmente. Es posible que desee cambiar esto, ya que solo se lee en función del formulario de metadatos predeterminado.
+Una vez que el administrador configura el formulario de metadatos, los demás campos se pueden actualizar manualmente. Es posible que desee cambiar esto, ya que solo se lee en función del formulario de metadatos predeterminado.
 
 ## Etiquetas inteligentes {#smart-tags}
 
@@ -53,13 +53,13 @@ Las etiquetas inteligentes también contienen una puntuación de confianza en fo
 
 ## Adición o actualización de etiquetas {#manually-tag}
 
-Puede añadir más etiquetas a los recursos, además de las etiquetas inteligentes que se agregan automáticamente, usando el servicio inteligente de [!DNL Adobe Sensei]. Abra un recurso para previsualizarlo, haga clic en [!UICONTROL Etiquetas] y escriba las palabras clave que desee en el campo [!UICONTROL Palabras clave]. Para añadir la etiqueta, pulse Intro. [!DNL Assets Essentials] indexa la palabra clave casi en tiempo real y su equipo puede buscar rápidamente los recursos actualizados con las nuevas palabras clave.
+Puede añadir más etiquetas a los recursos, además de las etiquetas inteligentes que se agregan automáticamente, usando el servicio inteligente de [!DNL Adobe Sensei]. Abra un recurso para previsualizarlo, haga clic en [!UICONTROL Etiquetas] y escriba las palabras clave que desee en el campo [!UICONTROL Palabras clave]. Para añadir la etiqueta, pulse Retorno. [!DNL Assets Essentials] indexa la palabra clave en tiempo real y su equipo pronto podrá buscar los activos actualizados con las nuevas palabras clave.
 
 También puede quitar etiquetas de la sección [!UICONTROL Etiquetas inteligentes], que [!DNL Assets Essentials] añade automáticamente a todos los recursos cargados.
 
 ## Administración de taxonomía {#taxonomy-management}
 
-Las etiquetas también se pueden anidar en una jerarquía para admitir relaciones como categoría y subcategoría. Si necesita insertar etiquetas jerárquicas, el administrador las gestiona fácilmente en la sección [!UICONTROL Administración de taxonomía] de [!UICONTROL Configuración]. Puede crear un conjunto controlado de áreas de nombres y etiquetas a las que todos los usuarios pueden acceder para utilizar mientras describen el contenido. Solo los administradores pueden configurar jerarquías de etiquetas en [!UICONTROL Administrador de taxonomía] garantizando que los valores se controlan y utilizan de forma coherente.
+Las etiquetas también se pueden anidar en una jerarquía para admitir relaciones como categoría y subcategoría. Si necesita insertar etiquetas jerárquicas, el administrador las gestiona fácilmente en la sección [!UICONTROL Administración de taxonomía] de [!UICONTROL Configuración]. Puede crear un conjunto controlado de espacios de nombres y etiquetas a las que todos los usuarios pueden acceder para utilizar mientras describen el contenido. Solo los administradores pueden configurar jerarquías de etiquetas en [!UICONTROL Administrador de taxonomía] garantizando que los valores se controlan y utilizan de forma coherente.
 
 ## Configuración de formularios de metadatos {#metadata-forms}
 
@@ -128,12 +128,12 @@ A continuación se ofrece una descripción general de cada tipo de propiedad y d
 | Casilla de verificación | Añada un valor booleano. Se almacena como TRUE o FALSE una vez que se guarda un valor. |
 | Fecha | Añada un componente de fecha. |
 | Lista desplegable | Añada una lista desplegable. |
-| Estado | Añadir la propiedad de estado del repositorio (asignada a repo:state) |
-| Estado de los recursos | Añadir la propiedad predeterminada Estado del recurso (asignada a dam:assetStatus) |
-| Etiquetas | Añada una etiqueta de los valores almacenados en Administración de taxonomía (asignados a xcm:tags). |
-| Palabras clave | Añada palabras clave de forma libre (asignadas a dc:subject). |
+| Estado | Agregar la propiedad de estado del repositorio (asignada al repositorio :state) |
+| Estado de los recursos | Agregar la propiedad predeterminada Estado del recurso (asignada a dam:assetStatus) |
+| Etiquetas | Agregue una etiqueta de valores almacenados en Administración de taxonomía (asignados a xcm:tags). |
+| Palabras clave | Agregue palabras clave de forma libre (asignadas a dc:subject). |
 | Etiquetas inteligentes | Añada para aumentar las capacidades de búsqueda añadiendo automáticamente etiquetas de metadatos. |
-| Vínculo | Añada para habilitar URL externas. Una vez configurado en el formulario Metadatos, el componente URL se puede asignar a una propiedad de metadatos particular en la página Editor de metadatos. Este [formulario de metadatos se puede asignar a carpetas](#assign-metadata-form-folder). |
+| Vínculo | Añada para habilitar URL externas. Una vez configurado en el formulario de metadatos, el componente URL se puede asignar a una propiedad de metadatos particular en la página Editor de metadatos. Este [formulario de metadatos se puede asignar a carpetas](#assign-metadata-form-folder). |
 
 ### Asignar un formulario de metadatos a una carpeta {#assign-metadata-form-folder}
 
@@ -213,15 +213,16 @@ Para ver las etiquetas raíz configuradas, vaya a la página de detalles del rec
 
 ## Siguientes pasos {#next-steps}
 
-* [Vea un vídeo para administrar formularios de metadatos en Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-learn/assets-essentials/configuring/metadata-forms.html?lang=es)
+* [Ver un vídeo para gestionar formularios de metadatos en Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-learn/assets-essentials/configuring/metadata-forms.html?lang=es)
 
 * Proporcione comentarios de producto mediante la opción [!UICONTROL Comentarios] disponible en la interfaz de usuario de Assets Essentials
 
 * Proporcione comentarios sobre la documentación usando [!UICONTROL Editar esta página] ![editar la página](assets/do-not-localize/edit-page.png) o [!UICONTROL Registrar una incidencia] ![crear una incidencia de GitHub](assets/do-not-localize/github-issue.png), disponibles en la barra lateral derecha
 
-* Contacto con el [Servicio de atención al cliente](https://experienceleague.adobe.com/es?support-solution=General&amp;lang=es#support)
+* Contacto con el [Servicio de atención al cliente](https://experienceleague.adobe.com/?support-solution=General&lang=es#support)
 
-<!-- TBD: Cannot create a form using the second option. Documenting only the first option for now.
+<!-- 
+TBD: Cannot create a form using the second option. Documenting only the first option for now.
 To reuse an existing form to create a new form, do one of these:
 
 * Select a metadata form and click **[!UICONTROL Copy]** from the toolbar, provide a name, and click **[!UICONTROL Confirm]**.
@@ -229,7 +230,8 @@ To reuse an existing form to create a new form, do one of these:
 * Click **[!UICONTROL Create]**, select **[!UICONTROL Use existing form structure as template]** option, and select an existing form. 
 -->
 
-<!-- TBD: Queries for PM and engg.
+<!-- 
+TBD: Queries for PM and engg.
 
 Can we edit the existing metadata in any form?
 
@@ -244,7 +246,8 @@ Is there a detailed metadata tab. Where do the other details of an asset go?
 How can one search based strictly on the metadata. Similar to AEM Assets GQL queries.
 -->
 
-<!-- TBD: Link to related articles if any.
+<!-- 
+TBD: Link to related articles if any.
 
 >[!MORELIKETHIS]
 >

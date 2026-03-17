@@ -3,10 +3,10 @@ title: Búsqueda y descubrimiento de recursos en [!DNL Assets Essentials]
 description: Busque y descubra recursos en [!DNL Assets Essentials].
 role: User
 exl-id: be9597a3-056c-436c-a09e-15a03567c85a
-source-git-commit: 461773235cb2d27d334b5ceb23f959dc9a848716
+source-git-commit: 2ad90f931f84bf8e0ceb51e4e6450d36a7b31a03
 workflow-type: tm+mt
-source-wordcount: '2019'
-ht-degree: 98%
+source-wordcount: '2217'
+ht-degree: 95%
 
 ---
 
@@ -15,15 +15,15 @@ ht-degree: 98%
     <tr>
         <td>
             <img src="assets/new.gif" width="20px" height="25px" alt="nuevo">
-            <a href="https://experienceleague.adobe.com/es/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dm-prime-ultimate"><b>Dynamic Media Prime y Ultimate</b></a>
+            <a href="https://experienceleague.adobe.com/es/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dm-prime-ultimate"><b>Dynamic Media Prime y Ultimate</b></a>
         </td>
         <td>
             <img src="assets/new.gif" width="20px" height="25px" alt="nuevo">
-            <a href="https://experienceleague.adobe.com/es/docs/experience-manager-cloud-service/content/assets/assets-ultimate-overview"><b>Ultimate de AEM Assets</b></a>
+            <a href="https://experienceleague.adobe.com/es/docs/experience-manager-cloud-service/content/assets/assets-ultimate-overview"><b>AEM Assets Ultimate</b></a>
         </td>
         <td>
             <img src="assets/new.gif" width="20px" height="25px" alt="nuevo">
-            <a href="http://experienceleague.adobe.com/es/docs/experience-manager-cloud-service/content/assets/integrate-aem-assets-edge-delivery-services"><b>Integración de AEM Assets con Edge Delivery Services</b></a>
+ <a href="http://experienceleague.adobe.com/es/docs/experience-manager-cloud-service/content/assets/integrate-aem-assets-edge-delivery-services"><b>Integración de AEM Assets con Edge Delivery Services</b></a>
         </td>
         <td>
             <img src="assets/new.gif" width="20px" height="25px" alt="nuevo">
@@ -31,7 +31,7 @@ ht-degree: 98%
         </td>
           <td>
             <img src="assets/new.gif" width="20px" height="25px" alt="nuevo">
-            <a href="https://experienceleague.adobe.com/es/docs/experience-manager-assets-essentials/help/custom-search-filters"><b>Filtros de búsqueda personalizados</b></a>
+            <a href="https://experienceleague.adobe.com/es/docs/experience-manager-assets-essentials/help/custom-search-filters"><b>Filtros de búsqueda personalizados</b></a>
         </td>
     </tr>
     <tr>
@@ -179,7 +179,7 @@ Para generar nuevos recursos mediante [!DNL Adobe Firefly]:
 
    ![Integración de Firefly](assets/firefly-integration.png)
 
-   Los nuevos recursos se han generado correctamente. Además, puede cambiar la descripción de la imagen escribiendo el nuevo mensaje de texto en el cuadro de descripción. [Aprenda a escribir un buen indicador de IA para generar contenido extraordinario y relevante.](https://helpx.adobe.com/in/firefly/using/tips-and-tricks.html?lang=es) También puede [editar la imagen con otras características como cambiar el estilo, las dimensiones de la imagen y mucho más.](https://helpx.adobe.com/in/firefly/using/text-to-image.html?lang=es)
+   Los nuevos recursos se han generado correctamente. Además, puede cambiar la descripción de la imagen escribiendo el nuevo mensaje de texto en el cuadro de descripción. [Aprenda a escribir un buen mensaje de IA para generar contenido extraordinario y relevante.](https://helpx.adobe.com/in/firefly/using/tips-and-tricks.html?lang=es) También puede [editar la imagen con otras características como cambiar el estilo, las dimensiones de la imagen y mucho más.](https://helpx.adobe.com/in/firefly/using/text-to-image.html?lang=es)
 
    ![Integración de Firefly](assets/bugatti-type-57.png)
 
@@ -199,7 +199,7 @@ Para generar nuevos recursos mediante [!DNL Adobe Firefly]:
 
 Para cargar el recurso generado en el repositorio de recursos:
 
-1. Haga clic en **[!UICONTROL Cargar]**. 
+1. Haga clic en **[!UICONTROL Cargar]**.
 1. Seleccione la carpeta de recursos en la que debe cargar el recurso y haga clic en **[!UICONTROL Seleccionar carpeta]**.
    ![Cargar recurso](assets/upload-asset-firefly.jpg)
 
@@ -213,7 +213,8 @@ Para crear una búsqueda guardada, busque algún recurso, aplique uno o varios f
 
 ![Crear colección inteligente](assets/create-smart-collection.png)
 
-<!-- TBD: Search behavior. Full-text search. Ranking and rank boosts. Hidden assets.
+<!--
+TBD: Search behavior. Full-text search. Ranking and rank boosts. Hidden assets.
 Report poor UX that users can only save a filtered search and not a simple search.
 .
 Are other supported files fully indexed and support full-text search? Eg. audio/videos files can at best have metadata indexed.
@@ -260,7 +261,7 @@ Puede seleccionar los recursos que se muestran en los resultados de búsqueda y 
 
 ## Configurar la página principal Buscar primero {#configuring-search-first-homepage}
 
-Assets Essentials le permite seleccionar la página de aterrizaje predeterminada para su organización. Al utilizar Buscar primero como página principal, también tiene opciones para adaptar la personalización de marca de la página configurando las imágenes de fondo y del logotipo para que coincidan con su marca.
+Assets Essentials le permite seleccionar la página de destino predeterminada para su organización. Al utilizar Buscar primero como página principal, también tiene opciones para adaptar la personalización de marca de la página configurando las imágenes de fondo y del logotipo para que coincidan con su marca.
 
 Para configurar la página principal Buscar primero, ejecute los siguientes pasos:
 
@@ -279,7 +280,7 @@ Puede añadir el logotipo de la marca y la imagen de fondo a la página principa
 
 1. Vaya a la sección **[!UICONTROL Imagen de fondo y logotipo]** debajo de **[!UICONTROL Página principal]**.
 1. Haga clic en **[!UICONTROL Reemplazar]** para examinar imágenes de un repositorio de recursos existente.
-1. Haga clic en **[!UICONTROL Guardar]**. [Previsualice](#preview-configured-homepage) los cambios para revisar las modificaciones.
+1. Haga clic en **[!UICONTROL Guardar]**. [Vista previa ](#preview-configured-homepage) de los cambios para revisar las modificaciones.
 
 ### Vista previa de la página principal configurada {#preview-configured-homepage}
 
@@ -293,7 +294,7 @@ Puede obtener una vista previa para comprobar el diseño y el formato de la pág
 
 ## Búsqueda contextual {#contextual-search}
 
-También puede buscar recursos disponibles en el repositorio definiendo mensajes de texto. Experience Manager Assets transforma automáticamente esos mensajes de texto en filtros de búsqueda y muestra los resultados de la búsqueda. Puede ver y modificar los filtros automáticos mediante el panel Filtros para reducir aún más los resultados de la búsqueda.
+También puede buscar recursos disponibles en el repositorio definiendo indicaciones de texto. Experience Manager Assets transforma automáticamente esas indicaciones de texto en filtros de búsqueda y muestra los resultados de la búsqueda. Puede ver y modificar los filtros automáticos mediante el panel Filtros para reducir aún más los resultados de la búsqueda.
 
 ### Acceso a la búsqueda contextual {#access-contextual-search}
 
@@ -303,16 +304,16 @@ Para acceder a la búsqueda contextual en Experience Manager Assets:
 
    ![Búsqueda contextual](/help/using/assets/access-contextual-search.png)
 
-1. Defina el mensaje de texto en el cuadro de texto de búsqueda y haga clic en **[!UICONTROL Búsqueda contextual]**.
+1. Defina la indicación de texto en el cuadro de texto de búsqueda y haga clic en **[!UICONTROL Búsqueda contextual]**.
 
-   ![Mensaje de texto de búsqueda contextual](/help/using/assets/wknd-contextual-search.png)
+   ![Indicación de texto de búsqueda contextual](/help/using/assets/wknd-contextual-search.png)
 
    [!DNL Experience Manager Assets] muestra los resultados de la búsqueda.
 
 
 ### Filtros admitidos {#supported-filters}
 
-La búsqueda contextual admite los siguientes filtros predeterminados. Base sus mensajes de texto en estos filtros para ver los resultados de búsqueda adecuados.
+La búsqueda contextual admite los siguientes filtros predeterminados. Base sus indicaciones de texto en estos filtros para ver los resultados de búsqueda adecuados.
 
 * Altura de la imagen
 
@@ -332,11 +333,11 @@ La búsqueda contextual admite los siguientes filtros predeterminados. Base sus 
 
 * Recursos caducados
 
-### Ejemplos de mensajes de texto {#text-prompts-examples}
+### Ejemplos de indicaciones de texto {#text-prompts-examples}
 
 **Ejemplo 1**
 
-**Mensaje de texto**: imágenes creadas este mes.
+**Indicación de texto**: imágenes creadas este mes.
 
 [!DNL Experience Manager Assets] aplica los siguientes filtros automáticamente y muestra los resultados de la búsqueda:
 
@@ -344,7 +345,7 @@ La búsqueda contextual admite los siguientes filtros predeterminados. Base sus 
 
 **Ejemplo 2**
 
-**Mensaje de texto**: Imágenes de al menos 200 píxeles de altura y 100 píxeles de anchura con playa y cielo despejado.
+**Indicación de texto**: Imágenes de al menos 200 píxeles de altura y 100 píxeles de anchura con playa y cielo despejado.
 
 [!DNL Experience Manager Assets] aplica los siguientes filtros automáticamente y muestra los resultados de la búsqueda:
 
@@ -352,13 +353,13 @@ La búsqueda contextual admite los siguientes filtros predeterminados. Base sus 
 
 **Ejemplo 3**
 
-**Mensaje de texto**: necesito imágenes de cielo azul de 1500 y 2500 píxeles de altura y creadas en el último mes que no hayan caducado ni estén aprobadas.
+**Indicación de texto**: necesito imágenes de cielo azul de 1500 y 2500 píxeles de altura y creadas en el último mes que no hayan caducado ni estén aprobadas.
 
 [!DNL Experience Manager Assets] aplica los siguientes filtros automáticamente y muestra los resultados de la búsqueda:
 
 ![Ejemplo 3 de búsqueda contextual](/help/using/assets/contextual-search-example3.png)
 
-El siguiente vídeo ilustra el proceso de extremo a extremo desde el acceso a la interfaz de usuario de búsqueda contextual hasta la definición de mensajes de texto y la visualización de los resultados de la búsqueda.
+El siguiente vídeo ilustra el proceso de extremo a extremo desde el acceso a la interfaz de usuario de búsqueda contextual hasta la definición de indicaciones de texto y la visualización de los resultados de la búsqueda.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3428407)
 
@@ -385,5 +386,5 @@ Si necesita facilitar comentarios sobre la función de búsqueda contextual, hag
 
 * Facilite comentarios sobre la documentación usando [!UICONTROL Editar esta página] ![editar la página](assets/do-not-localize/edit-page.png) o [!UICONTROL Registrar un problema] ![crear un problema de GitHub](assets/do-not-localize/github-issue.png), disponibles en la barra lateral derecha.
 
-* Contacto con el [Servicio de atención al cliente](https://experienceleague.adobe.com/es?support-solution=General&lang=es#support)
+* Contacto con el [Servicio de atención al cliente](https://experienceleague.adobe.com/?support-solution=General&lang=es#support)
 

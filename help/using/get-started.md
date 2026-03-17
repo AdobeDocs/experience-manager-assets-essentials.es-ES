@@ -3,10 +3,10 @@ title: Introducción a [!DNL Assets Essentials]
 description: Acceso, experiencia de inicio de sesión, casos de uso compatibles y problemas conocidos de [!DNL Assets Essentials].
 role: User, Leader
 exl-id: 7917b2a0-8340-4d94-aa6f-30ce986fa752
-source-git-commit: fedcf02b5338d6640e557dad25ca03cfbd78d7e5
+source-git-commit: b3c726122425c9a89a5d6c0ac35b652d20d8e0b9
 workflow-type: tm+mt
-source-wordcount: '418'
-ht-degree: 100%
+source-wordcount: '445'
+ht-degree: 97%
 
 ---
 
@@ -38,7 +38,7 @@ Si forma parte de diferentes organizaciones, también puede cambiarlas y acceder
 
 Para cambiar las [!UICONTROL Preferencias de Experience Cloud], haga clic en [!UICONTROL Preferencias].
 
-![Preferencia para cambiar el tema oscuro y el claro](assets/theme-change.png)
+![Preferencia para cambiar entre el tema oscuro y el claro](assets/theme-change.png)
 
 ## Casos de uso de [!DNL Assets Essentials] {#use-cases}
 
@@ -63,15 +63,15 @@ Las diversas tareas de administración de activos digitales (DAM) que puede real
 
 * Proporcione comentarios sobre la documentación usando [!UICONTROL Editar esta página] ![editar la página](assets/do-not-localize/edit-page.png) o [!UICONTROL Registrar una incidencia] ![crear una incidencia de GitHub](assets/do-not-localize/github-issue.png), disponibles en la barra lateral derecha
 
-* Contacto con el [Servicio de atención al cliente](https://experienceleague.adobe.com/es?support-solution=General&amp;lang=es#support)
+* Contacto con el [Servicio de atención al cliente](https://experienceleague.adobe.com/?support-solution=General&lang=es#support)
 
 
-<!--TBD: Merge the below rows in the table when the use cases are documented/available.
+<!--
+TBD: Merge the below rows in the table when the use cases are documented/available.
 
 | How do I delete assets? | <ul> <li>[Delete assets](/help/using/manage-organize.md)</li> <li>Recover deleted assets</li> <li>Permanently delete assets</li> </ul> |
 | How do I share assets or find shared assets? | <ul> <li>Shared by me</li> <li>Shared with me</li> <li>Share for comments and review</li> <li>Unshare assets</li> </ul> |
 | How do I collaborate with others and get my assets reviewed | <ul> <li>Share for review</li> <li>Provide comments. Resolve and filter comments</li> <li>Annotations on images</li> <li>Assign tasks to specific users and prioritize</li> </ul> |
-
 -->
 
 <!-- 
@@ -94,6 +94,7 @@ To provide feedback for documentation, click [!UICONTROL Edit this page] ![edit 
 >* [Explicación de la interfaz de usuario](/help/using/navigate-view.md).
 >* [Notas de la versión y problemas conocidos](/help/using/release-notes.md).
 
-<!-- TBD: 
+<!-- 
+TBD: 
 >* [Supported file types](/help/using/supported-file-formats.md).
 -->

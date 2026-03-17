@@ -4,10 +4,10 @@ description: Mueva, elimine, copie, cambie de nombre, actualice y convierta en v
 role: User,Leader
 contentOwner: AG
 exl-id: b01e98b9-0cc2-47c5-9f5b-79b8e6bef39f
-source-git-commit: ce92eb58ede5d1ebbe88a98bfa7629532396f3be
-workflow-type: ht
-source-wordcount: '1222'
-ht-degree: 100%
+source-git-commit: 2ad90f931f84bf8e0ceb51e4e6450d36a7b31a03
+workflow-type: tm+mt
+source-wordcount: '1240'
+ht-degree: 96%
 
 ---
 
@@ -79,11 +79,12 @@ Puede seleccionar uno o varios recursos, carpetas o una combinación de ambos y 
 ## Creación de versiones de recursos {#versions-of-assets}
 
 <!-- 
-TBD: query for engineering: How many versions are maintained. What happens when we reach that limit? Are old versions automatically removed? -->
+TBD: query for engineering: How many versions are maintained. What happens when we reach that limit? Are old versions automatically removed? 
+-->
 
 [!DNL Assets Essentials] crea versiones de los recursos cuando se cargan de nuevo y se actualizan o editan. Puede ver el historial de versiones actuales y anteriores, así como restaurar una versión anterior de los recursos como la última versión, que se revierte a una anterior si es necesario. Las versiones de los recursos se crean en los siguientes casos:
 
-* Cargue un nuevo recurso con el mismo nombre de archivo que uno existente y en la misma carpeta que este. [!DNL Assets Essentials] le solicita que sobrescriba el recurso anterior o que guarde el nuevo como una versión. Consulte [Carga de recursos duplicados](/help/using/add-delete.md#resolve-upload-fails).
+* Cargue un nuevo activo con el mismo nombre de archivo que un activo existente y en la misma carpeta que el activo existente. [!DNL Assets Essentials] solicita sobrescribir el activo anterior o guardar el nuevo activo como una versión. Consulte [Carga de recursos duplicados](/help/using/add-delete.md#resolve-upload-fails).
 
   ![Creación de versiones al cargar](assets/uploads-manage-duplicates.png)
 
@@ -139,7 +140,7 @@ Si tiene Dynamic Media con capacidades OpenAPI proporcionadas para su entorno, E
 
 ### Configuración de la fecha de caducidad del recurso {#set-asset-expiration-date}
 
-Assets Essentials le permite establecer una fecha de expiración en los recursos disponibles en el repositorio. Entonces puede [filtrar los resultados de búsqueda](search.md#refine-search-results) basados en un `Expired` estado del activo. Además, puede especificar un intervalo de fechas de caducidad para los recursos para filtrar aún más los resultados de búsqueda.
+Assets Essentials le permite establecer una fecha de caducidad en los recursos disponibles en el repositorio. Entonces puede [filtrar los resultados de búsqueda](search.md#refine-search-results) basados en un `Expired` estado del activo. Además, puede especificar un intervalo de fechas de caducidad para los recursos para filtrar aún más los resultados de búsqueda.
 
 Para establecer la fecha de caducidad del recurso, haga lo siguiente:
 
@@ -169,10 +170,10 @@ Para añadir el campo de metadatos Fecha de caducidad al formulario, arrastre el
 
 ## Siguientes pasos {#next-steps}
 
-* [Vea un vídeo para administrar recursos en Assets Essentials](https://experienceleague.adobe.com/es/docs/experience-manager-learn/assets-essentials/basics/managing)
+* [Ver un vídeo para administrar recursos en Assets Essentials](https://experienceleague.adobe.com/es/docs/experience-manager-learn/assets-essentials/basics/managing)
 
 * Proporcione comentarios de producto mediante la opción [!UICONTROL Comentarios] disponible en la interfaz de usuario de Assets Essentials
 
 * Proporcione comentarios sobre la documentación usando [!UICONTROL Editar esta página] ![editar la página](assets/do-not-localize/edit-page.png) o [!UICONTROL Registrar una incidencia] ![crear una incidencia de GitHub](assets/do-not-localize/github-issue.png), disponibles en la barra lateral derecha
 
-* Contacto con el [Servicio de atención al cliente](https://experienceleague.adobe.com/es?support-solution=General#support)
+* Contacto con el [Servicio de atención al cliente](https://experienceleague.adobe.com/es/home?support-solution=General#support)

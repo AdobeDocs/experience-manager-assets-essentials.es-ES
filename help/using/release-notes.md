@@ -1,13 +1,13 @@
 ---
 title: Notas de la versión
 description: Notas de la versión y problemas conocidos de [!DNL Assets Essentials]
-role: User,Leader,Admin,Architect,Developer
+role: User,Leader,Admin,Developer
 contentOwner: AK
 exl-id: a0e29eb6-336a-4f78-b7bd-ec1338c86775
-source-git-commit: 323e1ebd3ee81dfae0d15dc4120997ae3c4798b9
-workflow-type: ht
-source-wordcount: '2976'
-ht-degree: 100%
+source-git-commit: b3c726122425c9a89a5d6c0ac35b652d20d8e0b9
+workflow-type: tm+mt
+source-wordcount: '3041'
+ht-degree: 97%
 
 ---
 
@@ -17,11 +17,11 @@ La versión actual de Assets Essentials se publicó el 25 de julio de 2024.
 
 Algunas de las funciones añadidas recientemente son:
 
-**Integración de credenciales de contenido**
+**Integración de Content Credentials**
 
-Experience Manager Assets ahora admite credenciales de contenido para los formatos de imagen admitidos. Proporciona información sobre el linaje del recurso y cómo se creó, incluso si se modificó con GenAI.
+Experience Manager Assets ahora admite Content Credentials para los formatos de imagen admitidos. Proporciona información sobre el linaje del recurso y cómo se creó, incluido si se modificó con GenAI.
 
-![Credenciales de contenido](/help/using/assets/content-credentials.png)
+![Content Credentials](/help/using/assets/content-credentials.png)
 
 **Vistas previas visuales del contenido de la carpeta**
 
@@ -29,7 +29,7 @@ Experience Manager Assets ahora muestra vistas previas visuales del contenido de
 
 **Búsqueda contextual**
 
-También puede buscar recursos disponibles en el repositorio definiendo mensajes de texto. Experience Manager Assets transforma automáticamente esos mensajes de texto en filtros de búsqueda y muestra los resultados de la búsqueda. Puede ver y modificar los filtros automáticos mediante el panel Filtros para reducir aún más los resultados de la búsqueda.
+También puede buscar recursos disponibles en el repositorio definiendo indicaciones de texto. Experience Manager Assets transforma automáticamente esas indicaciones de texto en filtros de búsqueda y muestra los resultados de la búsqueda. Puede ver y modificar los filtros automáticos mediante el panel Filtros para reducir aún más los resultados de la búsqueda.
 
 ![uso de almacenamiento en Insights](/help/using/assets/contextual-search-text-prompt1.png)
 
@@ -62,7 +62,7 @@ Ahora se puede asignar o quitar un formulario de metadatos de varias carpetas.
 
 **Administración de permisos para colecciones privadas**
 
-Puede permitir que los administradores o no administradores (otros usuarios) administren niveles de acceso para colecciones privadas disponibles en el repositorio. Puede asignar permisos como `Can View` y `Can Edit` a los grupos de usuarios o a los usuarios. También puede delegar privilegios de administración de permisos a grupos de usuarios. 
+Puede permitir que los administradores o no administradores (otros usuarios) administren niveles de acceso para colecciones privadas disponibles en el repositorio. Puede asignar permisos como `Can View` y `Can Edit` a los grupos de usuarios o a los usuarios. También puede delegar privilegios de administración de permisos a grupos de usuarios.
 
 
 **Mejoras basadas en los comentarios de los clientes**
@@ -119,7 +119,7 @@ Los administradores ahora pueden ver los informes de uso del almacenamiento disp
 
 **Buscar la configuración de la primera página principal Buscar primero**
 
-Assets Essentials ahora le permite configurar la experiencia de la página principal para su organización. Si selecciona Buscar primero como página principal, puede configurar la alineación de la barra de búsqueda, la imagen de fondo y el logotipo de su organización. Al elegir [!UICONTROL Configuración general] se anula la página de aterrizaje predeterminada. Por ejemplo, el aterrizaje predeterminado es [!UICONTROL Mi espacio de trabajo] para administradores y [!UICONTROL Buscar primero] para los usuarios que no son administradores. Al elegir cualquiera de las opciones en Configuración general se aplica a todos los usuarios
+Assets Essentials ahora le permite configurar la experiencia de la página principal para su organización. Si selecciona Buscar primero como página principal, puede configurar la alineación de la barra de búsqueda, la imagen de fondo y el logotipo de su organización. Al elegir [!UICONTROL Configuración general] se anula la página de destino predeterminada. Por ejemplo, el aterrizaje predeterminado es [!UICONTROL Mi espacio de trabajo] para administradores y [!UICONTROL Buscar primero] para los usuarios que no son administradores. Al elegir cualquiera de las opciones en Configuración general se aplica a todos los usuarios
 
 ![configuración de Buscar primero](/help/using/assets/search-first-configuration.png)
 
@@ -166,7 +166,7 @@ Capacidad para seleccionar y fijar elementos para usted, para toda su organizaci
 
 **Marco de trabajo de inteligencia artificial mejorado para las etiquetas inteligentes de imagen**
 
-Experience Manager Assets ahora utiliza un marco de inteligencia artificial mejorado para las etiquetas inteligentes de imagen. Esta inteligencia de contenido mejora la relevancia y precisión de las etiquetas inteligentes disponibles para todos los recursos de imagen durante la ingesta.
+Experience Manager Assets ahora utiliza un marco de inteligencia artificial mejorado para las etiquetas inteligentes de imagen. Esta inteligencia de contenido mejora la relevancia y precisión de las etiquetas inteligentes disponibles para todos los activos de imagen durante la ingesta.
 
 **Configurar la visualización de columnas para la vista Lista de recursos**
 
@@ -184,15 +184,15 @@ Assets Essentials ahora ordena los resultados de la búsqueda según la relevanc
 
 Las listas planas de vocabularios controlados se vuelven inmanejables con el tiempo. Assets Essentials admite ahora la estructura de etiquetado jerárquica, que facilita la aplicación de metadatos relevantes, la categorización de recursos, la compatibilidad con la búsqueda, la reutilización de etiquetas, la mejora de la capacidad de detección, etc.
 
-![Administración de etiquetado](assets/tags-hierarchy.png)
+![Administración de etiquetas](assets/tags-hierarchy.png)
 
-**Fijación de archivos, carpetas y colecciones para un acceso rápido**
+**Fijación de archivos, carpetas y colecciones para un acceso más rápido**
 
-Ahora puede fijar archivos, carpetas y colecciones para acceder más rápidamente a estos elementos cuando los necesite más adelante. Los elementos fijados se muestran en la sección **Acceso rápido** de Mi espacio de trabajo. Puede acceder a ellos mediante Mi espacio de trabajo en lugar de desplazarse a la ubicación en la que se guardan en el repositorio.
+Ahora puede fijar archivos, carpetas y colecciones para acceder más rápidamente a estos elementos cuando los necesite más adelante. Los elementos anclados se muestran en la sección **Acceso rápido** de Mi espacio de trabajo. Puede acceder a ellos mediante Mi espacio de trabajo en lugar de desplazarse a la ubicación en la que se guardan en el repositorio.
 
 ![Tareas en el espacio de trabajo](assets/quick-access.png)
 
-**Filtrado de recursos en la carpeta Papelera**
+**Filtrar recursos en la carpeta Papelera**
 
 Assets Essentials permite ahora filtrar los recursos disponibles en la carpeta Papelera. Puede aplicar filtros estándar o personalizados para buscar los recursos adecuados en la carpeta Papelera y restaurarlos o eliminarlos de forma permanente.
 
@@ -204,11 +204,11 @@ Assets Essentials genera ahora vistas previas de miniaturas para formatos de arc
 
 **Ver los términos más buscados**
 
-Assets Essentials ahora admite la visualización de los términos más buscados en la implementación de Assets Essentials mediante la sección **Insights** de Mi espacio de trabajo. También puede navegar hasta Insights detallados para ver las búsquedas principales durante los últimos 30 días o 12 meses.
+Assets Essentials ahora admite la visualización de los términos más buscados en la implementación de Assets Essentials mediante la sección **Insights** de Mi espacio de trabajo. También puede navegar a Perspectivas detalladas para ver las búsquedas principales durante los últimos 30 días o 12 meses.
 
 ![Tareas en el espacio de trabajo](assets/insights-top-searches.png)
 
-**Mejoras en formularios de metadatos**
+**Mejoras en los formularios de metadatos**
 
 Assets Essentials permite ahora añadir texto de varios valores y componentes de propiedad de lista desplegable a los formularios de metadatos.
 
@@ -308,7 +308,7 @@ Assets Essentials ahora también permite editar los criterios de búsqueda utili
 
 **Ver estadísticas activas de la cuenta de almacenamiento**
 
-Assets Essentials ahora también le permite ver datos de la cuenta de almacenamiento en tiempo real de su entorno de Assets Essentials con el tablero Estadísticas activas. Puede ver las métricas de eventos en tiempo real durante los últimos 30 días o 12 meses.
+Assets Essentials ahora también le permite ver datos de la cuenta de almacenamiento en tiempo real de su entorno de Assets Essentials con el panel de control Estadísticas activas. Puede ver las métricas de eventos en tiempo real durante los últimos 30 días o 12 meses.
 
 **Ver informes de carga**
 
@@ -334,9 +334,9 @@ Las notificaciones de Assets Essentials permiten [supervisar las operaciones rea
 
 **Creación de informes**
 
-La creación de informes de recursos permiten a los administradores evaluar la actividad del usuario dentro de Adobe Experience Manager Assets Essentials. Los informes y el tablero de estadísticas activas proporcionan información útil sobre cómo los usuarios interactúan con los recursos disponibles en la implementación. [Utilice la información de los informes](manage-reports.md) para derivar métricas de éxito clave para medir la adopción de Recursos en su empresa y por parte de los clientes.
+La creación de informes de recursos permiten a los administradores evaluar la actividad del usuario dentro de Adobe Experience Manager Assets Essentials. Los informes y el tablero de estadísticas activas proporcionan información útil sobre cómo los usuarios interactúan con los recursos disponibles en la implementación. [Utilice la información de los informes ](manage-reports.md) para derivar métricas de éxito clave para medir la adopción de Assets en su empresa y por parte de los clientes.
 
-Vea los informes de descarga de recursos y el módulo del tablero de estadísticas activas para ver qué recursos se descargan y la frecuencia de las descargas.
+Vea los informes de descarga de recursos y el módulo del panel de control de estadísticas activas para ver qué recursos se descargan y la frecuencia de las descargas.
 
 ### 2022.5.0 {#may-2022}
 
@@ -406,7 +406,7 @@ Con esta versión, estamos optimizando el rendimiento del envío de la interfaz 
 
 * [!DNL Assets Essentials] ahora le permite [generar un vínculo y compartir recursos con partes interesadas externas](share-links-for-assets.md), que no tienen acceso a la aplicación [!DNL Assets Essentials]. Puede definir una fecha de caducidad para el vínculo y luego compartirlo con otras personas mediante el método de comunicación que prefiera, como el correo electrónico o los servicios de mensajería. Los destinatarios del vínculo pueden obtener una vista previa de los recursos y descargarlos.
 
-* [!DNL Assets Essentials] ahora incluye [un perfil de producto de administrador](deploy-administer.md#add-users-to-essentials) en Admin Console, además de los perfiles de producto de usuarios normales y consumidores existentes. Un administrador ahora puede asignar otros usuarios al perfil de producto del administrador.
+* [!DNL Assets Essentials] ahora incluye [un perfil de producto de administrador](deploy-administer.md#add-users-to-essentials) en Admin Console, además de los perfiles de producto de usuarios normales y usuarios consumidores existentes. Un administrador ahora puede asignar otros usuarios al perfil de producto del administrador.
 
 * Assets Essentials ahora permite a los administradores [administrar los niveles de acceso para las carpetas disponibles en el repositorio](manage-permissions.md). Como administrador, puede crear grupos de usuarios y asignar permisos a esos grupos para administrar los niveles de acceso. También puede delegar los privilegios de administración de permisos a grupos de usuarios en el nivel de carpeta.
 
@@ -427,7 +427,9 @@ Además, la extensión de [!DNL Adobe Asset Link] para Creative Cloud (Photoshop
 
 * Adobe implementa Assets Essentials automáticamente después de completar el proceso de aprovisionamiento. Los administradores no necesitan realizar pasos adicionales para implementar Assets Essentials mediante la interfaz de usuario de [!DNL Cloud Manager]. Esta implementación automática estará disponible para los entornos aprovisionados a partir del 6 de enero de 2022.
 * Hay nuevas versiones de los complementos de Creative Cloud que funcionan con Assets Essentials disponibles en Adobe Exchange: [Adobe Asset Link para Adobe XD v. 2.1.0](https://exchange.adobe.com/creativecloud/plugindetails.html/app/cc/61d229b9) y [Adobe Asset Link para Photoshop/InDesign/Illustrator v. 3.1.65](https://exchange.adobe.com/creativecloud.details.106875.adobe-asset-link-cep.html).
-* Varias correcciones de errores y mejoras del producto, incluidos problemas conocidos previos (ahora las carpetas se muestran correctamente en el árbol de navegación izquierdo después de la carga<!-- CQ-4337638 -->, la carga de arrastrar y soltar permite al usuario seleccionar la carpeta actual o cualquier subcarpeta al soltarla para la carga<!-- CQ-4327753 -->).
+* Varias correcciones de errores y mejoras del producto, incluidos problemas conocidos previos (ahora las carpetas se muestran correctamente en el árbol de navegación izquierdo después de la carga <!-- CQ-4337638 -->, la carga de arrastrar y soltar permite al usuario seleccionar la carpeta actual o cualquier subcarpeta al soltarla para la carga).
+
+<!-- CQ-4327753 -->
 
 ### Versión 2021.8.0 {#august2021}
 

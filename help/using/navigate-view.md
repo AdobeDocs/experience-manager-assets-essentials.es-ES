@@ -1,12 +1,12 @@
 ---
-title: “Interfaz de usuario de [!DNL Assets Essentials]”
+title: Interfaz de usuario [!DNL Assets Essentials]
 description: Explicación de la interfaz de usuario de y la navegación en [!DNL Assets Essentials].
 role: User
 exl-id: 534a8084-88f7-410e-b872-719e47e62b10
-source-git-commit: 5abb9a2ca6136c08479f9a48855522f4fd982e95
-workflow-type: ht
-source-wordcount: '1036'
-ht-degree: 100%
+source-git-commit: 2ad90f931f84bf8e0ceb51e4e6450d36a7b31a03
+workflow-type: tm+mt
+source-wordcount: '1107'
+ht-degree: 98%
 
 ---
 
@@ -39,18 +39,20 @@ Al buscar recursos en una carpeta, puede utilizar la interfaz para ver las minia
 * **Vistos recientemente**: lista de recursos que ha previsualizado recientemente. [!DNL Assets Essentials] muestra solo los recursos que previsualiza. No muestra los recursos por los que pasa de largo al examinar los archivos o carpetas del repositorio.
 * [Colecciones](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/manage-collections.html?lang=es): Una colección es un conjunto de archivos, carpetas u otras colecciones dentro de Adobe Experience Manager Assets Essentials. Utilice las colecciones para compartir recursos entre los usuarios. A diferencia de las carpetas, una colección puede incluir recursos de distintas ubicaciones. Puede compartir varias colecciones con un usuario. Cada colección contiene referencias a recursos. La integridad referencial de los recursos se mantiene entre colecciones.
 
-* [Perspectivas](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/manage-reports.html?lang=es#view-live-statistics): En [!DNL Assets Essentials], puede ver perspectivas en tiempo real en su panel. Assets Essentials le permite ver datos en tiempo real de su entorno de Assets Essentials con el tablero de Insights. Puede ver las métricas de eventos en tiempo real durante los últimos 30 días o 12 meses.
+* [Perspectivas](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/manage-reports.html?lang=es#view-live-statistics): En [!DNL Assets Essentials], puede ver perspectivas en tiempo real en su panel de control. Assets Essentials le permite ver datos en tiempo real de su entorno de Assets Essentials con el panel de control de Insights. Puede ver las métricas de eventos en tiempo real durante los últimos 30 días o 12 meses.
 
 
 * **Papelera**: Enumere los recursos eliminados de la carpeta raíz **[!UICONTROL Assets]**. Puede seleccionar un recurso en la carpeta Papelera para restaurarlo a su ubicación original o eliminarlo permanentemente. Puede especificar una palabra clave o aplicar filtros, como el estado del recurso, tipo de archivo, tipo de MIME, tamaño de imagen, creación del recurso, y las fechas de modificación y caducidad, así como filtrar por los recursos que el usuario actual descarta. También puede aplicar filtros personalizados para buscar los recursos adecuados en la carpeta Papelera. Para obtener más información sobre el uso de filtros estándar y personalizados, descubra cómo [buscar recursos en Assets Essentials](search.md).
 
 * **Ajustes**: Puede configurar varias opciones de Assets Essentials usando **Ajustes**, como formularios de metadatos, informes y gestión de taxonomía.
 
-<!-- TBD: Not sure if we want to publish these right now. CC Libs are beta as per Greg.
+<!-- 
+TBD: Not sure if we want to publish these right now. CC Libs are beta as per Greg.
 * **Libraries**: Access to [!DNL Adobe Creative Cloud Team] (CCT) Libraries view. This view is visible only if the user is entitled to CCT Libraries.
 -->
 
-<!-- TBD: My Work Space shows task inbox and it is not visible on AEM Cloud Demos as of now. It is the source of truth server hence not documenting My Work Space option for now.
+<!-- 
+TBD: My Work Space shows task inbox and it is not visible on AEM Cloud Demos as of now. It is the source of truth server hence not documenting My Work Space option for now.
 -->
 
 Puede abrir o contraer la barra lateral izquierda para aumentar el área de visualización de recursos disponible.
@@ -78,7 +80,7 @@ Para previsualizar un recurso, selecciónelo y haga clic en el ![icono de detall
 
 ![Previsualización de un recurso](assets/preview-asset-2.png)
 
-**A**: Regresar a la carpeta actual o buscar el resultado de búsqueda actual en el repositorio **B**: Nombre y formato del archivo que se está previsualizando **C**: Asignar tareas **D**: Metadatos avanzados **E**: Palabras clave y etiquetas inteligentes **F**: Comentar y anotar **G**: Ver tareas relacionadas con el recurso seleccionado **H**: Ver y administrar versiones **I**: Ver representaciones de la imagen **J**: Editar imagen **K**: Metadatos básicos **L**: Metadatos avanzados **M**: Palabras clave y etiquetas inteligentes **N**: Vista previa más de cerca.  Zoom, pantalla completa y otras opciones **O**: Continuar con el recurso anterior o siguiente de la carpeta actual sin volver a la carpeta
+**A**: Regresar a la carpeta actual o buscar el resultado de búsqueda actual en el repositorio **B**: Nombre y formato del archivo que se está previsualizando **C**: Asignar tareas **D**: Metadatos avanzados **E**: Palabras clave y etiquetas inteligentes **F**: Comentar y anotar **G**: Ver tareas relacionadas con el recurso seleccionado **H**: Ver y administrar versiones **I**: Ver representaciones de la imagen **J**: Editar imagen **K**: Metadatos básicos **L**: Metadatos avanzados **M**: Palabras clave y etiquetas inteligentes **N**: Vista previa más de cerca. Zoom, pantalla completa y otras opciones **O**: Continuar con el recurso anterior o siguiente de la carpeta actual sin volver a la carpeta
 
 También puede previsualizar los vídeos.
 
@@ -86,7 +88,8 @@ También puede previsualizar los vídeos.
 
 Si previsualiza de forma explícita un recurso, [!DNL Assets Essentials] lo muestra como un recurso visualizado recientemente.
 
-<!-- TBD: Describe the options.
+<!-- 
+TBD: Describe the options.
 
 Explicitly previewed assets are displayed as recently viewed assets. Give screenshot of this.
 Other use cases after previewing.
@@ -105,10 +108,8 @@ Puede seleccionar las columnas que se muestran en la vista Lista de recursos, co
 ## Siguientes pasos {#next-steps}
 
 * Proporcione comentarios de producto mediante la opción [!UICONTROL Comentarios] disponible en la interfaz de usuario de Assets Essentials
-
 * Proporcione comentarios sobre la documentación usando [!UICONTROL Editar esta página] ![editar la página](assets/do-not-localize/edit-page.png) o [!UICONTROL Registrar una incidencia] ![crear una incidencia de GitHub](assets/do-not-localize/github-issue.png), disponibles en la barra lateral derecha
-
-* Contacto con el [Servicio de atención al cliente](https://experienceleague.adobe.com/es?support-solution=General&amp;lang=es#support)
+* Contacto con el [Servicio de atención al cliente](https://experienceleague.adobe.com/es/home?support-solution=General#support)
 
 >[!MORELIKETHIS]
 >
