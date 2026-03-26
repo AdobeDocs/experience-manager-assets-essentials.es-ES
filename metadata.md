@@ -5,7 +5,7 @@ landing-page-name: experience-manager
 landing-page-breadcrumb-title: AEM
 product: adobe experience manager
 type: Documentation
-git-repo: https://github.com/AdobeDocs/experience-manager-assets-essentials.en
+git-repo: https://github.com/AdobeDocs/experience-manager-assets-essentials.es-ES
 mini-toc-levels: 1
 index: true
 recommendations: noDisplay
