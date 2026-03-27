@@ -280,7 +280,7 @@ Puede añadir el logotipo de la marca y la imagen de fondo a la página principa
 
 1. Vaya a la sección **[!UICONTROL Imagen de fondo y logotipo]** debajo de **[!UICONTROL Página principal]**.
 1. Haga clic en **[!UICONTROL Reemplazar]** para examinar imágenes de un repositorio de recursos existente.
-1. Haga clic en **[!UICONTROL Guardar]**. [Vista previa ](#preview-configured-homepage) de los cambios para revisar las modificaciones.
+1. Haga clic en **[!UICONTROL Guardar]**. [Vista previa &#x200B;](#preview-configured-homepage) de los cambios para revisar las modificaciones.
 
 ### Vista previa de la página principal configurada {#preview-configured-homepage}
 
