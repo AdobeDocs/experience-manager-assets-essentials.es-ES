@@ -53,7 +53,7 @@ Las etiquetas inteligentes también contienen una puntuación de confianza en fo
 
 ## Adición o actualización de etiquetas {#manually-tag}
 
-Puede añadir más etiquetas a los recursos, además de las etiquetas inteligentes que se agregan automáticamente, usando el servicio inteligente de [!DNL Adobe Sensei]. Abra un recurso para previsualizarlo, haga clic en [!UICONTROL Etiquetas] y escriba las palabras clave que desee en el campo [!UICONTROL Palabras clave]. Para añadir la etiqueta, pulse Retorno. [!DNL Assets Essentials] indexa la palabra clave en tiempo real y su equipo pronto podrá buscar los activos actualizados con las nuevas palabras clave.
+Puede añadir más etiquetas a los recursos, además de las etiquetas inteligentes que se agregan automáticamente, usando el servicio inteligente de [!DNL Adobe Sensei]. Abra un recurso para previsualizarlo, haga clic en [!UICONTROL Etiquetas] y escriba las palabras clave que desee en el campo [!UICONTROL Palabras clave]. Para añadir la etiqueta, pulse Intro. [!DNL Assets Essentials] indexa la palabra clave casi en tiempo real y su equipo puede buscar rápidamente los recursos actualizados con las nuevas palabras clave.
 
 También puede quitar etiquetas de la sección [!UICONTROL Etiquetas inteligentes], que [!DNL Assets Essentials] añade automáticamente a todos los recursos cargados.
 
@@ -130,8 +130,8 @@ A continuación se ofrece una descripción general de cada tipo de propiedad y d
 | Lista desplegable | Añada una lista desplegable. |
 | Estado | Agregar la propiedad de estado del repositorio (asignada al repositorio :state) |
 | Estado de los recursos | Agregar la propiedad predeterminada Estado del recurso (asignada a dam:assetStatus) |
-| Etiquetas | Agregue una etiqueta de valores almacenados en Administración de taxonomía (asignados a xcm:tags). |
-| Palabras clave | Agregue palabras clave de forma libre (asignadas a dc:subject). |
+| Etiquetas | Agregue una etiqueta de los valores almacenados en Taxonomy Management (asignados a xcm:tags). |
+| Palabras clave | Agregar palabras clave de forma libre (asignadas a dc:subject). |
 | Etiquetas inteligentes | Añada para aumentar las capacidades de búsqueda añadiendo automáticamente etiquetas de metadatos. |
 | Vínculo | Añada para habilitar URL externas. Una vez configurado en el formulario de metadatos, el componente URL se puede asignar a una propiedad de metadatos particular en la página Editor de metadatos. Este [formulario de metadatos se puede asignar a carpetas](#assign-metadata-form-folder). |
 
@@ -213,7 +213,7 @@ Para ver las etiquetas raíz configuradas, vaya a la página de detalles del rec
 
 ## Siguientes pasos {#next-steps}
 
-* [Ver un vídeo para gestionar formularios de metadatos en Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-learn/assets-essentials/configuring/metadata-forms.html?lang=es)
+* [Vea un vídeo para administrar formularios de metadatos en Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-learn/assets-essentials/configuring/metadata-forms.html?lang=es)
 
 * Proporcione comentarios de producto mediante la opción [!UICONTROL Comentarios] disponible en la interfaz de usuario de Assets Essentials
 
