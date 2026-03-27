@@ -4,7 +4,7 @@ description: Una colección es un conjunto de recursos dentro de Experience Mana
 exl-id: 33c889f5-c989-4772-9591-db62f50e5c80
 source-git-commit: 441136b23281185b82a5767aefc2c382512501a7
 workflow-type: tm+mt
-source-wordcount: '907'
+source-wordcount: '915'
 ht-degree: 100%
 
 ---
@@ -206,4 +206,4 @@ Para obtener más información sobre el flujo de trabajo de extremo a extremo, c
 
 * Proporcione comentarios sobre la documentación usando [!UICONTROL Editar esta página] ![editar la página](assets/do-not-localize/edit-page.png) o [!UICONTROL Registrar una incidencia] ![crear una incidencia de GitHub](assets/do-not-localize/github-issue.png), disponibles en la barra lateral derecha
 
-* Contacto con el [Servicio de atención al cliente](https://experienceleague.adobe.com/es?support-solution=General#support)
+* Contacto con el [Servicio de atención al cliente](https://experienceleague.adobe.com/es/home?support-solution=General#support)

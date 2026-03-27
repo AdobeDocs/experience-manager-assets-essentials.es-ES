@@ -3,19 +3,19 @@ title: Administración de informes en Assets Essentials
 description: Acceda a los datos de la sección de informes de Assets Essentials para evaluar el uso de productos y funciones y obtener perspectivas sobre las métricas de éxito clave.
 exl-id: c7155459-05d9-4a95-a91f-a1fa6ae9d9a4
 source-git-commit: 810bb62cd5eb664e36a6ea267050dd025828e900
-workflow-type: ht
-source-wordcount: '1226'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '1243'
+ht-degree: 96%
 
 ---
 
 # Administrar informes {#manage-reports}
 
-Los informes de recursos proporcionan a los administradores visibilidad de la actividad del entorno de Adobe Experience Manager Assets Essentials. Estos datos proporcionan información útil sobre cómo los usuarios interactúan con el contenido y el producto. Cualquier persona usuaria puede acceder al panel de Insights. Además, las personas asignadas al perfil de producto del rol de administrador pueden crear informes definidos por el usuario.
+Los informes de recursos proporcionan a los administradores visibilidad de la actividad del entorno de Adobe Experience Manager Assets Essentials. Estos datos proporcionan información útil sobre cómo los usuarios interactúan con el contenido y el producto. Cualquier persona usuaria puede acceder al panel de control de Insights. Además, las personas asignadas al perfil de producto del rol de administrador pueden crear informes definidos por el usuario.
 
 ## Acceso a los informes {#access-reports}
 
-Todos los usuarios asignados al [Perfil de producto de los administradores de Assets Essentials](deploy-administer.md) pueden acceder al tablero de Insights activas o crear informes definidos por el usuario en Assets Essentials.
+Todos los usuarios asignados al [Perfil de producto de los administradores de Assets Essentials](deploy-administer.md) pueden acceder al panel de control de Insights activas o crear informes definidos por el usuario en Assets Essentials.
 
 Para acceder a los informes, vaya a **[!UICONTROL Informes]** debajo de **[!UICONTROL Configuración]**.
 
@@ -33,7 +33,7 @@ In the **[!UICONTROL Reports]** screen, various components are shown in the tabu
 
 ## Creación de un informe {#create-report}
 
-El entorno de AEM Assets Essentials ofrece funcionalidades completas para la creación de informes a través del panel Informes. Esta función permite a los usuarios generar y descargar informes CSV en los que se detallan las cargas y descargas de recursos en intervalos de tiempo especificados, desde intervalos únicos hasta intervalos diarios, semanales, mensuales o anuales.
+El entorno de AEM Assets Essentials ofrece funcionalidades completas para la creación de informes a través del panel de control Informes. Esta función permite a los usuarios generar y descargar informes CSV en los que se detallan las cargas y descargas de recursos en intervalos de tiempo especificados, desde intervalos únicos hasta intervalos diarios, semanales, mensuales o anuales.
 
 **Para crear un informe:**
 
@@ -163,7 +163,7 @@ Los informes programados se muestran en la ficha **Informes programados** de una
 
 ### Reanudar programación {#resume-schedule}
 
-Para reanudar la programación cancelada, seleccione la fila del informe y haga clic en **Reanudar programación**. Cuando se reanuda, las siguientes entradas en tiempo de ejecución se muestran de nuevo y el estado se muestra en curso.
+Para reanudar la programación cancelada, seleccione la fila del informe y haga clic en **Reanudar programación**. Cuando se reanuda, las siguientes entradas de tiempo de ejecución se muestran de nuevo y el estado es En curso.
 ![reanudar programación](/help/using/assets/resume-schedule.png)
 
 >[!NOTE]
@@ -175,9 +175,9 @@ Para reanudar la programación cancelada, seleccione la fila del informe y haga 
 >[!CONTEXTUALHELP]
 >id="assets_reports"
 >title="Informes"
->abstract="El panel de información le permite ver las métricas de eventos en tiempo real de su entorno de Experience Manager Assets durante los últimos 30 días o 12 meses. La lista de eventos incluye el número de descargas, cargas, búsquedas principales, etc."
+>abstract="El panel de control de información le permite ver las métricas de eventos en tiempo real de su entorno de Experience Manager Assets durante los últimos 30 días o 12 meses. La lista de eventos incluye el número de descargas, cargas, búsquedas principales, etc."
 
-Assets Essentials le permite ver datos en tiempo real de su entorno de Assets Essentials con el tablero de Insights. Puede ver las métricas de eventos en tiempo real durante los últimos 30 días o 12 meses.
+Assets Essentials le permite ver datos en tiempo real de su entorno de Assets Essentials con el panel de control de Insights. Puede ver las métricas de eventos en tiempo real durante los últimos 30 días o 12 meses.
 
 <!--![Toolbar options when you select an asset](assets/assets-essentials-live-statistics.png)-->
 
@@ -205,9 +205,9 @@ Haga clic en **[!UICONTROL Insights]** en el panel de navegación izquierdo para
    ![Insights](assets/insights2.png)
    -->
 
-* **Recuento de recursos por tamaño:** segmenta el número total de recursos dentro del entorno de Assets Essentials en diferentes intervalos de tamaño, destacando el recuento y el porcentaje de recursos en cada intervalo de tamaño, representados por un gráfico circular.
+* **Número de recursos por tamaño:** segmenta el número total de recursos dentro del entorno de Assets Essentials en diferentes intervalos de tamaño, destacando el recuento y el porcentaje de recursos en cada intervalo de tamaño, representados por un gráfico circular.
   ![insights-assets-count-by-size](/help/using/assets/insights-assets-count-by-size.svg)
 
-* **Recuento de recursos por tipo de recurso:** segmenta el número total de recursos en el entorno de Assets View, destacando el recuento y el porcentaje de recursos en función de sus tipos de archivo, representados por un gráfico circular.
+* **Número de recursos por tipo de recurso:** segmenta el número total de recursos en el entorno de Assets View, destacando el recuento y el porcentaje de recursos en función de sus tipos de archivo, representados por un gráfico circular.
   ![insights-assets-count-by-size](/help/using/assets/insights-assest-count-by-asset-type1.svg)
 

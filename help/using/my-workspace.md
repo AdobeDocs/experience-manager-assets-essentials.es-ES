@@ -4,7 +4,7 @@ description: Mi espacio de trabajo es una página que proporciona módulos visua
 exl-id: 402dd3a6-44e5-4d13-97d8-1d7fa26a99e4
 source-git-commit: 21db2f77de3245f6fa40964b64ec8ac2c45d13e9
 workflow-type: tm+mt
-source-wordcount: '741'
+source-wordcount: '743'
 ht-degree: 100%
 
 ---
@@ -54,7 +54,7 @@ Para fijar un recurso, una carpeta o una colección, haga lo siguiente:
 
 **Perspectivas**
 
-Los administradores pueden ver un resumen del número de descargas y cargas realizadas en el entorno de Assets durante los últimos 30 días. Puede hacer clic en **[!UICONTROL Ver todo]** para acceder rápidamente a la página de perspectivas para ver paneles más detallados.
+Los administradores pueden ver un resumen del número de descargas y cargas realizadas en el entorno de Assets durante los últimos 30 días. Puede hacer clic en **[!UICONTROL Ver todo]** para acceder rápidamente a la página de perspectivas para ver paneles de control más detallados.
 
 También puede ver los términos más buscados junto con el número de veces que se consultan en la implementación de Assets Essentials utilizando **Insights** de Mi espacio de trabajo. También puede navegar hasta Insights detallados para ver las búsquedas principales durante los últimos 30 días o 12 meses.
 
@@ -80,7 +80,7 @@ La pestaña **[!UICONTROL Descargas principales]** muestra los diez recursos má
 
 ## Personalizar mi espacio de trabajo {#configure-widgets}
 
-Todos los widgets se muestran de forma predeterminada, pero puede activar o desactivar los widgets que se muestran en mi espacio de trabajo. Las preferencias son específicas de cada usuario.
+Todos los widgets se muestran de forma predeterminada, pero puede habilitar o deshabilitar los widgets que se muestran en mi espacio de trabajo. Las preferencias son específicas de cada usuario.
 
 1. Haga clic en **[!UICONTROL mi espacio de trabajo]** disponible en el panel de navegación izquierdo y haga clic en **[!UICONTROL Personalizar]**.
 
