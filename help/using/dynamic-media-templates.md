@@ -4,7 +4,7 @@ description: Aprenda a crear plantillas de Dynamic Media con un editor de planti
 hide: true
 role: User
 exl-id: 07de648e-4ae2-4524-8e05-3cf10bb6006d
-source-git-commit: 8bf4babf2fefb8735b14eb4d4cb08205c54a77bb
+source-git-commit: b0b103b91ca4f4c657fd6d6f526be5f5b05dc156
 workflow-type: tm+mt
 source-wordcount: '3000'
 ht-degree: 6%
@@ -167,7 +167,7 @@ Consulte estas acciones comunes de edición de capas para editar un texto o una 
 Dé formato al texto según la fuente, el tamaño, el color, el estilo y la alineación deseados (en la capa) al cambiar sus valores en los campos respectivos de la sección **[!UICONTROL Texto]** del panel.
 
 **[!UICONTROL Cambio de tamaño del texto inteligente]** Asegúrese de incluir **[!UICONTROL Cambio de tamaño del texto inteligente]** ([Ajuste de texto inteligente](https://experienceleague.adobe.com/es/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/http-protocol-reference/text-formatting/r-copy-fitting)) para ajustar de forma óptima cualquier texto del área designada ajustando su tamaño y longitud de fuente de forma inteligente. Esta capacidad evita que el texto se desborde o minimiza los espacios adicionales en la parte inferior del texto.
-![creación de contenido en poco tiempo](/help/using/assets/smart-text-resize.png)
+![creación de contenido rápidamente](/help/using/assets/smart-text-resize.png)
 
 ### Parametrizar capas {#parameterise-a-layer}
 
@@ -190,10 +190,10 @@ Las propiedades parametrizadas se pueden incluir como parámetros de URL en la U
 
 **X:** Incluir para mover la capa horizontalmente a lo largo de su línea central, paralela al eje X del plano de plantilla, cambiando el valor del parámetro en la dirección URL.
 **Y:** Incluir para mover la capa verticalmente a lo largo de su línea central, paralela al eje Y del plano de la plantilla, cambiando el valor del parámetro en la dirección URL.
-**Anchura:** Incluir para ajustar el ancho de la capa cambiando el valor del parámetro en la dirección URL.
+**Anchura:** Incluir para ajustar la anchura de la capa cambiando el valor del parámetro en la dirección URL.
 **Altura:** Incluir para ajustar la altura de la capa cambiando el valor del parámetro en la dirección URL.
 **Ocultar:** Incluir para ocultar o mostrar la capa en la plantilla usando 0 (mostrar) y 1 (ocultar).
-**Source:** Incluir para reemplazar la imagen de la capa por una nueva imagen cambiando la ruta de acceso de la imagen en el valor del parámetro en la dirección URL.
+**Source:** Incluir para reemplazar la imagen de la capa por una nueva imagen cambiando la ruta de la imagen en el valor del parámetro en la dirección URL.
 
 **Parámetros de formato de texto:**
 
@@ -201,7 +201,7 @@ Incluya los siguientes parámetros para editar el texto, su fuente, color y tama
 
 **Texto:** Incluir para actualizar el texto de la dirección URL.
 **Familia de fuentes:** Incluir para actualizar la fuente del texto desde la dirección URL.
-**Tamaño de fuente:** Incluir para actualizar el tamaño de fuente del texto desde la dirección URL.
+**Tamaño de fuente:** Incluir para actualizar el tamaño de fuente del texto de la dirección URL.
 **Color del texto:** Incluir para actualizar el color de fuente del texto de la dirección URL.
 
 ### Agrupar capas para controlar su visibilidad simultáneamente{#group-layers}
