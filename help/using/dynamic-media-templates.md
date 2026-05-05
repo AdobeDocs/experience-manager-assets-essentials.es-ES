@@ -2,9 +2,10 @@
 title: ¿Cómo administrar las plantillas de Dynamic Media?
 description: Aprenda a crear plantillas de Dynamic Media con un editor de plantillas de WYSIWYG e incluya varias imágenes y capas de texto para crear rápidamente titulares y prospectos y utilizarlos en aplicaciones de flujo descendente.
 hide: true
+hidefromtoc: true
 role: User
 exl-id: 07de648e-4ae2-4524-8e05-3cf10bb6006d
-source-git-commit: b0b103b91ca4f4c657fd6d6f526be5f5b05dc156
+source-git-commit: 4c176db86c9f3219f2cb63edda71435a2aa76850
 workflow-type: tm+mt
 source-wordcount: '3000'
 ht-degree: 6%
