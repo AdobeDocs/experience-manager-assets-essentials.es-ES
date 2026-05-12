@@ -3,9 +3,13 @@ title: ¿Cómo administrar de forma eficaz los permisos de carpeta?
 description: Prácticas recomendadas para la administración eficaz de permisos
 exl-id: 06b06f0b-3806-44ce-abc4-c1449a93dd29
 TQID: https://experienceleague.adobe.com/xPthezvxSRBlxky3VJWXaHHmC7YYSWj6RDJI7druTyc
-product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: f8a45b24-4be7-4f1b-909b-60d06b483a20
-topic_v2: id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+topic_v2:
+  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
 source-git-commit: f026b389ce582ece5d2ca8745d291b1ae50d657e
 workflow-type: tm+mt
 source-wordcount: 446
