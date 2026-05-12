@@ -1,12 +1,16 @@
 ---
 title: Cambiar nombre y cambiar el nombre de los recursos en bloque en  [!DNL Assets Essentials]
-description: Obtenga información sobre cómo cambiar el nombre de los recursos de forma masiva mediante la nueva IU de Assets (Assets Essentials). Permite cambiar el nombre de varios recursos a la vez.
+description: Obtenga información sobre cómo cambiar el nombre de los recursos de forma masiva mediante la nueva interfaz de usuario de Assets (Assets Essentials). Permite cambiar el nombre de varios recursos a la vez.
 role: User
 exl-id: 5d18950f-1863-46c0-83d7-079ae95a6320
-source-git-commit: 631156a70271b6f480264e2c604314f09a820fc9
+TQID: https://experienceleague.adobe.com/NEmoIDy8etw5vhpxRbf9RyVnT1TKfoOvK4tpPrGHP-Q
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: f026b389ce582ece5d2ca8745d291b1ae50d657e
 workflow-type: tm+mt
-source-wordcount: '440'
-ht-degree: 17%
+source-wordcount: 458
+ht-degree: 20%
 
 ---
 
@@ -49,7 +53,7 @@ A continuación se muestran algunos ejemplos de cómo utilizar IA para cambiar e
 * El prefijo 00, 01, etc. y el sufijo con la fecha de hoy.
 * Cambie todos los archivos a &#39;my-file&#39; y añada un número incremental.
 * Elimine el prefijo y el sufijo, solo mantenga la parte central del nombre.
-* Agregue a los archivos el prefijo 001, 002, etc. y traducirlo al inglés.
+* Agregue a los archivos el prefijo 001, 002, etc. y traduzca al inglés.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3440975)
 
@@ -59,7 +63,7 @@ A continuación se muestran algunos ejemplos de cómo utilizar IA para cambiar e
 > * Utilice un nombre único para evitar mensajes de advertencia al cambiar el nombre de los recursos. Aunque puede intentarlo de nuevo con un nombre nuevo.
 > * También puede convertir caracteres Unicode o no alfanuméricos en texto.
 
-## Siguientes pasos {#next-steps}
+## Próximos pasos {#next-steps}
 
 * [Vea un vídeo para administrar formularios de metadatos en Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-learn/assets-essentials/configuring/metadata-forms.html?lang=es)
 
@@ -67,5 +71,5 @@ A continuación se muestran algunos ejemplos de cómo utilizar IA para cambiar e
 
 * Proporcione comentarios sobre la documentación usando [!UICONTROL Editar esta página] ![editar la página](assets/do-not-localize/edit-page.png) o [!UICONTROL Registrar una incidencia] ![crear una incidencia de GitHub](assets/do-not-localize/github-issue.png), disponibles en la barra lateral derecha
 
-* Contacto con el [Servicio de atención al cliente](https://experienceleague.adobe.com/es?support-solution=General&lang=es#support)
+* Contacto con el [Servicio de atención al cliente](https://experienceleague.adobe.com/es/home?support-solution=General#support)
 

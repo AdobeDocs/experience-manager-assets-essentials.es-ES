@@ -2,10 +2,13 @@
 title: ¿Cómo se administran los permisos de las carpetas en AEM Assets Essentials?
 description: Assets Essentials permite a los administradores administrar los niveles de acceso para las carpetas disponibles en el repositorio. Cree grupos de usuarios y asígneles permisos para administrar los niveles de acceso. Como administrador, también puede delegar los privilegios de administración de permisos en grupos de usuarios en el nivel de carpeta.
 exl-id: 5ef01dbc-87c0-4013-9367-5da3774f4f20
-source-git-commit: ec723ae4222254c64e8ddc2e03f8a523203f9f8a
+TQID: https://experienceleague.adobe.com/fWLQ3XI2WVIbouGb7QXznoGhEoB-pHiHw-8P-Fo4128
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+source-git-commit: f026b389ce582ece5d2ca8745d291b1ae50d657e
 workflow-type: tm+mt
-source-wordcount: '1700'
-ht-degree: 97%
+source-wordcount: 1700
+ht-degree: 98%
 
 ---
 
@@ -32,7 +35,7 @@ Añada administradores a la aplicación Assets Essentials para que puedan admini
 
 Para agregar administradores, haga lo siguiente:
 
-1. Acceda a [Admin Console](https://adminconsole.adobe.com) para su organización, haga clic en **[!UICONTROL Productos]** en la barra superior, en **[!UICONTROL AEM Assets Essentials]** y, a continuación, en [!DNL Assets Essentials] entorno. [!DNL Assets Essentials] tiene tres perfiles de producto que representan el acceso para los administradores y los usuarios normales y consumidores.
+1. Acceda a la [Admin Console](https://adminconsole.adobe.com) para su organización, haga clic en **[!UICONTROL Productos]** en la barra superior, en **[!UICONTROL AEM Assets Essentials]** y, a continuación, en entorno de [!DNL Assets Essentials]. [!DNL Assets Essentials] tiene tres perfiles de producto que representan el acceso para los administradores, los usuarios normales y los usuarios consumidores.
 
    ![Perfil de administrador de Admin Console](assets/admin-console-admin-profile.png)
 
@@ -81,7 +84,7 @@ Puede asignar los siguientes permisos a los grupos de usuarios o a los usuarios.
 
 | Nombre del permiso | Descripción |
 |-----|------|
-| Puede ver | <ul><li>Acceso de lectura para ver y navegar por carpetas </li><li>Previsualización de recursos</li><li>Descarga de recursos</li><li>Copiar recursos</li><li>Compartir vínculos con recursos</li><ul> |
+| Puede ver | <ul><li>Acceso de lectura para ver y navegar por carpetas </li><li>Previsualización de recursos</li><li>Descargar recursos</li><li>Copiar recursos</li><li>Compartir vínculos con recursos</li><ul> |
 | Puede editar | <ul><li>Todos los privilegios disponibles para los permisos de Puede ver </li><li>Crear carpetas</li><li>Eliminar carpetas</li><li>Cambiar el nombre de las carpetas</li><li>Crear recursos</li><li>Actualizar recursos</li><li>Eliminar recursos</li><li>Mover recursos</li><li>Cambiar el nombre de los recursos</li><ul> |
 | Propietario | <ul><li>Todos los privilegios disponibles para los permisos de Puede editar</li><li>Administrar permisos en una carpeta y sus subcarpetas</li>Este permiso permite a los administradores delegar los privilegios de administrador en otros para una carpeta y sus subcarpetas.<ul> |
 | Denegar acceso | Eliminar los permisos de Puede Ver, Puede Editar y Propietario para una carpeta y sus subcarpetas. |
@@ -188,7 +191,7 @@ Cree los siguientes grupos de usuarios en Admin Console:
 * Equipo legal
 
 El diagrama siguiente ilustra la jerarquía de carpetas y los permisos asignados a cada grupo de usuarios:
-![Asignar permisos](assets/use-case-permissions-management.png)
+![Asignación de permisos](assets/use-case-permissions-management.png)
 
 Los siguientes son los niveles de acceso para todos los grupos de usuarios en la jerarquía de carpetas:
 
@@ -214,4 +217,4 @@ Los siguientes son los niveles de acceso para todos los grupos de usuarios en la
 
 * Proporcione comentarios sobre la documentación usando [!UICONTROL Editar esta página] ![editar la página](assets/do-not-localize/edit-page.png) o [!UICONTROL Registrar una incidencia] ![crear una incidencia de GitHub](assets/do-not-localize/github-issue.png), disponibles en la barra lateral derecha
 
-* Contacto con el [Servicio de atención al cliente](https://experienceleague.adobe.com/es?support-solution=General&lang=es#support)
+* Contacto con el [Servicio de atención al cliente](https://experienceleague.adobe.com/?support-solution=General&lang=es#support)

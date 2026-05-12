@@ -2,9 +2,12 @@
 title: ¿Cómo compartir vínculos a recursos?
 description: Genere un vínculo y comparta recursos con otras personas que no tengan acceso a la aplicación de  [!DNL Assets Essentials] .
 exl-id: 6e05b06c-7436-40e3-acee-c8b1ed218f9e
-source-git-commit: 0ce79167583178f2b81b7ac9f91dd518455cc49f
+TQID: https://experienceleague.adobe.com/7emFt0d0IFyOdeDx4BGB7O1Ks4hQvK9W2sEdWk0mz-I
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+source-git-commit: f026b389ce582ece5d2ca8745d291b1ae50d657e
 workflow-type: tm+mt
-source-wordcount: '413'
+source-wordcount: 428
 ht-degree: 100%
 
 ---
@@ -54,4 +57,4 @@ Para descargar todos los recursos a la vez, cambie a la **[!UICONTROL Vista de l
 
 * Facilite comentarios sobre la documentación usando [!UICONTROL Editar esta página] ![editar la página](assets/do-not-localize/edit-page.png) o [!UICONTROL Registrar un problema] ![crear un problema de GitHub](assets/do-not-localize/github-issue.png), disponibles en la barra lateral derecha.
 
-* Contacte con el [Servicio de atención al cliente](https://experienceleague.adobe.com/es?support-solution=General&amp;lang=es#support).
+* Contacte con el [Servicio de atención al cliente](https://experienceleague.adobe.com/?support-solution=General&lang=es#support).

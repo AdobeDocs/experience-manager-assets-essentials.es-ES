@@ -3,10 +3,13 @@ title: Edición de vídeos
 description: Edite vídeos con  [!DNL Adobe Express] opciones que se sirven de y guarde vídeos actualizados como versiones.
 role: User
 exl-id: 8468d572-89f1-431d-be7f-01e583d06cd7
-source-git-commit: a9ef92194f55da9ad5352adf4251c85e3abcdcd1
+TQID: https://experienceleague.adobe.com/j9r915ua9GXUoTHdbSBHWxnHm-FIhCwvIuKOp91AFCg
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: f026b389ce582ece5d2ca8745d291b1ae50d657e
 workflow-type: tm+mt
-source-wordcount: '841'
-ht-degree: 24%
+source-wordcount: 841
+ht-degree: 27%
 
 ---
 
@@ -42,11 +45,11 @@ Puede eliminar partes no deseadas del vídeo mediante [!DNL Adobe Express] accio
 5. Haga clic en **[!UICONTROL Aplicar]**.
    ![recortar vídeo con Adobe Express](/help/using/assets/adobe-express-crop-video.png)
 
-   El vídeo recortado está disponible para descargar. Puede guardar el recurso editado como una nueva versión del mismo recurso o guardarlo como un nuevo recurso. ![Guardar vídeo con Adobe Express](/help/using/assets/adobe-express-save-video.png)
+   El vídeo recortado está disponible para descargar. Puede guardar el recurso editado como una nueva versión del mismo recurso o guardarlo como uno nuevo. ![Guardar vídeo con Adobe Express](/help/using/assets/adobe-express-save-video.png)
 
 ### Cambiar tamaño de vídeo {#resize-video-using-express}
 
-El contenido final de vídeo en DAM suele necesitar un cambio de tamaño para su distribución en canales específicos. [!DNL Assets Essentials] le permite cambiar fácilmente el tamaño del vídeo para adaptarlo a las dimensiones requeridas por los canales sociales comunes y también puede cambiar el tamaño para obtener resoluciones personalizadas. Para cambiar el tamaño del vídeo mediante [!DNL Assets Essentials], ejecute los pasos siguientes:
+El contenido final de vídeo en DAM suele necesitar un cambio de tamaño para su distribución en canales específicos. [!DNL Assets Essentials] le permite cambiar fácilmente el tamaño del vídeo para adaptarlo a las dimensiones que requieren los canales sociales comunes y también puede cambiar el tamaño para adaptarlo a las resoluciones personalizadas. Para cambiar el tamaño del vídeo mediante [!DNL Assets Essentials], ejecute los pasos siguientes:
 
 1. Seleccione un vídeo y haga clic en **[!UICONTROL Editar]**.
 2. Haga clic en **[!UICONTROL Cambiar tamaño del vídeo]** en las acciones rápidas disponibles en el panel izquierdo.
