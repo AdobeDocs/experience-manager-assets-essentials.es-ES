@@ -2,27 +2,36 @@
 title: Edición masiva de metadatos en Assets Essentials
 description: Descubra cómo puede actualizar un conjunto predefinido de campos de metadatos estándar para varios recursos disponibles simultáneamente en Assets Essentials.
 exl-id: 17185160-6c51-4581-a716-77b365ef3dd9
-source-git-commit: 461773235cb2d27d334b5ceb23f959dc9a848716
+TQID: https://experienceleague.adobe.com/zfRAzwQWEhdCwSVuWKDz-ndudFtv-mIhmjzyNkg8sOQ
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: f026b389ce582ece5d2ca8745d291b1ae50d657e
 workflow-type: tm+mt
-source-wordcount: '508'
-ht-degree: 4%
+source-wordcount: 649
+ht-degree: 28%
 
 ---
-
 
 <table>
     <tr>
         <td>
             <img src="assets/new2.gif" width="20px" height="25px" alt="nuevo">
-            <a href="https://experienceleague.adobe.com/es/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dm-prime-ultimate"><b>Dynamic Media Prime y Ultimate</b></a>
+            <a href="https://experienceleague.adobe.com/es/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dm-prime-ultimate"><b>Dynamic Media Prime y Ultimate</b></a>
         </td>
         <td>
             <img src="assets/new2.gif" width="20px" height="25px" alt="nuevo">
-            <a href="https://experienceleague.adobe.com/es/docs/experience-manager-cloud-service/content/assets/assets-ultimate-overview"><b>Ultimate de AEM Assets</b></a>
+            <a href="https://experienceleague.adobe.com/es/docs/experience-manager-cloud-service/content/assets/assets-ultimate-overview"><b>AEM Assets Ultimate</b></a>
         </td>
         <td>
             <img src="assets/new2.gif" width="20px" height="25px" alt="nuevo">
-            <a href="http://experienceleague.adobe.com/es/docs/experience-manager-cloud-service/content/assets/integrate-aem-assets-edge-delivery-services"><b>Integración de AEM Assets con Edge Delivery Services</b></a>
+ <a href="http://experienceleague.adobe.com/es/docs/experience-manager-cloud-service/content/assets/integrate-aem-assets-edge-delivery-services"><b>Integración de AEM Assets con Edge Delivery Services</b></a>
         </td>
         <td>
             <img src="assets/new2.gif" width="20px" height="25px" alt="nuevo">
@@ -30,7 +39,7 @@ ht-degree: 4%
         </td>
           <td>
             <img src="assets/new2.gif" width="20px" height="25px" alt="nuevo">
-            <a href="https://experienceleague.adobe.com/es/docs/experience-manager-assets-essentials/help/custom-search-filters"><b>Filtros de búsqueda personalizados</b></a>
+            <a href="https://experienceleague.adobe.com/es/docs/experience-manager-assets-essentials/help/custom-search-filters"><b>Filtros de búsqueda personalizados</b></a>
         </td>
     </tr>
     <tr>
@@ -71,7 +80,6 @@ Ejecute estos pasos para editar masivamente los metadatos de varios recursos a l
    * **Palabras clave:** Agregue términos específicos o cadenas de texto que proporcionen información de alto nivel sobre los recursos para mejorar su capacidad de detección. Añada una palabra clave y pulse Intro o volver para añadir otra palabra clave a la lista.
    * **Etiquetas:** Haga clic en ![icono de etiquetas](/help/using/assets/tags-icon.svg) para seleccionar etiquetas de entre las opciones disponibles. Las etiquetas proporcionan información más específica sobre los recursos y mejoran su capacidad de detección. Las etiquetas ya aplicadas a los recursos seleccionados se muestran en el panel **Propiedades**. Si no encuentra las etiquetas relevantes, créelas y asígnelas a los recursos seleccionados. Consulte [Administrar etiquetas en Assets Essentials](/help/using/tagging-management.md) para obtener más información sobre cómo crear y asignar etiquetas a recursos.
    * Haga clic en **Guardar** para aplicar las actualizaciones de metadatos anteriores a los recursos seleccionados. Una vez guardadas, las palabras clave y las etiquetas se anexan, mientras que los detalles actualizados de Estado, Fecha de caducidad y Autor anulan los detalles existentes.
-
      ![save-bulk-metadata-edit-properties](/help/using/assets/save-bulk-metadata-edit-properties2.png)
 
      >[!NOTE]

@@ -4,10 +4,17 @@ description: Obtenga información sobre cómo relacionar recursos digitales que 
 role: User
 feature: Collaboration,Asset Management
 solution: Experience Manager, Experience Manager Assets
-source-git-commit: 0aaeb09d90d8155d62a7b057d04e82568091a0ab
+exl-id: db3c30e4-a0c2-4686-a291-36a959fc3d05
+TQID: https://experienceleague.adobe.com/BIGrPj6x-EjokkE23Kg4gYU-2QA1PAUikAA1tvMZv1k
+product_v2:
+  - id: d09181b5-a36a-43de-ba01-36641440bc43
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: f026b389ce582ece5d2ca8745d291b1ae50d657e
 workflow-type: tm+mt
-source-wordcount: '534'
-ht-degree: 9%
+source-wordcount: 566
+ht-degree: 11%
 
 ---
 
@@ -40,7 +47,7 @@ Con esta función, tiene la flexibilidad de compartir un archivo PDF de baja res
 
 1. Haga clic en **[!UICONTROL Seleccionar]**. Según la relación que haya elegido en el paso 3, el recurso relacionado se enumerará en una categoría adecuada de la sección **[!UICONTROL Relaciones de recurso]**. Por ejemplo, si el recurso que ha relacionado es el archivo de origen del recurso actual, aparece en **[!UICONTROL Source]**.
 
-   ![Ejemplo de relación de Assets](assets/asset-relations-example.png)
+   ![Ejemplo de relación de Recursos](assets/asset-relations-example.png)
 
 1. Haga clic en **[!UICONTROL Desrelacionar]** ![desrelacionar recursos](assets/do-not-localize/link-unrelate-icon.png) disponibles para todos los recursos relacionados en cada sección ([!UICONTROL Source], [!UICONTROL Derivado] y [!UICONTROL Otro]) para anular la relación de un recurso.
 
@@ -56,7 +63,7 @@ Ver [Traducir recursos en AEM](https://experienceleague.adobe.com/es/docs/experi
 
 * Proporcione comentarios sobre la documentación usando [!UICONTROL Editar esta página] ![editar la página](assets/do-not-localize/edit-page.png) o [!UICONTROL Registrar una incidencia] ![crear una incidencia de GitHub](assets/do-not-localize/github-issue.png), disponibles en la barra lateral derecha
 
-* Contacto con el [Servicio de atención al cliente](https://experienceleague.adobe.com/es?support-solution=General#support)
+* Contacto con el [Servicio de atención al cliente](https://experienceleague.adobe.com/es/home?support-solution=General#support)
 
 >[!MORELIKETHIS]
 >

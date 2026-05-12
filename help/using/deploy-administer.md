@@ -3,16 +3,25 @@ title: Administración de usuarios
 description: Casos de uso de administración, como la implementación y la administración de usuarios en [!DNL Assets Essentials].
 role: Admin
 exl-id: ef91126f-3aee-442b-b242-a6bf4034f3dc
-source-git-commit: 65200f73a954e4ebf4fbd6dc3a819acc6e0beda4
+TQID: https://experienceleague.adobe.com/q-Eq1tZANfkgtIpwSifDVfLakJvRhia0pO2lXEMCYYg
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: f026b389ce582ece5d2ca8745d291b1ae50d657e
 workflow-type: tm+mt
-source-wordcount: '1304'
+source-wordcount: 1364
 ht-degree: 99%
 
 ---
 
 # Administración de [!DNL Assets Essentials] y adición de usuarios {#administer}
 
-[!DNL Adobe Experience Manager Assets Essentials] está aprovisionado por Adobe para sus clientes. Como parte del aprovisionamiento, [!DNL Assets Essentials] se añade a la organización de un cliente en [!DNL Adobe Admin Console]. Los administradores utilizan [!DNL Admin Console] para administrar las autorizaciones de usuario para la solución [!DNL Assets Essentials] y asignar administradores de aplicaciones para configurar formularios de permisos y metadatos en [!DNL Assets Essentials].
+[!DNL Adobe Experience Manager Assets Essentials] está aprovisionado por Adobe para sus clientes. Como parte del aprovisionamiento, [!DNL Assets Essentials] se añade a la organización de un cliente en [!DNL Adobe Admin Console]. Los administradores utilizan [!DNL Admin Console] para administrar las autorizaciones de usuario para la solución [!DNL Assets Essentials] y asignar administradores de aplicaciones para configurar formularios de metadatos y permisos en [!DNL Assets Essentials].
 
 
 El siguiente diagrama de flujo de datos ilustra la secuencia de tareas que un administrador debe llevar a cabo para configurar y administrar Assets Essentials:
@@ -60,17 +69,17 @@ Para agregar perfiles de productos a grupos de usuarios, haga lo siguiente:
 1. Acceda a la [Admin Console](https://adminconsole.adobe.com) para su organización, haga clic en **[!UICONTROL Productos]** en la barra superior, en **[!UICONTROL AEM Assets Essentials]** y, a continuación, en la instancia de [!DNL Assets Essentials]. El nombre de la instancia puede ser diferente al de la captura de pantalla siguiente.
    >[!NOTE]
    >
-   >La instancia de [!DNL Cloud Manager] es solo para uso especial de los administradores, como comprobar el estado del servicio y obtener acceso a los registros del servicio, y no se puede utilizar para agregar usuarios al producto. 
+   >La instancia de [!DNL Cloud Manager] es solo para uso especial de los administradores, como comprobar el estado del servicio y obtener acceso a los registros del servicio, y no se puede utilizar para añadir usuarios al producto.
 
    ![Perfil de administrador de Admin Console](assets/assets-essentials-instance.png)
 
-   [!DNL Assets Essentials] tiene tres perfiles de producto que representan el acceso para los usuarios normales y consumidores y los administradores.
+   [!DNL Assets Essentials] tiene tres perfiles de producto que representan el acceso para los administradores, los usuarios normales y los usuarios consumidores.
 
    * Los **[!DNL Assets Essentials] administradores**: tienen acceso administrativo a la aplicación. Además de todas las funcionalidades del usuario final, los administradores de aplicaciones de este grupo pueden administrar permisos para cualquier carpeta y grupo/usuario en todo el repositorio de aplicaciones.
 
    * Los **[!DNL Assets Essentials] usuarios**: tienen acceso a la interfaz de usuario completa. Estos usuarios pueden cargar, organizar, etiquetar y encontrar recursos digitales.
 
-   * Los Usuarios consumidores de **[!DNL Assets Essentials]** pueden realizar operaciones de búsqueda, previsualización y descarga en Assets Essentials. También pueden buscar y seleccionar recursos en Adobe Journey Optimizer, y buscar y seleccionar recursos para usarlos en Workfront.
+   * Los **[!DNL Assets Essentials]Usuarios consumidores** pueden hacer operaciones de búsqueda, previsualización y descarga en Assets Essentials. También pueden buscar y seleccionar recursos en Adobe Journey Optimizer, y buscar y seleccionar recursos para usarlos en Workfront.
 Para obtener más información, consulte [Integración con otras soluciones](integration.md).
 
    ![Perfil de administrador de Admin Console](assets/admin-console-admin-profile.png)
@@ -115,7 +124,7 @@ Existen varios tipos de estructura de carpetas que puede utilizar para su organi
 
 >[!NOTE]
 >
->Para poder administrar estas tareas, sobre todo la administración de permisos, el usuario debe tener derechos de administración de aplicaciones; debe agregarse al [Perfil de producto de administrador de Assets Essentials](#add-users-to-product-profiles).
+>Para poder administrar estas tareas, sobre todo la administración de permisos, el usuario debe tener derechos de administración de aplicaciones; debe añadirse al [Perfil de producto de administrador de Assets Essentials](#add-users-to-product-profiles).
 
 ### Carga de activos {#upload-assets}
 
@@ -149,7 +158,7 @@ Para obtener más información sobre los Formularios de metadatos, consulte [For
 
 Una colección es un conjunto de recursos dentro de Experience Manager Assets Essentials. Utilice las colecciones para compartir recursos entre los usuarios.
 
-A diferencia de las carpetas, una colección puede incluir recursos de distintas ubicaciones. Puede compartir varias colecciones con un usuario. Cada colección contiene referencias a recursos. La integridad referencial de los activos se mantiene entre colecciones. Para obtener más información, consulte [Administrar colecciones](manage-collections.md).
+A diferencia de las carpetas, una colección puede incluir recursos de distintas ubicaciones. Puede compartir varias colecciones con un usuario. Cada colección contiene referencias a recursos. La integridad referencial de los recursos se mantiene entre colecciones. Para obtener más información, consulte [Administrar colecciones](manage-collections.md).
 
 ![Colecciones](assets/collections.png)
 

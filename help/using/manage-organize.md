@@ -4,10 +4,20 @@ description: Mueva, elimine, copie, cambie de nombre, actualice y convierta en v
 role: User,Leader
 contentOwner: AG
 exl-id: b01e98b9-0cc2-47c5-9f5b-79b8e6bef39f
-source-git-commit: 2ad90f931f84bf8e0ceb51e4e6450d36a7b31a03
+TQID: https://experienceleague.adobe.com/ySqpMOT9q8CquqJv-XFXDettxyKa2fhaIICOYLQL1-8
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+  - id: da3860b0-d637-47df-bef0-273751180266
+source-git-commit: f026b389ce582ece5d2ca8745d291b1ae50d657e
 workflow-type: tm+mt
-source-wordcount: '1240'
-ht-degree: 96%
+source-wordcount: 1240
+ht-degree: 99%
 
 ---
 
@@ -84,7 +94,7 @@ TBD: query for engineering: How many versions are maintained. What happens when 
 
 [!DNL Assets Essentials] crea versiones de los recursos cuando se cargan de nuevo y se actualizan o editan. Puede ver el historial de versiones actuales y anteriores, así como restaurar una versión anterior de los recursos como la última versión, que se revierte a una anterior si es necesario. Las versiones de los recursos se crean en los siguientes casos:
 
-* Cargue un nuevo activo con el mismo nombre de archivo que un activo existente y en la misma carpeta que el activo existente. [!DNL Assets Essentials] solicita sobrescribir el activo anterior o guardar el nuevo activo como una versión. Consulte [Carga de recursos duplicados](/help/using/add-delete.md#resolve-upload-fails).
+* Cargue un nuevo recurso con el mismo nombre de archivo que uno existente y en la misma carpeta que este. [!DNL Assets Essentials] le solicita que sobrescriba el recurso anterior o que guarde el nuevo como una versión. Consulte [Carga de recursos duplicados](/help/using/add-delete.md#resolve-upload-fails).
 
   ![Creación de versiones al cargar](assets/uploads-manage-duplicates.png)
 
@@ -170,7 +180,7 @@ Para añadir el campo de metadatos Fecha de caducidad al formulario, arrastre el
 
 ## Siguientes pasos {#next-steps}
 
-* [Ver un vídeo para administrar recursos en Assets Essentials](https://experienceleague.adobe.com/es/docs/experience-manager-learn/assets-essentials/basics/managing)
+* [Vea un vídeo para administrar recursos en Assets Essentials](https://experienceleague.adobe.com/es/docs/experience-manager-learn/assets-essentials/basics/managing)
 
 * Proporcione comentarios de producto mediante la opción [!UICONTROL Comentarios] disponible en la interfaz de usuario de Assets Essentials
 

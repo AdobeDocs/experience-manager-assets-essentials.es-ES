@@ -2,9 +2,21 @@
 title: Reprocesamiento de recursos digitales
 description: Obtenga información acerca de los distintos métodos de reprocesamiento de recursos digitales
 role: User, Leader, Developer
-source-git-commit: ab2d6b0e9f4d53076ab461f9a09698a6cb8437e0
+exl-id: 8d84ecc2-e716-4e25-a0ec-87138ff2c499
+TQID: https://experienceleague.adobe.com/08mkBUcjbm5OQaeWzBiLmhwJtCmtSU2Gm0bo9octzUs
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+  - id: f8667931-f646-4dd3-af2a-b9d0cb8098ad
+source-git-commit: f026b389ce582ece5d2ca8745d291b1ae50d657e
 workflow-type: tm+mt
-source-wordcount: '685'
+source-wordcount: 798
 ht-degree: 0%
 
 ---
@@ -65,7 +77,7 @@ Las organizaciones que trabajan con recursos digitales utilizan cada vez más vo
 
 En comparación con los vocabularios de lenguajes naturales, el etiquetado de recursos digitales basado en la taxonomía empresarial ayuda a alinearlos con el negocio de una empresa y garantiza que los recursos más relevantes aparezcan en las búsquedas.
 
-Más información sobre [Etiquetas inteligentes para recursos de vídeo](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/manage/smart-tags-video-assets.html?lang=es).
+Más información sobre [Etiquetas inteligentes para recursos de vídeo](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/manage/smart-tags-video-assets.html?lang=en).
 
 Más información sobre [Reprocesar etiquetas de color para imágenes existentes en DAM](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/manage/color-tag-images.html?lang=es#color-tags-existing-images).
 
@@ -79,13 +91,13 @@ Obtenga más información sobre [recorte inteligente de Dynamic Media](https://e
 
 Más información sobre [Reprocesando perfiles de metadatos](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/manage/metadata-profiles.html?lang=es).
 
-### Volver a procesar los recursos de Dynamic Media en una carpeta {#reprocessing-dynamic-media}
+### Reprocesar recursos de Dynamic Media en una carpeta {#reprocessing-dynamic-media}
 
-Puede volver a procesar los recursos en una carpeta que ya tenga un perfil de imagen de Dynamic Media o un perfil de vídeo de Dynamic Media que haya cambiado posteriormente. Para obtener más información, visite [reprocesar recursos de Dynamic Media en una carpeta.](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/admin/about-image-video-profiles.html?lang=es)
+Puede volver a procesar los recursos en una carpeta que ya tenga un perfil de imagen de Dynamic Media existente o un perfil de vídeo de Dynamic Media que haya cambiado posteriormente. Para obtener más información, visite [volver a procesar los recursos de Dynamic Media en una carpeta.](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/admin/about-image-video-profiles.html?lang=es)
 
 >[!NOTE]
 >
->Debe configurar [!DNL Dynamic Media] en el entorno para habilitar el cuadro de diálogo de Dynamic Media.
+>Debe configurar [!DNL Dynamic Media] en el entorno para habilitar el cuadro de diálogo Dynamic Media.
 >
 
 ### Flujos de trabajo

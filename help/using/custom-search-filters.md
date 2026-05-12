@@ -3,27 +3,38 @@ title: Filtros de búsqueda personalizados
 description: Obtenga información sobre cómo personalizar el formulario de filtros de búsqueda
 role: User, Leader, Developer
 exl-id: 8c579d5b-6bfc-44bb-a381-ca5716bd20cb
-source-git-commit: 461773235cb2d27d334b5ceb23f959dc9a848716
+TQID: https://experienceleague.adobe.com/h5wa-Umxw-KIYoicGOIEccNf4dBYe0a7zTkdtCi4-Ak
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: f8667931-f646-4dd3-af2a-b9d0cb8098ad
+source-git-commit: f026b389ce582ece5d2ca8745d291b1ae50d657e
 workflow-type: tm+mt
-source-wordcount: '1349'
-ht-degree: 14%
+source-wordcount: 1475
+ht-degree: 24%
 
 ---
-
 
 <table>
     <tr>
         <td>
             <img src="assets/new3.gif" width="20px" height="25px" alt="nuevo">
-            <a href="https://experienceleague.adobe.com/es/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dm-prime-ultimate"><b>Dynamic Media Prime y Ultimate</b></a>
+            <a href="https://experienceleague.adobe.com/es/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dm-prime-ultimate"><b>Dynamic Media Prime y Ultimate</b></a>
         </td>
         <td>
             <img src="assets/new3.gif" width="20px" height="25px" alt="nuevo">
-            <a href="https://experienceleague.adobe.com/es/docs/experience-manager-cloud-service/content/assets/assets-ultimate-overview"><b>Ultimate de AEM Assets</b></a>
+            <a href="https://experienceleague.adobe.com/es/docs/experience-manager-cloud-service/content/assets/assets-ultimate-overview"><b>AEM Assets Ultimate</b></a>
         </td>
         <td>
             <img src="assets/new3.gif" width="20px" height="25px" alt="nuevo">
-            <a href="http://experienceleague.adobe.com/es/docs/experience-manager-cloud-service/content/assets/integrate-aem-assets-edge-delivery-services"><b>Integración de AEM Assets con Edge Delivery Services</b></a>
+ <a href="http://experienceleague.adobe.com/es/docs/experience-manager-cloud-service/content/assets/integrate-aem-assets-edge-delivery-services"><b>Integración de AEM Assets con Edge Delivery Services</b></a>
         </td>
         <td>
             <img src="assets/new3.gif" width="20px" height="25px" alt="nuevo">
@@ -306,7 +317,7 @@ Los filtros preconfigurados son ajustes preestablecidos que le permiten utilizar
     </tr>
     <tr>
         <td>Estado del recurso</td>
-        <td>Assets Essentials le permite establecer el estado en los recursos disponibles en el repositorio. Establezca un estado de recurso para gobernar y administrar mejor el consumo descendente de recursos digitales. Elija entre <b>Aprobado, Rechazado o Sin estado</b>.</td>
+        <td>Assets Essentials le permite establecer el estado en los recursos disponibles en el repositorio. Establezca un estado de activo para gobernar y administrar mejor el consumo descendente de recursos digitales. Elija entre <b>Aprobado, Rechazado o Sin estado</b>.</td>
         <td>
             <ul>
                 <li>Etiqueta
@@ -419,7 +430,7 @@ Cada elemento de filtro está asociado a un conjunto de propiedades. Los AEM Ass
         <ul>
         <li>Haga clic en <b>agregar</b> para agregar un nuevo valor. 
         <li>Haga clic en <span>✎</span> para editar la etiqueta. 
-        <li>Haga clic en <span>??</span> para eliminar el valor de la opción. 
+        <li>Haga clic en <span>🗑</span> para eliminar el valor de la opción. 
         <li>Haga clic en <b>Editar</b> para modificar las opciones de edición. 
         <li>También puede cambiar la secuencia de las opciones manteniéndolas.
         </td>

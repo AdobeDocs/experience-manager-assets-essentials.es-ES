@@ -3,10 +3,19 @@ title: Integración con otras soluciones de Adobe
 description: '[!DNL Assets Essentials] se integra con otras soluciones de Adobe y proporciona una experiencia integrada desde la aplicación nativa.'
 role: User
 exl-id: bc43a59e-f295-44d2-a14d-854174f91e41
-source-git-commit: 2ad90f931f84bf8e0ceb51e4e6450d36a7b31a03
+TQID: https://experienceleague.adobe.com/TFjf7jmmlN5iuoWzFg32WqfNuLMIdf29d-SkrO6Ar58
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: ae478996-b206-4712-9b0c-dc78a2644453
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: f026b389ce582ece5d2ca8745d291b1ae50d657e
 workflow-type: tm+mt
-source-wordcount: '491'
-ht-degree: 85%
+source-wordcount: 491
+ht-degree: 92%
 
 ---
 

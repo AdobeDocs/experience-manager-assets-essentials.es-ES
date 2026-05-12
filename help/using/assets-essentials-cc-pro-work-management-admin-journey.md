@@ -2,10 +2,20 @@
 title: Configuración de Assets Essentials para Creative Cloud Pro con soluciones de administración de trabajo
 description: Este tutorial presenta un recorrido de administrador para permitir que la aplicación de Assets Essentials se integre con las aplicaciones de escritorio de Creative Cloud y con la aplicación de Adobe Workfront. Las aplicaciones de escritorio de Creative Cloud incluyen Adobe Photoshop, Adobe Illustrator, Adobe InDesign y Adobe XD.
 exl-id: a5e9e0c3-35ec-41de-9656-f4f0f88946c7
-source-git-commit: b1ae487b4b4e9a88e0d9c39889d3893d92a766c9
-workflow-type: ht
-source-wordcount: '867'
-ht-degree: 100%
+TQID: https://experienceleague.adobe.com/nYLF2t3wzkhjKS-cdR1dhW-CZ8YwQcJS4FxS2FAYXzg
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: f026b389ce582ece5d2ca8745d291b1ae50d657e
+workflow-type: tm+mt
+source-wordcount: 917
+ht-degree: 97%
 
 ---
 
@@ -55,7 +65,7 @@ Los recorridos de documentación están diseñados en torno a los principios de 
 
 ## Administración de Experience Manager Assets Essentials {#administer-assets-essentials}
 
-![Preferencia para cambiar el tema oscuro y el claro](assets/cce-assets.png)
+![Preferencia para cambiar entre el tema oscuro y el claro](assets/cce-assets.png)
 
 Adobe Experience Manager Assets Essentials es una nueva edición ligera de Adobe Experience Manager Assets. Assets Essentials proporciona una colaboración y administración de recursos unificadas con una interfaz de usuario simplificada y coherente. La facilidad de uso permite que equipos más creativos y de marketing almacenen, descubran y distribuyan recursos digitales.
 

@@ -2,10 +2,19 @@
 title: Administración de informes en Assets Essentials
 description: Acceda a los datos de la sección de informes de Assets Essentials para evaluar el uso de productos y funciones y obtener perspectivas sobre las métricas de éxito clave.
 exl-id: c7155459-05d9-4a95-a91f-a1fa6ae9d9a4
-source-git-commit: 810bb62cd5eb664e36a6ea267050dd025828e900
+TQID: https://experienceleague.adobe.com/fTzTJd0JhjMbexn1ffynNQM7wx-nX-8Os1Y-c79FKdo
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: f026b389ce582ece5d2ca8745d291b1ae50d657e
 workflow-type: tm+mt
-source-wordcount: '1243'
-ht-degree: 96%
+source-wordcount: 1243
+ht-degree: 99%
 
 ---
 
@@ -163,7 +172,7 @@ Los informes programados se muestran en la ficha **Informes programados** de una
 
 ### Reanudar programación {#resume-schedule}
 
-Para reanudar la programación cancelada, seleccione la fila del informe y haga clic en **Reanudar programación**. Cuando se reanuda, las siguientes entradas de tiempo de ejecución se muestran de nuevo y el estado es En curso.
+Para reanudar la programación cancelada, seleccione la fila del informe y haga clic en **Reanudar programación**. Cuando se reanuda, las siguientes entradas en tiempo de ejecución se muestran de nuevo y el estado se muestra en curso.
 ![reanudar programación](/help/using/assets/resume-schedule.png)
 
 >[!NOTE]
@@ -192,7 +201,7 @@ Haga clic en **[!UICONTROL Insights]** en el panel de navegación izquierdo para
 <!--* **Asset Count by Size**: The division of count of assets based on their range of various sizes from 0 MB to 100 GB.-->
 
 * **Uso de almacenamiento**: el uso de almacenamiento, en bytes, para el entorno Assets Essentials representado mediante un gráfico de barras.
-  ![Uso de almacenamiento](/help/using/assets/insights-storage-usage1.svg)
+  ![uso de almacenamiento](/help/using/assets/insights-storage-usage1.svg)
   <!--* **Delivery**: The graph depicts the count of assets as the delivery dates.-->
 
 <!--* **Asset Count by Asset Type**: Represents count of various MIME types of the available assets. For example, application/zip, image/png, video/mp4, application/postscripte.-->

@@ -4,9 +4,20 @@ description: Formatos de archivo compatibles con los distintos casos de uso de [
 role: User,Leader,Admin,Developer
 contentOwner: AG
 exl-id: bc44e98d-446e-41ff-b5b4-9dc324834630
-source-git-commit: b3c726122425c9a89a5d6c0ac35b652d20d8e0b9
+TQID: https://experienceleague.adobe.com/0hWe6e61MkYR2MMF-AWn-ywVZXCIetXer5Mlq3B98jI
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: f026b389ce582ece5d2ca8745d291b1ae50d657e
 workflow-type: tm+mt
-source-wordcount: '372'
+source-wordcount: 372
 ht-degree: 100%
 
 ---
