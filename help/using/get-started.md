@@ -4,20 +4,14 @@ description: Acceso, experiencia de inicio de sesión, casos de uso compatibles 
 role: User, Leader
 exl-id: 7917b2a0-8340-4d94-aa6f-30ce986fa752
 TQID: https://experienceleague.adobe.com/jZWd3neYHmifmT7YVTMymgAfMK88N-9220D4Ek-7rjY
-product_v2:
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2:
-  - id: ae478996-b206-4712-9b0c-dc78a2644453
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: da3860b0-d637-47df-bef0-273751180266
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: ae478996-b206-4712-9b0c-dc78a2644453
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: da3860b0-d637-47df-bef0-273751180266
 source-git-commit: f026b389ce582ece5d2ca8745d291b1ae50d657e
 workflow-type: tm+mt
 source-wordcount: 445
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -57,7 +51,7 @@ Las diversas tareas de administración de activos digitales (DAM) que puede real
 
 | Tareas de usuario | Información sobre la funcionalidad y los procedimientos |
 |-----|------|
-| Examinar y ver recursos | <ul> <li>[Examen del repositorio](/help/using/navigate-view.md#view-assets-and-details) </li> <li> [Previsualización de un recurso](/help/using/navigate-view.md#preview-assets) <li> [Visualización de representaciones de un recurso](/help/using/add-delete.md#renditions) </li> <li>[Visualización de versiones de un recurso](/help/using/manage-organize.md#view-versions)</li></ul> |
+| Examinar y ver recursos | <ul> <li>[Examinar el repositorio](/help/using/navigate-view.md#view-assets-and-details) </li> <li> [Previsualización de un recurso](/help/using/navigate-view.md#preview-assets) <li> [Visualización de representaciones de un recurso](/help/using/add-delete.md#renditions) </li> <li>[Visualización de versiones de un recurso](/help/using/manage-organize.md#view-versions)</li></ul> |
 | Añadir nuevos recursos | <ul> <li>[Carga de nuevos recursos y carpetas](/help/using/add-delete.md#add-assets)</li> <li>[Monitorización del progreso de carga y administración de las cargas](/help/using/add-delete.md#upload-progress)</li> <li>[Resolución de duplicados](/help/using/add-delete.md#resolve-upload-fails)</li> </ul> |
 | Actualizar recursos o información relacionada | <ul> <li>[Edición de imágenes](/help/using/edit-images.md)</li> <li>[Creación de versiones](/help/using/manage-organize.md#create-versions) y [Visualización de versiones](/help/using/manage-organize.md#view-versions)</li> <li>[Edición de imágenes](/help/using/edit-images.md)</li> </ul> |
 | Editar recursos | <ul> <li>[Ediciones en el explorador mediante Adobe Photoshop Express](/help/using/edit-images.md)</li> <li>[Recorte para un perfil de medios sociales](/help/using/edit-images.md#crop-straighten-images)</li> <li>[Visualización y administración de versiones](/help/using/manage-organize.md#view-versions)</li> <li>[Uso de [!DNL Adobe Asset Link]](/help/using/integration.md#integrations)</ul></ul> |
@@ -74,7 +68,7 @@ Las diversas tareas de administración de activos digitales (DAM) que puede real
 
 * Proporcione comentarios sobre la documentación usando [!UICONTROL Editar esta página] ![editar la página](assets/do-not-localize/edit-page.png) o [!UICONTROL Registrar una incidencia] ![crear una incidencia de GitHub](assets/do-not-localize/github-issue.png), disponibles en la barra lateral derecha
 
-* Contacto con el [Servicio de atención al cliente](https://experienceleague.adobe.com/es?support-solution=General&lang=es#support)
+* Contacto con el [Servicio de atención al cliente](https://experienceleague.adobe.com/?support-solution=General&lang=es#support)
 
 
 <!--

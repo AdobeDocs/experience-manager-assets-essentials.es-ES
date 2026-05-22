@@ -4,19 +4,14 @@ description: Busque y descubra recursos en [!DNL Assets Essentials].
 role: User
 exl-id: be9597a3-056c-436c-a09e-15a03567c85a
 TQID: https://experienceleague.adobe.com/V--WXU30ed6P-HWqE1rquXPupmJwImyYfARZ006RpDg
-product_v2:
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2:
-  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: f026b389ce582ece5d2ca8745d291b1ae50d657e
 workflow-type: tm+mt
 source-wordcount: 2217
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -188,7 +183,7 @@ Para generar nuevos recursos mediante [!DNL Adobe Firefly]:
 
    ![Integración de Firefly](assets/firefly-integration.png)
 
-   Los nuevos recursos se han generado correctamente. Además, puede cambiar la descripción de la imagen escribiendo la nueva indicación de texto en el cuadro de descripción. [Aprenda a escribir un buen aviso de IA para generar contenido extraordinario y relevante.](https://helpx.adobe.com/in/firefly/using/tips-and-tricks.html?lang=es) También puede [editar la imagen con otras características como cambiar el estilo, las dimensiones de la imagen y mucho más.](https://helpx.adobe.com/in/firefly/using/text-to-image.html?lang=es)
+   Los nuevos recursos se han generado correctamente. Además, puede cambiar la descripción de la imagen escribiendo la nueva indicación de texto en el cuadro de descripción. [Aprenda a escribir una buena indicación de IA para generar contenido extraordinario y relevante.](https://helpx.adobe.com/in/firefly/using/tips-and-tricks.html?lang=es) También puede [editar la imagen con otras características como cambiar el estilo, las dimensiones y mucho más.](https://helpx.adobe.com/in/firefly/using/text-to-image.html?lang=es)
 
    ![Integración de Firefly](assets/bugatti-type-57.png)
 
@@ -395,5 +390,5 @@ Si necesita facilitar comentarios sobre la función de búsqueda contextual, hag
 
 * Facilite comentarios sobre la documentación usando [!UICONTROL Editar esta página] ![editar la página](assets/do-not-localize/edit-page.png) o [!UICONTROL Registrar un problema] ![crear un problema de GitHub](assets/do-not-localize/github-issue.png), disponibles en la barra lateral derecha.
 
-* Contacto con el [Servicio de atención al cliente](https://experienceleague.adobe.com/es?support-solution=General&lang=es#support)
+* Contacto con el [Servicio de atención al cliente](https://experienceleague.adobe.com/?support-solution=General&lang=es#support)
 

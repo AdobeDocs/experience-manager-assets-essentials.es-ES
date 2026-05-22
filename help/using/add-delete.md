@@ -4,16 +4,13 @@ description: Cargue recursos a [!DNL Assets Essentials], vea los estados de carg
 role: User
 exl-id: a85a4455-4456-48af-aee9-f05300677605
 TQID: https://experienceleague.adobe.com/aEqz-LzeQEOrAurYW3Y-6xdONbA6WoRxA-0hHX5A99o
-product_v2:
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
 source-git-commit: f026b389ce582ece5d2ca8745d291b1ae50d657e
 workflow-type: tm+mt
 source-wordcount: 846
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 

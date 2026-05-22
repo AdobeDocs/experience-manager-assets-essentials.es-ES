@@ -1,28 +1,25 @@
 ---
-title: Relaciones de recurso
+title: Relaciones de recursos
 description: Obtenga información sobre cómo relacionar recursos digitales que comparten algunos atributos comunes. Cree también relaciones derivadas del origen entre recursos digitales mediante relaciones de recursos.
 role: User
 feature: Collaboration,Asset Management
 solution: Experience Manager, Experience Manager Assets
 exl-id: db3c30e4-a0c2-4686-a291-36a959fc3d05
 TQID: https://experienceleague.adobe.com/BIGrPj6x-EjokkE23Kg4gYU-2QA1PAUikAA1tvMZv1k
-product_v2:
-  - id: d09181b5-a36a-43de-ba01-36641440bc43
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2: id: d09181b5-a36a-43de-ba01-36641440bc43id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: f026b389ce582ece5d2ca8745d291b1ae50d657e
 workflow-type: tm+mt
 source-wordcount: 566
-ht-degree: 11%
+ht-degree: 100%
 
 ---
 
-# Relaciones de recurso {#related-assets}
+# Relaciones de recursos {#related-assets}
 
-[!DNL Adobe Experience Manager Assets] le permite relacionar recursos manualmente según las necesidades de su organización mediante la función de recursos relacionados. Por ejemplo, puede relacionar un archivo de licencia con un recurso o una imagen/vídeo sobre un tema similar. Puede relacionar recursos que comparten ciertos atributos comunes. También puede utilizar la función para crear relaciones de origen/derivadas entre recursos. Por ejemplo, si tiene un archivo PDF generado a partir de un archivo INDD, puede relacionar el archivo PDF con su archivo INDD de origen.
+[!DNL Adobe Experience Manager Assets] le permite relacionar recursos manualmente según las necesidades de su organización mediante la función de recursos relacionados. Por ejemplo, puede relacionar un archivo de licencia con un recurso o una imagen o un vídeo sobre un tema similar. Puede relacionar recursos que comparten ciertos atributos comunes. También puede utilizar la función para crear relaciones de origen/derivadas entre recursos. Por ejemplo, si tiene un archivo PDF generado a partir de un archivo INDD, puede relacionar el archivo PDF con su archivo INDD de origen.
 
-Con esta función, tiene la flexibilidad de compartir un archivo PDF de baja resolución o un archivo JPG con proveedores u agencias y hacer que el archivo INDD de alta resolución solo esté disponible bajo petición.
+Con esta función, tiene la flexibilidad de compartir un archivo PDF de baja resolución o un archivo JPG con proveedores o agencias y hacer que el archivo INDD de alta resolución solo esté disponible bajo petición.
 
 >[!NOTE]
 >
@@ -34,28 +31,28 @@ Con esta función, tiene la flexibilidad de compartir un archivo PDF de baja res
 
    ![abrir la página Propiedades de un recurso para relacionarlo](assets/asset-properties-relate-assets.png)
 
-1. Para relacionar otro recurso con el que seleccionó, haga clic en **[!UICONTROL Relaciones de recurso]** ![relacionar recursos](assets/do-not-localize/link-relate.png).
+1. Para relacionar otro recurso con el seleccionado, haga clic en **[!UICONTROL Relaciones de recurso]** ![relacionar recursos](assets/do-not-localize/link-relate.png).
 1. Realice una de las siguientes acciones:
 
-   * Para relacionar el archivo de origen del recurso, seleccione **[!UICONTROL Agregar Source]** de la lista. Solo puede asociar un único recurso como origen.
-   * Para relacionar un archivo derivado, seleccione **[!UICONTROL Agregar derivado]** de la lista. Puede asociar varios recursos en esta categoría.
-   * Para crear una relación bidireccional entre los recursos, seleccione **[!UICONTROL Agregar otros]** en la lista. Puede asociar varios recursos en esta categoría.
+   * Para relacionar el archivo de origen del recurso, seleccione **[!UICONTROL Añadir origen]** de la lista. Solo puede asociar un único recurso como origen.
+   * Para relacionar un archivo derivado, seleccione **[!UICONTROL Añadir derivado]** de la lista. Puede asociar varios recursos en esta categoría.
+   * Para crear una relación bidireccional entre los recursos, seleccione **[!UICONTROL Añadir otros]** en la lista. Puede asociar varios recursos en esta categoría.
 
-1. En la pantalla **[!UICONTROL Seleccionar Assets]**, vaya a la ubicación del recurso que desea relacionar y selecciónelo. Puede seleccionar uno o varios recursos a la vez manteniendo presionada la tecla Mayús mientras hace clic, lo que puede incluir cualquiera de los [formatos de archivo admitidos en la vista de Assets](supported-file-formats.md).
+1. En la pantalla **[!UICONTROL Seleccionar recursos]**, vaya a la ubicación del recurso que desea relacionar y selecciónelo. Puede seleccionar uno o varios recursos a la vez manteniendo presionada la tecla Mayús mientras hace clic, lo que puede incluir cualquiera de los [formatos de archivo admitidos en la vista de recursos](supported-file-formats.md).
 
-   ![agregar recurso relacionado](assets/add-related-asset.png)
+   ![añadir recurso relacionado](assets/add-related-asset.png)
 
-1. Haga clic en **[!UICONTROL Seleccionar]**. Según la relación que haya elegido en el paso 3, el recurso relacionado se enumerará en una categoría adecuada de la sección **[!UICONTROL Relaciones de recurso]**. Por ejemplo, si el recurso que ha relacionado es el archivo de origen del recurso actual, aparece en **[!UICONTROL Source]**.
+1. Haga clic en **[!UICONTROL Seleccionar]**. Según la relación que haya elegido en el paso 3, el recurso relacionado se enumerará en una categoría adecuada de la sección **[!UICONTROL Relaciones de recursos]**. Por ejemplo, si el recurso que ha relacionado es el archivo de origen del recurso actual, aparece en **[!UICONTROL Origen]**.
 
    ![Ejemplo de relación de Recursos](assets/asset-relations-example.png)
 
-1. Haga clic en **[!UICONTROL Desrelacionar]** ![desrelacionar recursos](assets/do-not-localize/link-unrelate-icon.png) disponibles para todos los recursos relacionados en cada sección ([!UICONTROL Source], [!UICONTROL Derivado] y [!UICONTROL Otro]) para anular la relación de un recurso.
+1. Haga clic en **[!UICONTROL Desrelacionar]** ![desrelacionar recursos](assets/do-not-localize/link-unrelate-icon.png), disponible para todos los recursos relacionados en cada sección ([!UICONTROL Origen], [!UICONTROL Derivado] y [!UICONTROL Otro]) para anular la relación de un recurso.
 
-## Traducir recursos relacionados {#translating-related-assets}
+## Traducción de recursos relacionados {#translating-related-assets}
 
 La creación de relaciones de origen/derivadas entre recursos mediante la función de recursos relacionados también es útil en los flujos de trabajo de traducción. Cuando ejecuta un flujo de trabajo de traducción en un recurso derivado, [!DNL Experience Manager Assets] recupera automáticamente cualquier recurso al que haga referencia el archivo de origen y lo incluye para su traducción. De este modo, el recurso al que hace referencia el recurso de origen se traduce junto con los recursos de origen y derivados. Si el archivo de origen está relacionado con otro recurso, [!DNL Experience Manager Assets] recupera el recurso al que se hace referencia y lo incluye para su traducción.
 
-Ver [Traducir recursos en AEM](https://experienceleague.adobe.com/es/docs/experience-manager-cloud-service/content/assets/admin/translate-assets).
+Consulte [Traducción de recursos en AEM](https://experienceleague.adobe.com/es/docs/experience-manager-cloud-service/content/assets/admin/translate-assets).
 
 ## Siguientes pasos {#next-steps}
 
@@ -68,5 +65,5 @@ Ver [Traducir recursos en AEM](https://experienceleague.adobe.com/es/docs/experi
 >[!MORELIKETHIS]
 >
 >* [Visualización de versiones de un recurso](manage-organize.md#view-versions)
->* [Traducir recursos en AEM](https://experienceleague.adobe.com/es/docs/experience-manager-cloud-service/content/assets/admin/translate-assets)
->* [Formatos de archivo compatibles en la vista de Assets](supported-file-formats.md).
+>* [Traducción de recursos en AEM](https://experienceleague.adobe.com/es/docs/experience-manager-cloud-service/content/assets/admin/translate-assets)
+>* [Formatos de archivo compatibles en la vista de recursos](supported-file-formats.md).

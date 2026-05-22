@@ -4,16 +4,13 @@ description: Edite imágenes mediante opciones que se sirven de [!DNL Adobe Expr
 role: User
 exl-id: fc21a6ee-bf23-4dbf-86b0-74695a315b2a
 TQID: https://experienceleague.adobe.com/DAhAV4RClHSyCj-NgVALulD0gzddSip5f56LsUq0bHU
-product_v2:
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: f5c2a4bb-71ca-4d7e-8efd-442250e6ba48
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: f5c2a4bb-71ca-4d7e-8efd-442250e6ba48
 source-git-commit: f026b389ce582ece5d2ca8745d291b1ae50d657e
 workflow-type: tm+mt
 source-wordcount: 1258
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -93,8 +90,8 @@ Puede convertir rápidamente entre los formatos de imagen JPEG y PNG mediante Ad
 
 Los usuarios con derechos para Express pueden utilizar el editor Express integrado desde la interfaz de usuario de Assets Essentials para editar fácilmente el contenido y crear contenido nuevo con GenAI desde Adobe Firefly. Esta función mejora la reutilización de contenidos y acelera su velocidad. También puede utilizar elementos predefinidos para que su recurso tenga un aspecto impresionante o realizar acciones rápidas para editar la imagen con solo unos clics.
 
-![express en la interfaz de usuario de essentials](/help/using/assets/express-in-essentials-ui.jpg)
-Para editar imágenes dentro del editor incrustado de Adobe Express, siga los pasos a continuación:
+![Express en la IU de Essentials](/help/using/assets/express-in-essentials-ui.jpg)
+Para editar imágenes en el editor integrado de Adobe Express, siga estos pasos:
 
 1. Acceda a la IU de AEM Assets Essentials mediante el vínculo [IU de AEM Assets Essentials](https://experience.adobe.com/#/assets) y seleccione el repositorio adecuado.
 1. Haga clic en **Assets**, introduzca una carpeta y seleccione una imagen.
@@ -159,7 +156,7 @@ The brush samples the retouched area and makes the repaired pixels blend seamles
 
 <!-- 
 TBD: See if we should give backlinks to PS docs for these concepts.
-For more information about how Spot Healing works in Photoshop, see [retouching and repairing photos](https://helpx.adobe.com/es/photoshop/using/retouching-repairing-images.html). 
+For more information about how Spot Healing works in Photoshop, see [retouching and repairing photos](https://helpx.adobe.com/photoshop/using/retouching-repairing-images.html). 
 -->
 <!--
 ### Crop and straighten images {#crop-straighten-images-using-photoshop-express}

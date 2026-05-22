@@ -4,21 +4,14 @@ description: Administre sus activos con Experience Manager Assets Essentials, un
 role: User,Leader
 exl-id: 43ddf11c-36d3-4643-80c9-b7dd5d199450
 TQID: https://experienceleague.adobe.com/GpMzdyeYFVMhrLhiS-AbTH08VKXkEfiel-0mJ6lNqf8
-product_v2:
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2:
-  - id: ae478996-b206-4712-9b0c-dc78a2644453
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
-topic_v2:
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: da3860b0-d637-47df-bef0-273751180266
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: ae478996-b206-4712-9b0c-dc78a2644453
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: da3860b0-d637-47df-bef0-273751180266id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: f026b389ce582ece5d2ca8745d291b1ae50d657e
 workflow-type: tm+mt
 source-wordcount: 660
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -29,7 +22,7 @@ TBD: Update this banner to remove Beta label.
 ![Banner image for beta docs](assets/do-not-localize/banner-image-beta-docs.png)
 -->
 
-Adobe ofrece una solución sólida de administración de activos digitales (DAM) para que usted pueda sacar el máximo partido sus recursos digitales. Adobe Experience Manager Assets Essentials es la solución de administración de recursos ligera de Adobe para almacenar, administrar, descubrir y utilizar recursos digitales.
+Adobe ofrece una solución sólida de administración de activos digitales (DAM) para que usted pueda sacar el máximo partido sus recursos digitales. Adobe Experience Manager Assets Essentials es la solución de administración de recursos ligera de Adobe para almacenar, administrar, descubrir y usar recursos digitales.
 
 ## ¿Qué es Assets Essentials? {#assets-essemtials-overview}
 
@@ -102,7 +95,7 @@ Cuando sus necesidades empresariales aumentan y necesita soporte para los requis
 
 * Proporcione comentarios sobre la documentación usando [!UICONTROL Editar esta página] ![editar la página](assets/do-not-localize/edit-page.png) o [!UICONTROL Registrar una incidencia] ![crear una incidencia de GitHub](assets/do-not-localize/github-issue.png), disponibles en la barra lateral derecha
 
-* Contacto con el [Servicio de atención al cliente](https://experienceleague.adobe.com/es?support-solution=General&lang=es#support)
+* Contacto con el [Servicio de atención al cliente](https://experienceleague.adobe.com/?support-solution=General&lang=es#support)
 
 
 >[!MORELIKETHIS]
