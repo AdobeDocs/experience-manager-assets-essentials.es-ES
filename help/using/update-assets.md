@@ -4,7 +4,7 @@ description: Actualizar los recursos que existen en el repositorio
 role: User,Leader,Admin,Developer
 contentOwner: AG
 source-git-commit: 2ad90f931f84bf8e0ceb51e4e6450d36a7b31a03
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '39'
 ht-degree: 100%
 
