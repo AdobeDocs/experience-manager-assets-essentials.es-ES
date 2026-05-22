@@ -15,7 +15,7 @@ topic_v2:
 source-git-commit: f026b389ce582ece5d2ca8745d291b1ae50d657e
 workflow-type: tm+mt
 source-wordcount: 1364
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -69,7 +69,7 @@ Para agregar perfiles de productos a grupos de usuarios, haga lo siguiente:
 1. Acceda a la [Admin Console](https://adminconsole.adobe.com) para su organización, haga clic en **[!UICONTROL Productos]** en la barra superior, en **[!UICONTROL AEM Assets Essentials]** y, a continuación, en la instancia de [!DNL Assets Essentials]. El nombre de la instancia puede ser diferente al de la captura de pantalla siguiente.
    >[!NOTE]
    >
-   >La instancia de [!DNL Cloud Manager] es solo para uso especial de los administradores, como comprobar el estado del servicio y obtener acceso a los registros del servicio, y no se puede utilizar para añadir usuarios al producto.
+   >La instancia de [!DNL Cloud Manager] es solo para uso especial de los administradores, como comprobar el estado del servicio y obtener acceso a los registros del servicio, y no se puede utilizar para agregar usuarios al producto.
 
    ![Perfil de administrador de Admin Console](assets/assets-essentials-instance.png)
 
@@ -124,7 +124,7 @@ Existen varios tipos de estructura de carpetas que puede utilizar para su organi
 
 >[!NOTE]
 >
->Para poder administrar estas tareas, sobre todo la administración de permisos, el usuario debe tener derechos de administración de aplicaciones; debe añadirse al [Perfil de producto de administrador de Assets Essentials](#add-users-to-product-profiles).
+>Para poder administrar estas tareas, sobre todo la administración de permisos, el usuario debe tener derechos de administración de aplicaciones; debe agregarse al [Perfil de producto de administrador de Assets Essentials](#add-users-to-product-profiles).
 
 ### Carga de activos {#upload-assets}
 
@@ -140,7 +140,7 @@ Assets Essentials permite a los administradores administrar los niveles de acces
 
 Para obtener más información, consulte [Administración de permisos para carpetas](manage-permissions.md).
 
-### Configuración de Forms de metadatos (opcional) {#metadata-forms}
+### Configuración de formularios de metadatos (opcional) {#metadata-forms}
 
 Assets Essentials proporciona muchos campos de metadatos estándar de forma predeterminada. Las organizaciones tienen requisitos de metadatos adicionales y necesitan más campos para agregar los específicos de su empresa. Los formularios de metadatos permiten a las empresas añadir campos de metadatos personalizados a la página [!UICONTROL Detalles] de un recurso. Los metadatos específicos de la empresa mejoran el control y el descubrimiento de sus recursos. Puede crear formularios desde cero o reutilizar uno existente.
 
@@ -176,8 +176,8 @@ A diferencia de las carpetas, una colección puede incluir recursos de distintas
 
 >[!MORELIKETHIS]
 >
->* Ayuda de [[!DNL Admin Console] &#x200B;](https://helpx.adobe.com/es/enterprise/using/admin-console.html)
->* Ayuda de [[!DNL Cloud Manager] &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-cloud-manager/using/introduction-to-cloud-manager.html?lang=es)
+>* Ayuda de [[!DNL Admin Console] ](https://helpx.adobe.com/es/enterprise/using/admin-console.html)
+>* Ayuda de [[!DNL Cloud Manager] ](https://experienceleague.adobe.com/docs/experience-manager-cloud-manager/using/introduction-to-cloud-manager.html?lang=es)
 >* [Documentación de Adobe Journey Optimizer](https://experienceleague.adobe.com/docs/journey-optimizer/using/ajo-home.html?lang=es)
 >* [Notas de la versión](release-notes.md)
 >* [Introducción a [!DNL Assets Essentials]](get-started.md)

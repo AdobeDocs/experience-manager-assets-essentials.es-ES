@@ -1,5 +1,5 @@
 ---
-title: Interfaz de usuario [!DNL Assets Essentials]
+title: Interfaz de usuario de [!DNL Assets Essentials]
 description: Explicación de la interfaz de usuario de y la navegación en [!DNL Assets Essentials].
 role: User
 exl-id: 534a8084-88f7-410e-b872-719e47e62b10
@@ -15,7 +15,7 @@ topic_v2:
 source-git-commit: f026b389ce582ece5d2ca8745d291b1ae50d657e
 workflow-type: tm+mt
 source-wordcount: 1107
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 

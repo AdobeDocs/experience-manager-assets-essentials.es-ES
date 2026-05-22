@@ -1,6 +1,6 @@
 ---
-title: Cambiar nombre y cambiar el nombre de los recursos en bloque en  [!DNL Assets Essentials]
-description: Obtenga información sobre cómo cambiar el nombre de los recursos de forma masiva mediante la nueva interfaz de usuario de Assets (Assets Essentials). Permite cambiar el nombre de varios recursos a la vez.
+title: Cambio de nombre y cambio de nombre de los recursos en bloque en  [!DNL Assets Essentials]
+description: Obtenga información sobre cómo cambiar el nombre de los recursos de forma masiva mediante la nueva IU de Assets (Assets Essentials). Permite cambiar el nombre de varios recursos a la vez.
 role: User
 exl-id: 5d18950f-1863-46c0-83d7-079ae95a6320
 TQID: https://experienceleague.adobe.com/NEmoIDy8etw5vhpxRbf9RyVnT1TKfoOvK4tpPrGHP-Q
@@ -13,13 +13,13 @@ topic_v2:
 source-git-commit: f026b389ce582ece5d2ca8745d291b1ae50d657e
 workflow-type: tm+mt
 source-wordcount: 458
-ht-degree: 20%
+ht-degree: 100%
 
 ---
 
-# Cambiar nombre de recurso o carpeta en [!DNL Assets Essentials] {#rename-single-asset-or-folder}
+# Cambio de nombre de recurso o carpeta en [!DNL Assets Essentials] {#rename-single-asset-or-folder}
 
-Cambiar el nombre puede ayudar a organizar, clasificar e identificar los recursos mejor sin alterar su contenido o ubicación. [!DNL Assets Essentials] le permite cambiar el nombre del recurso o la carpeta seleccionados.
+Cambiar el nombre puede ayudar a organizar, clasificar e identificar los recursos mejor, sin alterar su contenido o ubicación. [!DNL Assets Essentials] le permite cambiar el nombre del recurso o la carpeta seleccionados.
 
 Siga estos pasos para cambiar el nombre de un recurso o una carpeta:
 
@@ -27,43 +27,43 @@ Siga estos pasos para cambiar el nombre de un recurso o una carpeta:
 
 1. Utilice una de las siguientes formas de cambiar el nombre de un recurso o una carpeta:
 
-   * Seleccione el recurso o la carpeta y haga clic en ![cambiar nombre del icono](assets/do-not-localize/rename-icon.png) **[!UICONTROL Cambiar nombre]** en el menú superior.
-   * Haga clic en más opciones `...` del recurso o la carpeta y seleccione **[!UICONTROL Cambiar nombre]**.
-   * Haga clic en el título de un recurso o en una carpeta para cambiarle el nombre. Mencione el nuevo texto en el cuadro de texto **Cambiar nombre de recurso** y haga clic en **Guardar**. Esta funcionalidad está disponible en las vistas Cuadrícula, Galería, Cascada y Lista.
+   * Seleccione el recurso o la carpeta y haga clic en ![icono de cambiar nombre](assets/do-not-localize/rename-icon.png) **[!UICONTROL Cambiar nombre]** en el menú superior.
+   * Haga clic en Más opciones `...` del recurso o la carpeta y seleccione **[!UICONTROL Cambiar nombre]**.
+   * Haga clic en el título de un recurso o de una carpeta para cambiarle el nombre. Mencione el nuevo texto en el cuadro de texto **Cambiar nombre de recurso** y haga clic en **Guardar**. Esta funcionalidad está disponible en las vistas Cuadrícula, Galería, Cascada y Lista.
 
-## Nombre masivo de recursos con tecnología de IA {#rename-bulk-assets-using-ai}
+## Cambio de nombre masivo de recursos con tecnología de IA {#rename-bulk-assets-using-ai}
 
-[!DNL Assets Essentials] le permite cambiar el nombre de varios recursos a la vez mediante IA. La funcionalidad de cambio de nombre masivo de IA solo se puede aplicar a archivos, no a carpetas. Puede seleccionar varios archivos a la vez y cambiarles el nombre.
+[!DNL Assets Essentials] permite cambiar el nombre de varios recursos a la vez mediante la IA. La funcionalidad Cambiar nombre de forma masiva con IA solo se puede aplicar a archivos, no a carpetas. Puede seleccionar varios archivos a la vez y cambiarles el nombre.
 
-Siga los pasos a continuación para cambiar el nombre de la mayor parte de los recursos a la vez mediante mensajes generados por IA:
+Siga los pasos a continuación para cambiar el nombre de la mayor parte de los recursos a la vez mediante indicaciones generadas por IA:
 
-1. Seleccione varios recursos y haga clic en **[!UICONTROL Cambiar nombre en lotes]** en el menú superior.
+1. Seleccione varios recursos y haga clic en **[!UICONTROL Cambiar nombre de forma masiva]** en el menú superior.
 
-1. Añada el mensaje que describe cómo desea cambiar el nombre de los recursos seleccionados. Consulte [algunos ejemplos que ilustran el cambio de nombre masivo de IA](#examples-ai-bulk-rename).
+1. Añada el mensaje que describe cómo desea cambiar el nombre de los recursos seleccionados. Consulte [algunos ejemplos que ilustran Cambiar nombre de forma masiva con IA](#examples-ai-bulk-rename).
 
-1. Haga clic en **[!UICONTROL Ejecutar]** para permitir que AI cambie el nombre de los recursos como se menciona en la solicitud.
+1. Haga clic en **[!UICONTROL Ejecutar]** para permitir que la IA cambie el nombre de los recursos como se menciona en la indicación.
 
-1. [Opcional] Haga clic en ![deshacer icono](assets/do-not-localize/undo.svg) para revertir o cancelar la última acción que realizó.
+1. [Opcional] Haga clic en ![icono de deshacer](assets/do-not-localize/undo.svg) para revertir o cancelar la última acción que realizó.
 
 1. Compruebe sus cambios en la columna [!UICONTROL Nueva vista previa de nombre] y haga clic en **[!UICONTROL Guardar]**.
 
-   ![cambio de nombre masivo de IA](assets/ai-bulk-rename.png)
+   ![Cambiar nombre de forma masiva con IA](assets/ai-bulk-rename.png)
 
-## Algunos ejemplos que ilustran el cambio masivo de nombre de IA {#examples-ai-bulk-rename}
+## Algunos ejemplos que ilustran Cambiar nombre de forma masiva con IA {#examples-ai-bulk-rename}
 
-A continuación se muestran algunos ejemplos de cómo utilizar IA para cambiar el nombre de los recursos de forma masiva en función de un mensaje de IA:
+A continuación se muestran algunos ejemplos de cómo utilizar la IA para cambiar el nombre de los recursos de forma masiva en función de una indicación de IA:
 
-* El prefijo 00, 01, etc. y el sufijo con la fecha de hoy.
-* Cambie todos los archivos a &#39;my-file&#39; y añada un número incremental.
-* Elimine el prefijo y el sufijo, solo mantenga la parte central del nombre.
-* Agregue a los archivos el prefijo 001, 002, etc. y traduzca al inglés.
+* Prefijo con 00, 01, etc. y sufijo con la fecha de hoy.
+* Cambiar todos los archivos a ‘mi-archivo’ y añadirle un número incremental.
+* Quitar el prefijo y el sufijo, conservar solamente la parte central del nombre.
+* Añadir a los archivos el prefijo 001, 002, etc. y traducir al inglés.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3440975)
 
 >[!NOTE]
 >
-> * No puedes convertir emojis en texto.
-> * Utilice un nombre único para evitar mensajes de advertencia al cambiar el nombre de los recursos. Aunque puede intentarlo de nuevo con un nombre nuevo.
+> * No puede convertir emojis en texto.
+> * Utilice un nombre único para evitar mensajes de advertencia al cambiar el nombre de los recursos. Sin embargo, puede intentarlo otra vez con un nombre nuevo.
 > * También puede convertir caracteres Unicode o no alfanuméricos en texto.
 
 ## Próximos pasos {#next-steps}

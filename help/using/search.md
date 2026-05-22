@@ -16,7 +16,7 @@ topic_v2:
 source-git-commit: f026b389ce582ece5d2ca8745d291b1ae50d657e
 workflow-type: tm+mt
 source-wordcount: 2217
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -188,7 +188,7 @@ Para generar nuevos recursos mediante [!DNL Adobe Firefly]:
 
    ![Integración de Firefly](assets/firefly-integration.png)
 
-   Los nuevos recursos se han generado correctamente. Además, puede cambiar la descripción de la imagen escribiendo la nueva indicación de texto en el cuadro de descripción. [Aprenda a escribir un buen aviso de IA para generar contenido extraordinario y relevante.](https://helpx.adobe.com/in/firefly/using/tips-and-tricks.html?lang=es) También puede [editar la imagen con otras características como cambiar el estilo, las dimensiones de la imagen y mucho más.](https://helpx.adobe.com/in/firefly/using/text-to-image.html?lang=es)
+   Los nuevos recursos se han generado correctamente. Además, puede cambiar la descripción de la imagen escribiendo la nueva indicación de texto en el cuadro de descripción. [Aprenda a escribir una buena indicación de IA para generar contenido extraordinario y relevante.](https://helpx.adobe.com/in/firefly/using/tips-and-tricks.html?lang=es) También puede [editar la imagen con otras características como cambiar el estilo, las dimensiones y mucho más.](https://helpx.adobe.com/in/firefly/using/text-to-image.html?lang=es)
 
    ![Integración de Firefly](assets/bugatti-type-57.png)
 

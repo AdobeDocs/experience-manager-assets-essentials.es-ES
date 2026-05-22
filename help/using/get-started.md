@@ -17,7 +17,7 @@ topic_v2:
 source-git-commit: f026b389ce582ece5d2ca8745d291b1ae50d657e
 workflow-type: tm+mt
 source-wordcount: 445
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -57,7 +57,7 @@ Las diversas tareas de administración de activos digitales (DAM) que puede real
 
 | Tareas de usuario | Información sobre la funcionalidad y los procedimientos |
 |-----|------|
-| Examinar y ver recursos | <ul> <li>[Examen del repositorio](/help/using/navigate-view.md#view-assets-and-details) </li> <li> [Previsualización de un recurso](/help/using/navigate-view.md#preview-assets) <li> [Visualización de representaciones de un recurso](/help/using/add-delete.md#renditions) </li> <li>[Visualización de versiones de un recurso](/help/using/manage-organize.md#view-versions)</li></ul> |
+| Examinar y ver recursos | <ul> <li>[Examinar el repositorio](/help/using/navigate-view.md#view-assets-and-details) </li> <li> [Previsualización de un recurso](/help/using/navigate-view.md#preview-assets) <li> [Visualización de representaciones de un recurso](/help/using/add-delete.md#renditions) </li> <li>[Visualización de versiones de un recurso](/help/using/manage-organize.md#view-versions)</li></ul> |
 | Añadir nuevos recursos | <ul> <li>[Carga de nuevos recursos y carpetas](/help/using/add-delete.md#add-assets)</li> <li>[Monitorización del progreso de carga y administración de las cargas](/help/using/add-delete.md#upload-progress)</li> <li>[Resolución de duplicados](/help/using/add-delete.md#resolve-upload-fails)</li> </ul> |
 | Actualizar recursos o información relacionada | <ul> <li>[Edición de imágenes](/help/using/edit-images.md)</li> <li>[Creación de versiones](/help/using/manage-organize.md#create-versions) y [Visualización de versiones](/help/using/manage-organize.md#view-versions)</li> <li>[Edición de imágenes](/help/using/edit-images.md)</li> </ul> |
 | Editar recursos | <ul> <li>[Ediciones en el explorador mediante Adobe Photoshop Express](/help/using/edit-images.md)</li> <li>[Recorte para un perfil de medios sociales](/help/using/edit-images.md#crop-straighten-images)</li> <li>[Visualización y administración de versiones](/help/using/manage-organize.md#view-versions)</li> <li>[Uso de [!DNL Adobe Asset Link]](/help/using/integration.md#integrations)</ul></ul> |

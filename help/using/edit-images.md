@@ -13,7 +13,7 @@ topic_v2:
 source-git-commit: f026b389ce582ece5d2ca8745d291b1ae50d657e
 workflow-type: tm+mt
 source-wordcount: 1258
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -93,8 +93,8 @@ Puede convertir rápidamente entre los formatos de imagen JPEG y PNG mediante Ad
 
 Los usuarios con derechos para Express pueden utilizar el editor Express integrado desde la interfaz de usuario de Assets Essentials para editar fácilmente el contenido y crear contenido nuevo con GenAI desde Adobe Firefly. Esta función mejora la reutilización de contenidos y acelera su velocidad. También puede utilizar elementos predefinidos para que su recurso tenga un aspecto impresionante o realizar acciones rápidas para editar la imagen con solo unos clics.
 
-![express en la interfaz de usuario de essentials](/help/using/assets/express-in-essentials-ui.jpg)
-Para editar imágenes dentro del editor incrustado de Adobe Express, siga los pasos a continuación:
+![Express en la IU de Essentials](/help/using/assets/express-in-essentials-ui.jpg)
+Para editar imágenes en el editor integrado de Adobe Express, siga estos pasos:
 
 1. Acceda a la IU de AEM Assets Essentials mediante el vínculo [IU de AEM Assets Essentials](https://experience.adobe.com/#/assets) y seleccione el repositorio adecuado.
 1. Haga clic en **Assets**, introduzca una carpeta y seleccione una imagen.

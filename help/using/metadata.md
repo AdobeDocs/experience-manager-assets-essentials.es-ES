@@ -20,7 +20,7 @@ topic_v2:
 source-git-commit: f026b389ce582ece5d2ca8745d291b1ae50d657e
 workflow-type: tm+mt
 source-wordcount: 2195
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -141,10 +141,10 @@ A continuación se ofrece una descripción general de cada tipo de propiedad y d
 | Casilla de verificación | Añada un valor booleano. Se almacena como TRUE o FALSE una vez que se guarda un valor. |
 | Fecha | Añada un componente de fecha. |
 | Lista desplegable | Añada una lista desplegable. |
-| Estado | Agregar la propiedad de estado del repositorio (asignada al repositorio :state) |
-| Estado de los recursos | Agregar la propiedad predeterminada Estado del recurso (asignada a dam:assetStatus) |
-| Etiquetas | Agregue una etiqueta de los valores almacenados en Taxonomy Management (asignados a xcm:tags). |
-| Palabras clave | Agregar palabras clave de forma libre (asignadas a dc:subject). |
+| Estado | Añada la propiedad de estado del repositorio (asignada al repositorio :state) |
+| Estado de los recursos | Añada la propiedad predeterminada Estado del recurso (asignada a dam:assetStatus) |
+| Etiquetas | Añada una etiqueta a partir de los valores almacenados en Gestión de la taxonomía (asignados a xcm:tags). |
+| Palabras clave | Añadir palabras clave de forma libre (asignadas a dc:subject). |
 | Etiquetas inteligentes | Añada para aumentar las capacidades de búsqueda añadiendo automáticamente etiquetas de metadatos. |
 | Vínculo | Añada para habilitar URL externas. Una vez configurado en el formulario de metadatos, el componente URL se puede asignar a una propiedad de metadatos particular en la página Editor de metadatos. Este [formulario de metadatos se puede asignar a carpetas](#assign-metadata-form-folder). |
 
