@@ -3,8 +3,8 @@ title: Administración de Experience Manager Assets Essentials
 description: Configure el acceso a la aplicación de Assets Essentials mediante Admin Console y, a continuación, administre las tareas que se pueden ejecutar después de iniciar sesión en la aplicación de Assets Essentials.
 exl-id: ffd65741-21b7-47cd-9779-63a7903879e6
 source-git-commit: 65200f73a954e4ebf4fbd6dc3a819acc6e0beda4
-workflow-type: tm+mt
-source-wordcount: '1382'
+workflow-type: ht
+source-wordcount: '1417'
 ht-degree: 100%
 
 ---
@@ -15,14 +15,14 @@ ht-degree: 100%
 
 ## Objetivo
 
-* **Audiencia**: administradores de Assets Essentials
+* **Público**: administradores de Assets Essentials
 
 * **Objetivo**: configure el acceso a la aplicación de Assets Essentials mediante Admin Console y, a continuación, administre las tareas que se pueden ejecutar después de iniciar sesión en la aplicación de Assets Essentials.
 
 ## Información general {#overview}
 
 
-[!DNL Adobe Experience Manager Assets Essentials] está aprovisionado por Adobe para sus clientes. Como parte del aprovisionamiento, [!DNL Assets Essentials] se añade a la organización de un cliente en [!DNL Adobe Admin Console]. Los administradores utilizan [!DNL Admin Console] para administrar las autorizaciones de usuario para la solución [!DNL Assets Essentials] y asignar administradores de aplicaciones para configurar formularios de permisos y metadatos en [!DNL Assets Essentials].
+[!DNL Adobe Experience Manager Assets Essentials] está aprovisionado por Adobe para sus clientes. Como parte del aprovisionamiento, [!DNL Assets Essentials] se añade a la organización de un cliente en [!DNL Adobe Admin Console]. Los administradores utilizan [!DNL Admin Console] para administrar las autorizaciones de usuario para la solución [!DNL Assets Essentials] y asignar administradores de aplicaciones para configurar formularios de metadatos y permisos en [!DNL Assets Essentials].
 
 El siguiente diagrama de flujo de datos ilustra la secuencia de tareas que un administrador debe llevar a cabo para configurar y administrar Assets Essentials:
 
@@ -59,7 +59,7 @@ Para agregar usuarios a perfiles de producto:
 
    ![Perfil de administrador de Admin Console](assets/assets-essentials-instance.png)
 
-   [!DNL Assets Essentials] tiene tres perfiles de producto que representan el acceso para los usuarios normales y consumidores y los administradores.
+   [!DNL Assets Essentials] tiene tres perfiles de producto que representan el acceso para los administradores, los usuarios normales y los usuarios consumidores.
 
    ![Perfil de administrador de Admin Console](assets/admin-console-admin-profile.png)
 
