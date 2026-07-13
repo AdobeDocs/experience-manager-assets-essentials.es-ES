@@ -1,28 +1,28 @@
 ---
 source-git-commit: 40f8747c8a6f93717120f44a3829166422f3442f
-workflow-type: ht
-source-wordcount: '170'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '171'
+ht-degree: 0%
 
 ---
-# Licencia MIT
+# Licencia de MIT
 
-© Copyright 2021 Adobe. All rights reserved.
+© Copyright 2021 Adobe. Todos los derechos reservados.
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the &quot;Software&quot;), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+Se concede permiso gratuito a cualquier persona que obtenga una copia
+de este software y de los archivos de documentación asociados (el &quot;Software&quot;), para gestionar
+en el Software sin restricciones, incluidos, entre otros, los derechos
+usar, copiar, modificar, fusionar, publicar, distribuir, sublicenciar y/o vender
+copias del Software y para permitir a las personas a las que se proporciona el Software
+para ello, siempre que se cumplan las condiciones siguientes:
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+El anterior aviso de copyright y este aviso de permiso se incluirán en todos los
+copias o partes importantes del Software.
 
-THE SOFTWARE IS PROVIDED &quot;AS IS&quot;, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+EL SOFTWARE SE PROPORCIONA &quot;TAL CUAL&quot;, SIN GARANTÍA DE NINGÚN TIPO, EXPRESA O
+IMPLÍCITO, INCLUIDAS, ENTRE OTRAS, LAS GARANTÍAS DE COMERCIABILIDAD,
+APTITUD PARA UN FIN DETERMINADO Y AUSENCIA DE INFRACCIÓN. EN NINGÚN CASO
+LOS AUTORES O TITULARES DE LOS DERECHOS DE AUTOR SERÁN RESPONSABLES DE CUALQUIER RECLAMACIÓN, DAÑO U OTRA
+RESPONSABILIDAD, YA SEA POR UNA ACCIÓN CONTRACTUAL, POR NEGLIGENCIA O DE OTRO TIPO, DERIVADA DE,
+FUERA O EN CONEXIÓN CON EL SOFTWARE O EL USO U OTRAS OPERACIONES EN EL
 SOFTWARE.
