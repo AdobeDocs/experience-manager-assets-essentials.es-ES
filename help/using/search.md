@@ -13,54 +13,13 @@ role_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: f026b389ce582ece5d2ca8745d291b1ae50d657e
+source-git-commit: a292d5bf73e5c366cbc3d5e9695fecdcc930d31b
 workflow-type: tm+mt
-source-wordcount: 2217
+source-wordcount: 1662
 ht-degree: 100%
 
 ---
 
-<table>
-    <tr>
-        <td>
-            <img src="assets/new.gif" width="20px" height="25px" alt="nuevo">
-            <a href="https://experienceleague.adobe.com/es/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dm-prime-ultimate"><b>Dynamic Media Prime y Ultimate</b></a>
-        </td>
-        <td>
-            <img src="assets/new.gif" width="20px" height="25px" alt="nuevo">
-            <a href="https://experienceleague.adobe.com/es/docs/experience-manager-cloud-service/content/assets/assets-ultimate-overview"><b>AEM Assets Ultimate</b></a>
-        </td>
-        <td>
-            <img src="assets/new.gif" width="20px" height="25px" alt="nuevo">
- <a href="http://experienceleague.adobe.com/es/docs/experience-manager-cloud-service/content/assets/integrate-aem-assets-edge-delivery-services"><b>Integración de AEM Assets con Edge Delivery Services</b></a>
-        </td>
-        <td>
-            <img src="assets/new.gif" width="20px" height="25px" alt="nuevo">
-            <a href="https://experienceleague.adobe.com/es/docs/experience-manager-cloud-service/content/assets/assets-view/aem-assets-view-ui-extensibility"><b>Extensibilidad de la IU</b></a>
-        </td>
-          <td>
-            <img src="assets/new.gif" width="20px" height="25px" alt="nuevo">
-            <a href="https://experienceleague.adobe.com/es/docs/experience-manager-assets-essentials/help/custom-search-filters"><b>Filtros de búsqueda personalizados</b></a>
-        </td>
-    </tr>
-    <tr>
-        <td>
-            <a href="https://experienceleague.adobe.com/es/docs/experience-manager-cloud-service/content/assets/best-practices/search-best-practices"><b>Prácticas recomendadas de búsqueda</b></a>
-        </td>
-        <td>
-            <a href="https://experienceleague.adobe.com/es/docs/experience-manager-cloud-service/content/assets/best-practices/metadata-best-practices"><b>Prácticas recomendadas de metadatos</b></a>
-        </td>
-        <td>
-            <a href="https://experienceleague.adobe.com/es/docs/experience-manager-cloud-service/content/assets/content-hub/product-overview"><b>Centro de contenido</b></a>
-        </td>
-        <td>
-            <a href="https://experienceleague.adobe.com/es/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media-open-apis/dynamic-media-open-apis-overview"><b>Dynamic Media con funciones de OpenAPI</b></a>
-        </td>
-        <td>
-            <a href="https://developer.adobe.com/experience-cloud/experience-manager-apis/"><b>Documentación de desarrollador de AEM Assets</b></a>
-        </td>
-    </tr>
-</table>
 
 # Búsqueda de recursos en [!DNL Assets Essentials] {#search-assets}
 
@@ -78,9 +37,9 @@ Para buscar recursos, haga lo siguiente:
 
   ![cuadro de búsqueda](assets/search-box.png)
 
-   * Busque con una palabra clave y opcionalmente cambie la carpeta. Pulse Intro.
+  * Busque con una palabra clave y opcionalmente cambie la carpeta. Pulse Intro.
 
-   * Empiece a trabajar con un recurso visualizado hace poco directamente buscándolo. Haga clic en el cuadro de búsqueda y seleccione un recurso visualizado recientemente en las sugerencias.
+  * Empiece a trabajar con un recurso visualizado hace poco directamente buscándolo. Haga clic en el cuadro de búsqueda y seleccione un recurso visualizado recientemente en las sugerencias.
 
 ## Filtrado de los resultados de búsqueda {#refine-search-results}
 
@@ -300,92 +259,6 @@ Puede obtener una vista previa para comprobar el diseño y el formato de la pág
 1. Haga clic en **[!UICONTROL Cerrar]** para cerrar el cuadro de diálogo.
 
    ![Vista previa de la página principal Buscar primero](assets/search-first-preview.gif)
-
-## Búsqueda contextual {#contextual-search}
-
-También puede buscar recursos disponibles en el repositorio definiendo indicaciones de texto. Experience Manager Assets transforma automáticamente esas indicaciones de texto en filtros de búsqueda y muestra los resultados de la búsqueda. Puede ver y modificar los filtros automáticos mediante el panel Filtros para reducir aún más los resultados de la búsqueda.
-
-### Acceso a la búsqueda contextual {#access-contextual-search}
-
-Para acceder a la búsqueda contextual en Experience Manager Assets:
-
-1. Haga clic en **[!UICONTROL Búsqueda]** en el panel de la izquierda.
-
-   ![Búsqueda contextual](/help/using/assets/access-contextual-search.png)
-
-1. Defina la indicación de texto en el cuadro de texto de búsqueda y haga clic en **[!UICONTROL Búsqueda contextual]**.
-
-   ![Indicación de texto de búsqueda contextual](/help/using/assets/wknd-contextual-search.png)
-
-   [!DNL Experience Manager Assets] muestra los resultados de la búsqueda.
-
-
-### Filtros admitidos {#supported-filters}
-
-La búsqueda contextual admite los siguientes filtros predeterminados. Base sus indicaciones de texto en estos filtros para ver los resultados de búsqueda adecuados.
-
-* Altura de la imagen
-
-* Anchura de la imagen
-
-* Tipo de archivo: imagen, documento, vídeo o carpeta.
-
-* Tipo de MIME: JPG, PNG, TIFF, GIF, MP4, PDF, PPTX, DOCX o XLSX
-
-* Fecha de creación
-
-* Fecha de modificación
-
-* Fecha de caducidad
-
-* Estado del recurso: aprobado, rechazado o todo
-
-* Recursos caducados
-
-### Ejemplos de indicaciones de texto {#text-prompts-examples}
-
-**Ejemplo 1**
-
-**Indicación de texto**: imágenes creadas este mes.
-
-[!DNL Experience Manager Assets] aplica los siguientes filtros automáticamente y muestra los resultados de la búsqueda:
-
-![Ejemplo 1 de búsqueda contextual](/help/using/assets/contextual-search-example1.png)
-
-**Ejemplo 2**
-
-**Indicación de texto**: Imágenes de al menos 200 píxeles de altura y 100 píxeles de anchura con playa y cielo despejado.
-
-[!DNL Experience Manager Assets] aplica los siguientes filtros automáticamente y muestra los resultados de la búsqueda:
-
-![Ejemplo 2 de búsqueda contextual](/help/using/assets/contextual-search-example2.png)
-
-**Ejemplo 3**
-
-**Indicación de texto**: necesito imágenes de cielo azul de 1500 y 2500 píxeles de altura y creadas en el último mes que no hayan caducado ni estén aprobadas.
-
-[!DNL Experience Manager Assets] aplica los siguientes filtros automáticamente y muestra los resultados de la búsqueda:
-
-![Ejemplo 3 de búsqueda contextual](/help/using/assets/contextual-search-example3.png)
-
-El siguiente vídeo ilustra el proceso de extremo a extremo desde el acceso a la interfaz de usuario de búsqueda contextual hasta la definición de indicaciones de texto y la visualización de los resultados de la búsqueda.
-
->[!VIDEO](https://video.tv.adobe.com/v/3428407)
-
-### Deshabilitación de la búsqueda contextual {#disable-contextual-search}
-
-Los administradores también tienen la opción de deshabilitar la búsqueda contextual para los usuarios de su organización. Para ello, ejecute los siguientes pasos:
-
-1. Vaya a **[!UICONTROL Configuración]** > **[!UICONTROL Configuración general]**.
-
-1. En la sección [!UICONTROL Búsqueda contextual], desactive el conmutador **[!UICONTROL Habilitar la búsqueda contextual para su organización]** para deshabilitar la función de búsqueda contextual para todos los usuarios de su organización.
-
-### Comentarios sobre la búsqueda contextual {#contextual-search-feedback}
-
-Si necesita facilitar comentarios sobre la función de búsqueda contextual, haga clic en el ![icono de búsqueda contextual](assets/do-not-localize/Smock_Help_18_N.svg)  y haga clic en el icono Comentarios. Seleccione el tipo de comentarios, especifique el asunto y la descripción y haga clic en **[!UICONTROL Enviar]**.
-
-![Comentarios sobre la búsqueda contextual](/help/using/assets/contextual-search-feedback.png)
-
 
 ## Siguientes pasos {#next-steps}
 
