@@ -5,13 +5,11 @@ hide: true
 hidefromtoc: true
 role: User
 exl-id: 07de648e-4ae2-4524-8e05-3cf10bb6006d
-source-git-commit: 4c176db86c9f3219f2cb63edda71435a2aa76850
+source-git-commit: 10c0e2375ba16dfeeeeca8f0b816ca366254dd67
 workflow-type: tm+mt
-source-wordcount: '3000'
+source-wordcount: '3017'
 ht-degree: 99%
-
 ---
-
 # Plantillas de Dynamic Media{#dynamic-media-templates}
 
 | [Prácticas recomendadas de búsqueda](https://experienceleague.adobe.com/es/docs/experience-manager-cloud-service/content/assets/best-practices/search-best-practices) | [Prácticas recomendadas de metadatos](https://experienceleague.adobe.com/es/docs/experience-manager-cloud-service/content/assets/best-practices/metadata-best-practices) | [Centro de contenido](https://experienceleague.adobe.com/es/docs/experience-manager-cloud-service/content/assets/content-hub/product-overview) | [Documentación de desarrollador de AEM Assets](https://developer.adobe.com/experience-cloud/experience-manager-apis/) |
@@ -35,7 +33,7 @@ Algunas de las funciones clave son las siguientes:
 
 Algunas de las ventajas clave de las plantillas de Dynamic Media son:
 
-* **Personalización de la optimización 1:1:** adapte el contenido a las señales de clientes en tiempo real.
+* **Optimizar Personalization 1:1:** Adapte el contenido a las señales de clientes en tiempo real.
 * **Reducción del esfuerzo manual:** automatice y acelere la creación y administración de contenido.
 * **Garantía de experiencias omnicanal coherentes:** mantenga la coherencia de la marca en todos los canales.
 * **Reutilización del contenido de forma eficaz:** evite el contenido de un solo uso y escale con plantillas dinámicas parametrizadas.
@@ -76,7 +74,7 @@ Ejecute estos pasos para crear un lienzo en blanco:
 
 1. Haga clic en **[!UICONTROL Crear plantilla]** para guardar la plantilla en Recursos de Dynamic Media o vaya hasta una carpeta y haga clic en **[!UICONTROL Crear plantilla]** para guardar la plantilla en esa carpeta. Se muestra el cuadro de diálogo **[!UICONTROL Nueva plantilla]**.
    ![cómo crear plantillas dinámicas que se pueden personalizar en tiempo real](/help/using/assets/new-template.png)
-Para [crear una carpeta](/help/using/add-delete.md) en **[!UICONTROL Recursos de Dynamic Media]**, cree una carpeta en **[!UICONTROL Recursos]**. El árbol de carpetas de **[!UICONTROL Recursos]** se replica en **[!UICONTROL Recursos de Dynamic Media]**.
+   Para [crear una carpeta](/help/using/add-delete.md) en **[!UICONTROL Recursos de Dynamic Media]**, cree una carpeta en **[!UICONTROL Recursos]**. El árbol de carpetas de **[!UICONTROL Recursos]** se replica en **[!UICONTROL Recursos de Dynamic Media]**.
 1. Especifique un nombre de plantilla, defina la anchura y altura del lienzo y haga clic en **[!UICONTROL Crear]**. Se muestra un lienzo en blanco con opciones de menú en ambos lados que se utilizan para crear la plantilla. Pase el puntero del ratón por encima de las opciones del menú para ver su ayuda contextual.
    ![plantilla personalizable en tiempo real](/help/using/assets/blank-canvas-page.png)
 
@@ -181,7 +179,7 @@ Para parametrizar una capa:
 1. **Opcional:** cambie el nombre del parámetro. Un nombre de parámetro tiene un nombre de capa seguido de un sufijo. Para una capa seleccionada, todas sus propiedades parametrizadas comparten el mismo nombre de capa seguido de un sufijo variable. Cambie el nombre de la capa siguiendo la convención de nomenclatura semántica, de modo que cuando incluya el parámetro en la URL, el nombre del parámetro explique por sí mismo el contenido de la capa o su propósito.
 1. Haga clic en **[!UICONTROL Guardar]**.
    ![creación instantánea de contenido](/help/using/assets/parameterise-a-layer.png)
-Para cambiar entre el panel Parámetro de una capa de imagen y de texto, seleccione la capa en el lienzo y haga clic en **[!UICONTROL Parámetros]**.
+   Para cambiar entre el panel Parámetro de una capa de imagen y de texto, seleccione la capa en el lienzo y haga clic en **[!UICONTROL Parámetros]**.
 
 #### Opción del panel Parámetros {#parameterisation-options-or-allowed-parameters}
 
