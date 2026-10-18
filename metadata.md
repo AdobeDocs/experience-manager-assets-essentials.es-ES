@@ -3,7 +3,9 @@ cloud: Experience Cloud
 solution: Experience Manager, Experience Manager Assets
 product_v2:
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: "Experience Manager"
   - id: d09181b5-a36a-43de-ba01-36641440bc43
+    internal-label: "Experience Manager Assets"
 usetq: true
 landing-page-name: experience-manager
 landing-page-breadcrumb-title: AEM
@@ -15,11 +17,9 @@ index: true
 recommendations: noDisplay
 source-git-commit: 94007bb270adf9abdd9d78f21fb593b5cabb1c1b
 workflow-type: tm+mt
-source-wordcount: 107
-ht-degree: 6%
-
+source-wordcount: '100'
+ht-degree: 7%
 ---
-
 
 # Metadatos para uso interno
 
