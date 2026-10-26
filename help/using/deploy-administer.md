@@ -179,8 +179,8 @@ A diferencia de las carpetas, una colección puede incluir recursos de distintas
 
 >[!MORELIKETHIS]
 >
->* Ayuda de [[!DNL Admin Console] ](https://helpx.adobe.com/es/enterprise/using/admin-console.html)
->* Ayuda de [[!DNL Cloud Manager] ](https://experienceleague.adobe.com/docs/experience-manager-cloud-manager/using/introduction-to-cloud-manager.html?lang=es)
+>* Ayuda de [[!DNL Admin Console] &#x200B;](https://helpx.adobe.com/es/enterprise/using/admin-console.html)
+>* Ayuda de [[!DNL Cloud Manager] &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-cloud-manager/using/introduction-to-cloud-manager.html?lang=es)
 >* [Documentación de Adobe Journey Optimizer](https://experienceleague.adobe.com/docs/journey-optimizer/using/ajo-home.html?lang=es)
 >* [Notas de la versión](release-notes.md)
 >* [Introducción a [!DNL Assets Essentials]](get-started.md)
