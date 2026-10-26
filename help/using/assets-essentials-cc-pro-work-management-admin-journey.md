@@ -5,20 +5,24 @@ exl-id: a5e9e0c3-35ec-41de-9656-f4f0f88946c7
 TQID: https://experienceleague.adobe.com/nYLF2t3wzkhjKS-cdR1dhW-CZ8YwQcJS4FxS2FAYXzg
 product_v2:
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: f026b389ce582ece5d2ca8745d291b1ae50d657e
+    internal-label: Administration
+source-git-commit: 8c5846e522315e4494bfd41caedbcc83e44637fe
 workflow-type: tm+mt
-source-wordcount: 917
+source-wordcount: '917'
 ht-degree: 100%
-
 ---
-
 # Assets Essentials para Creative Cloud Pro con soluciones de administración de trabajo {#creative-cloud-enterprise-user-journeys}
 
 ![Preferencia para cambiar el tema oscuro y el claro](assets/cce-next-banner-landing-page.png)
@@ -47,7 +51,7 @@ En caso de implementación en dos Admin Console, se requiere un paso de configur
 
 Para integrar aplicaciones de Creative Cloud y Assets Essentials, los usuarios disponibles en la Admin Console para Creative Cloud deben estar disponibles en la Admin Console para Experience Cloud. Para que los usuarios estén disponibles en Admin Console de Experience Cloud, cree un directorio para establecer [confianza de directorios](https://helpx.adobe.com/es/enterprise/using/set-up-identity.html#directory-trusting) entre las dos consolas de administración.
 
-![Usuarios de Creative Cloud](assets/creative-cloud-users.svg)
+![Usuarios de Creative Cloud](assets/creative-cloud-users.png)
 
 Como se muestra en el diagrama, los usuarios de Creative Cloud están disponibles automáticamente en Admin Console de Experience Cloud, en función de una relación de confianza entre las dos consolas. A continuación, puede añadir los usuarios a los perfiles de producto de Assets Essentials. Como resultado, los usuarios de Creative Cloud pueden acceder a la aplicación de Adobe Asset Link, que puede interactuar con el repositorio de Assets Essentials. Para obtener más información, consulte [Integración de Assets Essentials con aplicaciones de Creative Cloud](integrate-with-creative-cloud.md).
 
