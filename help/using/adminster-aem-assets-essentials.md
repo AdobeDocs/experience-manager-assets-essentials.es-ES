@@ -7,7 +7,7 @@ product_v2:
     internal-label: Experience Manager
   - id: d09181b5-a36a-43de-ba01-36641440bc43
     internal-label: Experience Manager Assets
-source-git-commit: b4d4525733ecb7beeec9babd93b479a89760e820
+source-git-commit: f15fe91faf6a1f1341e4f4cda45bbe10bcd19544
 workflow-type: tm+mt
 source-wordcount: '1417'
 ht-degree: 100%
@@ -29,7 +29,7 @@ ht-degree: 100%
 
 El siguiente diagrama de flujo de datos ilustra la secuencia de tareas que un administrador debe llevar a cabo para configurar y administrar Assets Essentials:
 
-![Flujo de administración de Assets Essentials](assets/permissions-management-cce-next.svg)
+![Flujo de administración de Assets Essentials](assets/permission-management-cce-next.png)
 
 ## Acceso a Admin Console {#access-admin-console}
 
@@ -84,7 +84,7 @@ Cree grupos de usuarios y luego asigne los usuarios a los grupos de usuarios. Es
 
 Puede añadir usuarios a grupos de usuarios (1) y [a perfiles de producto de Assets Essentials (2)](#add-admin-users). Sin embargo, no puede agregar grupos de usuarios directamente a los perfiles de producto de Assets Essentials (3).
 
-![Adición de usuarios a grupos y perfiles de producto](assets/user-groups-product-profiles.svg)
+![Adición de usuarios a grupos y perfiles de producto](assets/user-group-product-profiles.png)
 
 Para obtener información sobre cómo administrar grupos de usuarios, consulte `Create user groups` y `Edit user groups`, disponibles en [Administración de grupos de usuarios](https://helpx.adobe.com/es/enterprise/using/user-groups.html).
 
@@ -136,7 +136,7 @@ Tenga en cuenta los siguientes puntos cuando empiece a planificar la creación d
 
 Existen varios tipos de estructura de carpetas que puede utilizar para su organización. A continuación, se muestran algunos ejemplos de estructuras de carpetas típicas:
 
-![Estructuras de carpetas típicas](assets/folder-structure.svg)
+![Estructuras de carpetas típicas](assets/folder-structure-new.png)
 
 ### Administración de permisos para carpetas {#manage-permissions-for-folders}
 

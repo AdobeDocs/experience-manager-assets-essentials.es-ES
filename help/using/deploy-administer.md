@@ -17,7 +17,7 @@ topic_v2:
     internal-label: Governance
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 10c0e2375ba16dfeeeeca8f0b816ca366254dd67
+source-git-commit: 8c5846e522315e4494bfd41caedbcc83e44637fe
 workflow-type: tm+mt
 source-wordcount: '1365'
 ht-degree: 99%
@@ -29,7 +29,7 @@ ht-degree: 99%
 
 El siguiente diagrama de flujo de datos ilustra la secuencia de tareas que un administrador debe llevar a cabo para configurar y administrar Assets Essentials:
 
-![Implementación de Assets Essentials](assets/deploy-assets-essentials.svg)
+![Implementación de Assets Essentials](assets/deploy-assets-essentials.png)
 
 ## Acceso a Admin Console {#access-admin-console}
 
@@ -123,7 +123,7 @@ Cree una estructura de carpetas que funcione bien con los objetivos empresariale
 
 Existen varios tipos de estructura de carpetas que puede utilizar para su organización. A continuación, se muestran algunos ejemplos de estructuras de carpetas típicas:
 
-![Estructuras de carpetas típicas](assets/folder-structure.svg)
+![Estructuras de carpetas típicas](assets/folder-structure-new.png)
 
 >[!NOTE]
 >

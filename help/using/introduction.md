@@ -1,27 +1,32 @@
 ---
-title: Introducción a  [!DNL Assets Essentials]
+title: Introducción a [!DNL Assets Essentials]
 description: Administre sus activos con Experience Manager Assets Essentials, una herramienta de administración de activos digitales ligera que funciona dentro de las aplicaciones de Experience Cloud.
 role: User,Leader
 exl-id: 43ddf11c-36d3-4643-80c9-b7dd5d199450
 TQID: https://experienceleague.adobe.com/GpMzdyeYFVMhrLhiS-AbTH08VKXkEfiel-0mJ6lNqf8
 product_v2:
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: ae478996-b206-4712-9b0c-dc78a2644453
+    internal-label: Integrations
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: da3860b0-d637-47df-bef0-273751180266
+    internal-label: Digital asset management
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: f026b389ce582ece5d2ca8745d291b1ae50d657e
+    internal-label: Administration
+source-git-commit: 8c5846e522315e4494bfd41caedbcc83e44637fe
 workflow-type: tm+mt
-source-wordcount: 660
+source-wordcount: '660'
 ht-degree: 100%
-
 ---
-
 # Información general de [!DNL Adobe Experience Manager Assets Essentials] {#assets-essentials}
 
 <!-- 
@@ -49,7 +54,7 @@ Assets Essentials le permite lo siguiente:
 
 Assets Essentials ofrece una interfaz de usuario web independiente para usuarios finales y administradores, lo que les permite acceder a todas las funcionalidades de la solución. Los usuarios de otras soluciones de Adobe también pueden acceder a los activos de Assets Essentials y trabajar con ellos mediante una experiencia integrada que está disponible en Creative Cloud para aplicaciones empresariales, Adobe Journey Optimizer y Adobe Workfront.
 
-![Integraciones con otras soluciones](assets/assets-essentials-integration.svg)
+![Integraciones con otras soluciones](assets/assets-essentials-integration.png)
 
 ## ¿Por qué Assets Essentials? {#assets-essentials-features}
 

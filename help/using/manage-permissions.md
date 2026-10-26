@@ -5,16 +5,17 @@ exl-id: 5ef01dbc-87c0-4013-9367-5da3774f4f20
 TQID: https://experienceleague.adobe.com/fWLQ3XI2WVIbouGb7QXznoGhEoB-pHiHw-8P-Fo4128
 product_v2:
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
-source-git-commit: f026b389ce582ece5d2ca8745d291b1ae50d657e
+    internal-label: Leader
+source-git-commit: 8c5846e522315e4494bfd41caedbcc83e44637fe
 workflow-type: tm+mt
-source-wordcount: 1700
+source-wordcount: '1700'
 ht-degree: 100%
-
 ---
-
 # Administración de permisos para carpetas {#manage-permissions}
 
 >[!CONTEXTUALHELP]
@@ -54,7 +55,7 @@ Para agregar administradores, haga lo siguiente:
 
 Cree grupos de usuarios y asígneles permisos para administrar los niveles de acceso a carpetas en el repositorio de Assets Essentials. A continuación, puede asignar los usuarios a los grupos de usuarios.
 
-![Adición de usuarios a grupos y perfiles de producto](assets/user-groups-product-profiles.svg)
+![Adición de usuarios a grupos y perfiles de producto](assets/user-group-product-profiles.png)
 
 Puede añadir usuarios a grupos de usuarios (1) y [a perfiles de producto de Assets Essentials (2)](#add-admin-users). Sin embargo, no puede agregar grupos de usuarios directamente a los perfiles de producto de Assets Essentials (3).
 
@@ -87,8 +88,8 @@ Puede asignar los siguientes permisos a los grupos de usuarios o a los usuarios.
 
 | Nombre del permiso | Descripción |
 |-----|------|
-| Puede ver | <ul><li>Acceso de lectura para ver y navegar por carpetas </li><li>Previsualización de recursos</li><li>Descargar recursos</li><li>Copiar recursos</li><li>Compartir vínculos con recursos</li><ul> |
-| Puede editar | <ul><li>Todos los privilegios disponibles para los permisos de Puede ver </li><li>Crear carpetas</li><li>Eliminar carpetas</li><li>Cambiar el nombre de las carpetas</li><li>Crear recursos</li><li>Actualizar recursos</li><li>Eliminar recursos</li><li>Mover recursos</li><li>Cambiar el nombre de los recursos</li><ul> |
+| Puede ver | <ul><li>Acceso de lectura para ver y navegar por carpetas </li><li>Previsualización de recursos</li><li>Descarga de recursos</li><li>Copiar recursos</li><ul> |
+| Puede editar | <ul><li>Todos los privilegios disponibles para los permisos de Puede ver </li><li>Crear carpetas</li><li>Eliminar carpetas</li><li>Cambiar el nombre de las carpetas</li><li>Crear recursos</li><li>Actualizar recursos</li><li>Eliminar recursos</li><li>Mover recursos</li><li>Cambiar el nombre de los recursos</li><li>Compartir vínculos con recursos</li><ul> |
 | Propietario | <ul><li>Todos los privilegios disponibles para los permisos de Puede editar</li><li>Administrar permisos en una carpeta y sus subcarpetas</li>Este permiso permite a los administradores delegar los privilegios de administrador en otros para una carpeta y sus subcarpetas.<ul> |
 | Denegar acceso | Eliminar los permisos de Puede Ver, Puede Editar y Propietario para una carpeta y sus subcarpetas. |
 
@@ -104,13 +105,13 @@ Por ejemplo, si asigna permisos de `Can View` para una carpeta a un supergrupo y
 
 Si necesita proporcionar permisos de edición a la carpeta `Marketing` solo para el departamento de marketing de su organización y permisos de visualización a otras personas, asigne permisos de `Can View` al supergrupo `All Authenticated Users` y de `Can Edit` a su subgrupo `Marketing`.
 
-![Asignación de permisos](assets/permissions-management-groups.svg)
+![Asignación de permisos](assets/permissions-management-group.png)
 
 **Herencia de permisos**
 
 Assets Essentials utiliza la herencia de permisos, que le permite heredar los permisos establecidos para la carpeta principal en la carpeta secundaria. Por ejemplo, si la carpeta principal tiene permisos de `Can View` para el grupo `All Authenticated Users` y la carpeta secundaria tiene permisos de `Can Edit` para el grupo de usuarios `Marketing`, permite que todos los usuarios autenticados tengan permisos de visualización para la carpeta secundaria. Además, de que el grupo de usuarios `Marketing` tenga permisos de edición para la carpeta secundaria. El grupo de usuarios `Marketing` tiene permisos de edición para niveles adicionales de carpetas en la carpeta secundaria (Marketing).
 
-![Asignación de permisos](assets/permissions-inheritance.svg)
+![Asignación de permisos](assets/permission-inheritance.png)
 
 >[!NOTE]
 >
@@ -206,9 +207,9 @@ Los siguientes son los niveles de acceso para todos los grupos de usuarios en la
 
 * /proyectos: todos los usuarios pueden ver las carpetas y sus subcarpetas en función de la herencia de permisos. El grupo de usuarios Equipo de gestores de proyectos tiene lo siguiente:
 
-   * Edición de permisos
+  * Edición de permisos
 
-   * Permisos de propietario: administre permisos en una carpeta y sus subcarpetas.
+  * Permisos de propietario: administre permisos en una carpeta y sus subcarpetas.
 
 * /proyectos/proyecto-x: todos los usuarios pueden ver las carpetas y sus subcarpetas. El grupo de usuarios Equipo de gestores de proyectos tiene permisos de edición y puede administrar permisos en una carpeta y sus subcarpetas (permisos de propietario). El grupo de usuarios Equipo del proyecto X tiene permisos de edición.
 

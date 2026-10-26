@@ -16,7 +16,7 @@ topic_v2:
     internal-label: Reporting
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 10c0e2375ba16dfeeeeca8f0b816ca366254dd67
+source-git-commit: 8c5846e522315e4494bfd41caedbcc83e44637fe
 workflow-type: tm+mt
 source-wordcount: '1261'
 ht-degree: 100%
@@ -50,7 +50,7 @@ El entorno de AEM Assets Essentials ofrece funcionalidades completas para la cre
 **Para crear un informe:**
 
 1. Vaya a **Informes** y haga clic en **Crear informe** (en la parte superior derecha). El cuadro de diálogo **crear informe** muestra los siguientes campos:
-   ![create-report](/help/using/assets/executed-reports1.svg)
+   ![create-report](/help/using/assets/executed-reports1.png)
 
    **En pestaña Configuración:**
 
@@ -152,7 +152,7 @@ Para programar un informe, siga los pasos que se indican a continuación:
    1. **Descripción**: añada una descripción opcional al informe.
    1. **Seleccionar ruta de carpeta:** seleccione una ruta de la carpeta para generar un informe para los recursos que se cargarán o descargarán de esa carpeta específica en el futuro.
    1. Marque **Programar informe:** marque para programar el informe para un momento posterior o para que se repita.
-      ![programar informe](/help/using/assets/schedule-reports1.svg)
+      ![programar informe](/help/using/assets/schedule-reports1.png)
 
    1. **Elegir frecuencia:** especifique el intervalo de generación del informe (por ejemplo, diario, semanal, mensual, anual o una vez) y establezca la fecha y la hora para ejecutar el informe junto con la fecha de finalización para la periodicidad. Para un informe único, seleccione el intervalo de fechas para el informe sobre el tipo de actividad seleccionado en el entorno de AEM. Por ejemplo, si necesita un informe sobre los recursos descargados del 10 al 29 (fechas futuras) de un mes específico, seleccione estas fechas en el campo **Seleccionar intervalo de fechas**.
 
@@ -196,21 +196,21 @@ Assets Essentials le permite ver datos en tiempo real de su entorno de Assets Es
 Haga clic en **[!UICONTROL Insights]** en el panel de navegación izquierdo para ver los siguientes gráficos generados automáticamente:
 
 * **Descargas**: el número de activos descargados del entorno de Assets Essentials en los últimos 30 días o 12 meses representados mediante un gráfico de líneas.
-  ![descargas](/help/using/assets/insights-downloads2341.svg)
+  ![descargas](/help/using/assets/insights-downloads2341.png)
 
 * **Cargas**: el número de recursos cargados en el entorno de Assets Essentials en los últimos 30 días o 12 meses representados mediante un gráfico de líneas.
-  ![cargas](/help/using/assets/insights-uplods2.svg)
+  ![cargas](/help/using/assets/insights-uplods2.png)
 
 <!--* **Asset Count by Size**: The division of count of assets based on their range of various sizes from 0 MB to 100 GB.-->
 
 * **Uso de almacenamiento**: el uso de almacenamiento, en bytes, para el entorno Assets Essentials representado mediante un gráfico de barras.
-  ![uso de almacenamiento](/help/using/assets/insights-storage-usage1.svg)
+  ![uso de almacenamiento](/help/using/assets/insights-storage-usage1.png)
   <!--* **Delivery**: The graph depicts the count of assets as the delivery dates.-->
 
 <!--* **Asset Count by Asset Type**: Represents count of various MIME types of the available assets. For example, application/zip, image/png, video/mp4, application/postscripte.-->
 
 * **Búsquedas principales**: vea los términos más buscados junto con el número de veces que se buscan en su entorno de Assets Essentials en los últimos 30 días o 12 meses representados en un formato tabular.
-  ![Uso de almacenamiento](/help/using/assets/insights-top-search.svg)
+  ![Uso de almacenamiento](/help/using/assets/insights-top-search.png)
 
   <!--
    ![Insights](assets/insights1.png)
@@ -218,8 +218,8 @@ Haga clic en **[!UICONTROL Insights]** en el panel de navegación izquierdo para
    -->
 
 * **Número de recursos por tamaño:** segmenta el número total de recursos dentro del entorno de Assets Essentials en diferentes intervalos de tamaño, destacando el recuento y el porcentaje de recursos en cada intervalo de tamaño, representados por un gráfico circular.
-  ![insights-assets-count-by-size](/help/using/assets/insights-assets-count-by-size.svg)
+  ![insights-assets-count-by-size](/help/using/assets/insights-assets-count-by-size.png)
 
 * **Número de recursos por tipo de recurso:** segmenta el número total de recursos en el entorno de Assets View, destacando el recuento y el porcentaje de recursos en función de sus tipos de archivo, representados por un gráfico circular.
-  ![insights-assets-count-by-size](/help/using/assets/insights-assest-count-by-asset-type1.svg)
+  ![insights-assets-count-by-size](/help/using/assets/insights-assest-count-by-asset-type1.png)
 
