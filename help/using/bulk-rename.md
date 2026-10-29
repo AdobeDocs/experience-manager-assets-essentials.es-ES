@@ -6,10 +6,13 @@ exl-id: 5d18950f-1863-46c0-83d7-079ae95a6320
 TQID: https://experienceleague.adobe.com/NEmoIDy8etw5vhpxRbf9RyVnT1TKfoOvK4tpPrGHP-Q
 product_v2:
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
 source-git-commit: f026b389ce582ece5d2ca8745d291b1ae50d657e
 workflow-type: tm+mt
 source-wordcount: 458
