@@ -5,9 +5,12 @@ exl-id: 5c0039a2-caa2-4b55-b963-0e7e9e542c47
 TQID: https://experienceleague.adobe.com/oof4Q5dEhhExX-pBZMbxqm5WV43wij2GJ4LxEcUQV7Q
 product_v2:
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 source-git-commit: f026b389ce582ece5d2ca8745d291b1ae50d657e
 workflow-type: tm+mt
 source-wordcount: 617

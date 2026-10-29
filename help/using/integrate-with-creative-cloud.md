@@ -5,11 +5,15 @@ exl-id: 817bc955-0074-435e-83a8-3fd5f7f2505a
 TQID: https://experienceleague.adobe.com/LaIILrdXTbQEfmgcDXszeze1nBd2UpqUXALqTiFdMIA
 product_v2:
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: ae478996-b206-4712-9b0c-dc78a2644453
+    internal-label: Integrations
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 source-git-commit: f026b389ce582ece5d2ca8745d291b1ae50d657e
 workflow-type: tm+mt
 source-wordcount: 785

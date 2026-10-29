@@ -6,14 +6,20 @@ exl-id: 7917b2a0-8340-4d94-aa6f-30ce986fa752
 TQID: https://experienceleague.adobe.com/jZWd3neYHmifmT7YVTMymgAfMK88N-9220D4Ek-7rjY
 product_v2:
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: ae478996-b206-4712-9b0c-dc78a2644453
+    internal-label: Integrations
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: da3860b0-d637-47df-bef0-273751180266
+    internal-label: Digital asset management
 source-git-commit: f026b389ce582ece5d2ca8745d291b1ae50d657e
 workflow-type: tm+mt
 source-wordcount: 445
