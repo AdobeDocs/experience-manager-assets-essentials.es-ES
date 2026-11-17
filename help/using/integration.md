@@ -18,11 +18,9 @@ topic_v2:
     internal-label: Insights
 source-git-commit: f026b389ce582ece5d2ca8745d291b1ae50d657e
 workflow-type: tm+mt
-source-wordcount: 491
+source-wordcount: '491'
 ht-degree: 100%
-
 ---
-
 # Integración con otras soluciones de Adobe {#integrations}
 
 [!DNL Adobe Experience Manager Assets Essentials] se integra bien con las soluciones de Adobe compatibles y proporciona una experiencia integrada desde las interfaces de estas aplicaciones. Permite a los usuarios utilizar la funcionalidad de recursos básicos desde la aplicación o interfaz nativa, sin tener que dejar sus aplicaciones familiares.
